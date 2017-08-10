@@ -1,0 +1,960 @@
+{
+  "MINiML": {
+    "@xsi:schemaLocation": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd",
+    "@version": "0.5.0",
+    "Contributor": [
+      {
+        "@iid": "contrib1",
+        "Person": {
+          "First": {"_$": "John"},
+          "Middle": {"_$": "A"},
+          "Last": {"_$": "Copland"}
+        },
+        "Email": {"_$": "Copland.John@mayo.edu"},
+        "Department": {"_$": "Biochemistry & Molecular Biology"},
+        "Organization": {"_$": "Mayo Clinic College of Medicine"},
+        "Address": {
+          "Line": {"_$": "4500 San Pablo Road"},
+          "City": {"_$": "Jacksonville"},
+          "State": {"_$": "FL"},
+          "Zip-Code": {"_$": "32224"},
+          "Country": {"_$": "USA"}
+        }
+      },
+      {
+        "@iid": "contrib2",
+        "Organization": [
+          {},
+          {"_$": "Affymetrix, Inc."}
+        ],
+        "Email": {"_$": "geo@ncbi.nlm.nih.gov, support@affymetrix.com"},
+        "Phone": {"_$": "888-362-2447"},
+        "Address": {
+          "City": {"_$": "Santa Clara"},
+          "State": {"_$": "CA"},
+          "Zip-Code": {"_$": "95051"},
+          "Country": {"_$": "USA"}
+        },
+        "Web-Link": {"_$": "http://www.affymetrix.com/index.affx"}
+      },
+      {
+        "@iid": "contrib3",
+        "Person": {
+          "First": {"_$": "John"},
+          "Last": {"_$": "Copland"}
+        }
+      },
+      {
+        "@iid": "contrib4",
+        "Person": {
+          "First": {"_$": "Paul"},
+          "Last": {"_$": "Weinberger"}
+        }
+      },
+      {
+        "@iid": "contrib5",
+        "Person": {
+          "First": {"_$": "Ashok"},
+          "Last": {"_$": "Sharma"}
+        }
+      }
+    ],
+    "Database": {
+      "@iid": "GEO",
+      "Name": {"_$": "Gene Expression Omnibus (GEO)"},
+      "Public-ID": {"_$": "GEO"},
+      "Organization": {"_$": "NCBI NLM NIH"},
+      "Web-Link": {"_$": "http://www.ncbi.nlm.nih.gov/geo"},
+      "Email": {"_$": "geo@ncbi.nlm.nih.gov"}
+    },
+    "Platform": {
+      "@iid": "GPL570",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2003-11-07"},
+        "Release-Date": {"_$": "2003-11-07"},
+        "Last-Update-Date": {"_$": "2017-02-10"}
+      },
+      "Title": {"_$": "[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GPL570"
+      },
+      "Technology": {"_$": "in situ oligonucleotide"},
+      "Distribution": {"_$": "commercial"},
+      "Organism": {
+        "@taxid": "9606",
+        "_$": "Homo sapiens"
+      },
+      "Manufacturer": {"_$": "Affymetrix"},
+      "Manufacture-Protocol": {"_$": "see manufacturer's web site\n\nComplete coverage of the Human Genome U133 Set plus 6,500 additional genes for analysis of over 47,000 transcripts\nAll probe sets represented on the GeneChip Human Genome U133 Set are identically replicated on the GeneChip Human Genome U133 Plus 2.0 Array. The sequences from which these probe sets were derived were selected from GenBank®, dbEST, and RefSeq. The sequence clusters were created from the UniGene database (Build 133, April 20, 2001) and then refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the University of California, Santa Cruz Golden-Path human genome database (April 2001 release).\nIn addition, there are 9,921 new probe sets representing approximately 6,500 new genes. These gene sequences were selected from GenBank, dbEST, and RefSeq. Sequence clusters were created from the UniGene database (Build 159, January 25, 2003) and refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the NCBI human genome assembly (Build 31)."},
+      "Description": {"_$": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html\n\nJune 03, 2009: annotation table updated with netaffx build 28\nJune 06, 2012: annotation table updated with netaffx build 32\nJune 23, 2016: annotation table updated with netaffx build 35"},
+      "Web-Link": [
+        {"_$": "http://www.affymetrix.com/support/technical/byproduct.affx?product=hg-u133-plus"},
+        {"_$": "http://www.affymetrix.com/analysis/index.affx"}
+      ],
+      "Relation": [
+        {
+          "@type": "Alternative to",
+          "@target": "GPL4454",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL4866",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL5760",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL6671",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL6791",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL6879",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL7567",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL8019",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL8542",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL8715",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL8712",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL9102",
+          "@comment": "Probe Level Version"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL9099",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL9101",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL9324",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL9486",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL9987",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL10175",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL10335",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL10371",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL10526",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL10881",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL10925",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL11084",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL11433",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL11670",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL13232",
+          "@comment": "Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 13.0.0]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL13303",
+          "@comment": "Alternative CDF."
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL13916",
+          "@comment": "[Brainarray ENSG Version 14.1]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL14837",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL14877",
+          "@comment": "[Alternative CDF]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL15394",
+          "@comment": "Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 14.0]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL6732",
+          "@comment": "Alternative CDF [HGU133Plus2_Hs_REFSEQ, Brainarray version 7]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL15445",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL16066",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL16100",
+          "@comment": "Alternative CDF [GATExplorer_Ensembl v57]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL16268",
+          "@comment": "Alternative CDF [Brainarray ENSG Version 16]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL16273",
+          "@comment": "Alternative CDF [Brainarray ENSG Version 15]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL16311",
+          "@comment": "Alternative CDF [HGU133Plus2_Hs_ENTREZG Brainarray version 14.0.0]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL16356",
+          "@comment": "Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG 15.0.0]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL16372",
+          "@comment": "Alternative CDF [Brainarray HGU133Plus2_Hs_UG v.13]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL17392",
+          "@comment": "Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 17.1]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL17394",
+          "@comment": "Alternative CDF [HGU133Plus2_Hs_ENSG, Brainarray 13.0]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL17810",
+          "@comment": "Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 16]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL17811",
+          "@comment": "Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 17]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL17996",
+          "@comment": "Alternative CDF:HGU133Plus2_Hs_ENTREZG.cdf version 15.1.0"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL18121",
+          "@comment": "custom CDF"
+        },
+        {
+          "@type": "Alternative to: GPL18756 (Alternative CDF [CDF",
+          "@target": "HGU133Plus2_Hs_ENTREZG_14.1.0])"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL18850",
+          "@comment": "Alternative CDF"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL18478",
+          "@comment": "Alternative CDF [Hs_ENTREZG_V13]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL19109",
+          "@comment": "Alternative CDF [Brainarray HGU133Plus2_Hs_ENTREZG_v18]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL19883",
+          "@comment": "Alternative CDF [Broad GenePattern]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL19918",
+          "@comment": "Gene symbol version, 10K"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL20182",
+          "@comment": "Gene Symbol Version"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL22321",
+          "@comment": "Alternative CDF [HGU133Plus2_Hs_ENTREZG, Brainarray 20]"
+        },
+        {
+          "@type": "Alternative to",
+          "@target": "GPL22945",
+          "@comment": "alternative"
+        }
+      ],
+      "Data-Table": {
+        "Column": [
+          {
+            "@position": "1",
+            "Name": {"_$": "ID"},
+            "Description": {"_$": "Affymetrix Probe Set ID"},
+            "Link-Prefix": {"_$": "https://www.affymetrix.com/LinkServlet?array=U133PLUS&probeset="}
+          },
+          {
+            "@position": "2",
+            "Name": {"_$": "GB_ACC"},
+            "Description": {"_$": "GenBank Accession Number"},
+            "Link-Prefix": {"_$": "http://www.ncbi.nlm.nih.gov/nuccore/?term="}
+          },
+          {
+            "@position": "3",
+            "Name": {"_$": "SPOT_ID"},
+            "Description": {"_$": "identifies controls"}
+          },
+          {
+            "@position": "4",
+            "Name": {"_$": "Species Scientific Name"},
+            "Description": {"_$": "The genus and species of the organism represented by the probe set."}
+          },
+          {
+            "@position": "5",
+            "Name": {"_$": "Annotation Date"},
+            "Description": {"_$": "The date that the annotations for this probe array were last updated. It will generally be earlier than the date when the annotations were posted on the Affymetrix web site."}
+          },
+          {
+            "@position": "6",
+            "Name": {"_$": "Sequence Type"}
+          },
+          {
+            "@position": "7",
+            "Name": {"_$": "Sequence Source"},
+            "Description": {"_$": "The database from which the sequence used to design this probe set was taken."}
+          },
+          {
+            "@position": "8",
+            "Name": {"_$": "Target Description"}
+          },
+          {
+            "@position": "9",
+            "Name": {"_$": "Representative Public ID"},
+            "Description": {"_$": "The accession number of a representative sequence. Note that for consensus-based probe sets, the representative sequence is only one of several sequences (sequence sub-clusters) used to build the consensus sequence and it is not directly used to derive the probe sequences. The representative sequence is chosen during array design as a sequence that is best associated with the transcribed region being interrogated by the probe set. Refer to the \"Sequence Source\" field to determine the database used."}
+          },
+          {
+            "@position": "10",
+            "Name": {"_$": "Gene Title"},
+            "Description": {"_$": "Title of Gene represented by the probe set."}
+          },
+          {
+            "@position": "11",
+            "Name": {"_$": "Gene Symbol"},
+            "Description": {"_$": "A gene symbol, when one is available (from UniGene)."}
+          },
+          {
+            "@position": "12",
+            "Name": {"_$": "ENTREZ_GENE_ID"},
+            "Description": {"_$": "Entrez Gene Database UID"},
+            "Link-Prefix": {"_$": "http://www.ncbi.nlm.nih.gov/gene/"},
+            "Link-Delimiter": {"_$": "///"}
+          },
+          {
+            "@position": "13",
+            "Name": {"_$": "RefSeq Transcript ID"},
+            "Description": {"_$": "References to multiple sequences in RefSeq. The field contains the ID and Description for each entry, and there can be multiple entries per ProbeSet."}
+          },
+          {
+            "@position": "14",
+            "Name": {"_$": "Gene Ontology Biological Process"},
+            "Description": {"_$": "Gene Ontology Consortium Biological Process derived from LocusLink.  Each annotation consists of three parts: \"Accession Number // Description // Evidence\". The description corresponds directly to the GO ID. The evidence can be \"direct\", or \"extended\"."}
+          },
+          {
+            "@position": "15",
+            "Name": {"_$": "Gene Ontology Cellular Component"},
+            "Description": {"_$": "Gene Ontology Consortium Cellular Component derived from LocusLink.  Each annotation consists of three parts: \"Accession Number // Description // Evidence\". The description corresponds directly to the GO ID. The evidence can be \"direct\", or \"extended\"."}
+          },
+          {
+            "@position": "16",
+            "Name": {"_$": "Gene Ontology Molecular Function"},
+            "Description": {"_$": "Gene Ontology Consortium Molecular Function derived from LocusLink.  Each annotation consists of three parts: \"Accession Number // Description // Evidence\". The description corresponds directly to the GO ID. The evidence can be \"direct\", or \"extended\"."}
+          }
+        ],
+        "External-Data": {
+          "@rows": "54675",
+          "_$": "GPL570-tbl-1.txt"
+        }
+      }
+    },
+    "Sample": [
+      {
+        "@iid": "GSM2267311",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-10"},
+          "Release-Date": {"_$": "2016-11-30"},
+          "Last-Update-Date": {"_$": "2016-12-01"}
+        },
+        "Title": {"_$": "T1 [THJ-11T]"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2267311"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Anaplastic Thyroid Carcinoma"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "Anaplastic Thyroid Carcinoma (ATC)"
+            },
+            {
+              "@tag": "cell subtype",
+              "_$": "Squamoid"
+            }
+          ],
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "RNA was extracted from cell lines (Anaplastic Thyroid Cancer cell line, Normal Thyroid cell line) using TRIzol (Invitrogen) and chloroform (Sigma). RNA extracts were purified on Spin Chroma column (BD biosciences K1332-2). The 18S/28S bands were verified on a 1% agarose gel. RNA samples were shipped to Advanced Genomic Technology Center Gene Expression Core at the Mayo Clinic in Rochester, MN for further analysis. RNA quality was assessed by Agilent Bioanalyzer (Santa Clara, CA). Reverse transcription to second strand cDNA was generated from 100 ng of good quality total RNA."},
+          "Label": {"_$": "Biotin"},
+          "Label-Protocol": {"_$": "The RNA products were column-purified (Affymetrix) and then in vitro transcribed to generate biotin-labeled cRNA"}
+        },
+        "Hybridization-Protocol": {"_$": "The IVT productswere column-purified, fragmented, and hybridized onto Affymetrix U133 Plus 2.0 GeneChips® at 45º C FOR 16 h"},
+        "Scan-Protocol": {"_$": "Subsequent to hybridization, the arrays were washed and stained with streptavidin-phycoerythrin, then scanned in an Affymetrix GeneChip® Scanner 3000 (Santa Clara, CA). All control parameters were confirmed to be within normal ranges before normalization and data reduction was initiated."},
+        "Description": {"_$": "cop010068"},
+        "Data-Processing": {"_$": "Raw data was processed by MAS.5 (Affymetrix) and analyzed using GeneSpring GX10"},
+        "Platform-Ref": {"@ref": "GPL570"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "CEL",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2267nnn/GSM2267311/GSM2267311_Cop010068HG-U133_Plus_2.cel.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "normalized"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "54613",
+            "_$": "GSM2267311-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2267312",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-10"},
+          "Release-Date": {"_$": "2016-11-30"},
+          "Last-Update-Date": {"_$": "2016-12-01"}
+        },
+        "Title": {"_$": "T2 [THJ-16T]"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2267312"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Anaplastic Thyroid Carcinoma"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "Anaplastic Thyroid Carcinoma (ATC)"
+            },
+            {
+              "@tag": "cell subtype",
+              "_$": "Spindle"
+            }
+          ],
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "RNA was extracted from cell lines (Anaplastic Thyroid Cancer cell line, Normal Thyroid cell line) using TRIzol (Invitrogen) and chloroform (Sigma). RNA extracts were purified on Spin Chroma column (BD biosciences K1332-2). The 18S/28S bands were verified on a 1% agarose gel. RNA samples were shipped to Advanced Genomic Technology Center Gene Expression Core at the Mayo Clinic in Rochester, MN for further analysis. RNA quality was assessed by Agilent Bioanalyzer (Santa Clara, CA). Reverse transcription to second strand cDNA was generated from 100 ng of good quality total RNA."},
+          "Label": {"_$": "Biotin"},
+          "Label-Protocol": {"_$": "The RNA products were column-purified (Affymetrix) and then in vitro transcribed to generate biotin-labeled cRNA"}
+        },
+        "Hybridization-Protocol": {"_$": "The IVT productswere column-purified, fragmented, and hybridized onto Affymetrix U133 Plus 2.0 GeneChips® at 45º C FOR 16 h"},
+        "Scan-Protocol": {"_$": "Subsequent to hybridization, the arrays were washed and stained with streptavidin-phycoerythrin, then scanned in an Affymetrix GeneChip® Scanner 3000 (Santa Clara, CA). All control parameters were confirmed to be within normal ranges before normalization and data reduction was initiated."},
+        "Description": {"_$": "cpr010037"},
+        "Data-Processing": {"_$": "Raw data was processed by MAS.5 (Affymetrix) and analyzed using GeneSpring GX10"},
+        "Platform-Ref": {"@ref": "GPL570"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "CEL",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2267nnn/GSM2267312/GSM2267312_Cpr010037HG-U133_Plus_2.cel.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "normalized"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "54613",
+            "_$": "GSM2267312-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2267313",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-10"},
+          "Release-Date": {"_$": "2016-11-30"},
+          "Last-Update-Date": {"_$": "2016-12-01"}
+        },
+        "Title": {"_$": "T3 [THJ-21T]"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2267313"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Anaplastic Thyroid Carcinoma"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "Anaplastic Thyroid Carcinoma (ATC)"
+            },
+            {
+              "@tag": "cell subtype",
+              "_$": "Spindle"
+            }
+          ],
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "RNA was extracted from cell lines (Anaplastic Thyroid Cancer cell line, Normal Thyroid cell line) using TRIzol (Invitrogen) and chloroform (Sigma). RNA extracts were purified on Spin Chroma column (BD biosciences K1332-2). The 18S/28S bands were verified on a 1% agarose gel. RNA samples were shipped to Advanced Genomic Technology Center Gene Expression Core at the Mayo Clinic in Rochester, MN for further analysis. RNA quality was assessed by Agilent Bioanalyzer (Santa Clara, CA). Reverse transcription to second strand cDNA was generated from 100 ng of good quality total RNA."},
+          "Label": {"_$": "Biotin"},
+          "Label-Protocol": {"_$": "The RNA products were column-purified (Affymetrix) and then in vitro transcribed to generate biotin-labeled cRNA"}
+        },
+        "Hybridization-Protocol": {"_$": "The IVT productswere column-purified, fragmented, and hybridized onto Affymetrix U133 Plus 2.0 GeneChips® at 45º C FOR 16 h"},
+        "Scan-Protocol": {"_$": "Subsequent to hybridization, the arrays were washed and stained with streptavidin-phycoerythrin, then scanned in an Affymetrix GeneChip® Scanner 3000 (Santa Clara, CA). All control parameters were confirmed to be within normal ranges before normalization and data reduction was initiated."},
+        "Description": {"_$": "cpr010038"},
+        "Data-Processing": {"_$": "Raw data was processed by MAS.5 (Affymetrix) and analyzed using GeneSpring GX10"},
+        "Platform-Ref": {"@ref": "GPL570"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "CEL",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2267nnn/GSM2267313/GSM2267313_Cpr010038HG-U133_Plus_2.cel.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "normalized"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "54613",
+            "_$": "GSM2267313-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2267314",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-10"},
+          "Release-Date": {"_$": "2016-11-30"},
+          "Last-Update-Date": {"_$": "2016-12-01"}
+        },
+        "Title": {"_$": "T4 [THJ-29T]"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2267314"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Anaplastic Thyroid Carcinoma"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "Anaplastic Thyroid Carcinoma (ATC)"
+            },
+            {
+              "@tag": "cell subtype",
+              "_$": "Spindle/giant"
+            }
+          ],
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "RNA was extracted from cell lines (Anaplastic Thyroid Cancer cell line, Normal Thyroid cell line) using TRIzol (Invitrogen) and chloroform (Sigma). RNA extracts were purified on Spin Chroma column (BD biosciences K1332-2). The 18S/28S bands were verified on a 1% agarose gel. RNA samples were shipped to Advanced Genomic Technology Center Gene Expression Core at the Mayo Clinic in Rochester, MN for further analysis. RNA quality was assessed by Agilent Bioanalyzer (Santa Clara, CA). Reverse transcription to second strand cDNA was generated from 100 ng of good quality total RNA."},
+          "Label": {"_$": "Biotin"},
+          "Label-Protocol": {"_$": "The RNA products were column-purified (Affymetrix) and then in vitro transcribed to generate biotin-labeled cRNA"}
+        },
+        "Hybridization-Protocol": {"_$": "The IVT productswere column-purified, fragmented, and hybridized onto Affymetrix U133 Plus 2.0 GeneChips® at 45º C FOR 16 h"},
+        "Scan-Protocol": {"_$": "Subsequent to hybridization, the arrays were washed and stained with streptavidin-phycoerythrin, then scanned in an Affymetrix GeneChip® Scanner 3000 (Santa Clara, CA). All control parameters were confirmed to be within normal ranges before normalization and data reduction was initiated."},
+        "Description": {"_$": "cop010071"},
+        "Data-Processing": {"_$": "Raw data was processed by MAS.5 (Affymetrix) and analyzed using GeneSpring GX10"},
+        "Platform-Ref": {"@ref": "GPL570"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "CEL",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2267nnn/GSM2267314/GSM2267314_Cop010071HG-U133_Plus_2.cel.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "normalized"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "54613",
+            "_$": "GSM2267314-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2267315",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-10"},
+          "Release-Date": {"_$": "2016-11-30"},
+          "Last-Update-Date": {"_$": "2016-12-01"}
+        },
+        "Title": {"_$": "Normal 1 [THJ-45N]"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2267315"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Normal Thyroid"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": {
+            "@tag": "cell type",
+            "_$": "normal thyroid"
+          },
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "RNA was extracted from cell lines (Anaplastic Thyroid Cancer cell line, Normal Thyroid cell line) using TRIzol (Invitrogen) and chloroform (Sigma). RNA extracts were purified on Spin Chroma column (BD biosciences K1332-2). The 18S/28S bands were verified on a 1% agarose gel. RNA samples were shipped to Advanced Genomic Technology Center Gene Expression Core at the Mayo Clinic in Rochester, MN for further analysis. RNA quality was assessed by Agilent Bioanalyzer (Santa Clara, CA). Reverse transcription to second strand cDNA was generated from 100 ng of good quality total RNA."},
+          "Label": {"_$": "Biotin"},
+          "Label-Protocol": {"_$": "The RNA products were column-purified (Affymetrix) and then in vitro transcribed to generate biotin-labeled cRNA"}
+        },
+        "Hybridization-Protocol": {"_$": "The IVT productswere column-purified, fragmented, and hybridized onto Affymetrix U133 Plus 2.0 GeneChips® at 45º C FOR 16 h"},
+        "Scan-Protocol": {"_$": "Subsequent to hybridization, the arrays were washed and stained with streptavidin-phycoerythrin, then scanned in an Affymetrix GeneChip® Scanner 3000 (Santa Clara, CA). All control parameters were confirmed to be within normal ranges before normalization and data reduction was initiated."},
+        "Description": {"_$": "cpr010034"},
+        "Data-Processing": {"_$": "Raw data was processed by MAS.5 (Affymetrix) and analyzed using GeneSpring GX10"},
+        "Platform-Ref": {"@ref": "GPL570"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "CEL",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2267nnn/GSM2267315/GSM2267315_Cpr010034HG-U133_Plus_2.cel.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "normalized"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "54613",
+            "_$": "GSM2267315-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2267316",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-10"},
+          "Release-Date": {"_$": "2016-11-30"},
+          "Last-Update-Date": {"_$": "2016-12-01"}
+        },
+        "Title": {"_$": "Normal 2 [THJ-101N]"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2267316"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Normal Thyroid"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": {
+            "@tag": "cell type",
+            "_$": "normal thyroid"
+          },
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "RNA was extracted from cell lines (Anaplastic Thyroid Cancer cell line, Normal Thyroid cell line) using TRIzol (Invitrogen) and chloroform (Sigma). RNA extracts were purified on Spin Chroma column (BD biosciences K1332-2). The 18S/28S bands were verified on a 1% agarose gel. RNA samples were shipped to Advanced Genomic Technology Center Gene Expression Core at the Mayo Clinic in Rochester, MN for further analysis. RNA quality was assessed by Agilent Bioanalyzer (Santa Clara, CA). Reverse transcription to second strand cDNA was generated from 100 ng of good quality total RNA."},
+          "Label": {"_$": "Biotin"},
+          "Label-Protocol": {"_$": "The RNA products were column-purified (Affymetrix) and then in vitro transcribed to generate biotin-labeled cRNA"}
+        },
+        "Hybridization-Protocol": {"_$": "The IVT productswere column-purified, fragmented, and hybridized onto Affymetrix U133 Plus 2.0 GeneChips® at 45º C FOR 16 h"},
+        "Scan-Protocol": {"_$": "Subsequent to hybridization, the arrays were washed and stained with streptavidin-phycoerythrin, then scanned in an Affymetrix GeneChip® Scanner 3000 (Santa Clara, CA). All control parameters were confirmed to be within normal ranges before normalization and data reduction was initiated."},
+        "Description": {"_$": "cpr010035"},
+        "Data-Processing": {"_$": "Raw data was processed by MAS.5 (Affymetrix) and analyzed using GeneSpring GX10"},
+        "Platform-Ref": {"@ref": "GPL570"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "CEL",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2267nnn/GSM2267316/GSM2267316_Cpr010035HG-U133_Plus_2.cel.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "normalized"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "54613",
+            "_$": "GSM2267316-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2267317",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-10"},
+          "Release-Date": {"_$": "2016-11-30"},
+          "Last-Update-Date": {"_$": "2016-12-01"}
+        },
+        "Title": {"_$": "Normal 3 [THJ-122N]"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2267317"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Normal Thyroid"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": {
+            "@tag": "cell type",
+            "_$": "normal thyroid"
+          },
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "RNA was extracted from cell lines (Anaplastic Thyroid Cancer cell line, Normal Thyroid cell line) using TRIzol (Invitrogen) and chloroform (Sigma). RNA extracts were purified on Spin Chroma column (BD biosciences K1332-2). The 18S/28S bands were verified on a 1% agarose gel. RNA samples were shipped to Advanced Genomic Technology Center Gene Expression Core at the Mayo Clinic in Rochester, MN for further analysis. RNA quality was assessed by Agilent Bioanalyzer (Santa Clara, CA). Reverse transcription to second strand cDNA was generated from 100 ng of good quality total RNA."},
+          "Label": {"_$": "Biotin"},
+          "Label-Protocol": {"_$": "The RNA products were column-purified (Affymetrix) and then in vitro transcribed to generate biotin-labeled cRNA"}
+        },
+        "Hybridization-Protocol": {"_$": "The IVT productswere column-purified, fragmented, and hybridized onto Affymetrix U133 Plus 2.0 GeneChips® at 45º C FOR 16 h"},
+        "Scan-Protocol": {"_$": "Subsequent to hybridization, the arrays were washed and stained with streptavidin-phycoerythrin, then scanned in an Affymetrix GeneChip® Scanner 3000 (Santa Clara, CA). All control parameters were confirmed to be within normal ranges before normalization and data reduction was initiated."},
+        "Description": {"_$": "cpr010036"},
+        "Data-Processing": {"_$": "Raw data was processed by MAS.5 (Affymetrix) and analyzed using GeneSpring GX10"},
+        "Platform-Ref": {"@ref": "GPL570"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "CEL",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2267nnn/GSM2267317/GSM2267317_Cpr010036HG-U133_Plus_2.cel.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "normalized"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "54613",
+            "_$": "GSM2267317-tbl-1.txt"
+          }
+        }
+      }
+    ],
+    "Series": {
+      "@iid": "GSE85457",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2016-08-10"},
+        "Release-Date": {"_$": "2016-11-30"},
+        "Last-Update-Date": {"_$": "2017-02-10"}
+      },
+      "Title": {"_$": "Gene array analysis of anaplastic thyroid carcinoma cell lines versus normal thyroid cell lines"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GSE85457"
+      },
+      "Summary": {"_$": "Currently there is a lack of effective therapies which result in long-term durable response for patients presenting with anaplastic thyroid carcinoma (ATC), a very rare and lethal variant of thyroid cancer. ATC is resistant to chemotherapy, radiation, and targeted therapies currently available.\nIn an effort to identify novel tumor-specific therapeutic targets, we performed high throughput gene array analysis screening numerous ATC cell lines, and compared their gene expression levels to normal thyroid cell lines."},
+      "Overall-Design": {"_$": "RNA was extracted from Anaplastic Thyroid Cancer cell lines and Normal Thyroid cell lines. Gene array analysis was performed, and resulting expression levels were compared between Normal and ATC samples"},
+      "Type": {"_$": "Expression profiling by array"},
+      "Contributor-Ref": [
+        {
+          "@ref": "contrib3",
+          "@position": "1"
+        },
+        {
+          "@ref": "contrib4",
+          "@position": "2"
+        },
+        {
+          "@ref": "contrib5",
+          "@position": "3"
+        }
+      ],
+      "Contact-Ref": {"@ref": "contrib1"},
+      "Sample-Ref": [
+        {"@ref": "GSM2267311"},
+        {"@ref": "GSM2267312"},
+        {"@ref": "GSM2267313"},
+        {"@ref": "GSM2267314"},
+        {"@ref": "GSM2267315"},
+        {"@ref": "GSM2267316"},
+        {"@ref": "GSM2267317"}
+      ],
+      "Supplementary-Data": {
+        "@type": "TAR",
+        "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE85457/GSE85457_RAW.tar"
+      },
+      "Relation": {
+        "@type": "BioProject",
+        "@target": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA338497"
+      }
+    }
+  },
+  "_@default": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML",
+  "_@xml": "http://www.w3.org/XML/1998/namespace",
+  "_@xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

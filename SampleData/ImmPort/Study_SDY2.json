@@ -1,0 +1,484 @@
+{
+  "title": "Immune Response to Varicella Vaccination in Subjects with Atopic Dermatitis Compared to Nonatopic Controls",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY2",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Immune Response to Varicella Vaccination in Subjects with Atopic Dermatitis Compared to Nonatopic Controls",
+  "performedBy": [
+    {
+      "firstName": "Lynda",
+      "lastName": "Schneider",
+      "email": "Lynda.schneider@childrens.harvard.edu",
+      "affiliations": [
+          {
+             "name": "Children's Hospital, Boston"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Donald",
+      "lastName": "Leung",
+      "email": "Leungd@nic.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Medical and Research Center"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Levin",
+      "lastName": "Myron",
+      "email": "Myron.Levin@uchsc.edu",
+      "affiliations": [
+          {
+             "name": "Univ. of Colorado School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Sub-Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Atopic Dermatitis (AD+)",
+          "size": 38
+        },
+        {
+          "name": "Healthy controls",
+          "size": 33
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "Anti-CD8-PerCP"
+        },
+        {
+          "name": "Anti-IFNg-PE"
+        },
+        {
+          "name": "Anti-Perforin-FITC"
+        },
+        {
+          "name": "Anti-TNFa-APC"
+        },
+        {
+          "name": "Perforin/IFN-g/CD8/TNF-a"
+        },
+        {
+          "name": "Anti-CD27-PE"
+        },
+        {
+          "name": "Anti-CD28-FITC"
+        },
+        {
+          "name": "Anti-CD4-PerCP"
+        },
+        {
+          "name": "Anti-CD69-APC"
+        },
+        {
+          "name": "CD28/CD27/CD4/CD69"
+        },
+        {
+          "name": "CD28/CD27/CD8/CD69"
+        },
+        {
+          "name": "Anti-IL2-APC"
+        },
+        {
+          "name": "Perforin/IFN-g/CD4/IL-2"
+        },
+        {
+          "name": "Anti-human IgE monoclonal antibody"
+        },
+        {
+          "name": "Anti-IgE HRP labeled second antibody"
+        },
+        {
+          "name": "VZV antigen U.Colorado"
+        },
+        {
+          "name": "anti-VZV glycoprotein E sera"
+        },
+        {
+          "name": "Goat Anti-Guinea Pig IgG (H+L) conjugated with HRP"
+        },
+        {
+          "name": "Anti-human IgG1 monoclonal antibody"
+        },
+        {
+          "name": "peroxidase-conjugated anti-human IgG antiserum"
+        },
+        {
+          "name": "Anti-human IgG2 monoclonal antibody"
+        },
+        {
+          "name": "Anti-human IgG4 monoclonal antibody"
+        },
+        {
+          "name": "VZV antigen Diamedex"
+        },
+        {
+          "name": "horseradish peroxidase conjugated anti-human IgG"
+        },
+        {
+          "name": "Biotinylated anti-human  rIFN-gamma"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Parent/guardian has signed informed consent."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Male or female of any race or ethnicity."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "12 to 36 months of age, inclusive."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Healthy subjects with no systemic disorders: Group A - Subjects with moderate to severe AD as defined by the Atopic Dermatitis Vaccinia Network (ADVN) Diagnostic Criteria definition (Appendix I), Rajka/Langeland Scale (4-9) and Eczema Area and Severity Index (EASI). Group B - Nonatopic, control subjects with no personal or family history of food allergy or AD that correspond to a modified ADVN Diagnostic Criteria definition (Appendix I of the study protocol)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Previously vaccinated for varicella 3 weeks prior (or 2-16 weeks prior, if necessary)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of infection with varicella."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of oral, intravenous, or intramuscular corticosteroids within 30 days prior to immunization or subsequently."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Asthmatics receiving more than 500 ?g per day of inhaled budesonide or more than 220 ?g per day of inhaled fluticasone."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of antiherpes antiviral agents within 7 days prior to immunization or subsequently."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Suspected immune deficiency or family history of primary immunodeficiency."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of or current malignancy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Active untreated tuberculosis."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Febrile respiratory illness at the time of the varicella vaccination."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Receipt of blood, plasma transfer, or varicella zoster immune globulin (VZIG) within the last 5 months prior to enrollment."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Lynda",
+      "lastName": "Schneider",
+      "email": "Lynda.schneider@childrens.harvard.edu",
+      "affiliations": [
+          {
+             "name": "Children's Hospital, Boston"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01 AI040029"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Atopic Dermatitis and Vaccinia Network (ADVN) is a consortium of academic medical centers that will conduct clinical research studies in an attempt to make smallpox vaccines safer for millions of people with atopic dermatitis.  http://projectreporter.nih.gov/project_info_description.cfm?aid=7337882&icde=23823696&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2012-11-16",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Phenotype"
+        },
+        "description": "Flow cytometry analysis of T cell responses following varicella vaccination in subjects with atopic dermatitis (AD) compared to nonatopic controls.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "ELISA analysis of humoral responses following varicella vaccination in subjects with atopic dermatitis (AD) compared to those of nonatopic controls",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "ELISPOT analysis of T cell responses following varicella vaccination in subjects with atopic dermatitis (AD) compared to nonatopic controls",
+        "types": [
+            {
+               "value": "ELISPOT"
+            }
+        ]
+      },{
+        "name": {
+            "value": "CBC/Differential Results"
+        }
+      },{
+        "name": {
+            "value": "IgE/RAST"
+        }
+      },{
+        "name": {
+            "value": "Atopic Dermatitis Assessment"
+        }
+      },{
+        "name": {
+            "value": "Any Adverse Event?"
+        }
+      },{
+        "name": {
+            "value": "Any medications taken"
+        }
+      },{
+        "name": {
+            "value": "EASI Score"
+        }
+      },{
+        "name": {
+            "value": "Family History"
+        }
+      },{
+        "name": {
+            "value": "Medical History"
+        }
+      },{
+        "name": {
+            "value": "Non-AD Assessment"
+        }
+      },{
+        "name": {
+            "value": "Physical Exam"
+        }
+      },{
+        "name": {
+            "value": "Rajka-Langeland Score"
+        }
+      },{
+        "name": {
+            "value": "Skin Infection History"
+        }
+      },{
+        "name": {
+            "value": "Skin exam"
+        }
+      }
+      
+  ],
+  "isAbout": [
+        {
+          "name": "Glung control antigen"
+        },
+        {
+          "name": "VZV antigen"
+        },
+        {
+          "name": "PHA"
+        }
+  ],
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY2",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Immune Response to Varicella Vaccination in Subjects with Atopic Dermatitis Compared to Nonatopic Controls",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY2",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=6358320&icde=23811074&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Young children have the highest prevalence of atopic dermatitis (AD) and are at significant risk complications from vaccinia. As a surrogate, we believe investigating the immune response to varicella vaccination will yield important information about alterations in the immune response to live virus vaccines  subjects with AD. Evaluation of 30 analyzable children with AD and 30 analyzable nonatopic controls is planned. Subjects immunized with varicella vaccine will have blood drawn for laboratory evaluations 3 weeks after immunization. The immune response to varicella will be assessed by measuring the proportion of varicella-zoster virus (VZV)-specific T cells, perforin production, and VZV-specific antibody titers. Because of the and systemic T helper cell 2 (Th2) polarization of subjects with AD, an altered response to varicella vaccination expected. Specifically, it is expected that AD subjects will exhibit decreased cell-mediated responses, but exhibit normal to increased humoral responses as evidenced by production of VZV-specific antibodies."
+}

@@ -1,0 +1,502 @@
+{
+  "MINiML": {
+    "@xsi:schemaLocation": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd",
+    "@version": "0.5.0",
+    "Contributor": [
+      {
+        "@iid": "contrib1",
+        "Person": {
+          "First": {"_$": "Juan"},
+          "Middle": {"_$": "C"},
+          "Last": {"_$": "Santos-González"}
+        },
+        "Email": {"_$": "juan.santos@slu.se"},
+        "Laboratory": {"_$": "Köhler's lab"},
+        "Department": {"_$": "Department of Plant Biology and Forest Genetics"},
+        "Organization": {"_$": "SLU"},
+        "Address": {
+          "Line": {"_$": "Almas Allé 5"},
+          "City": {"_$": "Uppsala"},
+          "State": {"_$": "Uppsala"},
+          "Zip-Code": {"_$": "75007"},
+          "Country": {"_$": "Sweden"}
+        }
+      },
+      {
+        "@iid": "contrib2",
+        "Organization": {"_$": "GEO"},
+        "Address": {
+          "City": {},
+          "Country": {"_$": "USA"}
+        }
+      },
+      {
+        "@iid": "contrib3",
+        "Person": {
+          "First": {"_$": "Pawel"},
+          "Middle": {"_$": "J"},
+          "Last": {"_$": "Roszak"}
+        }
+      },
+      {
+        "@iid": "contrib4",
+        "Person": {
+          "First": {"_$": "Claudia"},
+          "Last": {"_$": "Köhler"}
+        }
+      }
+    ],
+    "Database": {
+      "@iid": "GEO",
+      "Name": {"_$": "Gene Expression Omnibus (GEO)"},
+      "Public-ID": {"_$": "GEO"},
+      "Organization": {"_$": "NCBI NLM NIH"},
+      "Web-Link": {"_$": "http://www.ncbi.nlm.nih.gov/geo"},
+      "Email": {"_$": "geo@ncbi.nlm.nih.gov"}
+    },
+    "Platform": {
+      "@iid": "GPL13222",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2011-02-24"},
+        "Release-Date": {"_$": "2011-02-24"},
+        "Last-Update-Date": {"_$": "2017-02-09"}
+      },
+      "Title": {"_$": "Illumina HiSeq 2000 (Arabidopsis thaliana)"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GPL13222"
+      },
+      "Technology": {"_$": "high-throughput sequencing"},
+      "Distribution": {"_$": "virtual"},
+      "Organism": {
+        "@taxid": "3702",
+        "_$": "Arabidopsis thaliana"
+      },
+      "Manufacturer": {},
+      "Manufacture-Protocol": {},
+      "Contact-Ref": {"@ref": "contrib2"}
+    },
+    "Sample": [
+      {
+        "@iid": "GSM2285535",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-19"},
+          "Release-Date": {"_$": "2016-11-15"},
+          "Last-Update-Date": {"_$": "2016-11-15"}
+        },
+        "Title": {"_$": "at-seed-WT-30h_after_pollination-replicate1"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2285535"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "wild-type seeds at 30 hrs after pollination, replicate 1"},
+          "Organism": {
+            "@taxid": "3702",
+            "_$": "Arabidopsis thaliana"
+          },
+          "Characteristics": [
+            {
+              "@tag": "tissue",
+              "_$": "seed"
+            },
+            {
+              "@tag": "genotype/variation",
+              "_$": "wildtype"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "agl62 and wild-type plants were emasculated 1-2 days prior to anthesis, hand-pollinated and seeds were harvested 30 h after pollination. Three biological replicates were generated per sample."},
+          "Growth-Protocol": {"_$": "Seeds were sterilized in 5% commercial bleach and 0.01% Tween-20 for 10 min and washed three times in sterile ddH2O. Sterile seeds were plated on ½ MS-medium (0.43% MS-salts, 0.8% Bacto Agar, 0.19% MES hydrate and 1% Sucrose; when necessary, the medium was supplemented with the appropriate antibiotics) and stratified at 4 ºC in the dark for 48 h. Plates were then transferred to a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity). After 10 days seedlings were transferred to soil and grown in a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity)."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Seeds were harvested into RNA later (Sigma-Aldrich, St Louis, USA) and homogenized (Silamat S5; IvoclarVivadent, Ellwangen, Germany) using glass beads (1.25-1.55 mm; Carl Roth, Karlsruhe, Germany). RNA was extracted following a modified protocol for the RNAqueous kit (Ambion, Life Technologies). RNA was purified by Qiagen RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) after residual DNA removed by 2 uL DNaseI (Thermo-Scientific, Waltham, USA).\nLibraries were prepared using the Truseq RNA Sample Preparation Kit (Illumina, San Diego, USA) and sequenced on an Illumina HiSeq2000 on two lanes in 100-bp paired-end mode."}
+        },
+        "Data-Processing": {"_$": "Sequencing reads were aligned to the TAIR 10.0 version of the Arabidopsis reference genome (Col-0) using TopHat (Trapnell et al., 2009). Only uniquely mapping reads were used for further analysis. Differentially expressed genes were identified using the DESeq package (Anders and Huber, 2010).\nStandard output from the DESEQ package with following column headers:\n<id> feature identier\n<baseMeanA> mean normalised counts from condition A\n<baseMeanB> mean normalised counts from condition B\n<foldChange fold> change from condition A to B\n<log2FoldChange> the logarithm (to basis 2) of the fold change\n<pval> p value for the statistical signicance of this change\n<padj> p value adjusted for multiple testing with the Benjamini-Hochberg procedure (seethe R function p.adjust), which controls false discovery rate (FDR)\nGenome_build: TAIR10"},
+        "Platform-Ref": {"@ref": "GPL13222"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 2000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2035608"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05596362"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2035608"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2285536",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-19"},
+          "Release-Date": {"_$": "2016-11-15"},
+          "Last-Update-Date": {"_$": "2016-11-15"}
+        },
+        "Title": {"_$": "at-seed-WT-30h_after_pollination-replicate2"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2285536"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "wild-type seeds at 30 hrs after pollination, replicate 2"},
+          "Organism": {
+            "@taxid": "3702",
+            "_$": "Arabidopsis thaliana"
+          },
+          "Characteristics": [
+            {
+              "@tag": "tissue",
+              "_$": "seed"
+            },
+            {
+              "@tag": "genotype/variation",
+              "_$": "wildtype"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "agl62 and wild-type plants were emasculated 1-2 days prior to anthesis, hand-pollinated and seeds were harvested 30 h after pollination. Three biological replicates were generated per sample."},
+          "Growth-Protocol": {"_$": "Seeds were sterilized in 5% commercial bleach and 0.01% Tween-20 for 10 min and washed three times in sterile ddH2O. Sterile seeds were plated on ½ MS-medium (0.43% MS-salts, 0.8% Bacto Agar, 0.19% MES hydrate and 1% Sucrose; when necessary, the medium was supplemented with the appropriate antibiotics) and stratified at 4 ºC in the dark for 48 h. Plates were then transferred to a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity). After 10 days seedlings were transferred to soil and grown in a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity)."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Seeds were harvested into RNA later (Sigma-Aldrich, St Louis, USA) and homogenized (Silamat S5; IvoclarVivadent, Ellwangen, Germany) using glass beads (1.25-1.55 mm; Carl Roth, Karlsruhe, Germany). RNA was extracted following a modified protocol for the RNAqueous kit (Ambion, Life Technologies). RNA was purified by Qiagen RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) after residual DNA removed by 2 uL DNaseI (Thermo-Scientific, Waltham, USA).\nLibraries were prepared using the Truseq RNA Sample Preparation Kit (Illumina, San Diego, USA) and sequenced on an Illumina HiSeq2000 on two lanes in 100-bp paired-end mode."}
+        },
+        "Data-Processing": {"_$": "Sequencing reads were aligned to the TAIR 10.0 version of the Arabidopsis reference genome (Col-0) using TopHat (Trapnell et al., 2009). Only uniquely mapping reads were used for further analysis. Differentially expressed genes were identified using the DESeq package (Anders and Huber, 2010).\nStandard output from the DESEQ package with following column headers:\n<id> feature identier\n<baseMeanA> mean normalised counts from condition A\n<baseMeanB> mean normalised counts from condition B\n<foldChange fold> change from condition A to B\n<log2FoldChange> the logarithm (to basis 2) of the fold change\n<pval> p value for the statistical signicance of this change\n<padj> p value adjusted for multiple testing with the Benjamini-Hochberg procedure (seethe R function p.adjust), which controls false discovery rate (FDR)\nGenome_build: TAIR10"},
+        "Platform-Ref": {"@ref": "GPL13222"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 2000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2035609"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05596361"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2035609"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2285537",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-19"},
+          "Release-Date": {"_$": "2016-11-15"},
+          "Last-Update-Date": {"_$": "2016-11-15"}
+        },
+        "Title": {"_$": "at-seed-WT-30h_after_pollination-replicate3"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2285537"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "wild-type seeds at 30 hrs after pollination, replicate 3"},
+          "Organism": {
+            "@taxid": "3702",
+            "_$": "Arabidopsis thaliana"
+          },
+          "Characteristics": [
+            {
+              "@tag": "tissue",
+              "_$": "seed"
+            },
+            {
+              "@tag": "genotype/variation",
+              "_$": "wildtype"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "agl62 and wild-type plants were emasculated 1-2 days prior to anthesis, hand-pollinated and seeds were harvested 30 h after pollination. Three biological replicates were generated per sample."},
+          "Growth-Protocol": {"_$": "Seeds were sterilized in 5% commercial bleach and 0.01% Tween-20 for 10 min and washed three times in sterile ddH2O. Sterile seeds were plated on ½ MS-medium (0.43% MS-salts, 0.8% Bacto Agar, 0.19% MES hydrate and 1% Sucrose; when necessary, the medium was supplemented with the appropriate antibiotics) and stratified at 4 ºC in the dark for 48 h. Plates were then transferred to a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity). After 10 days seedlings were transferred to soil and grown in a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity)."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Seeds were harvested into RNA later (Sigma-Aldrich, St Louis, USA) and homogenized (Silamat S5; IvoclarVivadent, Ellwangen, Germany) using glass beads (1.25-1.55 mm; Carl Roth, Karlsruhe, Germany). RNA was extracted following a modified protocol for the RNAqueous kit (Ambion, Life Technologies). RNA was purified by Qiagen RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) after residual DNA removed by 2 uL DNaseI (Thermo-Scientific, Waltham, USA).\nLibraries were prepared using the Truseq RNA Sample Preparation Kit (Illumina, San Diego, USA) and sequenced on an Illumina HiSeq2000 on two lanes in 100-bp paired-end mode."}
+        },
+        "Data-Processing": {"_$": "Sequencing reads were aligned to the TAIR 10.0 version of the Arabidopsis reference genome (Col-0) using TopHat (Trapnell et al., 2009). Only uniquely mapping reads were used for further analysis. Differentially expressed genes were identified using the DESeq package (Anders and Huber, 2010).\nStandard output from the DESEQ package with following column headers:\n<id> feature identier\n<baseMeanA> mean normalised counts from condition A\n<baseMeanB> mean normalised counts from condition B\n<foldChange fold> change from condition A to B\n<log2FoldChange> the logarithm (to basis 2) of the fold change\n<pval> p value for the statistical signicance of this change\n<padj> p value adjusted for multiple testing with the Benjamini-Hochberg procedure (seethe R function p.adjust), which controls false discovery rate (FDR)\nGenome_build: TAIR10"},
+        "Platform-Ref": {"@ref": "GPL13222"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 2000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2035610"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05596359"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2035610"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2285538",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-19"},
+          "Release-Date": {"_$": "2016-11-15"},
+          "Last-Update-Date": {"_$": "2016-11-15"}
+        },
+        "Title": {"_$": "at-seed-agl62-30h_after_pollination-replicate1"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2285538"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "agl62 seeds at 30 hrs after pollination, replicate 1"},
+          "Organism": {
+            "@taxid": "3702",
+            "_$": "Arabidopsis thaliana"
+          },
+          "Characteristics": [
+            {
+              "@tag": "tissue",
+              "_$": "seed"
+            },
+            {
+              "@tag": "genotype/variation",
+              "_$": "agl62/-"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "agl62 and wild-type plants were emasculated 1-2 days prior to anthesis, hand-pollinated and seeds were harvested 30 h after pollination. Three biological replicates were generated per sample."},
+          "Growth-Protocol": {"_$": "Seeds were sterilized in 5% commercial bleach and 0.01% Tween-20 for 10 min and washed three times in sterile ddH2O. Sterile seeds were plated on ½ MS-medium (0.43% MS-salts, 0.8% Bacto Agar, 0.19% MES hydrate and 1% Sucrose; when necessary, the medium was supplemented with the appropriate antibiotics) and stratified at 4 ºC in the dark for 48 h. Plates were then transferred to a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity). After 10 days seedlings were transferred to soil and grown in a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity)."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Seeds were harvested into RNA later (Sigma-Aldrich, St Louis, USA) and homogenized (Silamat S5; IvoclarVivadent, Ellwangen, Germany) using glass beads (1.25-1.55 mm; Carl Roth, Karlsruhe, Germany). RNA was extracted following a modified protocol for the RNAqueous kit (Ambion, Life Technologies). RNA was purified by Qiagen RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) after residual DNA removed by 2 uL DNaseI (Thermo-Scientific, Waltham, USA).\nLibraries were prepared using the Truseq RNA Sample Preparation Kit (Illumina, San Diego, USA) and sequenced on an Illumina HiSeq2000 on two lanes in 100-bp paired-end mode."}
+        },
+        "Data-Processing": {"_$": "Sequencing reads were aligned to the TAIR 10.0 version of the Arabidopsis reference genome (Col-0) using TopHat (Trapnell et al., 2009). Only uniquely mapping reads were used for further analysis. Differentially expressed genes were identified using the DESeq package (Anders and Huber, 2010).\nStandard output from the DESEQ package with following column headers:\n<id> feature identier\n<baseMeanA> mean normalised counts from condition A\n<baseMeanB> mean normalised counts from condition B\n<foldChange fold> change from condition A to B\n<log2FoldChange> the logarithm (to basis 2) of the fold change\n<pval> p value for the statistical signicance of this change\n<padj> p value adjusted for multiple testing with the Benjamini-Hochberg procedure (seethe R function p.adjust), which controls false discovery rate (FDR)\nGenome_build: TAIR10"},
+        "Platform-Ref": {"@ref": "GPL13222"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 2000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2035611"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05596357"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2035611"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2285539",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-19"},
+          "Release-Date": {"_$": "2016-11-15"},
+          "Last-Update-Date": {"_$": "2016-11-15"}
+        },
+        "Title": {"_$": "at-seed-agl62-30h_after_pollination-replicate2"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2285539"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "agl62 seeds at 30 hrs after pollination, replicate 2"},
+          "Organism": {
+            "@taxid": "3702",
+            "_$": "Arabidopsis thaliana"
+          },
+          "Characteristics": [
+            {
+              "@tag": "tissue",
+              "_$": "seed"
+            },
+            {
+              "@tag": "genotype/variation",
+              "_$": "agl62/-"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "agl62 and wild-type plants were emasculated 1-2 days prior to anthesis, hand-pollinated and seeds were harvested 30 h after pollination. Three biological replicates were generated per sample."},
+          "Growth-Protocol": {"_$": "Seeds were sterilized in 5% commercial bleach and 0.01% Tween-20 for 10 min and washed three times in sterile ddH2O. Sterile seeds were plated on ½ MS-medium (0.43% MS-salts, 0.8% Bacto Agar, 0.19% MES hydrate and 1% Sucrose; when necessary, the medium was supplemented with the appropriate antibiotics) and stratified at 4 ºC in the dark for 48 h. Plates were then transferred to a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity). After 10 days seedlings were transferred to soil and grown in a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity)."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Seeds were harvested into RNA later (Sigma-Aldrich, St Louis, USA) and homogenized (Silamat S5; IvoclarVivadent, Ellwangen, Germany) using glass beads (1.25-1.55 mm; Carl Roth, Karlsruhe, Germany). RNA was extracted following a modified protocol for the RNAqueous kit (Ambion, Life Technologies). RNA was purified by Qiagen RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) after residual DNA removed by 2 uL DNaseI (Thermo-Scientific, Waltham, USA).\nLibraries were prepared using the Truseq RNA Sample Preparation Kit (Illumina, San Diego, USA) and sequenced on an Illumina HiSeq2000 on two lanes in 100-bp paired-end mode."}
+        },
+        "Data-Processing": {"_$": "Sequencing reads were aligned to the TAIR 10.0 version of the Arabidopsis reference genome (Col-0) using TopHat (Trapnell et al., 2009). Only uniquely mapping reads were used for further analysis. Differentially expressed genes were identified using the DESeq package (Anders and Huber, 2010).\nStandard output from the DESEQ package with following column headers:\n<id> feature identier\n<baseMeanA> mean normalised counts from condition A\n<baseMeanB> mean normalised counts from condition B\n<foldChange fold> change from condition A to B\n<log2FoldChange> the logarithm (to basis 2) of the fold change\n<pval> p value for the statistical signicance of this change\n<padj> p value adjusted for multiple testing with the Benjamini-Hochberg procedure (seethe R function p.adjust), which controls false discovery rate (FDR)\nGenome_build: TAIR10"},
+        "Platform-Ref": {"@ref": "GPL13222"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 2000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2035612"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05596354"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2035612"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2285540",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-19"},
+          "Release-Date": {"_$": "2016-11-15"},
+          "Last-Update-Date": {"_$": "2016-11-15"}
+        },
+        "Title": {"_$": "at-seed-agl62-30h_after_pollination-replicate3"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2285540"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "agl62 seeds at 30 hrs after pollination, replicate 3"},
+          "Organism": {
+            "@taxid": "3702",
+            "_$": "Arabidopsis thaliana"
+          },
+          "Characteristics": [
+            {
+              "@tag": "tissue",
+              "_$": "seed"
+            },
+            {
+              "@tag": "genotype/variation",
+              "_$": "agl62/-"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "agl62 and wild-type plants were emasculated 1-2 days prior to anthesis, hand-pollinated and seeds were harvested 30 h after pollination. Three biological replicates were generated per sample."},
+          "Growth-Protocol": {"_$": "Seeds were sterilized in 5% commercial bleach and 0.01% Tween-20 for 10 min and washed three times in sterile ddH2O. Sterile seeds were plated on ½ MS-medium (0.43% MS-salts, 0.8% Bacto Agar, 0.19% MES hydrate and 1% Sucrose; when necessary, the medium was supplemented with the appropriate antibiotics) and stratified at 4 ºC in the dark for 48 h. Plates were then transferred to a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity). After 10 days seedlings were transferred to soil and grown in a growth chamber (16 h light / 8 h dark; 110 μmol.s-1.m-2; 21ºC; 70% humidity)."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Seeds were harvested into RNA later (Sigma-Aldrich, St Louis, USA) and homogenized (Silamat S5; IvoclarVivadent, Ellwangen, Germany) using glass beads (1.25-1.55 mm; Carl Roth, Karlsruhe, Germany). RNA was extracted following a modified protocol for the RNAqueous kit (Ambion, Life Technologies). RNA was purified by Qiagen RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) after residual DNA removed by 2 uL DNaseI (Thermo-Scientific, Waltham, USA).\nLibraries were prepared using the Truseq RNA Sample Preparation Kit (Illumina, San Diego, USA) and sequenced on an Illumina HiSeq2000 on two lanes in 100-bp paired-end mode."}
+        },
+        "Data-Processing": {"_$": "Sequencing reads were aligned to the TAIR 10.0 version of the Arabidopsis reference genome (Col-0) using TopHat (Trapnell et al., 2009). Only uniquely mapping reads were used for further analysis. Differentially expressed genes were identified using the DESeq package (Anders and Huber, 2010).\nStandard output from the DESEQ package with following column headers:\n<id> feature identier\n<baseMeanA> mean normalised counts from condition A\n<baseMeanB> mean normalised counts from condition B\n<foldChange fold> change from condition A to B\n<log2FoldChange> the logarithm (to basis 2) of the fold change\n<pval> p value for the statistical signicance of this change\n<padj> p value adjusted for multiple testing with the Benjamini-Hochberg procedure (seethe R function p.adjust), which controls false discovery rate (FDR)\nGenome_build: TAIR10"},
+        "Platform-Ref": {"@ref": "GPL13222"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 2000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2035613"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05596352"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2035613"
+          }
+        ]
+      }
+    ],
+    "Series": {
+      "@iid": "GSE85847",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2016-08-19"},
+        "Release-Date": {"_$": "2016-11-15"},
+        "Last-Update-Date": {"_$": "2017-02-14"}
+      },
+      "Title": {"_$": "Expression data of agl62/- and wild-type seeds at 30 hrs after pollination"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GSE85847"
+      },
+      "Pubmed-ID": {"_$": "27848912"},
+      "Web-Link": {"_$": "https://www.ncbi.nlm.nih.gov/pubmed/27848912"},
+      "Summary": {"_$": "We generated deep sequencing data of total RNA isolated from seeds of homozygous agl62 mutants plants at 30 hrs after pollination."},
+      "Overall-Design": {"_$": "agl62 and wild-type plants were emasculated 1-2 days prior to anthesis, hand-pollinated and seeds were harvested 30 h after pollination. Three biological replicates were generated per sample."},
+      "Type": {"_$": "Expression profiling by high throughput sequencing"},
+      "Contributor-Ref": [
+        {
+          "@ref": "contrib3",
+          "@position": "1"
+        },
+        {
+          "@ref": "contrib4",
+          "@position": "2"
+        }
+      ],
+      "Contact-Ref": {"@ref": "contrib1"},
+      "Sample-Ref": [
+        {"@ref": "GSM2285535"},
+        {"@ref": "GSM2285536"},
+        {"@ref": "GSM2285537"},
+        {"@ref": "GSM2285538"},
+        {"@ref": "GSM2285539"},
+        {"@ref": "GSM2285540"}
+      ],
+      "Supplementary-Data": [
+        {
+          "@type": "SRA Study",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP082/SRP082412"
+        },
+        {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE85847/GSE85847_matrix_rnaseq_GEO_submission_jsantos20160817.txt.gz"
+        }
+      ],
+      "Relation": [
+        {
+          "@type": "SubSeries of",
+          "@target": "GSE85848"
+        },
+        {
+          "@type": "BioProject",
+          "@target": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA339557"
+        },
+        {
+          "@type": "SRA",
+          "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRP082412"
+        }
+      ]
+    }
+  },
+  "_@default": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML",
+  "_@xml": "http://www.w3.org/XML/1998/namespace",
+  "_@xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

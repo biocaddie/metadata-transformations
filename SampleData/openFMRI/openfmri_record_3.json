@@ -1,0 +1,23 @@
+{"pr_nlx_144048_1": {
+  "e_uid": "ds0002101.0.0",
+  "title": "Multi-echo fMRI replication sample of autobiographical memory, prospection and theory of mind reasoning tasks",
+  "id": "ds000210",
+  "description": "<p>We collected a replication sample of Spreng and Grady (J Cogn. Neurosci. 22, 1112-1123, 2010). Here we provide the resulting dataset of multi-echo fMRI data in 31 young adults during autobiographical remembering, imagining, and mentalizing; we also provide an additional resting-state scan for each subject.<\/p>",
+  "link": "https://openfmri.org/dataset/ds000210",
+  "cognitive_task_seq_name": "",
+  "task_name": "",
+  "pubmed_id": "",
+  "license": "PDDL",
+  "investigator": "Elizabeth DuPre, Wen-Ming Luh, R. Nathan Spreng",
+  "version_num": "1.0.0",
+  "revision_history": " -- Initial Release",
+  "version_date": "2016-10-05",
+  "organism": "human",
+  "assay": "MRI",
+  "nifid": "nlx_144048",
+  "v_uid": "ds0002101.0.0",
+  "v_uuid": "3146b5ee-0a4f-5872-8a02-44fa5e0b92cd",
+  "v_lastmodified": "2016-10-18 17:01:56.252636",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.476101624075287E9
+}}

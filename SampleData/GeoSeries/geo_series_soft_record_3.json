@@ -1,0 +1,738 @@
+{
+  "MINiML": {
+    "@xsi:schemaLocation": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd",
+    "@version": "0.5.0",
+    "Contributor": [
+      {
+        "@iid": "contrib1",
+        "Person": {
+          "First": {"_$": "Huiyong"},
+          "Last": {"_$": "Yin"}
+        },
+        "Email": {"_$": "hyyin@sibs.ac.cn"},
+        "Laboratory": {"_$": "Yin Lab"},
+        "Organization": {"_$": "Institute for Nutritional Sciences"},
+        "Address": {
+          "Line": {"_$": "320 Yueyang Road"},
+          "City": {"_$": "Shanghai"},
+          "State": {"_$": "Shanghai"},
+          "Postal-Code": {"_$": "200000"},
+          "Country": {"_$": "China"}
+        }
+      },
+      {
+        "@iid": "contrib2",
+        "Organization": {"_$": "GEO"},
+        "Address": {
+          "City": {},
+          "Country": {"_$": "USA"}
+        }
+      },
+      {
+        "@iid": "contrib3",
+        "Person": {
+          "First": {"_$": "Jianhong"},
+          "Last": {"_$": "Lu"}
+        }
+      }
+    ],
+    "Database": {
+      "@iid": "GEO",
+      "Name": {"_$": "Gene Expression Omnibus (GEO)"},
+      "Public-ID": {"_$": "GEO"},
+      "Organization": {"_$": "NCBI NLM NIH"},
+      "Web-Link": {"_$": "http://www.ncbi.nlm.nih.gov/geo"},
+      "Email": {"_$": "geo@ncbi.nlm.nih.gov"}
+    },
+    "Platform": {
+      "@iid": "GPL21103",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2015-11-04"},
+        "Release-Date": {"_$": "2015-11-04"},
+        "Last-Update-Date": {"_$": "2016-11-10"}
+      },
+      "Title": {"_$": "Illumina HiSeq 4000 (Mus musculus)"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GPL21103"
+      },
+      "Technology": {"_$": "high-throughput sequencing"},
+      "Distribution": {"_$": "virtual"},
+      "Organism": {
+        "@taxid": "10090",
+        "_$": "Mus musculus"
+      },
+      "Manufacturer": {},
+      "Manufacture-Protocol": {},
+      "Contact-Ref": {"@ref": "contrib2"}
+    },
+    "Sample": [
+      {
+        "@iid": "GSM2287968",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-23"},
+          "Release-Date": {"_$": "2016-08-24"},
+          "Last-Update-Date": {"_$": "2016-08-24"}
+        },
+        "Title": {"_$": "control rep1"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2287968"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "BMDM_control"},
+          "Organism": {
+            "@taxid": "10090",
+            "_$": "Mus musculus"
+          },
+          "Characteristics": [
+            {
+              "@tag": "strain",
+              "_$": "C57BL/6"
+            },
+            {
+              "@tag": "age",
+              "_$": "8 weeks"
+            },
+            {
+              "@tag": "tissue",
+              "_$": "bone marrow-derived macrophage (BMDM)"
+            },
+            {
+              "@tag": "treated with",
+              "_$": "media control for 6h"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "Cells were treated with 1μM 15d-PGJ2,15d-PGJ2-PC or media control for 6h."},
+          "Growth-Protocol": {"_$": "BMDMs were cultured in RPMI medium."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Cells were flash frozen on dry ice, and RNA was harvested using Trizol reagent. Illumina TruSeq RNA Sample Prep Kit (Cat#FC-122-1001) was used for the construction of sequencing libraries.\nRNA libraries were prepared for sequencing using standard Illumina protocols."}
+        },
+        "Data-Processing": {"_$": "Illumina Casava1.7 software used for basecalling.\nSequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to mm10 whole genome using BWA with parameters -o 1 -e 50 -i 50 -L -k 2 -l 31 -t 4 -q 10.\nFPKM  method was used in calculated expression level.\nNOISeq method  was used to screen differentially expressed genes between two groups.\nGenome_build: mm10\nSupplementary_files_format_and_content: a tab-delimited text include FPKM values for each Sample."},
+        "Platform-Ref": {"@ref": "GPL21103"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 4000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2039602"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05607217"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2039602"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2287969",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-23"},
+          "Release-Date": {"_$": "2016-08-24"},
+          "Last-Update-Date": {"_$": "2016-08-24"}
+        },
+        "Title": {"_$": "control rep2"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2287969"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "BMDM_control"},
+          "Organism": {
+            "@taxid": "10090",
+            "_$": "Mus musculus"
+          },
+          "Characteristics": [
+            {
+              "@tag": "strain",
+              "_$": "C57BL/6"
+            },
+            {
+              "@tag": "age",
+              "_$": "8 weeks"
+            },
+            {
+              "@tag": "tissue",
+              "_$": "bone marrow-derived macrophage (BMDM)"
+            },
+            {
+              "@tag": "treated with",
+              "_$": "media control for 6h"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "Cells were treated with 1μM 15d-PGJ2,15d-PGJ2-PC or media control for 6h."},
+          "Growth-Protocol": {"_$": "BMDMs were cultured in RPMI medium."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Cells were flash frozen on dry ice, and RNA was harvested using Trizol reagent. Illumina TruSeq RNA Sample Prep Kit (Cat#FC-122-1001) was used for the construction of sequencing libraries.\nRNA libraries were prepared for sequencing using standard Illumina protocols."}
+        },
+        "Data-Processing": {"_$": "Illumina Casava1.7 software used for basecalling.\nSequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to mm10 whole genome using BWA with parameters -o 1 -e 50 -i 50 -L -k 2 -l 31 -t 4 -q 10.\nFPKM  method was used in calculated expression level.\nNOISeq method  was used to screen differentially expressed genes between two groups.\nGenome_build: mm10\nSupplementary_files_format_and_content: a tab-delimited text include FPKM values for each Sample."},
+        "Platform-Ref": {"@ref": "GPL21103"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 4000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2039603"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05607216"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2039603"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2287970",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-23"},
+          "Release-Date": {"_$": "2016-08-24"},
+          "Last-Update-Date": {"_$": "2016-08-24"}
+        },
+        "Title": {"_$": "control rep3"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2287970"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "BMDM_control"},
+          "Organism": {
+            "@taxid": "10090",
+            "_$": "Mus musculus"
+          },
+          "Characteristics": [
+            {
+              "@tag": "strain",
+              "_$": "C57BL/6"
+            },
+            {
+              "@tag": "age",
+              "_$": "8 weeks"
+            },
+            {
+              "@tag": "tissue",
+              "_$": "bone marrow-derived macrophage (BMDM)"
+            },
+            {
+              "@tag": "treated with",
+              "_$": "media control for 6h"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "Cells were treated with 1μM 15d-PGJ2,15d-PGJ2-PC or media control for 6h."},
+          "Growth-Protocol": {"_$": "BMDMs were cultured in RPMI medium."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Cells were flash frozen on dry ice, and RNA was harvested using Trizol reagent. Illumina TruSeq RNA Sample Prep Kit (Cat#FC-122-1001) was used for the construction of sequencing libraries.\nRNA libraries were prepared for sequencing using standard Illumina protocols."}
+        },
+        "Data-Processing": {"_$": "Illumina Casava1.7 software used for basecalling.\nSequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to mm10 whole genome using BWA with parameters -o 1 -e 50 -i 50 -L -k 2 -l 31 -t 4 -q 10.\nFPKM  method was used in calculated expression level.\nNOISeq method  was used to screen differentially expressed genes between two groups.\nGenome_build: mm10\nSupplementary_files_format_and_content: a tab-delimited text include FPKM values for each Sample."},
+        "Platform-Ref": {"@ref": "GPL21103"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 4000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2039604"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05607215"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2039604"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2287971",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-23"},
+          "Release-Date": {"_$": "2016-08-24"},
+          "Last-Update-Date": {"_$": "2016-08-24"}
+        },
+        "Title": {"_$": "15d-PGJ2 rep1"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2287971"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "BMDM_15d-PGJ2"},
+          "Organism": {
+            "@taxid": "10090",
+            "_$": "Mus musculus"
+          },
+          "Characteristics": [
+            {
+              "@tag": "strain",
+              "_$": "C57BL/6"
+            },
+            {
+              "@tag": "age",
+              "_$": "8 weeks"
+            },
+            {
+              "@tag": "tissue",
+              "_$": "bone marrow-derived macrophage (BMDM)"
+            },
+            {
+              "@tag": "treated with",
+              "_$": "1μM 15d-PGJ2 for 6h"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "Cells were treated with 1μM 15d-PGJ2,15d-PGJ2-PC or media control for 6h."},
+          "Growth-Protocol": {"_$": "BMDMs were cultured in RPMI medium."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Cells were flash frozen on dry ice, and RNA was harvested using Trizol reagent. Illumina TruSeq RNA Sample Prep Kit (Cat#FC-122-1001) was used for the construction of sequencing libraries.\nRNA libraries were prepared for sequencing using standard Illumina protocols."}
+        },
+        "Data-Processing": {"_$": "Illumina Casava1.7 software used for basecalling.\nSequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to mm10 whole genome using BWA with parameters -o 1 -e 50 -i 50 -L -k 2 -l 31 -t 4 -q 10.\nFPKM  method was used in calculated expression level.\nNOISeq method  was used to screen differentially expressed genes between two groups.\nGenome_build: mm10\nSupplementary_files_format_and_content: a tab-delimited text include FPKM values for each Sample."},
+        "Platform-Ref": {"@ref": "GPL21103"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 4000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2039605"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05607214"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2039605"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2287972",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-23"},
+          "Release-Date": {"_$": "2016-08-24"},
+          "Last-Update-Date": {"_$": "2016-08-24"}
+        },
+        "Title": {"_$": "15d-PGJ2 rep2"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2287972"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "BMDM_15d-PGJ2"},
+          "Organism": {
+            "@taxid": "10090",
+            "_$": "Mus musculus"
+          },
+          "Characteristics": [
+            {
+              "@tag": "strain",
+              "_$": "C57BL/6"
+            },
+            {
+              "@tag": "age",
+              "_$": "8 weeks"
+            },
+            {
+              "@tag": "tissue",
+              "_$": "bone marrow-derived macrophage (BMDM)"
+            },
+            {
+              "@tag": "treated with",
+              "_$": "1μM 15d-PGJ2 for 6h"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "Cells were treated with 1μM 15d-PGJ2,15d-PGJ2-PC or media control for 6h."},
+          "Growth-Protocol": {"_$": "BMDMs were cultured in RPMI medium."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Cells were flash frozen on dry ice, and RNA was harvested using Trizol reagent. Illumina TruSeq RNA Sample Prep Kit (Cat#FC-122-1001) was used for the construction of sequencing libraries.\nRNA libraries were prepared for sequencing using standard Illumina protocols."}
+        },
+        "Data-Processing": {"_$": "Illumina Casava1.7 software used for basecalling.\nSequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to mm10 whole genome using BWA with parameters -o 1 -e 50 -i 50 -L -k 2 -l 31 -t 4 -q 10.\nFPKM  method was used in calculated expression level.\nNOISeq method  was used to screen differentially expressed genes between two groups.\nGenome_build: mm10\nSupplementary_files_format_and_content: a tab-delimited text include FPKM values for each Sample."},
+        "Platform-Ref": {"@ref": "GPL21103"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 4000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2039606"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05607220"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2039606"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2287973",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-23"},
+          "Release-Date": {"_$": "2016-08-24"},
+          "Last-Update-Date": {"_$": "2016-08-24"}
+        },
+        "Title": {"_$": "15d-PGJ2 rep3"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2287973"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "BMDM_15d-PGJ2"},
+          "Organism": {
+            "@taxid": "10090",
+            "_$": "Mus musculus"
+          },
+          "Characteristics": [
+            {
+              "@tag": "strain",
+              "_$": "C57BL/6"
+            },
+            {
+              "@tag": "age",
+              "_$": "8 weeks"
+            },
+            {
+              "@tag": "tissue",
+              "_$": "bone marrow-derived macrophage (BMDM)"
+            },
+            {
+              "@tag": "treated with",
+              "_$": "1μM 15d-PGJ2 for 6h"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "Cells were treated with 1μM 15d-PGJ2,15d-PGJ2-PC or media control for 6h."},
+          "Growth-Protocol": {"_$": "BMDMs were cultured in RPMI medium."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Cells were flash frozen on dry ice, and RNA was harvested using Trizol reagent. Illumina TruSeq RNA Sample Prep Kit (Cat#FC-122-1001) was used for the construction of sequencing libraries.\nRNA libraries were prepared for sequencing using standard Illumina protocols."}
+        },
+        "Data-Processing": {"_$": "Illumina Casava1.7 software used for basecalling.\nSequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to mm10 whole genome using BWA with parameters -o 1 -e 50 -i 50 -L -k 2 -l 31 -t 4 -q 10.\nFPKM  method was used in calculated expression level.\nNOISeq method  was used to screen differentially expressed genes between two groups.\nGenome_build: mm10\nSupplementary_files_format_and_content: a tab-delimited text include FPKM values for each Sample."},
+        "Platform-Ref": {"@ref": "GPL21103"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 4000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2039607"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05607219"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2039607"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2287974",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-23"},
+          "Release-Date": {"_$": "2016-08-24"},
+          "Last-Update-Date": {"_$": "2016-08-24"}
+        },
+        "Title": {"_$": "15d-PGJ2-PC rep1"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2287974"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "BMDM_15d-PGJ2-PC"},
+          "Organism": {
+            "@taxid": "10090",
+            "_$": "Mus musculus"
+          },
+          "Characteristics": [
+            {
+              "@tag": "strain",
+              "_$": "C57BL/6"
+            },
+            {
+              "@tag": "age",
+              "_$": "8 weeks"
+            },
+            {
+              "@tag": "tissue",
+              "_$": "bone marrow-derived macrophage (BMDM)"
+            },
+            {
+              "@tag": "treated with",
+              "_$": "1μM 15d-PGJ2-PC  for 6h"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "Cells were treated with 1μM 15d-PGJ2,15d-PGJ2-PC or media control for 6h."},
+          "Growth-Protocol": {"_$": "BMDMs were cultured in RPMI medium."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Cells were flash frozen on dry ice, and RNA was harvested using Trizol reagent. Illumina TruSeq RNA Sample Prep Kit (Cat#FC-122-1001) was used for the construction of sequencing libraries.\nRNA libraries were prepared for sequencing using standard Illumina protocols."}
+        },
+        "Data-Processing": {"_$": "Illumina Casava1.7 software used for basecalling.\nSequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to mm10 whole genome using BWA with parameters -o 1 -e 50 -i 50 -L -k 2 -l 31 -t 4 -q 10.\nFPKM  method was used in calculated expression level.\nNOISeq method  was used to screen differentially expressed genes between two groups.\nGenome_build: mm10\nSupplementary_files_format_and_content: a tab-delimited text include FPKM values for each Sample."},
+        "Platform-Ref": {"@ref": "GPL21103"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 4000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2039608"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05607218"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2039608"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2287975",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-23"},
+          "Release-Date": {"_$": "2016-08-24"},
+          "Last-Update-Date": {"_$": "2016-08-24"}
+        },
+        "Title": {"_$": "15d-PGJ2-PC rep2"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2287975"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "BMDM_15d-PGJ2-PC"},
+          "Organism": {
+            "@taxid": "10090",
+            "_$": "Mus musculus"
+          },
+          "Characteristics": [
+            {
+              "@tag": "strain",
+              "_$": "C57BL/6"
+            },
+            {
+              "@tag": "age",
+              "_$": "8 weeks"
+            },
+            {
+              "@tag": "tissue",
+              "_$": "bone marrow-derived macrophage (BMDM)"
+            },
+            {
+              "@tag": "treated with",
+              "_$": "1μM 15d-PGJ2-PC  for 6h"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "Cells were treated with 1μM 15d-PGJ2,15d-PGJ2-PC or media control for 6h."},
+          "Growth-Protocol": {"_$": "BMDMs were cultured in RPMI medium."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Cells were flash frozen on dry ice, and RNA was harvested using Trizol reagent. Illumina TruSeq RNA Sample Prep Kit (Cat#FC-122-1001) was used for the construction of sequencing libraries.\nRNA libraries were prepared for sequencing using standard Illumina protocols."}
+        },
+        "Data-Processing": {"_$": "Illumina Casava1.7 software used for basecalling.\nSequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to mm10 whole genome using BWA with parameters -o 1 -e 50 -i 50 -L -k 2 -l 31 -t 4 -q 10.\nFPKM  method was used in calculated expression level.\nNOISeq method  was used to screen differentially expressed genes between two groups.\nGenome_build: mm10\nSupplementary_files_format_and_content: a tab-delimited text include FPKM values for each Sample."},
+        "Platform-Ref": {"@ref": "GPL21103"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 4000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2039609"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05607213"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2039609"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2287976",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-23"},
+          "Release-Date": {"_$": "2016-08-24"},
+          "Last-Update-Date": {"_$": "2016-08-24"}
+        },
+        "Title": {"_$": "15d-PGJ2-PC rep3"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2287976"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "BMDM_15d-PGJ2-PC"},
+          "Organism": {
+            "@taxid": "10090",
+            "_$": "Mus musculus"
+          },
+          "Characteristics": [
+            {
+              "@tag": "strain",
+              "_$": "C57BL/6"
+            },
+            {
+              "@tag": "age",
+              "_$": "8 weeks"
+            },
+            {
+              "@tag": "tissue",
+              "_$": "bone marrow-derived macrophage (BMDM)"
+            },
+            {
+              "@tag": "treated with",
+              "_$": "1μM 15d-PGJ2-PC  for 6h"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "Cells were treated with 1μM 15d-PGJ2,15d-PGJ2-PC or media control for 6h."},
+          "Growth-Protocol": {"_$": "BMDMs were cultured in RPMI medium."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "Cells were flash frozen on dry ice, and RNA was harvested using Trizol reagent. Illumina TruSeq RNA Sample Prep Kit (Cat#FC-122-1001) was used for the construction of sequencing libraries.\nRNA libraries were prepared for sequencing using standard Illumina protocols."}
+        },
+        "Data-Processing": {"_$": "Illumina Casava1.7 software used for basecalling.\nSequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to mm10 whole genome using BWA with parameters -o 1 -e 50 -i 50 -L -k 2 -l 31 -t 4 -q 10.\nFPKM  method was used in calculated expression level.\nNOISeq method  was used to screen differentially expressed genes between two groups.\nGenome_build: mm10\nSupplementary_files_format_and_content: a tab-delimited text include FPKM values for each Sample."},
+        "Platform-Ref": {"@ref": "GPL21103"},
+        "Library-Strategy": {"_$": "RNA-Seq"},
+        "Library-Source": {"_$": "transcriptomic"},
+        "Library-Selection": {"_$": "cDNA"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina HiSeq 4000"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "SRA Experiment",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX203/SRX2039610"
+        },
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05607212"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2039610"
+          }
+        ]
+      }
+    ],
+    "Series": {
+      "@iid": "GSE85931",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2016-08-23"},
+        "Release-Date": {"_$": "2016-08-24"},
+        "Last-Update-Date": {"_$": "2016-11-10"}
+      },
+      "Title": {"_$": "Transcriptome profile of murine bone marrow-derived macrophages treated with 15d-PGJ2 or 15d-PGJ2-PC"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GSE85931"
+      },
+      "Summary": {"_$": "Purpose: The goal of this study is to investigate the alteration of gene expression pattern induced by 15d-PGJ2 or 15d-PGJ2-PC in BMDMs.\nMethod: BMDMs obtained from C57BL/6 mice were treated with 15d-PGJ2, 15d-PGJ2-PC or media control for 6h. Then RNA sequence was generated by using the Illumina system.\nResults: Using an optimized data analysis workflow, we mapped about 13 million sequence reads per sample to the mouse genome and identified about 14,500 transcripts in the macrophage mRNAs. Among them, 719 and 286 genes were differentially expressed in 15d-PGJ2 and 15d-PGJ2-PC group respectively.\nConclusions: Deoxy-A2/J2-IsoP-PC are a novel series of oxidation products we identified in atherosclerotic plaques. 15d-PGJ2-PC is a representative compound of these oxidation products we chemically synthesised. Using RNA-seq technology, we provided 15d-PGJ2-PC induced gene expression profile and could contribute to  study the roles of these novel oxidation products in the atherosclerosis."},
+      "Overall-Design": {"_$": "mRNA profiles of BMDMs from C57B/L6 mice were generated by deep sequencing, in triplicate, using Illumina."},
+      "Type": {"_$": "Expression profiling by high throughput sequencing"},
+      "Contributor-Ref": [
+        {
+          "@ref": "contrib3",
+          "@position": "1"
+        },
+        {
+          "@ref": "contrib1",
+          "@position": "2"
+        }
+      ],
+      "Contact-Ref": {"@ref": "contrib1"},
+      "Sample-Ref": [
+        {"@ref": "GSM2287968"},
+        {"@ref": "GSM2287969"},
+        {"@ref": "GSM2287970"},
+        {"@ref": "GSM2287971"},
+        {"@ref": "GSM2287972"},
+        {"@ref": "GSM2287973"},
+        {"@ref": "GSM2287974"},
+        {"@ref": "GSM2287975"},
+        {"@ref": "GSM2287976"}
+      ],
+      "Supplementary-Data": [
+        {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE85931/GSE85931_all.gene.FPKM.txt.gz"
+        },
+        {
+          "@type": "SRA Study",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP082/SRP082563"
+        }
+      ],
+      "Relation": [
+        {
+          "@type": "BioProject",
+          "@target": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA339783"
+        },
+        {
+          "@type": "SRA",
+          "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRP082563"
+        }
+      ]
+    }
+  },
+  "_@default": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML",
+  "_@xml": "http://www.w3.org/XML/1998/namespace",
+  "_@xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

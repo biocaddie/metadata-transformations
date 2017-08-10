@@ -1,0 +1,112 @@
+/* Dataset Basic Information */
+transform column "$.'pr_nif_0000_03160_1'.'dataset_id'" to "dataset.ID" apply {{ result = 'MPD:' + value }};
+transform column "$.'pr_nif_0000_03160_1'.'title'" to "dataset.title";
+transform column "$.'pr_nif_0000_03160_1'.'description'" to "dataset.description";
+
+/* Dataset Landing Page*/
+transform column "$.'pr_nif_0000_03160_1'.'dataset_symbol'" to "access.landingPage" apply {{ result = 'http://phenome.jax.org/db/q?rtn=projects/details&sym=' + value }};
+
+/* Dataset Creator -- Need extract author name(s) from "reference" column */
+transform column "$.'pr_nif_0000_03160_1'.'reference'" to "dataset.creators[]" apply 
+{{
+arr=[]
+m = re.search(r"(19|20)\d{2}",value)
+if m is not None: arr = re.split("\s*;\s*",value[m.end():],)
+result=arr
+}};
+
+/* Dataset Release Date Information -- information of "dataset.dateReleased" not availabe in DISCO but available on source website */
+transform column "$.'pr_nif_0000_03160_1'.'nstrains'" to "dataset.size";
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = "strain";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "not applicable";
+let "dataset.refinement" = "curated";
+
+/* Information on Dataset Distributions */
+
+/* Dataset Distribution - animal table */
+let "datasetDistributions[0].format" = "CSV";
+let "datasetDistributions[0].storedIn" = "Mouse Phenome Database";
+let "datasetDistributions[0].qualifier" = "not compressed";
+transform column "$.'pr_nif_0000_03160_1'.'dataset_symbol'" to "datasetDistributions[0].accessURL" apply {{ result='http://phenome.jax.org/tmp/' + value + '_table.csv' }};
+let "datasetDistributions[0].accessType" = "download";
+let "datasetDistributions[0].authorization" = "none";
+let "datasetDistributions[0].authentication" = "none";  
+
+/* Dataset Distribution - animal list */
+let "datasetDistributions[1].format" = "CSV";
+let "datasetDistributions[1].storedIn" = "Mouse Phenome Database";
+let "datasetDistributions[1].qualifier" = "not compressed";
+transform column "$.'pr_nif_0000_03160_1'.'dataset_symbol'" to "datasetDistributions[1].accessURL" apply {{ result='http://phenome.jax.org/tmp/' + value + '_list.csv' }};
+let "datasetDistributions[1].accessType" = "download";
+let "datasetDistributions[1].authorization" = "none";
+let "datasetDistributions[1].authentication" = "none"; 
+
+/* Dataset Distribution - strain means */
+let "datasetDistributions[2].format" = "CSV";
+let "datasetDistributions[2].storedIn" = "Mouse Phenome Database";
+let "datasetDistributions[2].qualifier" = "not compressed";
+let "datasetDistributions[2].accessType" = "download";
+let "datasetDistributions[2].authorization" = "none";
+let "datasetDistributions[2].authentication" = "none"; 
+
+/* Pulication Information -- Need extract "authors" and "year" from "reference" column
+*/
+
+transform column "$.'pr_nif_0000_03160_1'.'reference'" to "primaryPublication.authors[]" apply 
+{{
+arr=[]
+m = re.search(r"(19|20)\d{2}",value)
+if m is not None: arr = re.split("\s*;\s*",value[m.end():],)
+result=arr
+}};
+
+transform column "$.'pr_nif_0000_03160_1'.'reference'" to "primaryPublication.year" apply 
+{{
+result=""
+m = re.search(r"(19|20)\d{2}",value)
+if m is not None: result=value[m.start():m.end()]
+}};
+
+
+/* Data Repository Information */
+let "dataRepository.name" = "Mouse Phenome Database";
+let "dataRepository.abbreviation" = "MPD";
+let "dataRepository.ID" = "SCR:003212";
+let "dataRepository.homePage" = "http://phenome.jax.org/";
+
+/* Dimension Information */
+transform column "$.'pr_nif_0000_03160_1'.'dataset_measurements'" to "dimension[].name" apply {{
+arr=re.split("\s*;\s*",value,)
+result=arr
+}};
+
+/* Organization Information */
+let "organization.ID" = "SCR:004633";
+let "organization.name" = "Jackson Laboratory";
+let "organization.abbreviation" = "JAX";
+let "organization.homePage" = "http://www.jax.org/index.html";
+
+/* Taxonomic Information */
+let "taxonomicInformation[0].name" = "mus musculus";
+transform column "$.'pr_nif_0000_03160_1'.'strainpanel'" to "taxonomicInformation[0].strain";
+
+/* Items not included */
+/*
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+transform column "$.'url'" to "url";
+transform column "$.'gender'" to "dataset.gender";
+transform column "$.'specific_categories'" to "specific_categories";
+transform column "$.'broad_categories'" to "broad_categories";
+transform column "$.'reference'" to "reference";
+transform column "$.'dataset_granularity'" to "dataset_granularity";
+transform column "$.'strainpanel'" to "organism[0].name" apply {{ result = 'mouse' }};
+transform column "$.'pr_nif_0000_03160_1'.'datasettype'" to "dataset.dataType";
+
+*/

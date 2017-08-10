@@ -1,0 +1,802 @@
+{
+  "MINiML": {
+    "@xsi:schemaLocation": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd",
+    "@version": "0.5.0",
+    "Contributor": [
+      {
+        "@iid": "contrib1",
+        "Person": {
+          "First": {"_$": "Keiko"},
+          "Last": {"_$": "Muguruma"}
+        },
+        "Email": {"_$": "keiko.muguruma@riken.jp"},
+        "Organization": {"_$": "RIKEN"},
+        "Address": {
+          "Line": {"_$": "2-2-3Minatojima-minamimachi, Chuo"},
+          "City": {"_$": "Kobe"},
+          "Postal-Code": {"_$": "6500047"},
+          "Country": {"_$": "Japan"}
+        }
+      },
+      {
+        "@iid": "contrib2",
+        "Person": {
+          "First": {"_$": "GEO"},
+          "Last": {"_$": "admin"}
+        },
+        "Email": {"_$": "geo@ncbi.nlm.nih.gov"},
+        "Organization": {"_$": "NCBI/NLM/NIH"},
+        "Address": {
+          "Line": {"_$": "9000 Rockville Pike"},
+          "City": {"_$": "Bethesda"},
+          "State": {"_$": "MD"},
+          "Zip-Code": {"_$": "20892"},
+          "Country": {"_$": "USA"}
+        }
+      },
+      {
+        "@iid": "contrib3",
+        "Person": {
+          "First": {"_$": "Hideshi"},
+          "Last": {"_$": "Kawakami"}
+        }
+      },
+      {
+        "@iid": "contrib4",
+        "Person": {
+          "First": {"_$": "Hiroyuki"},
+          "Last": {"_$": "Kitajima"}
+        }
+      },
+      {
+        "@iid": "contrib5",
+        "Person": {
+          "First": {"_$": "Ayaka"},
+          "Last": {"_$": "Nishiyama"}
+        }
+      },
+      {
+        "@iid": "contrib6",
+        "Person": {
+          "First": {"_$": "Yoshiki"},
+          "Last": {"_$": "Sasai"}
+        }
+      },
+      {
+        "@iid": "contrib7",
+        "Person": {
+          "First": {"_$": "Haruhisa"},
+          "Last": {"_$": "Inoue"}
+        }
+      }
+    ],
+    "Database": {
+      "@iid": "GEO",
+      "Name": {"_$": "Gene Expression Omnibus (GEO)"},
+      "Public-ID": {"_$": "GEO"},
+      "Organization": {"_$": "NCBI NLM NIH"},
+      "Web-Link": {"_$": "http://www.ncbi.nlm.nih.gov/geo"},
+      "Email": {"_$": "geo@ncbi.nlm.nih.gov"}
+    },
+    "Platform": {
+      "@iid": "GPL21185",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2015-11-30"},
+        "Release-Date": {"_$": "2015-11-30"},
+        "Last-Update-Date": {"_$": "2015-11-30"}
+      },
+      "Title": {"_$": "Agilent-072363 SurePrint G3 Human GE v3 8x60K Microarray 039494 [Probe Name Version]"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GPL21185"
+      },
+      "Technology": {"_$": "in situ oligonucleotide"},
+      "Distribution": {"_$": "commercial"},
+      "Organism": {
+        "@taxid": "9606",
+        "_$": "Homo sapiens"
+      },
+      "Manufacturer": {"_$": "Agilent Technologies"},
+      "Manufacture-Protocol": {"_$": "see manufacturer's web site at http://www.agilent.com/"},
+      "Description": {"_$": "Catalog gene expression microarray for Human, v3 8x60K\n\nArrays of this design have barcodes that begin with 16072363 or 2572363."},
+      "Contact-Ref": {"@ref": "contrib2"},
+      "Relation": {
+        "@type": "Alternative to",
+        "@target": "GPL20844",
+        "@comment": "Feature Number Version"
+      },
+      "Data-Table": {
+        "Column": [
+          {
+            "@position": "1",
+            "Name": {"_$": "ID"},
+            "Description": {"_$": "Agilent Probe Name"}
+          },
+          {
+            "@position": "2",
+            "Name": {"_$": "CONTROL_TYPE"},
+            "Description": {"_$": "Control type"}
+          },
+          {
+            "@position": "3",
+            "Name": {"_$": "REFSEQ"},
+            "Description": {"_$": "RefSeqAccession"}
+          },
+          {
+            "@position": "4",
+            "Name": {"_$": "GB_ACC"},
+            "Description": {"_$": "GenBankAccession"},
+            "Link-Prefix": {"_$": "http://www.ncbi.nlm.nih.gov/nuccore/?term="}
+          },
+          {
+            "@position": "5",
+            "Name": {"_$": "LOCUSLINK_ID"},
+            "Description": {"_$": "LocuslinkID"}
+          },
+          {
+            "@position": "6",
+            "Name": {"_$": "GENE_SYMBOL"},
+            "Description": {"_$": "Gene Symbol"}
+          },
+          {
+            "@position": "7",
+            "Name": {"_$": "GENE_NAME"},
+            "Description": {"_$": "Gene Name"}
+          },
+          {
+            "@position": "8",
+            "Name": {"_$": "UNIGENE_ID"},
+            "Description": {"_$": "UnigeneID"}
+          },
+          {
+            "@position": "9",
+            "Name": {"_$": "ENSEMBL_ID"},
+            "Description": {"_$": "EnsemblID"}
+          },
+          {
+            "@position": "10",
+            "Name": {"_$": "ACCESSION_STRING"},
+            "Description": {"_$": "Accession String"}
+          },
+          {
+            "@position": "11",
+            "Name": {"_$": "CHROMOSOMAL_LOCATION"},
+            "Description": {"_$": "Chromosomal Location"}
+          },
+          {
+            "@position": "12",
+            "Name": {"_$": "CYTOBAND"},
+            "Description": {"_$": "Cytoband"}
+          },
+          {
+            "@position": "13",
+            "Name": {"_$": "DESCRIPTION"},
+            "Description": {"_$": "Description"}
+          },
+          {
+            "@position": "14",
+            "Name": {"_$": "GO_ID"},
+            "Description": {"_$": "GoIDs"}
+          },
+          {
+            "@position": "15",
+            "Name": {"_$": "SEQUENCE"},
+            "Description": {"_$": "Sequence"}
+          },
+          {
+            "@position": "16",
+            "Name": {"_$": "SPOT_ID"},
+            "Description": {"_$": "Spot identifier"}
+          }
+        ],
+        "External-Data": {
+          "@rows": "58341",
+          "_$": "GPL21185-tbl-1.txt"
+        }
+      }
+    },
+    "Sample": [
+      {
+        "@iid": "GSM2265475",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2016-11-08"},
+          "Last-Update-Date": {"_$": "2016-11-08"}
+        },
+        "Title": {"_$": "Day35 Control-derived neural progenitor cells 1"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265475"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Day35 Control-derived neural progenitor cells"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "iPSC-derived neural progenitor"
+            },
+            {
+              "@tag": "sample source",
+              "_$": "healthy control"
+            }
+          ],
+          "Growth-Protocol": {"_$": "hiPSCs were differentiated in three-dimenstional condition with SFEBq culture."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "iPSC-derived neural progenitors were collected on culture day35, and total RNA was extracted and purified using RNA mini kit (QIAGEN)."},
+          "Label": {"_$": "cy3"},
+          "Label-Protocol": {"_$": "Cyanine-3 (Cy3) labeled cRNA was prepared from 100 ng Total RNA using the One-Color Low Input Quick Amp labeling kit (Agilent:One-Colr) according to the manufacturer's instructions."}
+        },
+        "Hybridization-Protocol": {"_$": "0.6 ug of Cy3-labelled cRNA was fragmented at 60°C for 30 minutes in a Agilent fragmentation buffer and was hybridized at 65°C for 17 hr using Gene Expression Hybridization Kit."},
+        "Scan-Protocol": {"_$": "Slides were scanned on the Agilent SureScan Microarray Scanner (G2600D) after washing with Agilent gene Expression Wash Buffers Pack ."},
+        "Description": {"_$": "none"},
+        "Data-Processing": {"_$": "The scanned images were analyzed with Feature Extraction Software 11.5.1.1 (Agilent) and Subio Platform (ver. 1.19.4941, Subio Inc). gProcessedSignals were normalized to the 75th percentiles, and   transformed into log2 ratio against the average value of normalized intensities of 4 control iPSCs."},
+        "Platform-Ref": {"@ref": "GPL21185"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265475/GSM2265475_AR2512_01raw.txt.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "Normalized signal intensity"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "58341",
+            "_$": "GSM2265475-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2265476",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2016-11-08"},
+          "Last-Update-Date": {"_$": "2016-11-08"}
+        },
+        "Title": {"_$": "Day35 Control-derived neural progenitor cells 2"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265476"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Day35 Control-derived neural progenitor cells"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "iPSC-derived neural progenitor"
+            },
+            {
+              "@tag": "sample source",
+              "_$": "healthy control"
+            }
+          ],
+          "Growth-Protocol": {"_$": "hiPSCs were differentiated in three-dimenstional condition with SFEBq culture."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "iPSC-derived neural progenitors were collected on culture day35, and total RNA was extracted and purified using RNA mini kit (QIAGEN)."},
+          "Label": {"_$": "cy3"},
+          "Label-Protocol": {"_$": "Cyanine-3 (Cy3) labeled cRNA was prepared from 100 ng Total RNA using the One-Color Low Input Quick Amp labeling kit (Agilent:One-Colr) according to the manufacturer's instructions."}
+        },
+        "Hybridization-Protocol": {"_$": "0.6 ug of Cy3-labelled cRNA was fragmented at 60°C for 30 minutes in a Agilent fragmentation buffer and was hybridized at 65°C for 17 hr using Gene Expression Hybridization Kit."},
+        "Scan-Protocol": {"_$": "Slides were scanned on the Agilent SureScan Microarray Scanner (G2600D) after washing with Agilent gene Expression Wash Buffers Pack ."},
+        "Description": {"_$": "none"},
+        "Data-Processing": {"_$": "The scanned images were analyzed with Feature Extraction Software 11.5.1.1 (Agilent) and Subio Platform (ver. 1.19.4941, Subio Inc). gProcessedSignals were normalized to the 75th percentiles, and   transformed into log2 ratio against the average value of normalized intensities of 4 control iPSCs."},
+        "Platform-Ref": {"@ref": "GPL21185"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265476/GSM2265476_AR2512_02raw.txt.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "Normalized signal intensity"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "58341",
+            "_$": "GSM2265476-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2265477",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2016-11-08"},
+          "Last-Update-Date": {"_$": "2016-11-08"}
+        },
+        "Title": {"_$": "Day35 Control-derived neural progenitor cells 3"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265477"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Day35 Control-derived neural progenitor cells"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "iPSC-derived neural progenitor"
+            },
+            {
+              "@tag": "sample source",
+              "_$": "healthy control"
+            }
+          ],
+          "Growth-Protocol": {"_$": "hiPSCs were differentiated in three-dimenstional condition with SFEBq culture."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "iPSC-derived neural progenitors were collected on culture day35, and total RNA was extracted and purified using RNA mini kit (QIAGEN)."},
+          "Label": {"_$": "cy3"},
+          "Label-Protocol": {"_$": "Cyanine-3 (Cy3) labeled cRNA was prepared from 100 ng Total RNA using the One-Color Low Input Quick Amp labeling kit (Agilent:One-Colr) according to the manufacturer's instructions."}
+        },
+        "Hybridization-Protocol": {"_$": "0.6 ug of Cy3-labelled cRNA was fragmented at 60°C for 30 minutes in a Agilent fragmentation buffer and was hybridized at 65°C for 17 hr using Gene Expression Hybridization Kit."},
+        "Scan-Protocol": {"_$": "Slides were scanned on the Agilent SureScan Microarray Scanner (G2600D) after washing with Agilent gene Expression Wash Buffers Pack ."},
+        "Description": {"_$": "none"},
+        "Data-Processing": {"_$": "The scanned images were analyzed with Feature Extraction Software 11.5.1.1 (Agilent) and Subio Platform (ver. 1.19.4941, Subio Inc). gProcessedSignals were normalized to the 75th percentiles, and   transformed into log2 ratio against the average value of normalized intensities of 4 control iPSCs."},
+        "Platform-Ref": {"@ref": "GPL21185"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265477/GSM2265477_AR2512_03raw.txt.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "Normalized signal intensity"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "58341",
+            "_$": "GSM2265477-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2265478",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2016-11-08"},
+          "Last-Update-Date": {"_$": "2016-11-08"}
+        },
+        "Title": {"_$": "Day35 Control-derived neural progenitor cells 4"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265478"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Day35 Control-derived neural progenitor cells"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "iPSC-derived neural progenitor"
+            },
+            {
+              "@tag": "sample source",
+              "_$": "healthy control"
+            }
+          ],
+          "Growth-Protocol": {"_$": "hiPSCs were differentiated in three-dimenstional condition with SFEBq culture."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "iPSC-derived neural progenitors were collected on culture day35, and total RNA was extracted and purified using RNA mini kit (QIAGEN)."},
+          "Label": {"_$": "cy3"},
+          "Label-Protocol": {"_$": "Cyanine-3 (Cy3) labeled cRNA was prepared from 100 ng Total RNA using the One-Color Low Input Quick Amp labeling kit (Agilent:One-Colr) according to the manufacturer's instructions."}
+        },
+        "Hybridization-Protocol": {"_$": "0.6 ug of Cy3-labelled cRNA was fragmented at 60°C for 30 minutes in a Agilent fragmentation buffer and was hybridized at 65°C for 17 hr using Gene Expression Hybridization Kit."},
+        "Scan-Protocol": {"_$": "Slides were scanned on the Agilent SureScan Microarray Scanner (G2600D) after washing with Agilent gene Expression Wash Buffers Pack ."},
+        "Description": {"_$": "none"},
+        "Data-Processing": {"_$": "The scanned images were analyzed with Feature Extraction Software 11.5.1.1 (Agilent) and Subio Platform (ver. 1.19.4941, Subio Inc). gProcessedSignals were normalized to the 75th percentiles, and   transformed into log2 ratio against the average value of normalized intensities of 4 control iPSCs."},
+        "Platform-Ref": {"@ref": "GPL21185"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265478/GSM2265478_AR2512_04raw.txt.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "Normalized signal intensity"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "58341",
+            "_$": "GSM2265478-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2265479",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2016-11-08"},
+          "Last-Update-Date": {"_$": "2016-11-08"}
+        },
+        "Title": {"_$": "Day35 Case-derived neural progenitor cells 1"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265479"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Day35 Case-derived neural progenitor cells"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "iPSC-derived neural progenitor"
+            },
+            {
+              "@tag": "sample source",
+              "_$": "spinocerebellar ataxia type 6 patient"
+            }
+          ],
+          "Growth-Protocol": {"_$": "hiPSCs were differentiated in three-dimenstional condition with SFEBq culture."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "iPSC-derived neural progenitors were collected on culture day35, and total RNA was extracted and purified using RNA mini kit (QIAGEN)."},
+          "Label": {"_$": "cy3"},
+          "Label-Protocol": {"_$": "Cyanine-3 (Cy3) labeled cRNA was prepared from 100 ng Total RNA using the One-Color Low Input Quick Amp labeling kit (Agilent:One-Colr) according to the manufacturer's instructions."}
+        },
+        "Hybridization-Protocol": {"_$": "0.6 ug of Cy3-labelled cRNA was fragmented at 60°C for 30 minutes in a Agilent fragmentation buffer and was hybridized at 65°C for 17 hr using Gene Expression Hybridization Kit."},
+        "Scan-Protocol": {"_$": "Slides were scanned on the Agilent SureScan Microarray Scanner (G2600D) after washing with Agilent gene Expression Wash Buffers Pack ."},
+        "Description": {"_$": "none"},
+        "Data-Processing": {"_$": "The scanned images were analyzed with Feature Extraction Software 11.5.1.1 (Agilent) and Subio Platform (ver. 1.19.4941, Subio Inc). gProcessedSignals were normalized to the 75th percentiles, and   transformed into log2 ratio against the average value of normalized intensities of 4 control iPSCs."},
+        "Platform-Ref": {"@ref": "GPL21185"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265479/GSM2265479_AR2512_05raw.txt.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "Normalized signal intensity"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "58341",
+            "_$": "GSM2265479-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2265480",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2016-11-08"},
+          "Last-Update-Date": {"_$": "2016-11-08"}
+        },
+        "Title": {"_$": "Day35 Case-derived neural progenitor cells 2"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265480"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Day35 Case-derived neural progenitor cells"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "iPSC-derived neural progenitor"
+            },
+            {
+              "@tag": "sample source",
+              "_$": "spinocerebellar ataxia type 6 patient"
+            }
+          ],
+          "Growth-Protocol": {"_$": "hiPSCs were differentiated in three-dimenstional condition with SFEBq culture."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "iPSC-derived neural progenitors were collected on culture day35, and total RNA was extracted and purified using RNA mini kit (QIAGEN)."},
+          "Label": {"_$": "cy3"},
+          "Label-Protocol": {"_$": "Cyanine-3 (Cy3) labeled cRNA was prepared from 100 ng Total RNA using the One-Color Low Input Quick Amp labeling kit (Agilent:One-Colr) according to the manufacturer's instructions."}
+        },
+        "Hybridization-Protocol": {"_$": "0.6 ug of Cy3-labelled cRNA was fragmented at 60°C for 30 minutes in a Agilent fragmentation buffer and was hybridized at 65°C for 17 hr using Gene Expression Hybridization Kit."},
+        "Scan-Protocol": {"_$": "Slides were scanned on the Agilent SureScan Microarray Scanner (G2600D) after washing with Agilent gene Expression Wash Buffers Pack ."},
+        "Description": {"_$": "none"},
+        "Data-Processing": {"_$": "The scanned images were analyzed with Feature Extraction Software 11.5.1.1 (Agilent) and Subio Platform (ver. 1.19.4941, Subio Inc). gProcessedSignals were normalized to the 75th percentiles, and   transformed into log2 ratio against the average value of normalized intensities of 4 control iPSCs."},
+        "Platform-Ref": {"@ref": "GPL21185"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265480/GSM2265480_AR2512_06raw.txt.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "Normalized signal intensity"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "58341",
+            "_$": "GSM2265480-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2265481",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2016-11-08"},
+          "Last-Update-Date": {"_$": "2016-11-08"}
+        },
+        "Title": {"_$": "Day35 Case-derived neural progenitor cells 3"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265481"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Day35 Case-derived neural progenitor cells"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "iPSC-derived neural progenitor"
+            },
+            {
+              "@tag": "sample source",
+              "_$": "spinocerebellar ataxia type 6 patient"
+            }
+          ],
+          "Growth-Protocol": {"_$": "hiPSCs were differentiated in three-dimenstional condition with SFEBq culture."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "iPSC-derived neural progenitors were collected on culture day35, and total RNA was extracted and purified using RNA mini kit (QIAGEN)."},
+          "Label": {"_$": "cy3"},
+          "Label-Protocol": {"_$": "Cyanine-3 (Cy3) labeled cRNA was prepared from 100 ng Total RNA using the One-Color Low Input Quick Amp labeling kit (Agilent:One-Colr) according to the manufacturer's instructions."}
+        },
+        "Hybridization-Protocol": {"_$": "0.6 ug of Cy3-labelled cRNA was fragmented at 60°C for 30 minutes in a Agilent fragmentation buffer and was hybridized at 65°C for 17 hr using Gene Expression Hybridization Kit."},
+        "Scan-Protocol": {"_$": "Slides were scanned on the Agilent SureScan Microarray Scanner (G2600D) after washing with Agilent gene Expression Wash Buffers Pack ."},
+        "Description": {"_$": "none"},
+        "Data-Processing": {"_$": "The scanned images were analyzed with Feature Extraction Software 11.5.1.1 (Agilent) and Subio Platform (ver. 1.19.4941, Subio Inc). gProcessedSignals were normalized to the 75th percentiles, and   transformed into log2 ratio against the average value of normalized intensities of 4 control iPSCs."},
+        "Platform-Ref": {"@ref": "GPL21185"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265481/GSM2265481_AR2512_07raw.txt.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "Normalized signal intensity"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "58341",
+            "_$": "GSM2265481-tbl-1.txt"
+          }
+        }
+      },
+      {
+        "@iid": "GSM2265482",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2016-11-08"},
+          "Last-Update-Date": {"_$": "2016-11-08"}
+        },
+        "Title": {"_$": "Day35 Case-derived neural progenitor cells 4"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265482"
+        },
+        "Type": {"_$": "RNA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Day35 Case-derived neural progenitor cells"},
+          "Organism": {
+            "@taxid": "9606",
+            "_$": "Homo sapiens"
+          },
+          "Characteristics": [
+            {
+              "@tag": "cell type",
+              "_$": "iPSC-derived neural progenitor"
+            },
+            {
+              "@tag": "sample source",
+              "_$": "spinocerebellar ataxia type 6 patient"
+            }
+          ],
+          "Growth-Protocol": {"_$": "hiPSCs were differentiated in three-dimenstional condition with SFEBq culture."},
+          "Molecule": {"_$": "total RNA"},
+          "Extract-Protocol": {"_$": "iPSC-derived neural progenitors were collected on culture day35, and total RNA was extracted and purified using RNA mini kit (QIAGEN)."},
+          "Label": {"_$": "cy3"},
+          "Label-Protocol": {"_$": "Cyanine-3 (Cy3) labeled cRNA was prepared from 100 ng Total RNA using the One-Color Low Input Quick Amp labeling kit (Agilent:One-Colr) according to the manufacturer's instructions."}
+        },
+        "Hybridization-Protocol": {"_$": "0.6 ug of Cy3-labelled cRNA was fragmented at 60°C for 30 minutes in a Agilent fragmentation buffer and was hybridized at 65°C for 17 hr using Gene Expression Hybridization Kit."},
+        "Scan-Protocol": {"_$": "Slides were scanned on the Agilent SureScan Microarray Scanner (G2600D) after washing with Agilent gene Expression Wash Buffers Pack ."},
+        "Description": {"_$": "none"},
+        "Data-Processing": {"_$": "The scanned images were analyzed with Feature Extraction Software 11.5.1.1 (Agilent) and Subio Platform (ver. 1.19.4941, Subio Inc). gProcessedSignals were normalized to the 75th percentiles, and   transformed into log2 ratio against the average value of normalized intensities of 4 control iPSCs."},
+        "Platform-Ref": {"@ref": "GPL21185"},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": {
+          "@type": "TXT",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265482/GSM2265482_AR2512_08raw.txt.gz"
+        },
+        "Data-Table": {
+          "Column": [
+            {
+              "@position": "1",
+              "Name": {"_$": "ID_REF"}
+            },
+            {
+              "@position": "2",
+              "Name": {"_$": "VALUE"},
+              "Description": {"_$": "Normalized signal intensity"}
+            }
+          ],
+          "External-Data": {
+            "@rows": "58341",
+            "_$": "GSM2265482-tbl-1.txt"
+          }
+        }
+      }
+    ],
+    "Series": {
+      "@iid": "GSE85348",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2016-08-09"},
+        "Release-Date": {"_$": "2016-11-08"},
+        "Last-Update-Date": {"_$": "2017-02-08"}
+      },
+      "Title": {"_$": "Vulnerability of Purkinje cells induced from spinocerebellar ataxia type 6 patient-derived iPS cells [2]"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GSE85348"
+      },
+      "Pubmed-ID": {"_$": "27806289"},
+      "Summary": {"_$": "Spinocerebellar ataxia type 6 (SCA6) is a dominantly inherited neurodegenerative disease characterized by loss of Purkinje cells in the cerebellum. It is known to be caused by CAG trinucleotide repeat expansion in CACNA1A, the gene that encodes Cav2.1, α1A subunit of P/Q-type calcium channel. However, the pathogenic mechanism and effective therapeutic treatments are still unknown. Here we have succeeded in generation of mature Purkinje cells that carry the patient genes by combining patient-derived iPS cell and self-organizing culture technologies. Patient-derived Purkinje cells exhibited upregulation of whole Cav2.1 protein while downregulation of its C-terminal fragment and the transcriptional targets TAF1 and BTG1. We further demonstrate that patient Purkinje cells exhibit thyroid hormone depletion-dependent degeneration, which can be suppressed by two compounds, thyroid releasing hormone and Riluzole. Thus we have constructed an in vitro disease model recapitulating both ontogenesis and pathogenesis. This model would be useful for pathogenic investigation and drug screening"},
+      "Overall-Design": {"_$": "Examination of mRNA profile in iPSC-derived neural progenitors from 4 repeated healthy control and 4 repeated cases"},
+      "Type": {"_$": "Expression profiling by array"},
+      "Contributor-Ref": [
+        {
+          "@ref": "contrib1",
+          "@position": "1"
+        },
+        {
+          "@ref": "contrib3",
+          "@position": "2"
+        },
+        {
+          "@ref": "contrib4",
+          "@position": "3"
+        },
+        {
+          "@ref": "contrib5",
+          "@position": "4"
+        },
+        {
+          "@ref": "contrib6",
+          "@position": "5"
+        },
+        {
+          "@ref": "contrib7",
+          "@position": "6"
+        }
+      ],
+      "Contact-Ref": {"@ref": "contrib1"},
+      "Sample-Ref": [
+        {"@ref": "GSM2265475"},
+        {"@ref": "GSM2265476"},
+        {"@ref": "GSM2265477"},
+        {"@ref": "GSM2265478"},
+        {"@ref": "GSM2265479"},
+        {"@ref": "GSM2265480"},
+        {"@ref": "GSM2265481"},
+        {"@ref": "GSM2265482"}
+      ],
+      "Supplementary-Data": {
+        "@type": "TAR",
+        "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE85348/GSE85348_RAW.tar"
+      },
+      "Relation": [
+        {
+          "@type": "SubSeries of",
+          "@target": "GSE85349"
+        },
+        {
+          "@type": "BioProject",
+          "@target": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA338241"
+        }
+      ]
+    }
+  },
+  "_@default": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML",
+  "_@xml": "http://www.w3.org/XML/1998/namespace",
+  "_@xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

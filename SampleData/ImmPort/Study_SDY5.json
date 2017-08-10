@@ -1,0 +1,407 @@
+{
+  "title": "Analysis and Correlation of Cathelicidin Expression in Skin and Saliva of Subjects with Atopic Dermatitis and Psoriasis",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY5",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Analysis and Correlation of Cathelicidin Expression in Skin and Saliva of Subjects with Atopic Dermatitis and Psoriasis",
+  "performedBy": [
+    {
+      "firstName": "Richard",
+      "lastName": "Gallo",
+      "email": "rgallo@ucsd.edu",
+      "affiliations": [
+          {
+             "name": "University of California at San Diego"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Tissa",
+      "lastName": "Hata",
+      "email": "thata@ucsd.eud",
+      "affiliations": [
+          {
+             "name": "University of California at San Diego"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "AD+ EH -",
+          "size": 24
+        },
+        {
+          "name": "Psoriasis (AD-)",
+          "size": 26
+        },
+        {
+          "name": "Healthy controls",
+          "size": 25
+        },
+        {
+          "name": "AD+ EH+",
+          "size": 9
+        },
+        {
+          "name": "Unassigned Subjects",
+          "size": 1
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject has a definitive diagnosis of typical AD for at least 6 months, stringently diagnosed using the ADVN Standard Diagnostic Criteria; ADEH+ subject diagnosis will also be confirmed using the ADVN Standard Diagnostic Criteria; or the subject has a definitive diagnosis of typical plaque psoriasis for at least 6 months, stringently diagnosed using the ADVN Standard Diagnostic Criteria; or the subject is a normal control subject with no personal or family history of food allergy, AD, asthma, or allergic rhinitis."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject must reside in the US."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject must be a healthy individual with no systemic disorders as outlined in the exclusion criteria."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject must be 18 to 70 years of age."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "The subject must be male or female."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects under 18 or over 70 years of age."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with the presence of atopy without stringent AD features, allowing only a presumptive diagnosis of AD."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with the presence of AD with exfoliative erythroderma."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with the presence of psoriasis with exfoliative erythroderma or presence of guttate psoriasis, primary palmoplantar psoriasis, or pustular psoriasis."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnant or lactating females."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with the existence of ongoing dental disease (e.g., gingivitis)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with a history of bleeding disorders."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with the presence of AD or psoriasis in which withholding of topical corticosteroids, oral or topical antibiotics, antihistamines, oral antivirals, immune enhancers (e.g., imiquod), or topical calcineurin inhibitors within 7 days of recruitment would cause a severe exacerbation of their disease.  ADEH+ subjects will not be asked to withhold these medications."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects receiving systemic immunosuppressives, chemotherapeutic agents, antiinflammatory biologics (e.g., alefacept, etanercept, etc.), or oral calcineurin inhibitors, within 30 days of the Screening/Baseline Visit."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of topical corticosteroids, oral or topical antibiotics, oral antivirals (except active ADEH+ subjects), immune enhancers (e.g., imiquimod), or topical calcineurin inhibitors within 7 days prior to the visit."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects receiving phototherapy (e.g., ultraviolet light B [UVB], psoralen plus ultraviolet light A [PUVA]) within 30 days of recruitment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects who have an autoimmune or immunodeficiency disease."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with the presence of active fungal, bacterial, or viral infections, except in active ADEH+ subjects."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with the presence of active systemic malignancy, excluding uncomplicated non-melanoma skin cancer."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with mental illness or history of drug or alcohol abuse that, in the opinion of the investigator, would interfere with the participant's ability to comply with study requirements."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Inability or unwillingness of a participant to give written informed consent."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Diabetic requiring medication."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Richard",
+      "lastName": "Gallo",
+      "email": "rgallo@ucsd.edu",
+      "affiliations": [
+          {
+             "name": "University of California at San Diego"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01 AI040029"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Atopic Dermatitis and Vaccinia Network (ADVN) is a consortium of academic medical centers that will conduct clinical research studies in an attempt to make smallpox vaccines safer for millions of people with atopic dermatitis.  http://projectreporter.nih.gov/project_info_description.cfm?aid=7337882&icde=23823696&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2008-06-13",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2010-12-31",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2012-11-16",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Smoking Status"
+        }
+      },{
+        "name": {
+            "value": "Skin lesion involved and skin lesion duration"
+        }
+      },{
+        "name": {
+            "value": "Rajka-Langeland Score"
+        }
+      },{
+        "name": {
+            "value": "Physical Exam"
+        }
+      },{
+        "name": {
+            "value": "Psoriasis Area and Severity Index"
+        }
+      },{
+        "name": {
+            "value": "Medical History"
+        }
+      },{
+        "name": {
+            "value": "Any medications taken"
+        }
+      },{
+        "name": {
+            "value": "Any Adverse Event?"
+        }
+      },{
+        "name": {
+            "value": "Skin exam"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY5",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Analysis and Correlation of Cathelicidin Expression in Skin and Saliva of Subjects with Atopic Dermatitis and Psoriasis",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY5",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=6358320&icde=23811074&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Cathelicidins are small proteins in the human body that protect against infection. The purpose of this study is to determine if the amount of cathelicidins and other small proteins found in saliva can predict the amount of these in the skin of people who have acute atopic dermatitis (AD) or psoriasis."
+}

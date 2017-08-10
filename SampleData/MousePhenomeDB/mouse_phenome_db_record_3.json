@@ -1,0 +1,22 @@
+{"pr_nif_0000_03160_1": {
+  "e_uid": "MPD:419",
+  "dataset_id": "MPD:419",
+  "dataset_symbol": "Donahue10",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Donahue10",
+  "title": "Reproductive performance of C57BL/6J-Chr#<sup>A/J<\/sup>/NaJ mouse chromosome substitution strains",
+  "dataset_measurements": "mean litter interval;mean litter size divided by mean litter interval;mean number of pups born;mean number of pups weaned;percent females at weaning;ratio of pups weaned to pups born",
+  "specific_categories": "reproduction--development--sex distribution;reproduction--fecundity",
+  "broad_categories": "reproduction;development;fecundity;sex distribution",
+  "reference": "The Jackson Laboratory Special Mouse Strains Resource 2011 Donahue L",
+  "datasettype": "phenotype strain survey",
+  "description": "",
+  "dataset_granularity": "individual mice",
+  "strainpanel": "B6.A consomic",
+  "nstrains": "20",
+  "gender": "female",
+  "v_uid": "MPD:419",
+  "v_uuid": "a69192b9-d90a-5372-b430-af1f9735e629",
+  "v_lastmodified": "2016-05-04 16:12:19.333646",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.462378339333646E9
+}}

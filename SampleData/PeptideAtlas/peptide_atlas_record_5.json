@@ -1,0 +1,22 @@
+{"pr_nif_0000_03266_2": {
+  "e_uid": "PAe000002",
+  "acc": "PAe000002",
+  "name": "Human",
+  "summary": "Lipid Rafts prepared from Human Jurkat T-cell stimulated via T cell receptor/CD28 cross-linking and from control (unstimulated) cells. Labeled with old ICAT.\nICAT determination of regulated lipid raft-associated protein complexes in T cells",
+  "title": "Jurkat T-cell lipid rafts stim & unstim ICAT labeled Replicate 1",
+  "char": "Human Jurkat T-cell",
+  "tag": "Jurkat T-cell lipid rafts stim & unstim ICAT labeled Replicate 1",
+  "instrument": "LCQ Classic",
+  "pmid": "12832459,12832456",
+  "pmid_display": "PMID:12832459,12832456",
+  "treatment": "Isotope-coded affinity tag (ICAT)Â² labeling of proteins co-isolating with the lipid rafts was according to standard protocols, labeling the control and stimulated samples with the d0- and d8-ICAT reagents, respectively.",
+  "growth": "Individual lipid raft preparations were made from 2.5Ã\u009710â\u0081¸ Jurkat T cells (control or stimulated) as described in von Haller, et al. (2003), Mol. Cell. Proteomics 2, 428â\u0080\u0093442. Stimulation was via cross-linking of the T cell receptor and CD28 coreceptor with monoclonal antibodies (clones OKT3 and 9.3, respectively) for 2 min at 37Â°C.",
+  "digestion": "Tryptic proteolysis",
+  "extract": "Not applicable",
+  "separation": "Following sample pooling and tryptic proteolysis, peptide fractionation was via cation exchange, followed by avidin affinity chromatography, again according to standard procedures. This protocol was performed twice, with different cell preparations, under identical conditions.",
+  "v_uid": "PAe000002",
+  "v_uuid": "4f58f833-ff9a-58bf-ade7-c70f659b1b4d",
+  "v_lastmodified": "2016-04-29 16:57:05.099531",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.461949025099531E9
+}}

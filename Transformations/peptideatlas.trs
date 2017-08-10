@@ -1,0 +1,71 @@
+/* Dataset Basic Information */
+transform column "$.'pr_nif_0000_03266_2'.'acc'" to "dataset.ID" apply {{ result = 'peptideatlas:' + value }};
+transform column "$.'pr_nif_0000_03266_2'.'title'" to "dataset.title";
+transform column "$.'pr_nif_0000_03266_2'.'summary'" to "dataset.description";
+
+/* Dataset Landing Page*/
+transform column "$.'pr_nif_0000_03266_2'.'acc'" to "access.landingPage" apply {{ 
+result = 'ftp://ftp.peptideatlas.org/pub/PeptideAtlas/Repository/' + value 
+}};
+
+/* Dataset Creator */
+let "dataset.creators[]" = "NULL";
+
+/* Dataset Release Date Information */
+let "dataset.dateReleased" = "NULL";
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = "mass spectrometry";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "not applicable";
+let "dataset.refinement" = "curated";
+
+/* Information on Dataset Distributions */
+
+/* Dataset Distribution - XML */
+let "datasetDistributions[0].format" = "XML";
+let "datasetDistributions[0].storedIn" = "Peptide Atlas";
+let "datasetDistributions[0].qualifier" = "gzip compressed";
+transform column "$.'pr_nif_0000_03266_2'.'acc'" to "datasetDistributions[0].accessURL" apply {{ result= 'ftp://ftp.peptideatlas.org/pub/PeptideAtlas/Repository/' + value + '/' }};
+let "datasetDistributions[0].accessType" = "download";
+let "datasetDistributions[0].authorization" = "none";
+let "datasetDistributions[0].authentication" = "none"; 
+
+/* Publication Information */
+transform column "$.'pr_nif_0000_03266_2'.'pmid'" to "primaryPublication[].ID" apply {{ result = 'pmid:' + value }};
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:006783";
+let "dataRepository.name" = "PeptideAtlas";
+let "dataRepository.homePage" = "http://www.peptideatlas.org/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:011305";
+let "organization.name" = "Institute for Systems Biology";
+let "organization.abbreviation" = "ISB";
+let "organization.homePage" = "http://www.systemsbiology.org/";
+
+/* Specific Information on Extended Attributes */
+
+/* Taxonomic Information */
+transform column "$.'pr_nif_0000_03266_2'.'name'" to "taxonomicInformation[0].name";
+transform column "$.'pr_nif_0000_03266_2'.'char'" to "taxonomicInformation[0].strain";
+
+/* Instrument Information */
+transform column "$.'pr_nif_0000_03266_2'.'instrument'" to "instrument.name";
+
+/* Activity Information */
+transform columns "$.'pr_nif_0000_03266_2'.'treatment'" , "$.'pr_nif_0000_03266_2'.'growth'" , "$.'pr_nif_0000_03266_2'.'digestion'" , "$.'pr_nif_0000_03266_2'.'extract'" , "$.'pr_nif_0000_03266_2'.'separation'" to "activity.description" apply 
+{{ 
+result = 'Treatment: ' + value1 + '; Growth: ' + value2 + '; Digestion: ' + value3 + '; Extraction: ' + value4 + '; Separation: ' + value5 
+}};
+
+/* Items not included 
+transform column "$.'pr_nif_0000_03266_2'.'e_uid'" to "e_uid";
+transform column "$.'pr_nif_0000_03266_2'.'v_uid'" to "v_uid";
+transform column "$.'pr_nif_0000_03266_2'.'v_uuid'" to "v_uuid";
+transform column "$.'pr_nif_0000_03266_2'.'v_lastmodified'" to "v_lastmodified";
+transform column "$.'pr_nif_0000_03266_2'.'pmid_display'" to "pmid_display";
+transform column "$.'pr_nif_0000_03266_2'.'tag'" to "tag";
+*/

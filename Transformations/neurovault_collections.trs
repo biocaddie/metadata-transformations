@@ -1,0 +1,189 @@
+/* Dataset Basic Information */
+transform column "$.'id'" to "dataset.ID" apply {{ result = 'neurovault.collection:' + value }};
+transform column "$.'name'" to "dataset.title";
+transform column "$.'description'" to "dataset.description";
+
+/* Dataset Landing Page*/
+transform column "$.'url'" to "access.landingPage";
+
+/* Dataset Creator */
+transform column "$.'owner_name'" to "dataset.creators[0]";
+
+/* Dataset Release Date Information */
+if "$.'add_date'" <> "" then transform column "$.'add_date'" to  "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd");
+if  "$.'modify_date'" <> "" then transform column "$.'modify_date'" to  "dataset.dateModified" apply toStandardDateTime("yyyy-MM-dd");
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = "image";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "information not available";
+let "dataset.refinement" = "analyzed data";
+
+/* Publication Information */
+transform column "$.'DOI'" to "primaryPublication.ID[0]" apply {{ result = 'doi:' + value }};
+transform column "$.'authors'" to "primaryPublication.authors[]"  apply 
+{{
+arr=re.split("\s*,\s*",value,)
+if len(arr) > 1:
+   last=arr[-1]
+   arr.pop()
+   arr.extend(re.split(" and ",last))
+result=arr
+}};
+
+/* Information on Dataset Distributions */
+/* Dataset Distribution */
+let "datasetDistributions[0].format" = "NIfTI";
+let "datasetDistributions[0].storedIn" = "NeuroVault";
+let "datasetDistributions[0].qualifier" = "gzip compressed";
+let "datasetDistributions[0].license" = "CC0 license";
+transform column "$.'download_url'" to "datasetDistributions[0].accessURL";
+let "datasetDistributions[0].accessType" = "download";
+let "datasetDistributions[0].authorization" = "none";
+let "datasetDistributions[0].authentication" = "none"; 
+transform column "$.'file_size'" to "datasetDistributions[0].size"; 
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:003806";
+let "dataRepository.name" = "NeuroVault";
+let "dataRepository.abbreviation" = "NeuroVault";
+let "dataRepository.homePage"= "http://neurovault.org/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:003806";
+let "organization.name" = "NeuroVault";
+let "organization.abbreviation" = "NeuroVault";
+let "organization.homePage" = "http://neurovault.org/";
+
+/* Specific Information on Extended Attributes */
+/* Taxonomic Information */
+let "taxonomicInformation[0].name" = "Homo sapiens";
+
+/* Data Type */
+let "dataType.method" = "magnetic resonance imaging"
+
+/* items not included */
+/*
+transform column "$.'acquisition_orientation'" to "acquisition_orientation";
+transform column "$.'autocorrelation_model'" to "autocorrelation_model";
+transform column "$.'b0_unwarping_software'" to "b0_unwarping_software";
+transform column "$.'contributors'" to "contributors";
+transform column "$.'coordinate_space'" to "coordinate_space";
+transform column "$.'doi_add_date'" to "doi_add_date";
+transform column "$.'download_url'" to "download_url";
+transform column "$.'echo_time'" to "echo_time";
+transform column "$.'field_of_view'" to "field_of_view";
+transform column "$.'field_strength'" to "field_strength";
+transform column "$.'flip_angle'" to "flip_angle";
+transform column "$.'full_dataset_url'" to "full_dataset_url";
+transform column "$.'functional_coregistered_to_structural'" to "functional_coregistered_to_structural";
+transform column "$.'functional_coregistration_method'" to "functional_coregistration_method";
+transform column "$.'group_comparison'" to "group_comparison";
+transform column "$.'group_description'" to "group_description";
+transform column "$.'group_estimation_type'" to "group_estimation_type";
+transform column "$.'group_inference_type'" to "group_inference_type";
+transform column "$.'group_model_multilevel'" to "group_model_multilevel";
+transform column "$.'group_model_type'" to "group_model_type";
+transform column "$.'group_modeling_software'" to "group_modeling_software";
+transform column "$.'group_repeated_measures'" to "group_repeated_measures";
+transform column "$.'group_repeated_measures_method'" to "group_repeated_measures_method";
+transform column "$.'handedness'" to "handedness";
+transform column "$.'hemodynamic_response_function'" to "hemodynamic_response_function";
+transform column "$.'high_pass_filter_method'" to "high_pass_filter_method";
+
+transform column "$.'images'[*].'add_date'" to "images[].add_date";
+transform column "$.'images'[*].'analysis_level'" to "images[].analysis_level";
+transform column "$.'images'[*].'brain_coverage'" to "images[].brain_coverage";
+transform column "$.'images'[*].'cognitive_contrast_cogatlas'" to "images[].cognitive_contrast_cogatlas";
+transform column "$.'images'[*].'cognitive_contrast_cogatlas_id'" to "images[].cognitive_contrast_cogatlas_id";
+transform column "$.'images'[*].'cognitive_paradigm_cogatlas'" to "images[].cognitive_paradigm_cogatlas";
+transform column "$.'images'[*].'cognitive_paradigm_cogatlas_id'" to "images[].cognitive_paradigm_cogatlas_id";
+transform column "$.'images'[*].'cognitive_paradigm_description_url'" to "images[].cognitive_paradigm_description_url";
+transform column "$.'images'[*].'collection'" to "images[].collection";
+transform column "$.'images'[*].'collection_id'" to "images[].collection_id";
+transform column "$.'images'[*].'contrast_definition'" to "images[].contrast_definition";
+transform column "$.'images'[*].'contrast_definition_cogatlas'" to "images[].contrast_definition_cogatlas";
+transform column "$.'images'[*].'description'" to "images[].description";
+transform column "$.'images'[*].'figure'" to "images[].figure";
+transform column "$.'images'[*].'file'" to "images[].file";
+transform column "$.'images'[*].'id'" to "images[].id";
+transform column "$.'images'[*].'image_type'" to "images[].image_type";
+transform column "$.'images'[*].'is_thresholded'" to "images[].is_thresholded";
+transform column "$.'images'[*].'is_valid'" to "images[].is_valid";
+transform column "$.'images'[*].'map_type'" to "images[].map_type";
+transform column "$.'images'[*].'modality'" to "images[].modality";
+transform column "$.'images'[*].'modify_date'" to "images[].modify_date";
+transform column "$.'images'[*].'name'" to "images[].name";
+transform column "$.'images'[*].'not_mni'" to "images[].not_mni";
+transform column "$.'images'[*].'number_of_subjects'" to "images[].number_of_subjects";
+transform column "$.'images'[*].'perc_bad_voxels'" to "images[].perc_bad_voxels";
+transform column "$.'images'[*].'perc_voxels_outside'" to "images[].perc_voxels_outside";
+transform column "$.'images'[*].'reduced_representation'" to "images[].reduced_representation";
+transform column "$.'images'[*].'smoothness_fwhm'" to "images[].smoothness_fwhm";
+transform column "$.'images'[*].'statistic_parameters'" to "images[].statistic_parameters";
+transform column "$.'images'[*].'thumbnail'" to "images[].thumbnail";
+transform column "$.'images'[*].'url'" to "images[].url";
+transform column "$.'inclusion_exclusion_criteria'" to "inclusion_exclusion_criteria";
+transform column "$.'interpolation_method'" to "interpolation_method";
+transform column "$.'intersubject_registration_software'" to "intersubject_registration_software";
+transform column "$.'intersubject_transformation_type'" to "intersubject_transformation_type";
+transform column "$.'intrasubject_estimation_type'" to "intrasubject_estimation_type";
+transform column "$.'intrasubject_model_type'" to "intrasubject_model_type";
+transform column "$.'intrasubject_modeling_software'" to "intrasubject_modeling_software";
+transform column "$.'length_of_blocks'" to "length_of_blocks";
+transform column "$.'length_of_runs'" to "length_of_runs";
+transform column "$.'length_of_trials'" to "length_of_trials";
+transform column "$.'matrix_size'" to "matrix_size";
+transform column "$.'motion_correction_interpolation'" to "motion_correction_interpolation";
+transform column "$.'motion_correction_metric'" to "motion_correction_metric";
+transform column "$.'motion_correction_reference'" to "motion_correction_reference";
+transform column "$.'motion_correction_software'" to "motion_correction_software";
+transform column "$.'nonlinear_transform_type'" to "nonlinear_transform_type";
+transform column "$.'number_of_experimental_units'" to "number_of_experimental_units";
+transform column "$.'number_of_images'" to "number_of_images";
+transform column "$.'number_of_imaging_runs'" to "number_of_imaging_runs";
+transform column "$.'number_of_rejected_subjects'" to "number_of_rejected_subjects";
+transform column "$.'object_image_type'" to "object_image_type";
+transform column "$.'optimization'" to "optimization";
+transform column "$.'optimization_method'" to "optimization_method";
+transform column "$.'order_of_acquisition'" to "order_of_acquisition";
+transform column "$.'order_of_preprocessing_operations'" to "order_of_preprocessing_operations";
+transform column "$.'orthogonalization_description'" to "orthogonalization_description";
+transform column "$.'owner'" to "owner";
+transform column "$.'paper_url'" to "paper_url";
+transform column "$.'parallel_imaging'" to "parallel_imaging";
+transform column "$.'proportion_male_subjects'" to "proportion_male_subjects";
+transform column "$.'pulse_sequence'" to "pulse_sequence";
+transform column "$.'quality_control'" to "quality_control";
+transform column "$.'repetition_time'" to "repetition_time";
+transform column "$.'resampled_voxel_size'" to "resampled_voxel_size";
+transform column "$.'scanner_make'" to "scanner_make";
+transform column "$.'scanner_model'" to "scanner_model";
+transform column "$.'skip_distance'" to "skip_distance";
+transform column "$.'slice_thickness'" to "slice_thickness";
+transform column "$.'slice_timing_correction_software'" to "slice_timing_correction_software";
+transform column "$.'smoothing_fwhm'" to "smoothing_fwhm";
+transform column "$.'smoothing_type'" to "smoothing_type";
+transform column "$.'software_package'" to "software_package";
+transform column "$.'software_version'" to "software_version";
+transform column "$.'subject_age_max'" to "subject_age_max";
+transform column "$.'subject_age_mean'" to "subject_age_mean";
+transform column "$.'subject_age_min'" to "subject_age_min";
+transform column "$.'target_resolution'" to "target_resolution";
+transform column "$.'target_template_image'" to "target_template_image";
+transform column "$.'transform_similarity_metric'" to "transform_similarity_metric";
+transform column "$.'type_of_design'" to "type_of_design";
+transform column "$.'used_b0_unwarping'" to "used_b0_unwarping";
+transform column "$.'used_dispersion_derivatives'" to "used_dispersion_derivatives";
+transform column "$.'used_high_pass_filter'" to "used_high_pass_filter";
+transform column "$.'used_intersubject_registration'" to "used_intersubject_registration";
+transform column "$.'used_motion_correction'" to "used_motion_correction";
+transform column "$.'used_motion_regressors'" to "used_motion_regressors";
+transform column "$.'used_motion_susceptibiity_correction'" to "used_motion_susceptibiity_correction";
+transform column "$.'used_orthogonalization'" to "used_orthogonalization";
+transform column "$.'used_reaction_time_regressor'" to "used_reaction_time_regressor";
+transform column "$.'used_slice_timing_correction'" to "used_slice_timing_correction";
+transform column "$.'used_smoothing'" to "used_smoothing";
+transform column "$.'used_temporal_derivatives'" to "used_temporal_derivatives";
+*/

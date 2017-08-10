@@ -1,0 +1,570 @@
+{
+  "title": "Risk Factors in Atopic Dermatitis for the Development of Eczema Herpeticum",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY4",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Risk Factors in Atopic Dermatitis for the Development of Eczema Herpeticum",
+  "performedBy": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Bieber",
+      "email": "Thomas.Bieber@ukb.uni-bonn.de",
+      "affiliations": [
+          {
+             "name": "The University of Bonn, Germany"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Natalija",
+      "lastName": "Novak",
+      "email": "Natalija.Novak@ukb.uni-bonn.de",
+      "affiliations": [
+          {
+             "name": "The University of Bonn, Germany"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "AD+ Acute EH+HSV+",
+          "size": 21
+        },
+        {
+          "name": "AD+ with history of EH+ HSV+",
+          "size": 31
+        },
+        {
+          "name": "AD+ EH- HSV+",
+          "size": 61
+        },
+        {
+          "name": "AD+ EH- HSV-",
+          "size": 61
+        },
+        {
+          "name": "Healthy controls",
+          "size": 61
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "CD1a-PE"
+        },
+        {
+          "name": "IgG1-FITC"
+        },
+        {
+          "name": "CD23-FITC"
+        },
+        {
+          "name": "CD40-FITC"
+        },
+        {
+          "name": "CD62L-FITC"
+        },
+        {
+          "name": "CD74-FITC"
+        },
+        {
+          "name": "CD80-FITC"
+        },
+        {
+          "name": "CD83-FITC"
+        },
+        {
+          "name": "CD112-FITC"
+        },
+        {
+          "name": "MHC-1-FITC"
+        },
+        {
+          "name": "22E7-FITC"
+        },
+        {
+          "name": "B7H1-FITC"
+        },
+        {
+          "name": "B7H2-FITC"
+        },
+        {
+          "name": "IgG2b-FITC"
+        },
+        {
+          "name": "CD86-FITC"
+        },
+        {
+          "name": "CD209-FITC"
+        },
+        {
+          "name": "IgG2a-FITC"
+        },
+        {
+          "name": "MHC-II-FITC"
+        },
+        {
+          "name": "CLA-FITC"
+        },
+        {
+          "name": "TLR2-FITC"
+        },
+        {
+          "name": "TLR4-FITC"
+        },
+        {
+          "name": "CD44-FITC"
+        },
+        {
+          "name": "CXCR2-FITC"
+        },
+        {
+          "name": "CD111-FITC"
+        },
+        {
+          "name": "HSV1gB-FITC"
+        },
+        {
+          "name": "MHC-2-FITC"
+        },
+        {
+          "name": "CD155-FITC"
+        },
+        {
+          "name": "Unknown Reagent"
+        },
+        {
+          "name": "CD14PE-PE"
+        },
+        {
+          "name": "MHCII-FITC"
+        },
+        {
+          "name": "IgG2b-PE"
+        },
+        {
+          "name": "CD14-PE"
+        },
+        {
+          "name": "IDO-FITC"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects with a definitive diagnosis of AD, stringently diagnosed by ADVN Standard Diagnostic Criteria who fall into one of the following categories: Presence of recurrent clinically manifested HSV infection with EH, Presence of recurrent clinically manifested HSV infection without EH, No recurrent clinically manifested HSV infection or EH infection or, Normal control subjects with no personal family history of food allergy, AD, asthma, or allergic rhino-conjunctivitis."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Persons born in or residing in Germany."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Healthy individuals with no systemic disorders other than atopic diseases as outlined in the exclusion criteria."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Individuals between 18-60 years old, inclusive."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Caucasians."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with atopy but lacking stringent AD features, allowing only a presumptive diagnosis of AD."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Individuals under 18 or over 60 years of age."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects receiving systemic immunosuppressives or chemotherapy within 30 days."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects receiving oral corticosteroids (including inhaled agents) antibiotics, antivirals, anti-inflammatory biologics (e.g., alfacept, etanercept, etc.), topical doxepin, topical coal tar preparations or topical phosphodiesterase inhibitors within 14 days."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects receiving immunotherapy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects using topical immunotherapy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects using topical corticosteroids, antibiotics, antivirals, immune enhancers (e.g., imiquimod), or calcineurin inhibitors within 7 days of enrollment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects receiving phototherapy (e.g., ultraviolet light B [UVB], psoralen plus ultraviolet light A [PUVA]) within 30 days of enrollment."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects having malignancy, autoimmune, or immunodeficiency diseases."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with the presence of active fungal, bacterial, or viral infections at baseline."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects with the presence of any skin diseases other than AD that might compromise the stratum corneum barrier (e.g., ichthyosis, bullous disease, psoriasis, skin cancer)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Individuals with mental illness or a history of drug or alcohol abuse that, in the opinion of the investigator, would interfere with the subject's ability to comply with study requirements."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Inability or unwillingness of a subject to give written informed consent."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Pregnant women and breastfeeding mothers."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects weighing <40kg."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects using anxiolytic agents, and anti-depressants."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Observational"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Bieber",
+      "email": "Thomas.Bieber@ukb.uni-bonn.de",
+      "affiliations": [
+          {
+             "name": "The University of Bonn, Germany"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01 AI040029"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Atopic Dermatitis and Vaccinia Network (ADVN) is a consortium of academic medical centers that will conduct clinical research studies in an attempt to make smallpox vaccines safer for millions of people with atopic dermatitis.  http://projectreporter.nih.gov/project_info_description.cfm?aid=7337882&icde=23823696&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "21255038",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Hinz T(1), Zaccaro D, Byron M, Brendes K, Krieg T, Novak N, Bieber T.",
+      "title": "Atopic dermo-respiratory syndrome is a correlate of eczema herpeticum.",
+      "publicationVenue": "Allergy.",
+      "dates": [
+        {
+          "date": "2011",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Observational"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2009-03-06",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2012-11-16",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Assay IDEC with markers 22E7 , B7H1 , B7H2 , CD111 , CD112 , CD155 , CD1a , CD209 , CD23 , CD40 , CD44 , CD62L , CD74 , CD80 , CD83 , CD86 , CLA , CXCR2 , HSV1gB , IgG1 , IgG2a , IgG2b , MHC-1 , MHC-2 , MHC-II , TLR2 , TLR4",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Assay Langerhans cells with markers 22E7 , CD111 , CD112 , CD14 , CD14PE , CD155 , CD44 , CD74 , CXCR2 , HSV1gB , IDO , IgG1 , IgG2a , IgG2b , IgG2b , MHCII",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "Assay Monocytes with markers 22E7 , CD111 , CD112 , CD14 , CD14PE , CD155 , CD44 , CD74 , CXCR2 , HSV1gB , IDO , IgG1 , IgG2a , IgG2b , IgG2b , MHCII",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Lab Test for Blood Samples"
+        }
+      },{
+        "name": {
+            "value": "CBC_Results"
+        }
+      },{
+        "name": {
+            "value": "Diagnostic laboratory data"
+        }
+      },{
+        "name": {
+            "value": "AD Assessment"
+        }
+      },{
+        "name": {
+            "value": "Any Adverse Event?"
+        }
+      },{
+        "name": {
+            "value": "Question about medications taken"
+        }
+      },{
+        "name": {
+            "value": "Onset of AD and evolution"
+        }
+      },{
+        "name": {
+            "value": "Clinical variant of AD"
+        }
+      },{
+        "name": {
+            "value": "EASI Score"
+        }
+      },{
+        "name": {
+            "value": "Eczema herpeticum evaluation"
+        }
+      },{
+        "name": {
+            "value": "Family History"
+        }
+      },{
+        "name": {
+            "value": "Medical History"
+        }
+      },{
+        "name": {
+            "value": "Physical Exam"
+        }
+      },{
+        "name": {
+            "value": "Rajka-Langeland Score"
+        }
+      },{
+        "name": {
+            "value": "Severity Scoring of Atopic Dermatitis"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY4",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Risk Factors in Atopic Dermatitis for the Development of Eczema Herpeticum",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY4",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=6358320&icde=23811074&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Atopic Dermatitis (AD), also known as eczema, is a skin disease that causes the skin to be hot, dry and scaly, and have severe itching. There are different kinds of eczema. Eczema herpeticum (EH) is a type of eczema that spreads due to an underlying herpes virus infection. The purpose of this research study is to identify the risk factors that may cause EH."
+}

@@ -1,0 +1,22 @@
+{"pr_nif_0000_03266_2": {
+  "e_uid": "PAe000337",
+  "acc": "PAe000337",
+  "name": "Human",
+  "summary": "21_unfract",
+  "title": "human serum fractionation/depletion methods, 21_unfract",
+  "char": "Male, Serum, Sigma-Aldrich, catalog #H4522, lot #043K0502",
+  "tag": "human serum fractionation/depletion methods, 21_unfract",
+  "instrument": "LTQ",
+  "pmid": "17269739",
+  "pmid_display": "PMID:17269739",
+  "treatment": "",
+  "growth": "",
+  "digestion": "Ammonium bicarbonate (50 mM) was added to achieve a final methanol concentration of 20% and the samples were digested with Trypsin Gold (Promega, Madison, WI) at a protein to enzyme ratio of 50:1 (w/w) at 37Â°C for 6 h. The samples were dried in a SpeedVac and resuspended in 50 mM ammonium bicarbonate prior to LC-MS analysis.",
+  "extract": "Human serum samples were denatured and reduced with 60% methanol and 10 mM dithiothreitol (DTT) at 60Â°C for 1 h and alkylated with 50 mM iodoacetamide (IAM) at room temperature in the dark for 30 min.",
+  "separation": "Unfractionated",
+  "v_uid": "PAe000337",
+  "v_uuid": "14229bcd-1e2c-5240-b317-aa1716ceff6a",
+  "v_lastmodified": "2016-04-29 16:57:05.099531",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.461949025099531E9
+}}

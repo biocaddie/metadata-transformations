@@ -1,0 +1,22 @@
+{"pr_nif_0000_03160_1": {
+  "e_uid": "MPD:481",
+  "dataset_id": "MPD:481",
+  "dataset_symbol": "Schalkwyk2",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Schalkwyk2",
+  "title": "Hippocampal microRNA expression in 24 BXD recombinant inbred strains of mice",
+  "dataset_measurements": "miR-15b, hippocampal microRNA expression (relative);miR-212, hippocampal microRNA expression (relative);miR-301a, hippocampal microRNA expression (relative);miR-31, hippocampal microRNA expression (relative);miR-34c, hippocampal microRNA expression (relative)",
+  "specific_categories": "brain--hippocampus--microRNA expression",
+  "broad_categories": "brain;hippocampus--microRNA expression",
+  "reference": "2012 Schalkwyk LC, Chesler EJ, Fernandes C, Liu L, Parsons MJ, Paya-Cano JL, Philip VM",
+  "datasettype": "phenotype strain survey",
+  "description": "",
+  "dataset_granularity": "strain averages",
+  "strainpanel": "BXD",
+  "nstrains": "26",
+  "gender": "male",
+  "v_uid": "MPD:481",
+  "v_uuid": "663ce5d1-b61c-5d68-8c2e-26cdd03d75f7",
+  "v_lastmodified": "2016-05-04 16:12:19.333646",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.462378339333646E9
+}}

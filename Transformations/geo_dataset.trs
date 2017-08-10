@@ -1,0 +1,82 @@
+/* Dataset Basic Information */
+transform column "$.'subset_dataset_id'" to "dataset.ID";
+transform column "$.'dataset_title'" to "dataset.title";
+transform column "$.'dataset_type'" to "dataset.types[0]";
+transform column "$.'dataset_description'" to "dataset.description";
+transform column "$.'dataset_reference_series'" to "dataset.alternateIdentifiers" apply{{ result = 'geo.series:' + value }};
+
+/* Dataset Landing Page*/
+transform column "$.'subset_dataset_id'" to "access.landingPage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=' + value }};
+
+/* Dataset Creator */
+let "dataset.creators[0]" = "NULL"
+
+/* Dataset Release Date Information */
+transform column "$.'dataset_update_date'" to "dataset.dateReleased" apply toStandardDate("MMM dd yyyy");
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = "gene expression";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "not applicable";
+let "dataset.refinement" = "curated";
+
+/* Information on Dataset Distributions */
+
+/* Dataset Distribution - FULL SOFT */
+let "datasetDistributions[0].format" = "SOFT";
+let "datasetDistributions[0].storedIn" = "Gene Expression Omnibus";
+let "datasetDistributions[0].qualifier" = "gzip compressed";
+transform column "$.'subset_dataset_id'" to "datasetDistributions[0].accessURL" apply {{ result='ftp://ftp.ncbi.nlm.nih.gov/geo/datasets/GDSnnn/' + value + '/soft/' + value + '_full.soft.gz' }};
+let "datasetDistributions[0].accesstypes" = "download";
+let "datasetDistributions[0].authorization" = "none";
+let "datasetDistributions[0].authentication[0]" = "none"; 
+
+/* Dataset Distribution - SOFT */
+let "datasetDistributions[1].format" = "SOFT";
+let "datasetDistributions[1].storedIn" = "Gene Expression Omnibus";
+let "datasetDistributions[1].qualifier" = "gzip compressed";
+transform column "$.'subset_dataset_id'" to "datasetDistributions[1].accessURL" apply {{ result='ftp://ftp.ncbi.nlm.nih.gov/geo/datasets/GDSnnn/' + value + '/soft/' + value + '.soft.gz' }};
+let "datasetDistributions[1].accesstypes" = "download";
+let "datasetDistributions[1].authorization" = "none";
+let "datasetDistributions[1].authentication[0]" = "none"; 
+
+/* Publication Information */
+transform column "$.'dataset_pubmed_id'" to "primaryPublication.ID[0]" apply {{ result = 'pmid:' + value }};
+transform column "$.'dataset_pubmed_id'" to "citations.count" apply {{ result = '0' }};
+
+/* Identification Information */
+transform column "$.'dataset_reference_series'" to "identifiers[].ID" apply {{ result = 'geo.series:' + value }};
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:007303";
+let "dataRepository.name" = "Gene Expression Omnibus";
+let "dataRepository.abbreviation" = "GEO";
+let "dataRepository.homePage" = "http://www.ncbi.nlm.nih.gov/geo/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:006472";
+let "organization.name" = "National Center for Biotechnology Information";
+let "organization.abbreviation" = "NCBI";
+let "organization.homePage" = "http://www.ncbi.nih.gov/";
+
+/* Specific Information on Extended Attributes */
+
+/* Taxonoic Information */
+transform column "$.'dataset_platform_organism'" to "taxonomicInformation[0].name";
+transform column "$.'dataset_sample_organism'" to "taxonomicInformation[1].name";
+
+/* Study Information */
+transform column "$.'subset_sample_id'" to "study.ID[]" apply {{ result=re.split("\s*,\s*",value) }};
+
+/* Data Acquisition */
+transform column "$.'dataset_technology'" to "dataAcquisition.name";
+
+/* Instrument Information */
+transform column "$.'dataset_platform'" to "instrument.name";
+
+/* Items not included */
+/*
+transform column "$.'dataset_feature_count'" to "dataset.featureCount";
+transform column "$.'dataset_reference_series'" to "dataItem.referenceSeries";
+*/

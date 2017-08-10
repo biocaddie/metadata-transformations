@@ -1,0 +1,196 @@
+/* Dataset Information */
+transform column "$.'Study'.'@parentStudy'" to "dataset.Identifier" apply {{ result = 'dbgap:' + value }}
+transform column "$.'Study'.'Configuration'.'StudyNameEntrez'.'_$'" to "dataset.title";
+transform column "$.'Study'.'Configuration'.'Description'.'_$'" to "dataset.description" apply {{ result = re.compile(r'<.*?>').sub('',value) }};
+
+/* Dataset Distribution */
+transform column "$.'Study'.'@createDate'" to "datasetDistributions[0].dateReleased"apply toStandardDate("yyyy-MM-dd");
+transform column "$.'Study'.'@modDate'" to "datasetDistributions[0].dateModified" apply toStandardDate("yyyy-MM-dd"); 
+transform column "$.'Study'.'@accession'" to "datasetDistributions[0].version";
+
+/* Data Repository Information */
+transform column "$.'Study'.'@source'" to "dataRepository.name";
+
+/* Citation Information */
+transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Pubmed'.'@pmid'" to "dataset.citations[]";
+
+/* Access Information */
+transform column "$.'Study'.'@parentStudy'" to "access.landingpage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=' + value }};
+let "access.accesstypes[0]" = "download";
+let "access.accesstypes[1]" = "enclave";
+let "access.authorization[0]" = "none";
+let "access.authorization[1]" = "duaIndividual";
+let "access.authentication[0]" = "simpleLogin"; 
+let "access.authentication[1]" = "none"; 
+
+/* License Information */
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'@Policy_ID'" to "license.Identifier";
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DocumentSet'.'DataUseCertificate'.'@Label'" to "license.name";
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DocumentSet'.'DataUseCertificate'.'@FilePath'" to "license.downloadURL";
+
+/* Person */
+transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'AttName'.'_$'" to "person[].name";
+transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'Institution'.'_$'" to "person[].affiliations";
+transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'@title'" to "person[].roles";
+
+/* Organization Information */
+transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'@ssDacId'" to "organization.ID";
+transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacFullName'.'_$'" to "organization.name";
+transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacName'.'_$'" to "organization.abbreviation";
+
+/* Study Information */
+transform column "$.'Study'.'Configuration'.'StudyTypes'.'StudyType'.'_$'" to "study.types";
+transform column "$.'Study'.'Configuration'.'StudyHistory'.'_$'" to "study.schedulesActivity" apply {{ result = re.compile(r'<.*?>').sub('',value) }};
+transform column "$.'Study'.'Configuration'.'StudyInEx'.'_$'" to "study.selectionCriteria";
+transform column "$.'Study'.'Configuration'.'DisplayPublicSummary'.'_$'" to "study.alternateIdentifiers";
+
+/* Data Acquisition Information */
+transform column "$.'Study'.'Configuration'.'Data_Provider'.'_$'" to "dataAcquisition.performedBy" apply {{ result = re.compile(r'<.*?>').sub('',value) }};
+
+/* Data Analysis */
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'@pha'" to "dataAnalysis[].Identifier";
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'Method'.'_$'" to "dataAnalysis[].Name";
+
+/* Study Group Information */
+transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@groupNum'" to "studyGroup[].Identifier";
+transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@longName'" to "studyGroup[].name";
+
+/* Disease Information */
+transform column "$.'Study'.'Configuration'.'Diseases'.'Disease'[*].'@vocab_term'" to "disease.name[]";
+
+/* Items not included */
+/*
+transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@shortName'" to "studyGroup.abbreviation[]";
+
+transform column "$.'Study'.'Configuration'.'StudyNameReportPage'.'_$'" to "Study.Configuration.StudyNameReportPage";
+    unable to find metadata model
+
+transform column "$.'Study'.'Configuration'.'StudyProjects'.'Project'" to "Study.StudyProjects.Project"
+    unable to find metadatamodel
+
+transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@notes'" to "Study.Configuration.Publications.Publication[].Journal.@notes";
+    unable to find metadatamodel
+transform column "$.'Study'.'Configuration'.'Diseases'.'Disease'[*].'@vocab_source'" to "Disease[].@vocab_source";
+    unable to find metadatamodel
+
+transform column "$.'Study'.'Configuration'.'DisplayPublicSummary'.'_$'" to "Study.Configuration.DisplayPublicSummary"
+    unable to find metadatamodel
+
+transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacEmail'.'_$'" to "Organization.emailAddress";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacPhone'" to "Organization.phoneNumber";
+    unable to find metadatamodel
+
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'@ref_ssDacId'" to "Study.AuthorizedAccess.Policy.@ref_ssDacId";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DisplayResearchStatement'.'_$'" to "Study.AuthorizedAccess.Policy.DisplayResearchStatement";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DisplayPublicSummary'.'_$'" to "Study.AuthorizedAccess.Policy.DisplayPublicSummary";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'EmbargoLength'.'_$'" to "Study.AuthorizedAccess.Policy.EmbargoLength";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'YearsUntilRenewal'.'_$'" to "Study.AuthorizedAccess.Policy.YearsUntilRenewal";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'WeeksCancelRequest'.'_$'" to "Study.AuthorizedAccess.Policy.WeeksCancelRequest";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'PdfSupplementReqired'.'_$'" to "Study.AuthorizedAccess.Policy.PdfSupplementReqired";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'AcknowledgementText'.'para'.'_$'" to "Study.AuthorizedAccess.Policy.AcknowledgementText.para";
+    unable to find metadatamodel
+
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'@ref_ssDacId'" to "Study.AuthorizedAccess.Policy.@ref_ssDacId";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DisplayResearchStatement'.'_$'" to "Study.AuthorizedAccess.Policy.DisplayResearchStatement";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DisplayPublicSummary'.'_$'" to "Study.AuthorizedAccess.Policy.DisplayPublicSummary";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'EmbargoLength'.'_$'" to "Study.AuthorizedAccess.Policy.EmbargoLength";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'YearsUntilRenewal'.'_$'" to "Study.AuthorizedAccess.Policy.YearsUntilRenewal";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'WeeksCancelRequest'.'_$'" to "Study.AuthorizedAccess.Policy.WeeksCancelRequest";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'PdfSupplementReqired'.'_$'" to "Study.AuthorizedAccess.Policy.PdfSupplementReqired";
+    unable to find metadatamodel
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'AcknowledgementText'.'para'.'_$'" to "Study.AuthorizedAccess.Policy.AcknowledgementText.para";
+    unable to find metadatamodel
+
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DocumentSet'.'DataUseCertificate'.'@FileName'" to "Study.AuthorizedAccess.Policy.DocumentSet.DataUseCertificate.@FileName";
+    unable to find metadatamodel
+
+transform column "$.'Study'.'AuthorizedAccess'.'ConsentGroups'.'ParticipantSet'[*].'@groupNum-REF'" to "Study.AuthorizedAccess.ConsentGroups.ParticipantSet[].@groupNum-REF";
+    similar to consent group groupnum above
+transform column "$.'Study'.'AuthorizedAccess'.'ConsentGroups'.'ParticipantSet'[*].'ConsentName'.'_$'" to "Study.AuthorizedAccess.ConsentGroups.ParticipantSet[].ConsentName";
+    similar to consent group longname
+transform column "$.'Study'.'AuthorizedAccess'.'ConsentGroups'.'ParticipantSet'[*].'ConsentAbbrev'.'_$'" to "Study.AuthorizedAccess.ConsentGroups.ParticipantSet[].ConsentAbbrev";
+    similar to consent group shortname
+transform column "$.'Study'.'AuthorizedAccess'.'ConsentGroups'.'ParticipantSet'[*].'UseLimitation'.'_$'" to "Study.AuthorizedAccess.ConsentGroups.ParticipantSet[].UseLimitation";
+    unable to find metadata model
+transform column "$.'Study'.'AuthorizedAccess'.'ConsentGroups'.'ParticipantSet'[*].'IrbRequired'.'_$'" to "Study.AuthorizedAccess.ConsentGroups.ParticipantSet[].IrbRequired";
+    unable to find metadata model
+
+transform column "$.'Study'.'Documents'.'Document'[*].'@phd'" to "Study.Documents.Document[].@phd";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'@type'" to "Study.Documents.Document[].@type";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'@createDate'" to "Study.Documents.Document[].@createDate";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'@modDate'" to "Study.Documents.Document[].@modDate";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'@urlToXml'" to "Study.Documents.Document[].@urlToXml";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'@urlToHtml'" to "Study.Documents.Document[].@urlToHtml";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'OrigName'.'_$'" to "Study.Documents.Document[].OrigName";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'DisplayName'.'_$'" to "Study.Documents.Document[].DisplayName";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'Description'.'_$'" to "Study.Documents.Document[].Description";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'displayStatus'.'_$'" to "Study.Documents.Document[].displayStatus";
+    unable to find metadata model
+transform column "$.'Study'.'Documents'.'Document'[*].'xmlStatus'.'_$'" to "Study.Documents.Document[].xmlStatus";
+    unable to find metadata model
+
+transform column "$.'Study'.'Annotations'.'DocumentPart'[*].'@phd'" to "DataAnalysis.identifier.DocumentPart[].@phd";
+    unable to find metadata model 
+transform column "$.'Study'.'Annotations'.'DocumentPart'[*].'@sectionId'" to "Study.Annotations.DocumentPart[].@sectionId";
+    unable to find metadata model  
+transform column "$.'Study'.'Annotations'.'DocumentPart'[*].'phvList'.'phvRef'.'@variableId'" to "Study.Annotations.DocumentPart[].phvList.phvRef.@variableId";
+    unable to find metadata model 
+transform column "$.'Study'.'Annotations'.'DocumentPart'[*].'phvList'.'phvRef'[*].'@variableId'" to "Study.Annotations.DocumentPart[].phvList.phvRef[].@variableId";
+    unable to find metadata model 
+transform column "$.'Study'.'Annotations'.'DocumentPart'[*].'phvList'" to "Study.Annotations.DocumentPart[].phvList"
+    unable to find metadata model 
+
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'@genomeBuild'" to "Study.Analyses.Analysis[].@genomeBuild";
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'@snpBuild'" to "Study.Analyses.Analysis[].@snpBuild";
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'@analysisType'" to "Study.Analyses.Analysis[].@analysisType";
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'Description'.'_$'" to "DataAnalyses.description[]".@analysis;
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'Method'.'_$'" to "Study.Analyses.Analysis[].Method";
+transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@journal'" to "publication.cites[]";
+transform column "$.'Study'.'Configuration'.'StudyURLs'.'Url'[*].'@name'" to "organization.name[]";
+
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'GtyPlatform'.'@probeNum'" to "Study.Analyses.Analysis[].GtyPlatform.@probeNum";
+    Unsure what GtyPlatform is referring to
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'GtyPlatform'.'@snpBatchId'" to "Study.Analyses.Analysis[].GtyPlatform.@snpBatchId";
+    Unsure what GtyPlatform is referring to
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'GtyPlatform'.'Vendor'.'_$'" to "Study.Analyses.Analysis[].GtyPlatform.Vendor";
+    Unsure what GtyPlatform is referring to
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'GtyPlatform'.'VendorURL'" to "Study.Analyses.Analysis[].GtyPlatform.VendorURL";
+    Unsure what GtyPlatform is referring to
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'GtyPlatform'.'Platform'.'_$'" to "Study.Analyses.Analysis[].GtyPlatform.Platform";
+    Unsure what GtyPlatform is referring to
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'Comment'" to "Study.Analyses.Analysis[].Comment";*/
+/*
+unble to find metadata model;
+    Unsure what GtyPlatform is referring to
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'GtyPlatform'.'VendorURL'.'_$'" to "Study.Analyses.Analysis[].GtyPlatform.VendorURL";
+    Unsure what GtyPlatform is referring to
+transform column "$.'_@default'" to "_@default";
+    unsure of what this is
+transform column "$.'_@xml'" to "_@xml";
+    unsure of what this is - unable to access link given in sample record
+    transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@journal'" to "publication.cites[]";
+
+ */

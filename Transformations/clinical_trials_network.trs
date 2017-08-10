@@ -1,0 +1,59 @@
+/* Basic Dataset Information */
+transform column "$.'pr_nif_0000_21981_1'.'studynum'" to "dataset.ID" apply {{ result = 'NIDA:' + value }};
+transform column "$.'pr_nif_0000_21981_1'.'study_title'" to "dataset.title";
+transform column "$.'pr_nif_0000_21981_1'.'study_description'" to "dataset.description";
+transform column "$.'pr_nif_0000_21981_1'.'keywords'" to "dataset.keywords[]" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+
+/* Dataset Landing Page*/
+transform column "$.'pr_nif_0000_21981_1'.'studynum'" to "access.landingPage" apply {{ result = 'https://datashare.nida.nih.gov/study/' + value }};
+
+/* Dataset Creator */
+transform column "$.'pr_nif_0000_21981_1'.'investigator'" to "dataset.creators[0]";
+
+/* Dataset Release Date Information */
+transform column "$.'pr_nif_0000_21981_1'.'release_date'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd");
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = "clinical trial";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "information not available";
+let "dataset.refinement" = "curated";
+
+/* Information on Dataset Distributions */
+
+/* Dataset Distribution - NIDA */
+let "datasetDistributions[0].format" = "information not available";
+let "datasetDistributions[0].storedIn" = "National Institute on Drug Abuse";
+transform column "$.'pr_nif_0000_21981_1'.'studynum'" to "datasetDistributions[0].accessURL" apply {{ result='https://datashare.nida.nih.gov/data/' + value }};
+let "datasetDistributions[0].accesstypes"  = "landing page";
+let "datasetDistributions[0].authorization"  = "registration";
+let "datasetDistributions[0].authentication" = "simpleLogin"; 
+let "datasetDistributions[0].primary" = "true"; 
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:002002";
+let "dataRepository.name" = "Clinical Trials Network Data Share";
+let "dataRepository.abbreviation" = "CTN";
+let "dataRepository.homePage" = "http://datashare.nida.nih.gov/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:011440";
+let "organization.name" = "National Institute on Drug Abuse";
+let "organization.abbreviation"  = "NIDA";
+let "organization.homePage" = "http://www.nida.nih.gov/";
+
+/* Specific Information on Extended Attributes */
+/* Taxonomic Information */
+let "taxonomicInformation[0].name"  = "Homo sapiens";
+
+/* Items not included */
+/*
+transform column "$.'pr_nif_0000_21981_1'.'e_uid'" to "e_uid";
+transform column "$.'pr_nif_0000_21981_1'.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+*/

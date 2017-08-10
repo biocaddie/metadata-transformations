@@ -1,0 +1,49 @@
+/* Dataset Basic Information */  
+transform column "$.'BMRBx:datablock'.'BMRBx:assemblyCategory'.'BMRBx:assembly'.'@entry_id'" to "dataset.ID" apply {{ result = 'bmrdb:' + value }};   
+ transform column "$.'BMRBx:datablock'.'BMRBx:entryCategory'.'BMRBx:entry'.'BMRBx:title'.'_$'" to "dataset.title"; 
+ transform column "$.'BMRBx:datablock'.'BMRBx:entryCategory'.'BMRBx:entry'.'BMRBx:assigned_pdb_id'.'_$'" to "relatedIdentifier.ID" {{ result = 'pdb:' + value }};      
+ /* Dataset Creator Information */ 
+transform column "$.'BMRBx:datablock'.'BMRBx:entry_authorCategory'.'BMRBx:entry_author'[*].'BMRBx:pdbx_name'.'_$'" to "dataset.creator[]";  
+ /*Publication information*/ 
+transform column "$.'BMRBx:datablock'.'BMRBx:citationCategory'.'BMRBx:citation'.'BMRBx:pubmed_id'.'_$'" to "primaryPublication.ID" apply {{ result = 'pmid:' + value }};  
+transform column "$.'BMRBx:datablock'.'BMRBx:citationCategory'.'BMRBx:citation'.'BMRBx:title'.'_$'" to "primaryPublication.title"; 
+transform column "$.'BMRBx:datablock'.'BMRBx:citationCategory'.'BMRBx:citation'.'BMRBx:type'.'_$'" to "primaryPublication.type";  
+transform column "$.'BMRBx:datablock'.'BMRBx:citation_authorCategory'.'BMRBx:citation_author'[*].'BMRBx:pdbx_name'.'_$'" to "primaryPublication.authors[]";    
+/* Dataset Access Information */
+transform column "$.'BMRBx:datablock'.'BMRBx:entryCategory'.'BMRBx:entry'.'BMRBx:accession_date'.'_$'" 
+to "dataset.dateAccessed" apply toStandardDate("yyyy-MM-dd");
+  
+/* Dataset Release Information */
+transform column "$.'BMRBx:datablock'.'BMRBx:entryCategory'.'BMRBx:entry'.'BMRBx:last_release_date'.'_$'" 
+to "dataset.dateLastReleased" apply toStandardDate("yyyy-MM-dd");  
+transform column "$.'BMRBx:datablock'.'BMRBx:entryCategory'.'BMRBx:entry'.'BMRBx:original_release_date'.'_$'" 
+to "Dataset.dateOriginalReleased" apply toStandardDate("yyyy-MM-dd");  
+
+transform column "$.'BMRBx:datablock'.'BMRBx:releaseCategory'.'BMRBx:release'[*].'BMRBx:date'.'_$'" 
+to "Dataset.dateRelease[]" apply toStandardDate("yyyy-MM-dd");  
+/* Dataset submit Information */
+ transform column "$.'BMRBx:datablock'.'BMRBx:entryCategory'.'BMRBx:entry'.'BMRBx:submission_date'.'_$'" 
+to "Dataset.dateSubmitted" apply toStandardDate("yyyy-MM-dd"); 
+/*taxonomic Information */
+transform column "$.'BMRBx:datablock'.'BMRBx:entity_natural_srcCategory'.'BMRBx:entity_natural_src'.'BMRBx:ncbi_taxonomy_id'.'_$'" to "taxonomyInformation.ID"{{ result = 'taxonomy:' + value }};     
+transform column "$.'BMRBx:datablock'.'BMRBx:entity_natural_srcCategory'.'BMRBx:entity_natural_src'.'BMRBx:organism_name_scientific'.'_$'" to "taxonomicInformation.name"; 
+transform column "$.'BMRBx:datablock'.'BMRBx:entity_natural_srcCategory'.'BMRBx:entity_natural_src'.'BMRBx:species'.'_$'" to "taxonomicInformation.species"; 
+ /* Access information */
+transform column "$.'BMRBx:datablock'.'BMRBx:assemblyCategory'.'BMRBx:assembly'.'@entry_id'" to "access.landingPage" apply {{ result = 'http://www.bmrb.wisc.edu/data_library/summary/index.php?bmrbId=' + value }};
+let "access.accesstypes"  = "download";
+let "access.authorization"  = "none";
+let "access.authentication" = "none"; 
+
+
+/*Data Repository Information */
+let "dataRepository.ID" = "SCR:002296";
+let "dataRepository.name" = "Biological Magnetic Resonance Data Bank";
+let "dataRepository.abbreviation" = "BMRB";
+let "dataRepository.homePage"= "http://www.bmrb.wisc.edu/";
+
+
+/* Organization Information */
+let "organization[0].ID" = "SCR:012740";
+let "organization[0].name" = "National Institute of Allergy and Infectious Diseases";
+let "organization[0].abbreviation" = "NIAID";
+let "organization[0].homePage" = "https://www.niaid.nih.gov/";

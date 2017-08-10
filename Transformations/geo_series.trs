@@ -1,0 +1,175 @@
+/* Dataset Basic Information */
+transform column "$.'MINiML'.'Series'.'@iid'" to "dataset.ID" apply {{ result = 'geo.series' + value }};
+transform column "$.'MINiML'.'Series'.'Title'.'_$'" to "dataset.title";
+transform column "$.'MINiML'.'Series'.'Type'.'_$'" to "dataset.types[0]";
+transform column "$.'MINiML'.'Series'.'Summary'.'_$'" to "dataset.description";
+
+/* Dataset Landing Page*/
+transform column "$.'MINiML'.'Series'.'@iid'" to "access.landingPage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=' + value }};
+
+/* Dataset Creator */
+transform columns "$.'MINiML'.'Contributor'[*].'Person'.'First'.'_$'" ,"$.'MINiML'.'Contributor'[*].'Person'.'Last'.'_$'" to "dataset.creators[]"  apply {{ result = value1 + ' '+ value2 }};
+
+/* Dataset Release Date Information */
+transform column "$.'MINiML'.'Sample'[*].'Status'.'Last-Update-Date'.'_$'" to "dataset.dateModified" apply toStandardDate("yyyy-MM-dd");
+transform column "$.'MINiML'.'Sample'[*].'Status'.'Release-Date'.'_$'" to "dataset.dateReleased" apply toStandardDate("yyyy-MM-dd");
+transform column "$.'MINiML'.'Sample'[*].'Status'.'Submission-Date'.'_$'" to "dataset.dateSubmitted" apply toStandardDate("yyyy-MM-dd");
+transform column "$.'MINiML'.'@version'" to "dataset.versions";
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = "gene expression";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "not applicable";
+let "dataset.refinement" = "curated";
+
+/* Information on Dataset Distributions */
+
+/* Dataset Distribution - SOFT */
+let "datasetDistributions[0].format" = "SOFT";
+let "datasetDistributions[0].storedIn" = "Gene Expression Omnibus";
+let "datasetDistributions[0].qualifier" = "gzip compressed";
+transform column "$.'MINiML'.'Series'.'@iid'" to "datasetDistributions[0].accessURL" apply {{ result='ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE1nnn/' + value + '/soft/' }};
+let "datasetDistributions[0].accesstypes" = "download";
+let "datasetDistributions[0].authorization" = "none";
+let "datasetDistributions[0].authentication[0]" = "none"; 
+
+/* Dataset Distribution - MINiML */
+let "datasetDistributions[1].format" = "MINiML";
+let "datasetDistributions[1].storedIn" = "Gene Expression Omnibus";
+let "datasetDistributions[1].qualifier" = "gzip compressed";
+transform column "$.'MINiML'.'Series'.'@iid'" to "datasetDistributions[1].accessURL" apply {{ result='ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE1nnn/' + value + '/miniml/' }};
+let "datasetDistributions[1].accesstypes" = "download";
+let "datasetDistributions[1].authorization" = "none";
+let "datasetDistributions[1].authentication[0]" = "none"; 
+
+
+/* Dataset Distribution - TXT */
+let "datasetDistributions[1].format" = "TXT";
+let "datasetDistributions[1].storedIn" = "Gene Expression Omnibus";
+let "datasetDistributions[1].qualifier" = "gzip compressed";
+transform column "$.'MINiML'.'Series'.'@iid'" to "datasetDistributions[1].accessURL" apply {{ result='ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE1nnn/' + value + '/matrix/' }};
+let "datasetDistributions[1].accesstypes" = "download";
+let "datasetDistributions[1].authorization" = "none";
+let "datasetDistributions[1].authentication[0]" = "none"; 
+
+/* Publication Information */
+transform column "$.'MINiML'.'Series'.'Pubmed-ID'.'_$'" to "primaryPublication.ID[0]" apply {{ result = 'pmid:' + value }};
+
+/* Identification Information */
+transform column "$.'MINiML'.'Series'.'@iid'" to "identifiers[].ID" apply {{ result = 'GEO:' + value }};
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:007303";
+let "dataRepository.name" = "Gene Expression Omnibus";
+let "dataRepository.abbreviation" = "GEO";
+let "dataRepository.homePage" = "http://www.ncbi.nlm.nih.gov/geo/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:006472";
+let "organization.name" = "National Center for Biotechnology Information";
+let "organization.abbreviation" = "NCBI";
+let "organization.homePage" = "http://www.ncbi.nih.gov/";
+
+/* Specific Information on Extended Attributes */
+
+/* Taxonoic Information */
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Organism'.'@taxid'" to "taxonomicInformation[].ID" apply {{ result = 'taxonomy:' + value }};
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Organism'.'_$'" to "taxonomicInformation[].name";
+
+/* Instrument Information */
+transform column "$.'dataset_platform'" to "instrument.name";
+
+/* Items not included */
+/*
+
+transform column "$.'MINiML'.'@xsi:schemaLocation'" to "MINiML.@xsi:schemaLocation";
+transform column "$.'MINiML'.'Contributor'[*].'@iid'" to "MINiML.Contributor[].@iid";
+transform column "$.'MINiML'.'Contributor'[*].'Address'.'City'.'_$'" to "MINiML.Contributor[].Address.City";
+transform column "$.'MINiML'.'Contributor'[*].'Address'.'Country'.'_$'" to "MINiML.Contributor[].Address.Country";
+transform column "$.'MINiML'.'Contributor'[*].'Address'.'Line'.'_$'" to "MINiML.Contributor[].Address.Line";
+transform column "$.'MINiML'.'Contributor'[*].'Address'.'Postal-Code'.'_$'" to "MINiML.Contributor[].Address.Postal-Code";
+transform column "$.'MINiML'.'Contributor'[*].'Address'.'State'.'_$'" to "MINiML.Contributor[].Address.State";
+transform column "$.'MINiML'.'Contributor'[*].'Address'.'Zip-Code'.'_$'" to "MINiML.Contributor[].Address.Zip-Code";
+transform column "$.'MINiML'.'Contributor'[*].'Email'.'_$'" to "MINiML.Contributor[].Email";
+transform column "$.'MINiML'.'Contributor'[*].'Organization'.'_$'" to "MINiML.Contributor[].Organization";
+
+transform column "$.'MINiML'.'Database'.'@iid'" to "MINiML.Database.@iid";
+transform column "$.'MINiML'.'Database'.'Email'.'_$'" to "MINiML.Database.Email";
+transform column "$.'MINiML'.'Database'.'Name'.'_$'" to "MINiML.Database.Name";
+transform column "$.'MINiML'.'Database'.'Organization'.'_$'" to "MINiML.Database.Organization";
+transform column "$.'MINiML'.'Database'.'Public-ID'.'_$'" to "MINiML.Database.Public-ID";
+transform column "$.'MINiML'.'Database'.'Web-Link'.'_$'" to "MINiML.Database.Web-Link";
+transform column "$.'MINiML'.'Platform'.'@iid'" to "MINiML.Platform.@iid";
+transform column "$.'MINiML'.'Platform'.'Accession'.'@database'" to "MINiML.Platform.Accession.@database";
+transform column "$.'MINiML'.'Platform'.'Accession'.'_$'" to "MINiML.Platform.Accession._$";
+transform column "$.'MINiML'.'Platform'.'Contact-Ref'.'@ref'" to "MINiML.Platform.Contact-Ref.@ref";
+transform column "$.'MINiML'.'Platform'.'Data-Table'.'Column'[*].'@position'" to "MINiML.Platform.Data-Table.Column[].@position";
+transform column "$.'MINiML'.'Platform'.'Data-Table'.'Column'[*].'Description'.'_$'" to "MINiML.Platform.Data-Table.Column[].Description";
+transform column "$.'MINiML'.'Platform'.'Data-Table'.'Column'[*].'Link-Prefix'.'_$'" to "MINiML.Platform.Data-Table.Column[].Link-Prefix";
+transform column "$.'MINiML'.'Platform'.'Data-Table'.'Column'[*].'Name'.'_$'" to "MINiML.Platform.Data-Table.Column[].Name";
+transform column "$.'MINiML'.'Platform'.'Data-Table'.'External-Data'.'@rows'" to "MINiML.Platform.Data-Table.External-Data.@rows";
+transform column "$.'MINiML'.'Platform'.'Data-Table'.'External-Data'.'_$'" to "MINiML.Platform.Data-Table.External-Data._$";
+transform column "$.'MINiML'.'Platform'.'Description'.'_$'" to "MINiML.Platform.Description";
+transform column "$.'MINiML'.'Platform'.'Distribution'.'_$'" to "MINiML.Platform.Distribution";
+transform column "$.'MINiML'.'Platform'.'Manufacture-Protocol'.'_$'" to "MINiML.Platform.Manufacture-Protocol";
+transform column "$.'MINiML'.'Platform'.'Manufacturer'.'_$'" to "MINiML.Platform.Manufacturer";
+transform column "$.'MINiML'.'Platform'.'Organism'.'@taxid'" to "MINiML.Platform.Organism.@taxid";
+transform column "$.'MINiML'.'Platform'.'Organism'.'_$'" to "MINiML.Platform.Organism._$";
+transform column "$.'MINiML'.'Platform'.'Relation'.'@comment'" to "MINiML.Platform.Relation.@comment";
+transform column "$.'MINiML'.'Platform'.'Relation'.'@target'" to "MINiML.Platform.Relation.@target";
+transform column "$.'MINiML'.'Platform'.'Relation'.'@type'" to "MINiML.Platform.Relation.@type";
+transform column "$.'MINiML'.'Platform'.'Status'.'@database'" to "MINiML.Platform.Status.@database";
+transform column "$.'MINiML'.'Platform'.'Status'.'Last-Update-Date'.'_$'" to "MINiML.Platform.Status.Last-Update-Date";
+transform column "$.'MINiML'.'Platform'.'Status'.'Release-Date'.'_$'" to "MINiML.Platform.Status.Release-Date";
+transform column "$.'MINiML'.'Platform'.'Status'.'Submission-Date'.'_$'" to "MINiML.Platform.Status.Submission-Date";
+transform column "$.'MINiML'.'Platform'.'Technology'.'_$'" to "MINiML.Platform.Technology";
+transform column "$.'MINiML'.'Platform'.'Title'.'_$'" to "MINiML.Platform.Title";
+transform column "$.'MINiML'.'Sample'[*].'@iid'" to "MINiML.Sample[].@iid";
+transform column "$.'MINiML'.'Sample'[*].'Accession'.'@database'" to "MINiML.Sample[].Accession.@database";
+transform column "$.'MINiML'.'Sample'[*].'Accession'.'_$'" to "MINiML.Sample[].Accession._$";
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'@position'" to "MINiML.Sample[].Channel.@position";
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Characteristics'[*].'@tag'" to "MINiML.Sample[].Channel.Characteristics[].@tag";
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Characteristics'[*].'_$'" to "MINiML.Sample[].Channel.Characteristics[]._$";
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Extract-Protocol'.'_$'" to "MINiML.Sample[].Channel.Extract-Protocol";
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Growth-Protocol'.'_$'" to "MINiML.Sample[].Channel.Growth-Protocol";
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Label'.'_$'" to "MINiML.Sample[].Channel.Label";
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Label-Protocol'.'_$'" to "MINiML.Sample[].Channel.Label-Protocol";
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Molecule'.'_$'" to "MINiML.Sample[].Channel.Molecule";
+
+transform column "$.'MINiML'.'Sample'[*].'Channel'.'Source'.'_$'" to "MINiML.Sample[].Channel.Source";
+transform column "$.'MINiML'.'Sample'[*].'Channel-Count'.'_$'" to "MINiML.Sample[].Channel-Count";
+transform column "$.'MINiML'.'Sample'[*].'Contact-Ref'.'@ref'" to "MINiML.Sample[].Contact-Ref.@ref";
+transform column "$.'MINiML'.'Sample'[*].'Data-Processing'.'_$'" to "MINiML.Sample[].Data-Processing";
+transform column "$.'MINiML'.'Sample'[*].'Data-Table'.'Column'[*].'@position'" to "MINiML.Sample[].Data-Table.Column[].@position";
+transform column "$.'MINiML'.'Sample'[*].'Data-Table'.'Column'[*].'Description'.'_$'" to "MINiML.Sample[].Data-Table.Column[].Description";
+transform column "$.'MINiML'.'Sample'[*].'Data-Table'.'Column'[*].'Name'.'_$'" to "MINiML.Sample[].Data-Table.Column[].Name";
+transform column "$.'MINiML'.'Sample'[*].'Data-Table'.'External-Data'.'@rows'" to "MINiML.Sample[].Data-Table.External-Data.@rows";
+transform column "$.'MINiML'.'Sample'[*].'Data-Table'.'External-Data'.'_$'" to "MINiML.Sample[].Data-Table.External-Data._$";
+transform column "$.'MINiML'.'Sample'[*].'Description'.'_$'" to "MINiML.Sample[].Description";
+transform column "$.'MINiML'.'Sample'[*].'Hybridization-Protocol'.'_$'" to "MINiML.Sample[].Hybridization-Protocol";
+transform column "$.'MINiML'.'Sample'[*].'Platform-Ref'.'@ref'" to "MINiML.Sample[].Platform-Ref.@ref";
+transform column "$.'MINiML'.'Sample'[*].'Scan-Protocol'.'_$'" to "MINiML.Sample[].Scan-Protocol";
+transform column "$.'MINiML'.'Sample'[*].'Status'.'@database'" to "MINiML.Sample[].Status.@database";
+
+transform column "$.'MINiML'.'Sample'[*].'Supplementary-Data'.'@type'" to "MINiML.Sample[].Supplementary-Data.@type";
+transform column "$.'MINiML'.'Sample'[*].'Supplementary-Data'.'_$'" to "MINiML.Sample[].Supplementary-Data._$";
+transform column "$.'MINiML'.'Sample'[*].'Title'.'_$'" to "MINiML.Sample[].Title";
+transform column "$.'MINiML'.'Sample'[*].'Type'.'_$'" to "MINiML.Sample[].Type";
+
+transform column "$.'MINiML'.'Series'.'Accession'.'@database'" to "MINiML.Series.Accession.@database";
+transform column "$.'MINiML'.'Series'.'Accession'.'_$'" to "MINiML.Series.Accession._$";
+transform column "$.'MINiML'.'Series'.'Contact-Ref'.'@ref'" to "MINiML.Series.Contact-Ref.@ref";
+transform column "$.'MINiML'.'Series'.'Contributor-Ref'[*].'@position'" to "MINiML.Series.Contributor-Ref[].@position";
+transform column "$.'MINiML'.'Series'.'Contributor-Ref'[*].'@ref'" to "MINiML.Series.Contributor-Ref[].@ref";
+transform column "$.'MINiML'.'Series'.'Overall-Design'.'_$'" to "MINiML.Series.Overall-Design";
+transform column "$.'MINiML'.'Series'.'Relation'[*].'@target'" to "MINiML.Series.Relation[].@target";
+transform column "$.'MINiML'.'Series'.'Relation'[*].'@type'" to "MINiML.Series.Relation[].@type";
+transform column "$.'MINiML'.'Series'.'Sample-Ref'[*].'@ref'" to "MINiML.Series.Sample-Ref[].@ref";
+transform column "$.'MINiML'.'Series'.'Status'.'@database'" to "MINiML.Series.Status.@database";
+transform column "$.'MINiML'.'Series'.'Status'.'Last-Update-Date'.'_$'" to "MINiML.Series.Status.Last-Update-Date";
+transform column "$.'MINiML'.'Series'.'Status'.'Release-Date'.'_$'" to "MINiML.Series.Status.Release-Date";
+transform column "$.'MINiML'.'Series'.'Status'.'Submission-Date'.'_$'" to "MINiML.Series.Status.Submission-Date";
+transform column "$.'MINiML'.'Series'.'Supplementary-Data'.'@type'" to "MINiML.Series.Supplementary-Data.@type";
+transform column "$.'MINiML'.'Series'.'Supplementary-Data'.'_$'" to "MINiML.Series.Supplementary-Data._$";
+*/

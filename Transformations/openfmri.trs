@@ -1,0 +1,80 @@
+/* Dataset Basic Information */
+transform column "$.'pr_nlx_144048_1'.'id'" to "dataset.ID" apply {{ result = 'openfmri:' + value }};
+transform column "$.'pr_nlx_144048_1'.'title'" to "dataset.title";
+transform column "$.'pr_nlx_144048_1'.'description'" to "dataset.description";
+transform column "$.'pr_nlx_144048_1'.'cognitive_task_seq_name'" to "dataset.keywords[0]" apply {{ result = re.sub('<[^<]+?>', '', value) }};
+
+/* Dataset Landing Page*/
+transform column "$.'pr_nlx_144048_1'.'link'" to "access.landingPage";
+
+/* Dataset Creator */
+transform column "$.'pr_nlx_144048_1'.'investigators'" to "dataset.creators[0]";
+
+/* Dataset Release Date Information */
+if "$.'pr_nlx_144048_1'.'version_date'" <> "" then transform column "$.'pr_nlx_144048_1'.'version_date'" to "dataset.dateReleased" apply toStandardDate("yyyy-MM-dd");
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = "image";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "fully-anonymized";
+let "dataset.refinement" = "curated";
+
+/* Information on Dataset Distributions */
+
+/* Dataset Distribution - AWS */
+let "datasetDistributions[0].format" = "AWS";
+let "datasetDistributions[0].storedIn" = "OpenfMRI";
+let "datasetDistributions[0].qualifier" = "gzip compressed";
+transform column "$.'pr_nlx_144048_1'.'license'" to "datasetDistributions[0].license"; 
+transform columns  "$.'pr_nlx_144048_1'.'id'", "$.'pr_nlx_144048_1'.'version_num'" to "datasetDistributions[0].accessURL" apply {{ result='http://openfmri.s3.amazonaws.com/tarballs/' + value1 + '_R' + value2 + '_raw.tgz' }};
+let "datasetDistributions[0].accessType" = "download";
+let "datasetDistributions[0].accesstypes" = "download";
+let "datasetDistributions[0].authorization" = "none";
+let "datasetDistributions[0].authentication" = "none"; 
+
+/* Dataset Distribution - TXT */
+let "datasetDistributions[1].format" = "TXT";
+let "datasetDistributions[1].storedIn" = "OpenfMRI";
+let "datasetDistributions[1].qualifier" = "not compressed";
+transform column "$.'pr_nlx_144048_1'.'license'" to "datasetDistributions[1].license"; 
+transform columns  "$.'pr_nlx_144048_1'.'id'", "$.'pr_nlx_144048_1'.'version_num'" to "datasetDistributions[1].accessURL" apply {{ result='http://openfmri.s3.amazonaws.com/tarballs/' + value1 + '_R' + value2 + '_raw_checksums.txt' }};
+let "datasetDistributions[1].accessType" = "download";
+let "datasetDistributions[1].accesstypes" = "download";
+let "datasetDistributions[1].authorization" = "none";
+let "datasetDistributions[1].authentication" = "none"; 
+
+/* Data Repository Information */
+let "dataRepository.name" = "OpenfMRI";
+let "dataRepository.abbreviation" = "OpenfMRI";
+let "dataRepository.ID" = "SCR:005031";
+let "dataRepository.homePage" = "http://openfmri.org/";
+
+/* Organization Information */
+let "organization.name" = "Stanford University";
+let "organization.abbreviation" = "Stanford";
+let "organization.ID" = "SCR:011538";
+let "organization.homePage" = "http://www.stanford.edu/";
+
+/* Person Information */
+transform column "$.'pr_nlx_144048_1'.'investigators'" to "person.fullName";
+
+/* Specific Information on Extended Attributes */
+/* Taxonomic Information */
+transform column "$.'pr_nlx_144048_1'.'organism'" to "taxonomicInformation[0].name";
+
+/* Data Acquisition */
+transform column "$.'pr_nlx_144048_1'.'assay'" to "dataAcquisition.name";
+
+/* Publication information */
+transform column "$.'pr_nlx_144048_1'.'pubmed_id'" to "primaryPublication.ID[0]" apply {{ result = re.sub('<[^<]+?>', '', value)  }};
+
+
+/* Items not included */
+/*
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+transform column "$.'nifid'" to "nifid";
+*/

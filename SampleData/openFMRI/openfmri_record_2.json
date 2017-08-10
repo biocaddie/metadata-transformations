@@ -1,0 +1,23 @@
+{"pr_nlx_144048_1": {
+  "e_uid": "ds0000301.0.2",
+  "title": "UCLA Consortium for Neuropsychiatric Phenomics LA5c Study",
+  "id": "ds000030",
+  "description": "<p>The Consortium for Neuropsychiatric Phenomics (CNP) is a large study funded by the NIH Roadmap Initiative that aims to&nbsp;facilitate discovery of the genetic and environmental bases of variation in psychological and neural system phenotypes, to elucidate the mechanisms that link the human genome to complex psychological syndromes, and to foster breakthroughs in the development of novel treatments for neuropsychiatric disorders.<\/p><p>The study includes imaging of a large group of healthy individuals from the community (138&nbsp;subjects), as well as samples of individuals diagnosed with schizoprenia (58), bipolar disorder (49), and ADHD (45).<\/p><p>The participants, ages 21-50, were recruited by community advertisements from the Los Angeles area and completed extensive neuropsychogical testing, in addition to fMRI scanning. To be included individuals had to be either &quot;White, Not of Hispanic or Latino Origin&quot; or &quot;Hispanic or Latino, of Any Race&quot; following NIH designations of racial and ethnic minority groups, and have completed at least 8 years of education (other racial and ethnic minority groups were excluded because this was thought to increase risk of confounding planned genetic studies). For participants who spoke both English and Spanish, language for testing was determined by a verbal fluency test. Participants were screened for neurological disease, history of head injury with loss of consciousness or cognitive sequelae, use of psychoactive medications, substance dependence within past 6 months, history of major mental illness or ADHD, and current mood or anxiety disorder. Self-reported history of psychopathology was verified with the SCID-IV (First, Spitzer, Gibbon, &amp; Williams, 1995). Urinalysis was used to screen for drugs of abuse (cannabis, amphetamine, opioids, cocaine, benzodiazepines) on the day of testing and excluded if results were positive.<\/p><p>A portion of this large sample took part in two separate fMRI sessions, which each included one-hour of behavioral testing and a one-hour scan on the same day. Participants were recruited from the parent study to participate in the fMRI portion if they successfully completed all previous testing sessions, and did not meet the following additional exclusion criteria: history of significant medical illness, contraindications for MRI (including pregnancy), any mood-altering medication on scan day (based on self-report), vision that was insufficient to see task stimuli, and left-handedness.<\/p><p>After receiving a thorough explanation, all participants gave written informed consent according to the procedures approved by the University of California Los Angeles Institutional Review Board.<\/p><!-- <p>Additional information can be found on the <a href=\"http://www.phenowiki.org/wiki/index.php/LA5C\" target=\"_blank\">study wiki<\/a>.<\/p> --><p>Modalities Include:<\/p><p>T1-weighted Anatomical MPRAGE<\/p><p>64 Direction DWI<\/p><p>BOLD contrast fMRI<\/p><p>Resting State (with physiological monitoring)<\/p><p>Breath Hold fMRI (with physiological monitoring)<\/p><p>Balloon Analog Risk Task (BART) fMRI<\/p><p>Stopsignal Task fMRI<\/p><p>Taskswitching fMRI<\/p><p>Spatial Working Memory Capacity Tasks (SCAP) fMRI<\/p><p>Paired Associates Memory Task - Encoding/Retrieval (PAMenc/PAMret)<\/p>",
+  "link": "https://openfmri.org/dataset/ds000030",
+  "cognitive_task_seq_name": "",
+  "task_name": "",
+  "pubmed_id": "",
+  "license": "PDDL",
+  "investigator": "Bilder, R, Poldrack, R, Cannon, T, London, E, Freimer, N, Congdon, E, Karlsgodt, K, Sabb, F",
+  "version_num": "1.0.2",
+  "revision_history": " - Added mriqc results",
+  "version_date": "2016-10-05",
+  "organism": "human",
+  "assay": "MRI",
+  "nifid": "nlx_144048",
+  "v_uid": "ds0000301.0.2",
+  "v_uuid": "af336ee0-c8c0-5987-9eb2-caf1b47dff0a",
+  "v_lastmodified": "2016-10-18 17:01:56.252636",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.476101624075287E9
+}}

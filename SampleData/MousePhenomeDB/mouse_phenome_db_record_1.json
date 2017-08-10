@@ -1,0 +1,22 @@
+{"pr_nif_0000_03160_1": {
+  "e_uid": "MPD:479",
+  "dataset_id": "MPD:479",
+  "dataset_symbol": "Rosen2",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Rosen2",
+  "title": "Lateral septal nucleus morphology in 69 BXD recombinant inbred strains of mice",
+  "dataset_measurements": "lateral septum volume;lateral septum volume (adjusted)",
+  "specific_categories": "brain--morphology--size",
+  "broad_categories": "brain;morphology;size",
+  "reference": "2012 Rosen GD",
+  "datasettype": "phenotype strain survey",
+  "description": "",
+  "dataset_granularity": "individual mice",
+  "strainpanel": "BXD",
+  "nstrains": "71",
+  "gender": "male and female",
+  "v_uid": "MPD:479",
+  "v_uuid": "47b93622-a797-5928-9f46-34596e3c170a",
+  "v_lastmodified": "2016-05-04 16:12:19.333646",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.462378339333646E9
+}}

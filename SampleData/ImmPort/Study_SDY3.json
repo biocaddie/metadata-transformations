@@ -1,0 +1,396 @@
+{
+  "title": "Responses to Immunization with Keyhole Limpet Hemocyanin (KLH) Administered by Scarification and the Intradermal (ID) Route",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY3",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Responses to Immunization with Keyhole Limpet Hemocyanin (KLH) Administered by Scarification and the Intradermal (ID) Route",
+  "performedBy": [
+    {
+      "firstName": "Henry",
+      "lastName": "Milgrom",
+      "email": "milgromh@njh.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "firstName": "Donald",
+      "lastName": "Leung",
+      "email": "leungd@njh.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "None"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Healthy controls 100 ug KLH Intradermal Injection",
+          "size": 5
+        },
+        {
+          "name": "Healthy controls 3 Jabs KLH Scarification",
+          "size": 5
+        },
+        {
+          "name": "Healthy controls 250 ug KLH Intradermal Injection",
+          "size": 5
+        },
+        {
+          "name": "Healthy controls 15 Jabs KLH Scarification",
+          "size": 10
+        },
+        {
+          "name": "Unassigned Subjects",
+          "size": 1
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects must be male or female subjects 18 to 40 years of age"
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Subjects must be healthy, nonatopic as defined by the ADVN Standard Diagnostic Criteria "
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Women of childbearing potential must be willing to use adequate contraception 30 days prior to KLH immunization and for a minimum of 14 days after the second immunization.  Subjects must express the intent not to conceive a child while participating in the study.  If the subject is sexually active and of childbearing potential, she must agree to use an acceptable method of birth control (birth control pills, Depo-Provera, Norplant, intrauterine device [IUD], or diaphragm/condom plus spermicide) or remain abstinent."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not be pregnant or lactating"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have a history of or active AD as defined by the ADVN Standard Diagnostic Criteria "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have an active bacterial, viral, or fungal infection within 30 days prior to entering the study"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have an immunodeficiancy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have received systemic corticosteroids, antibiotics, antivirals, anti-inflammatory biologics (e.g., alefacept, etanercept), calcineurin inhibitors, oral immunosuppressive agents, anxiolytic agents, antidepressants, or cancer chemotherapy within 30 days prior to KLH administration"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not use topical corticosteroids, antibiotics, antivirals, immune enhancers, or calcineurin inhibitors within 7 days prior to entering the study "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have an allergy to shellfish."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have received a vaccination within 30 days prior to entering the study "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have cutaneous eruptions"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have participated in a clinical trial within 4 weeks of enrollment"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have a positive response to the DTH test prior to administration of KLH "
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have been previously exposured to KLH or products containing KLH"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not be allergic or hypersensitive to Tegaderm"
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Subjects must not have any condition that, in the opinion of the investigator, should render the subject ineligible for the study"
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Henry",
+      "lastName": "Milgrom",
+      "email": "milgromh@njh.org",
+      "affiliations": [
+          {
+             "name": "National Jewish Health"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01 AI040029"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Atopic Dermatitis and Vaccinia Network (ADVN) is a consortium of academic medical centers that will conduct clinical research studies in an attempt to make smallpox vaccines safer for millions of people with atopic dermatitis.  http://projectreporter.nih.gov/project_info_description.cfm?aid=7337882&icde=23823696&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "22042247",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Milgrom H(1), Kesler K, Byron M, Harbeck R, Holliday R, Leung DY.",
+      "title": "Response to cutaneous immunization with low-molecular-weight subunit keyhole limpet hemocyanin.",
+      "publicationVenue": "Int Arch Allergy Immunol.",
+      "dates": [
+        {
+          "date": "2012",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Vaccine Response"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2008-01-08",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2008-10-13",
+          "type": {
+              "value": "actual_completion_date"
+          }
+      },
+      {
+          "date": "2012-11-16",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Hematology"
+        }
+      },{
+        "name": {
+            "value": "Pregnancy test"
+        }
+      },{
+        "name": {
+            "value": "Any Adverse Event?"
+        }
+      },{
+        "name": {
+            "value": "Any medications taken"
+        }
+      },{
+        "name": {
+            "value": "DTH Test Assessment"
+        }
+      },{
+        "name": {
+            "value": "DTH Test"
+        }
+      },{
+        "name": {
+            "value": "Immunization KLH"
+        }
+      },{
+        "name": {
+            "value": "Medical History"
+        }
+      },{
+        "name": {
+            "value": "Physical Exam"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY3",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Responses to Immunization with Keyhole Limpet Hemocyanin (KLH) Administered by Scarification and the Intradermal (ID) Route",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY3",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Atopic Dermatitis & Vaccinia Network (ADVN) Clinical Studies Consortium",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=6358320&icde=23811074&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Atopic dermatitis (AD) is a skin disorder in which people often have swelling and skin infections. People with this disease cannot receive the smallpox vaccine because it could cause them to have a fatal reaction known as eczema vaccinatum (EV). Keyhole limpet hemocyanin (KLH) is a protein that can be used to deliver vaccines to the body. The purpose of this study is to determine a baseline immune reaction to KLH in people without AD. Once this has been established, other studies can be designed to determine whether KLH can be used to give vaccines to people with AD."
+}

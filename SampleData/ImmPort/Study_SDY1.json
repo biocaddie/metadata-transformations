@@ -1,0 +1,649 @@
+{
+  "title": "Efficacy and Safety Evaluation of Allergen Immunotherapy Co-Administered with Omalizumab (an anti-IgE Monoclonal Antibody)",
+  "identifier": {
+    "identifier": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY1",
+    "identifierSource": "http://www.immport.org"
+  },
+  "producedBy": {  "name": "Efficacy and Safety Evaluation of Allergen Immunotherapy Co-Administered with Omalizumab (an anti-IgE Monoclonal Antibody)",
+  "performedBy": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Casale",
+      "email": "tbcasale@creighton.edu",
+      "affiliations": [
+          {
+             "name": "Creighton University School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    }
+  ],
+  "studyGroups": [
+        {
+          "name": "Placebo Immunotherapy with placebo anti-IgE",
+          "size": 40
+        },
+        {
+          "name": "Immunotherapy with placebo anti-IgE",
+          "size": 40
+        },
+        {
+          "name": "Placebo Immunotherapy with anti-IgE",
+          "size": 40
+        },
+        {
+          "name": "Immunotherapy with anti-IgE",
+          "size": 39
+        }
+  ],
+  
+  "usesReagent": [
+        {
+          "name": "CD11C/APC"
+        },
+        {
+          "name": "CD123/PE"
+        },
+        {
+          "name": "CD3,56,19,14/PerCP"
+        },
+        {
+          "name": "HLADR/FITC"
+        },
+        {
+          "name": "HLADR/CD123/DUMP/CD11c"
+        },
+        {
+          "name": "CD14/FITC"
+        },
+        {
+          "name": "CD19/APC"
+        },
+        {
+          "name": "CD23/PE"
+        },
+        {
+          "name": "CD3/PerCP"
+        },
+        {
+          "name": "CD14/CD23/CD3/CD19"
+        },
+        {
+          "name": "CCR3/PE"
+        },
+        {
+          "name": "CCR4/APC"
+        },
+        {
+          "name": "CD4/FITC"
+        },
+        {
+          "name": "CD8/PerCP"
+        },
+        {
+          "name": "CD4/CCR3/CD8/CCR4"
+        },
+        {
+          "name": "CD161/APC"
+        },
+        {
+          "name": "CD25/PE"
+        },
+        {
+          "name": "CD4/CD25/CD3/CD161"
+        },
+        {
+          "name": "CD45RA/APC"
+        },
+        {
+          "name": "CD4/CD25/CD3/CD45RA"
+        },
+        {
+          "name": "CD45RO/APC"
+        },
+        {
+          "name": "CD4/CD25/CD3/CD45RO"
+        },
+        {
+          "name": "CCR5/APC"
+        },
+        {
+          "name": "CXCR3/PE"
+        },
+        {
+          "name": "CD4/CXCR3/CD8/CCR5"
+        },
+        {
+          "name": "CD56/FITC"
+        },
+        {
+          "name": "CD56/CXCR3/CD3/CCR5"
+        },
+        {
+          "name": "FL-1/FITC"
+        },
+        {
+          "name": "FL-2/PE"
+        },
+        {
+          "name": "FL-3/PerCP"
+        },
+        {
+          "name": "FL-4/APC"
+        },
+        {
+          "name": "FL-1/FL-2/FL-3/FL-4"
+        },
+        {
+          "name": "CD3,14,19/PerCP"
+        },
+        {
+          "name": "CD56/CD123/DUMP/CD11c"
+        },
+        {
+          "name": "N/A"
+        }
+  ],
+  
+  "selectionCriteria": [
+        {
+          "category": "Inclusion",
+          "values": [
+              "Able to comprehend and grant a witnessed, written informed consent prior to any study procedures."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants must have a baseline serum IgE level > 10 and < 700 IU/mL."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants < 30 kg or > 120 kg."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants who are pregnant or lactating."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants with a history of severe anaphylactoid (non-IgE mediated) or anaphylactic reaction(s)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants with a history of immunotherapy within the past 10 years, if received one full year of immunotherapy, or within the past 5 years if received less than one year of immunotherapy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants with known hypersensitivity to trial rescue medication (fexofenadine HCl)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants taking beta-adrenergic antagonists in any form."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants taking allergic ophthalmologic medication."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants with clinically significant perennial rhinitis that would interfere in assessment of ragweed-induced seasonal allergic rhinitis symptoms."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Presence of a severely deviated nasal septum, septal perforation, structural nasal defect or large nasal polyps causing obstruction."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Male or female 18 to 50 years of age."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of an upper respiratory or sinus infection requiring treatment with an antibiotic within 2 weeks prior to Visit -01."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Documented evidence of acute or significant chronic sinusitis, as determined by the Investigator."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Asthma (either history of, abnormal spirometry, [FEV1 <80% predicted] or use of asthma medications)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Chronic or intermittent use of inhaled, oral, intra-muscular, or intra-venous corticosteroids; or chronic or intermittent use of topical corticosteroids within 4 weeks of Visit -01."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Chronic use of medications (e.g., tricyclic antidepressants) that would affect assessment of the effectiveness of the study medication."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Rhinitis medicamentosa."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History or presence of significant renal, hepatic, neurologic, cardiovascular, hematologic, metabolic, cerebrovascular, respiratory, gastrointestinal or other significant medical condition including, autoimmune or collagen vascular disorders, aside from organ-specific autoimmune disease limited to the thyroid that in the Investigator?s opinion could interfere with the study or require medical treatment that would interfere with the study."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History of cancer other than basal cell carcinoma of the skin."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "History within the past year of excessive alcohol intake or drug addiction."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Current smokers, greater than 10 pack year history, or participants who quit smoking less than one year prior to Screening."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Female participants of child bearing age must have a negative urine pregnancy test at Visit -01 and a negative urine pregnancy test at subsequent visits. In addition, female participants must be using a medically acceptable form of birth control."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Use of any prohibited concomitant medications during the washout period (i.e., before screening) and throughout the study period."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants currently undergoing immunotherapy."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants with clinically significant abnormality on 12-lead ECG on screening visit."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Treatment with an experimental, non-approved drug, or investigational drug within the past 30 days."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants with a history of noncompliance to medical regimens and participants who are considered potentially unreliable."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Previous treatment with a monoclonal antibody for any reason including anti-IgE in any form (e.g., omalizumab)."
+          ]
+        },
+        {
+          "category": "Exclusion",
+          "values": [
+              "Participants with known hypersensitivity to trial drug ingredients (i.e., sucrose, histidine, polysorbate 20) or related drugs (i.e., monoclonal antibody; polyclonal gamma-globulin)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "History of seasonal allergic rhinitis for at least 2 years with symptoms during the ragweed pollen season requiring pharmacotherapy."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "A positive skin test by prick method to ragweed pollen at Visit -01. A positive skin prick test will be defined as a ragweed pollen-induced wheal >3 mm larger in diameter than diluent control (measurements will be made 15-20 minutes after application)."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Must be capable of faithfully completing the diary and of attending regularly scheduled study visits."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Must intend to remain in the ragweed pollen area during the entire ragweed season."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Willing to avoid prohibited medications for the periods indicated in the protocol."
+          ]
+        },
+        {
+          "category": "Inclusion",
+          "values": [
+              "Participants must meet pretrial eligibility requirements for trial enrollment (acceptable medical history, physical examination results, normal electrocardiogram and acceptable laboratory test results)."
+          ]
+        }
+  ],
+  
+  "types": [
+      {
+          "value": "Interventional"
+      }
+  ]
+  },
+  "creators": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Casale",
+      "email": "tbcasale@creighton.edu",
+      "affiliations": [
+          {
+             "name": "Creighton University School of Medicine"
+          }
+      ],
+      "roles": [
+          {
+             "value": "Principal Investigator"
+          }
+      ]
+    },
+    {
+      "name": "Immune Tolerance Network - Casale",
+      "extraProperties": [
+        {
+          "category": "Catgory",
+          "values": [
+            {
+              "value": "DAIT"
+            }
+          ]
+        },
+        {
+          "category": "External Id",
+          "values": [
+            {
+              "value": "N01-AI-95380 - Casale"
+            }
+          ]
+        },
+        {
+          "category": "Description",
+          "values": [
+            {
+              "value": "The Collaborative Network for Clinical Research on Immune Tolerance is a consortium of scientific and clinical investigators to: (1) develop a long-term scientific agenda for clinical trials and mechanistic studies; (2) design and conduct clinical trials at all phases to determine the safety, toxicity and efficacy of tolerogenic treatment strategies for multiple immune system diseases; and (3) design and conduct research to delineate the underlying mechanisms of immune tolerance as an integral part of the clinical trials undertaken by the Collaborative Network, as well as clinical trials sponsored by other Federal and private sector organizations and companies.  http://projectreporter.nih.gov/project_info_details.cfm?aid=6358320&icde=23811074&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "primaryPublications": [
+    {
+      "identifier":
+        {
+          "identifier": "16387596",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Casale TB(1), Busse WW, Kline JN, Ballas ZK, Moss MH, Townley RG, Mokhtarani M, Seyfert-Margolis V, Asare A, Bateman K, Deniz Y; Immune Tolerance Network Group.",
+      "title": "Omalizumab pretreatment decreases acute reactions after rush immunotherapy for ragweed-induced seasonal allergic rhinitis.",
+      "publicationVenue": "J Allergy Clin Immunol.",
+      "dates": [
+        {
+          "date": "2006",
+          "type": { "value": "publication year" }
+        }
+      ]
+    },
+    {
+      "identifier":
+        {
+          "identifier": "17631952",
+          "identifierSource": "pubmed"
+        },
+      "authorsList": "Klunker S(1), Saggar LR, Seyfert-Margolis V, Asare AL, Casale TB, Durham SR, Francis JN; Immune Tolerance Network Group.",
+      "title": "Combination treatment with omalizumab and rush immunotherapy for ragweed-induced  allergic rhinitis: Inhibition of IgE-facilitated allergen binding.",
+      "publicationVenue": "J Allergy Clin Immunol.",
+      "dates": [
+        {
+          "date": "2007",
+          "type": { "value": "publication year" }
+        }
+      ]
+    }
+  ],
+  "types": [
+      {
+        "value": "Clinical Trial"
+      },
+      {
+        "value": "Interventional"
+      },
+      {
+        "value": "Atopy/Allergy"
+      }
+  ],
+  "dates": [
+      {
+          "date": "2003-04-01",
+          "type": {
+              "value": "actual_start_date"
+          }
+      },
+      {
+          "date": "2014-04-08",
+          "type": {
+              "value": "final_public_release_date"
+          }
+      }
+  ],
+  "availability": "Available for download after registration with ImmPort",
+  "refinement": "Curated",
+  "dimensions": [{
+        "name": {
+            "value": "Cellular Quantification"
+        },
+        "description": "The change in T-cell subsets consistent with these hypotheses will be determined by 4 color flow cytometry analyses. Baseline data will be obtained prior to treatment periods and compared for each participant with data acquired at various time points at each treatment, including during ragweed season and after discontinuation of therapy.",
+        "types": [
+            {
+               "value": "Flow Cytometry"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Molecular Quantification"
+        },
+        "description": "None",
+        "types": [
+            {
+               "value": "ELISA"
+            }
+        ]
+      },{
+        "name": {
+            "value": "Total IgE"
+        }
+      },{
+        "name": {
+            "value": "Hematology"
+        }
+      },{
+        "name": {
+            "value": "Participant Diary Card Record"
+        }
+      },{
+        "name": {
+            "value": "Vital Signs"
+        }
+      },{
+        "name": {
+            "value": "Pre-injection Measurement for Rush immunotherapy(Ragweed)"
+        }
+      },{
+        "name": {
+            "value": "Pre-injection Measurement for Rush immunotherapy(Histamine)"
+        }
+      },{
+        "name": {
+            "value": "Food Allergy History"
+        }
+      },{
+        "name": {
+            "value": "15 mins post injection allergy skin reaction measurement"
+        }
+      },{
+        "name": {
+            "value": "24 hrs post injection allergy skin reaction measurement"
+        }
+      },{
+        "name": {
+            "value": "Immunotherapy History"
+        }
+      },{
+        "name": {
+            "value": "Animal Exposure History"
+        }
+      },{
+        "name": {
+            "value": "Allergen History"
+        }
+      },{
+        "name": {
+            "value": "Allergy Symptom History"
+        }
+      },{
+        "name": {
+            "value": "Other Allergy History"
+        }
+      }
+      
+  ],
+  
+  "distributions": [
+      {
+          "identifier": {
+              "identifier": "SDY1",
+              "identifierSource": "ImmPort"
+          },
+          "title": "Efficacy and Safety Evaluation of Allergen Immunotherapy Co-Administered with Omalizumab (an anti-IgE Monoclonal Antibody)",
+          "access": {
+              "landingPage": "http://www.immport.org",
+              "accessURL": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY1",
+              "types": [
+                  {
+                      "value": "Download tab separated files"
+                  },
+                  {
+                      "value": "Download MySQL files and schema"
+                  }
+              ],
+              "authorizations": [
+                {
+                    "value": "Registraton with ImmPort required"
+                }
+              ]
+          },
+          "storedIn": {
+              "name": "ImmPort",
+              "types": [
+                {
+                  "value": "primary repository"
+                }
+              ]
+         },
+         "licenses": [
+           {
+             "name": "ImmPort User Agreement",
+             "version": "1.0",
+             "extraProperties": [
+               {
+                 "category": "Link to User Agreement",
+                 "values": [
+                   {
+                     "value": "http://www.immport.org/agreement"
+                   }
+                 ]
+               }
+             ]
+           }
+         ]
+      }
+  ],
+  "acknowledges": [
+    {
+      "identifier": {
+        "identifier": ""
+      },
+      "name": "Immune Tolerance Network - Casale",
+      "extraProperties": [
+        {
+          "category": "Link",
+          "values": [
+            {
+              "value": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8706767&icde=23840015&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC"
+            }
+          ]
+        }
+      ]}
+  ],
+  "licenses": [
+    {
+      "name": "ImmPort User Agreement",
+      "version": "1.0",
+      "extraProperties": [
+        {
+          "category": "Link to User Agreement",
+          "values": [
+            {
+              "value": "http://www.immport.org/agreement"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "A series of allergy shots may reduce symptoms of seasonal ragweed allergies. This study will determine whether taking a drug called omalizumab (also known as Xolair) before getting the allergy shots is more effective than allergy shots alone or other treatments, such as prescription antihistamines."
+}

@@ -1,0 +1,22 @@
+{"pr_nif_0000_03160_1": {
+  "e_uid": "MPD:357",
+  "dataset_id": "MPD:357",
+  "dataset_symbol": "Lightfoot1",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Lightfoot1",
+  "title": "Wheel running activity in 41 inbred mouse strains",
+  "dataset_measurements": "body weight at the start of testing;wheel running activity, mean distance;wheel running activity, mean duration;wheel running activity, mean speed",
+  "specific_categories": "body weight size and growth--body weight;exercise and endurance",
+  "broad_categories": "body weight size and growth;exercise and endurance;body weight",
+  "reference": "2010 Lightfoot JT, Leamy L, Pomp D",
+  "datasettype": "phenotype strain survey",
+  "description": "",
+  "dataset_granularity": "individual mice",
+  "strainpanel": "classical",
+  "nstrains": "41",
+  "gender": "male and female",
+  "v_uid": "MPD:357",
+  "v_uuid": "1a37bb16-dbef-5907-b306-4bf1d34506ef",
+  "v_lastmodified": "2016-05-04 16:12:19.333646",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.462378339333646E9
+}}

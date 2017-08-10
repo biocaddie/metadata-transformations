@@ -1,0 +1,321 @@
+{
+  "MINiML": {
+    "@xsi:schemaLocation": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd",
+    "@version": "0.5.0",
+    "Contributor": [
+      {
+        "@iid": "contrib1",
+        "Person": {
+          "First": {"_$": "Nagaraja"},
+          "Last": {"_$": "V"}
+        },
+        "Department": {"_$": "Department of Microbiology and Cell Biology"},
+        "Organization": {"_$": "Indian Institute of Science (IISc)"},
+        "Address": {
+          "Line": {"_$": "C V Raman Avenue"},
+          "City": {"_$": "Bangalore"},
+          "State": {"_$": "Karnataka"},
+          "Postal-Code": {"_$": "560012"},
+          "Country": {"_$": "India"}
+        }
+      },
+      {
+        "@iid": "contrib2",
+        "Organization": {"_$": "GEO"},
+        "Address": {
+          "City": {},
+          "Country": {"_$": "USA"}
+        }
+      },
+      {
+        "@iid": "contrib3",
+        "Person": {
+          "First": {"_$": "W"},
+          "Last": {"_$": "Ahmed"}
+        }
+      },
+      {
+        "@iid": "contrib4",
+        "Person": {
+          "First": {"_$": "C"},
+          "Last": {"_$": "Sala"}
+        }
+      },
+      {
+        "@iid": "contrib5",
+        "Person": {
+          "First": {"_$": "S"},
+          "Middle": {"_$": "R"},
+          "Last": {"_$": "Hegde"}
+        }
+      },
+      {
+        "@iid": "contrib6",
+        "Person": {
+          "First": {"_$": "R"},
+          "Middle": {"_$": "K"},
+          "Last": {"_$": "Jha"}
+        }
+      },
+      {
+        "@iid": "contrib7",
+        "Person": {
+          "First": {"_$": "S"},
+          "Middle": {"_$": "T"},
+          "Last": {"_$": "Cole"}
+        }
+      },
+      {
+        "@iid": "contrib8",
+        "Person": {
+          "First": {"_$": "V"},
+          "Last": {"_$": "Nagaraja"}
+        }
+      }
+    ],
+    "Database": {
+      "@iid": "GEO",
+      "Name": {"_$": "Gene Expression Omnibus (GEO)"},
+      "Public-ID": {"_$": "GEO"},
+      "Organization": {"_$": "NCBI NLM NIH"},
+      "Web-Link": {"_$": "http://www.ncbi.nlm.nih.gov/geo"},
+      "Email": {"_$": "geo@ncbi.nlm.nih.gov"}
+    },
+    "Platform": {
+      "@iid": "GPL17967",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2013-11-20"},
+        "Release-Date": {"_$": "2013-11-20"},
+        "Last-Update-Date": {"_$": "2013-11-20"}
+      },
+      "Title": {"_$": "Illumina Genome Analyzer IIx (Mycobacterium tuberculosis H37Rv)"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GPL17967"
+      },
+      "Technology": {"_$": "high-throughput sequencing"},
+      "Distribution": {"_$": "virtual"},
+      "Organism": {
+        "@taxid": "83332",
+        "_$": "Mycobacterium tuberculosis H37Rv"
+      },
+      "Manufacturer": {},
+      "Manufacture-Protocol": {},
+      "Contact-Ref": {"@ref": "contrib2"}
+    },
+    "Sample": [
+      {
+        "@iid": "GSM2265622",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2017-01-31"},
+          "Last-Update-Date": {"_$": "2017-01-31"}
+        },
+        "Title": {"_$": "MtbRvTopoI_CS"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265622"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Log/exponential phase Mtb H37Rv cells"},
+          "Organism": {
+            "@taxid": "83332",
+            "_$": "Mycobacterium tuberculosis H37Rv"
+          },
+          "Characteristics": [
+            {
+              "@tag": "chip antibody",
+              "_$": "anti-TopoI, monoclonal (generated in-house, lot# VNMNL2012)"
+            },
+            {
+              "@tag": "growth phase",
+              "_$": "Exponential phase"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "M. tuberculosis cultures, either in exponential or stationary phase, were cross-linked with 1% formaldehyde for ten minutes at 37°C."},
+          "Growth-Protocol": {"_$": "Mycobacterium tuberculosis H37Rv was grown at 37°C in 7H9 broth (Difco) supplemented with 0.2% glycerol, 0.05% Tween 80 and 10% albumin-dextrose-catalase (ADC, Middlebrook) or on 7H10 plates supplemented with 0.5% glycerol and 10% oleic acid-albumin-dextrose-catalase (OADC, Middlebrook). Logarithmic-phase cultures (exponential phase) were harvested at an optical density (OD600) of 0.4-0.6."},
+          "Molecule": {"_$": "genomic DNA"},
+          "Extract-Protocol": {"_$": "Crosslinked bacteria cells were sonicated and protein-DNA complexes were isolated with either anti-TopoI or anti-gyrA antibodies.\nLibraries were prepared according to Illumina's instructions."}
+        },
+        "Description": {"_$": "Chromatin immunoprecipitation against Topoisomerase I"},
+        "Data-Processing": {"_$": "Data processing Illumina Casava1.7 software used for basecalling.\nSequenced reads were mapped to M.tb H37Rv genome (NCBI accession NC_000962.2)\nMapping done using the Bowtie2 program (Version = 2.0.5) with default parameters\nCoverage calculated using Bedtools ( Version : 2.17.0 )\nGenome_build: M.tb H37Rv genome (NCBI accession NC_000962.2)\nSupplementary_files_format_and_content: .bed file coverage calculated using Bedtools (Version : 2.17.0). Columns: Chromosome, Start, End, Name, Score, Strand, Interval, Read depth"},
+        "Platform-Ref": {"@ref": "GPL17967"},
+        "Library-Strategy": {"_$": "ChIP-Seq"},
+        "Library-Source": {"_$": "genomic"},
+        "Library-Selection": {"_$": "ChIP"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina Genome Analyzer IIx"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": [
+          {
+            "@type": "BED",
+            "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265622/GSM2265622_TopoI_GenewiseCoverage.bed.gz"
+          },
+          {
+            "@type": "BED",
+            "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265622/GSM2265622_TopoI_Intergenic.Coverage.bed.gz"
+          },
+          {
+            "@type": "SRA Experiment",
+            "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX201/SRX2018177"
+          }
+        ],
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05570584"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2018177"
+          }
+        ]
+      },
+      {
+        "@iid": "GSM2265623",
+        "Status": {
+          "@database": "GEO",
+          "Submission-Date": {"_$": "2016-08-09"},
+          "Release-Date": {"_$": "2017-01-31"},
+          "Last-Update-Date": {"_$": "2017-01-31"}
+        },
+        "Title": {"_$": "MtbRvGyr_CS"},
+        "Accession": {
+          "@database": "GEO",
+          "_$": "GSM2265623"
+        },
+        "Type": {"_$": "SRA"},
+        "Channel-Count": {"_$": "1"},
+        "Channel": {
+          "@position": "1",
+          "Source": {"_$": "Log/exponential phase Mtb H37Rv cells"},
+          "Organism": {
+            "@taxid": "83332",
+            "_$": "Mycobacterium tuberculosis H37Rv"
+          },
+          "Characteristics": [
+            {
+              "@tag": "chip antibody",
+              "_$": "anti-gyrA (generated in-house, lot# VNMUH1996)"
+            },
+            {
+              "@tag": "growth phase",
+              "_$": "Exponential phase"
+            }
+          ],
+          "Treatment-Protocol": {"_$": "M. tuberculosis cultures, either in exponential or stationary phase, were cross-linked with 1% formaldehyde for ten minutes at 37°C."},
+          "Growth-Protocol": {"_$": "Mycobacterium tuberculosis H37Rv was grown at 37°C in 7H9 broth (Difco) supplemented with 0.2% glycerol, 0.05% Tween 80 and 10% albumin-dextrose-catalase (ADC, Middlebrook) or on 7H10 plates supplemented with 0.5% glycerol and 10% oleic acid-albumin-dextrose-catalase (OADC, Middlebrook). Logarithmic-phase cultures (exponential phase) were harvested at an optical density (OD600) of 0.4-0.6."},
+          "Molecule": {"_$": "genomic DNA"},
+          "Extract-Protocol": {"_$": "Crosslinked bacteria cells were sonicated and protein-DNA complexes were isolated with either anti-TopoI or anti-gyrA antibodies.\nLibraries were prepared according to Illumina's instructions."}
+        },
+        "Description": {"_$": "Chromatin immunoprecipitation against Gyrase A subunit"},
+        "Data-Processing": {"_$": "Data processing Illumina Casava1.7 software used for basecalling.\nSequenced reads were mapped to M.tb H37Rv genome (NCBI accession NC_000962.2)\nMapping done using the Bowtie2 program (Version = 2.0.5) with default parameters\nCoverage calculated using Bedtools ( Version : 2.17.0 )\nGenome_build: M.tb H37Rv genome (NCBI accession NC_000962.2)\nSupplementary_files_format_and_content: .bed file coverage calculated using Bedtools (Version : 2.17.0). Columns: Chromosome, Start, End, Name, Score, Strand, Interval, Read depth"},
+        "Platform-Ref": {"@ref": "GPL17967"},
+        "Library-Strategy": {"_$": "ChIP-Seq"},
+        "Library-Source": {"_$": "genomic"},
+        "Library-Selection": {"_$": "ChIP"},
+        "Instrument-Model": {"Predefined": {"_$": "Illumina Genome Analyzer IIx"}},
+        "Contact-Ref": {"@ref": "contrib1"},
+        "Supplementary-Data": [
+          {
+            "@type": "BED",
+            "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265623/GSM2265623_Gyr_GenewiseCoverage.bed.gz"
+          },
+          {
+            "@type": "BED",
+            "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM2265nnn/GSM2265623/GSM2265623_Gyr_Intergenic.Coverage.bed.gz"
+          },
+          {
+            "@type": "SRA Experiment",
+            "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX201/SRX2018178"
+          }
+        ],
+        "Relation": [
+          {
+            "@type": "BioSample",
+            "@target": "https://www.ncbi.nlm.nih.gov/biosample/SAMN05570583"
+          },
+          {
+            "@type": "SRA",
+            "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRX2018178"
+          }
+        ]
+      }
+    ],
+    "Series": {
+      "@iid": "GSE85357",
+      "Status": {
+        "@database": "GEO",
+        "Submission-Date": {"_$": "2016-08-09"},
+        "Release-Date": {"_$": "2017-01-31"},
+        "Last-Update-Date": {"_$": "2017-02-01"}
+      },
+      "Title": {"_$": "Genome-wide distribution of topoisomerase I and DNA gyrase is directed by transcription induced supercoiling"},
+      "Accession": {
+        "@database": "GEO",
+        "_$": "GSE85357"
+      },
+      "Summary": {"_$": "Genome-wide distribution of topoisomerase I and DNA gyrase is directed by transcription induced supercoiling"},
+      "Overall-Design": {"_$": "Mtb H37Rv cells were ChIP-ed with either anti-TopoI or anti-gyrA antibodies."},
+      "Type": {"_$": "Genome binding/occupancy profiling by high throughput sequencing"},
+      "Contributor-Ref": [
+        {
+          "@ref": "contrib3",
+          "@position": "1"
+        },
+        {
+          "@ref": "contrib4",
+          "@position": "2"
+        },
+        {
+          "@ref": "contrib5",
+          "@position": "3"
+        },
+        {
+          "@ref": "contrib6",
+          "@position": "4"
+        },
+        {
+          "@ref": "contrib7",
+          "@position": "5"
+        },
+        {
+          "@ref": "contrib8",
+          "@position": "6"
+        }
+      ],
+      "Contact-Ref": {"@ref": "contrib1"},
+      "Sample-Ref": [
+        {"@ref": "GSM2265622"},
+        {"@ref": "GSM2265623"}
+      ],
+      "Supplementary-Data": [
+        {
+          "@type": "SRA Study",
+          "_$": "ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP081/SRP081552"
+        },
+        {
+          "@type": "TAR",
+          "_$": "ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE85357/GSE85357_RAW.tar"
+        }
+      ],
+      "Relation": [
+        {
+          "@type": "BioProject",
+          "@target": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA338794"
+        },
+        {
+          "@type": "SRA",
+          "@target": "https://www.ncbi.nlm.nih.gov/sra?term=SRP081552"
+        }
+      ]
+    }
+  },
+  "_@default": "http://www.ncbi.nlm.nih.gov/geo/info/MINiML",
+  "_@xml": "http://www.w3.org/XML/1998/namespace",
+  "_@xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}

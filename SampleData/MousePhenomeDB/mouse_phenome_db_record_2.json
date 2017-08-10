@@ -1,0 +1,22 @@
+{"pr_nif_0000_03160_1": {
+  "e_uid": "MPD:477",
+  "dataset_id": "MPD:477",
+  "dataset_symbol": "Schauwecker1",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Schauwecker1",
+  "title": "Drug study: Pilocarpine-induced status epilepticus in 11 inbred strains of mice",
+  "dataset_measurements": "duration of stage 4 status epilepticus seizures;latency to onset of stage 4 status epilepticus seizures;pilocarpine dose required to induce status epilepticus (mg/kg body weight);status epilepticus seizure mortality (0=died; 1=survived)",
+  "specific_categories": "brain--xenobiotics--drug-induced seizure",
+  "broad_categories": "brain;xenobiotics;drug-induced seizure",
+  "reference": "2012 Schauwecker PE",
+  "datasettype": "phenotype strain survey",
+  "description": "",
+  "dataset_granularity": "individual mice",
+  "strainpanel": "classical",
+  "nstrains": "11",
+  "gender": "male",
+  "v_uid": "MPD:477",
+  "v_uuid": "56cfd454-d5f4-5ee3-a4e9-86c380f31b2c",
+  "v_lastmodified": "2016-05-04 16:12:19.333646",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.462378339333646E9
+}}

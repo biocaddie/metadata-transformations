@@ -1,0 +1,115 @@
+/* Dataset Basic Information */
+transform column "$.'identifier'.'identifier'" to "dataset.ID" apply 
+{{ result = 'immport:' + 
+m = re.search('displayStudyDetail\/(\w+)', value)
+result = m.group(1) if m else value
+}};
+
+transform column "$.'title'" to "dataset.title";
+transform column "$.'description'" to "dataset.description";
+/* "$.'distributions'[*]" is an object hierarchy 
+transform columns "$.'types'[*].'value'", "$.'distributions'[*]" to "dataset.keywords[]";
+*/
+transform column "$.'types'[*].'value'" to "dataset.keywords[]";
+transform column "$.'acknowledges'[*].'name'"to "dataset.acknowledges[]";
+
+/* Dataset Landing Page*/
+/*
+transform column "$.'distributions'[*].'access'.'landingPage'" to "access.landingPage";
+*/
+transform column "$.'identifier'.'identifier'" to "access.landingPage";
+
+/* Dataset Creator */
+transform columns "$.'creators'[*].'firstName'" ,"$.'creators'[*].'lastName'" to "creators[].name" apply {{ result = value1 + ' ' + value2; }};
+
+/* Person Information */
+transform column "$.'creators'[*].'firstName'" to "person[].firstName";
+transform column "$.'creators'[*].'lastName'" to "person[].lastName";
+transform column "$.'creators'[*].'email'" to "person[].email";
+transform column "$.'creators'[*].'roles'[*].'value'" to "person[].roles[]";
+transform column "$.'creators'[*].'affiliations'[*].'name'" to "person[].affiliations[]";
+
+/* Dataset Release Date Information */
+if "$.'dates'[0].'type'.'value'" like "final_public_release_date" then transform column "$.'dates'[0].'date'" to "dataset.dateReleased" apply toStandardDate("yyyy");
+
+/* Dataset Qualifiers */
+transform column "$.'availability'" to "dataset.availability";
+transform column "$.'refinement'" to "dataset.refinement";
+let "dataset.types[0]" = "other";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "not applicable";
+
+/* Dimension information */
+transform column "$.'dimensions'[*].'name'.'value'" to "dimension[].name";
+transform column "$.'dimensions'[*].'types'[*].'value'" to "dimension[].types[]";
+transform column "$.'dimensions'[*].'description'" to "dimension[].description";
+
+/* Dataset Distribution */
+transform column "$.'distributions'[0].'identifier'.'identifier'" to "datasetDistributions[0].identifiers";
+transform column "$.'distributions'[0].'access'.'accessURL'" to "datasetDistributions[0].accessURL";
+transform column "$.'distributions'[0].'licenses'[*].'extraProperties'[*].'category'" to "datasetDistributions[0].licenses";
+transform column "$.'distributions'[0].'access'.'authorizations'[*].'value'" to "datasetDistributions[0].authorizations[]";
+transform column "$.'distributions'[0].'access'.'types'[*].'value'" to "datasetDistributions[0].accesstypes";
+let "datasetDistributions[0].storedIn[]" = "ImmPort";
+if "$.'distributions'[0].'storedIn'.'types'[*].'value'" like "primary repository" then let "datasetDistributions[0].primary" = "true";
+transform column "$.'distributions'[0].'title'" to "datasetDistributions[0].title";
+
+/* Publication Information */
+transform column "$.'primaryPublications'[*].'authorsList'" to "primaryPublication[].authorsList";
+/* incomplete rule (IBO) 
+if "$.'primaryPublications'[*].'dates'[*].'type'.'value'" like 'publication year' then transform column "'primaryPublication'[*].'dates'[*].'date'." to 
+*/   
+
+if "$.'primaryPublications'[*].'identifier'.'identifierSource'" like "pubmed" then transform column "$.'primaryPublication'[*].'identifier'.'identifier'" to "primaryPublication[].ID" apply {{ result = 'pmid:' + value }};
+transform column "$.'primaryPublications'[*].'publicationVenue'" to "primaryPublication[].publicationVenue";
+transform column "$.'primaryPublications'[*].'title'" to "primaryPublication[].title";
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:012804";
+let "dataRepository.name" = "ImmPort";
+let "dataRepository.abbreviation" = "ImmPort";
+let "dataRepository.homePage"= "http://www.immport.org";
+
+/* Identifiers Information */
+transform column "$.'identifier'.'identifierSource'" to "identifierInformation.identifierSource";
+transform column "$.'identifier'.'identifier'" to "identifierInformation.identifier" apply 
+{{
+m = re.search('displayStudyDetail\/(\w+)', value)
+result = m.group(1) if m else value
+}};
+
+
+/* License Information */
+transform column "$.'licenses'[*].'extraProperties'[*].'category'" to "license[].extraProperties[].category";
+transform column "$.'licenses'[*].'extraProperties'[*].'values'[*].'value'" to "license[].extraProperties[].value";
+transform column "$.'licenses'[*].'version'" to "license[].version";
+
+/* Molecular Entities */
+transform column "$.'producedBy'.'usesReagent'[*].'name'" to "molecularEntity[].name";
+transform column "$.'producedBy'.'usesReagent'[*].'name'" to "molecularEntity[].roles[0]" apply {{ result = "Reagent" }};
+
+/* Study */
+transform column "$.'producedBy'.'types'[*].value" to "study.types[]";
+transform columns "$.'producedBy'.'selectionCriteria'[*].'category'", "$.'producedBy'.'selectionCriteria'[*].'values'"  to "study.selectionCriteria" apply {{ result = value1 + ': ' + value2; }};
+transform column "$.'producedBy'.'studyGroups'[*].'name'" to "study.studyGroups[]";
+
+
+/* items not included 
+
+transform column "$.'acknowledges'[*].'extraProperties'[*].'category'" to "acknowledges[].extraProperties[].category";
+transform column "$.'acknowledges'[*].'extraProperties'[*].'values'[*].'value'" to "acknowledges[].extraProperties[].values[].value";
+transform column "$.'acknowledges'[*].'identifier'.'identifier'" to "acknowledges[].identifier.identifier._$";
+transform column "$.'distributions'[0].'storedIn'.'types'[*].'value'" to "storedIn.type";
+transform column "$.'producedBy'.'performedBy'[*].'firstName'" to "producedBy.performedBy[].firstName";
+transform column "$.'producedBy'.'performedBy'[*].'lastName'" to "producedBy.performedBy[].lastName";
+transform column "$.'producedBy'.'performedBy'[*].'email'" to "producedBy.performedBy[].email";
+transform column "$.'producedBy'.'performedBy'[*].'roles'[*].'value'" to "producedBy.performedBy[].roles[].value";
+transform column "$.'producedBy'.'selectionCriteria'[*].'category'" to "producedBy.selectionCriteria[].category";
+transform column "$.'producedBy'.'studyGroups'[*].'size'" to "producedBy.studyGroups[].size";
+transform column "$.'producedBy'.'types'[*].'value'" to "producedBy.types[].value";
+transform column "$.'distributions'[*].'licenses'[*].'extraProperties'[*].'values'[*].'value'" to "distributions[].licenses[].extraProperties[].values[].value";
+transform column "$.'distributions'[*].'licenses'[*].'version'" to "distributions[].licenses[].version";
+transform column "$.'distributions'[*].'identifier'.'identifierSource'" to "distributions[].identifier.identifierSource";
+transform column "$.'creators'[*].'extraProperties'[*].'category'" to "creators[].extraProperties[].category";
+transform column "$.'creators'[*].'extraProperties'[*].'values'[*].'value'" to "creators[].extraProperties[].values[].value";
+*/

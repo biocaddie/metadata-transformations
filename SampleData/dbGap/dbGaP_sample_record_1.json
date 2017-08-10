@@ -1,0 +1,5045 @@
+{
+  "Study": {
+    "@source": "dbGaP",
+    "@accession": "phs000001.v3.p1",
+    "@parentStudy": "phs000001.v3.p1",
+    "@createDate": "2012-01-05",
+    "@modDate": "2012-01-11",
+    "Configuration": {
+      "Data_Provider": {"_$": "<table border=\"1\">\n\t\t<tr><th>Title<\/th><th>Name<\/th><th>Institute<\/th><\/tr>\n\t\t<tr><td>Directors of Clinical Sites<\/td><td>Susan B. Bressler, MD<\/td><td>Wilmer Eye Institute, The Johns Hopkins Medical Institutions, Baltimore, MD<\/td><\/tr>\n\t\t<tr><td>Directors of Clinical Sites<\/td><td>Suresh R. Chandra, MD<\/td><td>University Station Clinics, University of Wisconsin, Madison, WI<\/td><\/tr>\n\t\t<tr><td>Directors of Clinical Sites<\/td><td>Emily Y. Chew, MD<\/td><td>The National Eye Institute, National Institutes of Health, Bethesda, MD<\/td><\/tr>\n\t\t<tr><td>Directors of Clinical Sites<\/td><td>Michael J. Elman, MD<\/td><td>Elman Retina Group, Baltimore, MD<\/td><\/tr>\n\t\t<tr><td>Directors of Clinical Sites<\/td><td>Thomas R. Friberg, MD<\/td><td>The Eye and Ear Institute, University of Pittsburgh, Pittsburgh, PA<\/td><\/tr>\n\t\t<\/table>"},
+      "StudyNameEntrez": {"_$": "NEI Age-Related Eye Disease Study (AREDS)"},
+      "StudyNameReportPage": {"_$": "National Eye Institute (NEI) Age-Related Eye Disease Study (AREDS)"},
+      "StudyTypes": {"StudyType": {"_$": "Case-Control"}},
+      "Description": {"_$": "<p> \t\t\tThe Age-Related Eye Disease Study (AREDS) was initially designed as a long-term multi-center, prospective study of the clinical \t\t\tcourse of age-related macular degeneration (AMD) and age-related cataract. In addition to collecting natural history data, AREDS \t\t\tincluded a clinical trial of high-dose vitamin and mineral supplements for AMD and a clinical trial of high-dose vitamin supplements \t\t\tfor cataract. AREDS participants were 55 to 80 years of age at enrollment and had to be free of any illness or condition that would make \t\t\tlong-term follow-up or compliance with study medications unlikely or difficult. On the basis of fundus photographs graded by a \t\t\tcentral reading center, best-corrected visual acuity and ophthalmologic evaluations, 4,757 participants were enrolled in one of several \t\t\tAMD categories, including persons with no AMD. \t\t<\/p> \t\t<p> \t\t\tThe clinical trials for AMD and cataract were conducted concurrently. AREDS participants were followed on the clinical trials for a \t\t\tmedian time of 6.5 years. Subsequent to the conclusion of the clinical trials, participants were followed for an additional 5 years \t\t\tand natural history data were collected. The AREDS research design is detailed in AREDS Report 1. AREDS Report 8 contains the mainline \t\t\tresults from the AMD trial; AREDS Report 9 contains the results of the cataract trial. \t\t<\/p> \t\t<p> \t\t\tBlood samples were also collected from 3,700+ AREDS participants for genetic research. Genetic samples from 600 AREDS participants \t\t\t(200 controls, 200 Neovascular AMD cases, and 200 Geographic Atrophy cases) were selected using data available in March 2005 and then \t\t\twere evaluated with a genome-wide scan. These data, as well as selected phenotypic data, were made available in the dbGaP. DNA from \t\t\tAREDS participants, which is currently being stored in the AREDS Genetic Repository, is available for research purposes. However, not all \t\t\tof the 3,700+ AREDS participants who submitted a blood sample currently have DNA available. \t\t<\/p> \t\t<p> \t\t\tIn addition to including the data from the genome-wide scan on the 600 original samples, this second version of the AREDS dbGaP \t\t\tdatabase provides a comprehensive set of data tables with extensive clinical information collected for the 4,757 participants who \t\t\tparticipated in AREDS. The tables include information collected at enrollment/baseline, during study follow-up, fundus and lens pathology, \t\t\tnutritional estimates, quality of life measures and measures of morbidity and mortality. \t\t<\/p> \t\t<p>In November 2010, over 72,000 high quality fundus and lens photographs from 595 AREDS participants (of the original 600  \t\tselected for the genome-wide scan) were made available in the AREDS dbGaP. In addition to the genome-wide scan data, the  \t\tfundus and lens grading data for these participants are also available in the AREDS dbGaP. Details about the ocular  \t\tphotographs that are available are found <a href=\"GetPdf.cgi?id=phd003307.1\" target=\"_blank\">here<\/a>. \t\t<\/p> \t\t<p> \t\tIn January 2012, a measure of daily sunlight exposure was added in a separate &#34;sunlight&#34; table.  Furthermore, the &#34;followup&#34; table has been revised.   \t\tThe visual acuity for the right eye was inadvertently missing at odd-numbered visits (01, 03, 05, etc.).  This data is now part of the table. \t\t<\/p> \t\t<p> \t\t\tIt is hoped that this resource will better help researchers understand two important diseases that affect an aging population. These data \t\t\tmay be applied to examination and inference on genetic and genetic-environmental bases for age-related diseases of public health \t\t\tsignificance and may also help elucidate the clinical course of both conditions, generate hypotheses, and aid in the design of clinical \t\t\ttrials of preventive interventions. \t\t<\/p><br/>  \t\t<p> \t\t\t<b>Definitions of Final AMD Phenotype Categories<\/b><br/> \t\t\tPlease see <a href=\"GetPdf.cgi?id=phd001138\" target=\"_blank\">phd001138.1<\/a> for a detailed description of how AREDS participants&#39; \t\t\tfinal AMD phenotype was categorized. \t\t<\/p><br/>  \t\t<p> \t\t\t<b>User&#39;s Guide for AREDS Phenotype Data<\/b><br/> \t\t\tA detailed User&#39;s Guide for the AREDS phenotype data is available. \t\t\tThis <a href=\"GetPdf.cgi?id=phd001552.1\" target=\"_blank\"><b>User&#39;s Guide<\/b><\/a> is meant to be \t\t\ta comprehensive document which explains the complexities of the AREDS data. <i>It is recommended that all researchers using AREDS \t\t\tphenotype data make use of this User&#39;s Guide<\/i>. \t\t<\/p>"},
+      "StudyInEx": {"_$": "<p>Please see <a href=\"GetPdf.cgi?id=phd000003.2\" target=\"_blank\">AREDS Manual of Operations Section 3.1.3<\/a> for \t\t\t  a detailed description of the inclusion and exclusion criteria. \t\t<\/p>"},
+      "StudyProjects": {"Project": {}},
+      "Publications": {"Publication": [
+        {"Pubmed": {"@pmid": "10588299"}},
+        {"Pubmed": {"@pmid": "10801969"}},
+        {"Pubmed": {"@pmid": "11097601"}},
+        {"Pubmed": {"@pmid": "11228291"}},
+        {"Pubmed": {"@pmid": "11470690"}},
+        {"Pubmed": {"@pmid": "11704028"}},
+        {"Pubmed": {"@pmid": "11925463"}},
+        {"Pubmed": {"@pmid": "11594942"}},
+        {"Pubmed": {"@pmid": "11594943"}},
+        {"Pubmed": {"@pmid": "12583787"}},
+        {"Pubmed": {"@pmid": "14609922"}},
+        {"Pubmed": {"@pmid": "15534261"}},
+        {"Pubmed": {"@pmid": "15136320"}},
+        {"Pubmed": {"@pmid": "16157800"}},
+        {"Pubmed": {"@pmid": "16033748"}},
+        {"Pubmed": {"@pmid": "16606880"}},
+        {"Pubmed": {"@pmid": "16286610"}},
+        {"Pubmed": {"@pmid": "16286620"}},
+        {"Pubmed": {"@pmid": "15808240"}},
+        {"Pubmed": {"@pmid": "15761122"}},
+        {"Pubmed": {"@pmid": "17502507"}},
+        {"Pubmed": {"@pmid": "16877067"}},
+        {"Pubmed": {"@pmid": "17846363"}},
+        {"Pubmed": {"@pmid": "18779490"}},
+        {"Pubmed": {"@pmid": "18201681"}},
+        {"Pubmed": {"@pmid": "19139352"}},
+        {"Journal": {
+          "@authors": "Ansay SE, Armstrong JR, Osterby KR, Reimers JL, Badal DR, Geithman PL, Miner KD, King WN, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Evaluation of cortical and PSC lens opacities from fundus camera reflex photographs",
+          "@journal": "Abstract, Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, Florida, May 11-16, 1997",
+          "@notes": "1997 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Gensler GR, Lindblad AS (Age-Related Eye Disease Study (AREDS) Research Group)",
+          "@title": "Evaluation of a two-phase enrollment design: experience of the Age-Related Eye Disease Study",
+          "@journal": "Poster, 2nd Joint Meeting, Society for Clinical Trials and International Society for Clinical Biostatistics, Boston, Massachusetts, July 6-10, 1997",
+          "@notes": "1997 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Magli YL, Klein BEK, Sperduto RD, Hubbard LD, Neider MW, King WN, Davis MD, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Extension of the Wisconsin Lens Opacity Grading System",
+          "@journal": "Abstract, Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 11-16, 1997",
+          "@notes": "1997 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Quality control of photographic grading",
+          "@journal": "Poster, Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 11-16, 1997",
+          "@notes": "1997 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Lens photographic grading system",
+          "@journal": "Poster, Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 11-16, 1997",
+          "@notes": "1997 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Davis MD, Klein R, Magli YL, Ansay SE, Armstrong JR, Ferris FL, Hubbard LD, Neider MW, King WN for Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "AREDS extension of the Wisconsin age-related maculopathy grading system",
+          "@journal": "IOVS Abstract Book, March 15, 1998, Vol 39, No 4:2781--B638;S601",
+          "@notes": "1998 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "AREDS extension of the Wisconsin age-related maculopathy grading system",
+          "@journal": "Poster, Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), May 1998",
+          "@notes": "1998 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Kurinij N, Gensler G, Milton R, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Development and valuation of a food frequency questionnaire in a randomized trial of eye diseases",
+          "@journal": "International Conference on Dietary Assessment Measures, May 1998",
+          "@notes": "1998 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Gensler GR and the AREDS Research Group",
+          "@title": "Baseline nutritional status of AREDS participants",
+          "@journal": "Poster, Experimental Biology, Apr 1999",
+          "@notes": "1999 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Recruitment of married couples in AREDS",
+          "@journal": "Poster, Society for Clinical Trials, Apr 2000",
+          "@notes": "2000 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Clemons T and the AREDS Research Group",
+          "@title": "The NEI Visual Functioning Questionnaire: experience of the AREDS",
+          "@journal": "Visual Functioning Assessment in Clinical and Observational Research, Rockville, MD, Nov 2000",
+          "@notes": "2000 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "McBee WL and the AREDS Research Group",
+          "@title": "A program designed to provide and maintain training in a large long-term clinical trial",
+          "@journal": "Controlled Clinical Trials, 22(2S), pp86S-87S. Poster, 22nd annual meeting of Society for Clinical Trials, Denver, CO, May 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Lindblad AS and the AREDS Research Group",
+          "@title": "Incorporating a cognitive function ancillary study in an ophthalmic clinical trial",
+          "@journal": "Poster presented at the 22nd annual meeting of Society for Clinical Trials, Denver, CO, May 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Study Design and Baseline Characteristics",
+          "@journal": "American Academy of Ophthalmology Meeting, New Orleans, LA, Nov 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Classification of Lens Outcomes",
+          "@journal": "American Academy of Ophthalmology Meeting, New Orleans, LA, Nov 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Classification of AMD Outcomes",
+          "@journal": "American Academy of Ophthalmology Meeting, New Orleans, LA, Nov 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Adverse Effects of Antioxidants and Zinc",
+          "@journal": "American Academy of Ophthalmology Meeting, New Orleans, LA, Nov 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Effect of Antioxidants and Zinc on Cataract",
+          "@journal": "American Academy of Ophthalmology Meeting, New Orleans, LA, Nov 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Effect of Antioxidants and Zinc on AMD",
+          "@journal": "American Academy of Ophthalmology Meeting, New Orleans, LA, Nov 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Effect of Antioxidants and Zinc on Visual Acuity",
+          "@journal": "American Academy of Ophthalmology Meeting, New Orleans, LA, Nov 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "Vitamins and Mineral Supplements and Eye Disease",
+          "@journal": "American Academy of Ophthalmology Meeting, New Orleans, LA, Nov 2001",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Seddon JM, Chew EY, Klein R, Clemons TE, and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Is cholesterol a risk factor for progression to advanced AMD?",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 5-10, 2002",
+          "@notes": "2001 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Clemons TE, Lindblad AS, McBee WL, Hubbard LD, Klein ML, and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Cognitive function in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 5-10, 2002",
+          "@notes": "2002 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Cusick M, Chew EY, Clemons TE, Klein R, Klein BEK, Hubbard LD, and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Effect of antioxidant and zinc supplements on progression of diabetic retinopathy in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 5-10, 2002",
+          "@notes": "2002 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Lindblad AS, Clemons TE, Bressler SB, Chew EY, and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "NEI-VFQ in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 5-10, 2002",
+          "@notes": "2002 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Martin DF, Gensler G, Klein BEK, Klein R, Chew EY and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The effect of cataract surgery on progression to advanced AMD",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 5-10, 2002",
+          "@notes": "2002 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Gensler G, Sperduto RD, Klein BEK, Klein R, Chew EY and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The seven-year incidence and progression of cataract in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 5-10, 2002",
+          "@notes": "2002 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Chew EY, Davis MD, Seddon JM, Clemons TE, Hubbard LD, and Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The effect of antioxidant and zinc supplements on change in drusen size/area in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 5-10, 2002",
+          "@notes": "2002 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Bressler NM, Friedman DS, Congdon NG, Seddon JM, Klein R, and the Age-Related Eye Disease Study AREDS Research Group",
+          "@title": "Public health impact of the Age-Related Eye Disease Study (AREDS) AMD Results",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 5-10, 2002",
+          "@notes": "2002 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Bressler NM, Friedman DS, Congdon NG, Seddon JM, Klein R, and the Age-Related Eye Disease Study AREDS Research Group",
+          "@title": "Public health impact of the Age-Related Eye Disease Study (AREDS) AMD Results",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 5-10, 2002",
+          "@notes": "2002 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "The Results of the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "European Association for Vision and Eye Research (EVER) Meeting, Alicante, Spain, Oct 2002",
+          "@notes": "2002 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Kurinij N, Clemons TE and The Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Do antioxidants or zinc affect cognitive function in an older population?",
+          "@journal": "Poster, The Fifth International Conference on Dietary Assessment Methods, Chiang Rai, Thailand, Feb 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "The effect of cataract surgery on progression to advanced AMD",
+          "@journal": "17th Sarasota Vitreoretinal Update Course, Sarasota, FL, Feb 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Seddon JM, SanGiovanni JP, Chandra S, Klein M, Chew E, Kurinij N, and the Age-Related Eye Disease Study Research Group",
+          "@title": "Dietary omega-3 long chain polyunsaturated fatty acids and risk for age-related macular degeneration",
+          "@journal": "Annual Meeting, Macula Society, Naples, FL, Feb 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Martin DF, Bressler NM, Bressler SB, Chandra S, Chew EY, Friberg TR, Klein R, Seddon JM, and the Age-Related Eye Disease Study Research Group",
+          "@title": "Risk factors for progression to advanced AMD",
+          "@journal": "Annual Meeting, Macula Society, Naples, FL, Feb 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Martin DF, Bressler NM, Bressler SB, Chew EY, Clemons TE, Klein R, Seddon JM, and Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Risk Factors for the Incidence of Advanced Age-Related Macular Degeneration in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Poster, Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 4-9, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Lindblad AS, Bressler NM, Bressler SB, Clemons TE, Klein R, and Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Responsiveness of the NEI-VFQ in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 4-9, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Bressler S, Bressler NM, Chandra SR, Chew EY, Clemons TE, Klein R, Seddon JM, and Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Mortality in the Age-Related Eye Disease Study: Associations with Age-Related Macular Degeneration (AMD)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 4-9, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Davis MD, Gangnon RE, Hubbard LD, Lee LY, King WN, Bressler SB, Chew EY, Klein BEK, Klein R, and Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "A Severity Scale for Age-Related Macular Degeneration (AMD)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 4-9, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "SanGiovanni JP, Chandra SR, Chew EY, Friberg TR, Klein ML, Kurinij N, Seddon JM, and Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Dietary Omega-3 Long-chain Polyunsaturated Fatty Acids and Risk for Age-Related Macular Degeneration",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 4-9, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Clemons TE, Friberg TR, Kurinij N, Sperduto RD, and Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Mortality in the Age-Related Eye Disease Study: Associations with Lens Opacity and Cataract Surgery",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 4-9, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Clemons TE, Kurinij N and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Dietary intake of antioxidants or zinc versus high-dose supplements in a randomized clinical trial: associations with cognitive impairment",
+          "@journal": "Annual Meeting, Society for Clinical Trials, London, UK, July 20-24, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Gensler GR and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Do they stay or do they go: characterizing long-term study follow-up in the Age-Related Eye Disease Study",
+          "@journal": "Poster, Annual Meeting, Society for Clinical Trials, London, UK, July 20-24, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Lindblad AS and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Dietary intake studies, randomized trials of nutritional supplements, and resulting public impact",
+          "@journal": "Poster, Annual Meeting, Society for Clinical Trials, London, UK, July 20-24, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Henning AK, Lindblad AS and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Quality control issues in a genetic repository -- the Age-Related Eye Disease Study experience",
+          "@journal": "Annual Meeting, Society for Clinical Trials, London, UK, July 20-24, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "McBee WL and the Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Not simply a matter of faulty memory: obstacles to implementing cognitive function ancillary studies in clinical trials with other primary outcomes",
+          "@journal": "Poster, Annual Meeting, Society for Clinical Trials, London, UK, July 20-24, 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Yaffe K, Clemons TE, McBee WL, Lindblad AS, Bressler SB",
+          "@title": "A randomized, controlled trial of antioxidants and zinc and the impact on cognition in the elderly: The AREDS ancillary trial",
+          "@journal": "Poster, American Neurological Association 128th Annual Meeting, San Francisco, CA, Oct 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "AREDS Update I: The effect of cataract surgery on progression to advanced AMD",
+          "@title": "American Academy of Ophthalmology Meeting, Anaheim, CA, Nov 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@title": "AREDS Update II: Mortality and Nutritional Risk Factors",
+          "@journal": "American Academy of Ophthalmology Meeting, Anaheim, CA, Nov 2003",
+          "@notes": "2003 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Bressler S, Bressler NM, Clemons T, Ferris FL, Milton RC, Klein R, Klein B, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Ocular risk factors for developing neovascular AMD in the fellow eyes of patients with unilateral neovascular AMD",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004 and 22nd Annual Meeting of the American Society of Retina Specialists (ASRS), San Diego, CA, Aug 16-20, 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "SanGiovanni JP, Chew EY, Ferris FL, Kurinij N, Sperduto RD, Lindblad AS, Seddon JM, Klein BEK, Friberg TR, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Dietary carotenoids and risk for age-related macular degeneration in the Age-Related Eye Disease Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004 and 22nd Annual Meeting of the American Society of Retina Specialists (ASRS), San Diego, CA, Aug 16-20, 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Chew EY, Clemons TE, Klein ML, Klein BEK, Friberg T, Bressler S, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Cognitive function in the Age-Related Eye Disease Study (AREDS) (poster)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Milton RC, Clemons TE, Sperduto RD, Klein BEK, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Centrum use and progression of age-related cataract in the Age-Related Eye Disease Study (AREDS) - A propensity score approach",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004 and 25th Anniversary Meeting of the Society for Clinical Trials (SCT), New Orleans, LA, May 23-26, 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Lindblad AS, Clemons TC, Seddon JM, Friberg TR, Klein R, Klein BEK, Bressler SB, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Estimated rates of progression to advanced AMD and vision loss by baseline maculopathy status: Results from the Age-Related Eye Disease Study (poster)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Armstrong J, Davis MD, Gangnon RE, Lee L-Y, Klein R, Klein BE, Milton RC, Ferris FL, Hubbard LD, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Illustration of the AMD severity scale from the Age-Related Eye Disease Study (poster)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Moriarty SE, Openo K, Lynn M, Bressler S, Gensler G, Jones DP, Sternberg P, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Effect of antioxidant supplementation on blood plasma thiol redox status in AREDS participants with early to late ARMD",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004 and 27th Annual Macula Society Meeting, Las Vegas, NV, Feb 26-Mar 1, 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Seddon JM, Gensler G, Milton RC, Klein ML, Rifai N",
+          "@title": "Associations between c-reactive protein and age-related macular degeneration",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Clemons TE, Klein BEK, Sperduto RD, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Risk factors for the progression of lens opacities in the Age-Related Eye Disease Study (AREDS) (poster)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Klein ML, Ferris FL, Gensler G, Davis, MD, Armstrong J, Chew EY, Bressler SB, Gottlieb J, Friberg TR, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Clinical features and natural course of drusenoid pigment epithelial detachments in age-related macular degeneration (poster)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, Apr 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "McBee WL, Rankin MW, Clemons TE, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Substitution of a telephone battery for an in-clinic assessment of cognitive function: correlation analysis from the AREDS Cognitive Function Ancillary Study",
+          "@journal": "25th Anniversary Meeting of the Society for Clinical Trials (SCT), New Orleans, LA, May 23-26, 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Moriarty SE, Openo K, Lynn M, Bressler S, Gensler G, Jones DP, Sternberg P, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Antioxidant supplementation prevents the oxidation of blood plasma cysteine/cystine redox status in elderly subjects",
+          "@journal": "Experimental Biology, Washington DC, Apr 17-21, 2004",
+          "@notes": "2004 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Armstrong JR, Davis MD, Danis, RP, Klein R, Klein BE, Lee L, Elledge J, Whitehead J, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Reticular drusen as a baseline risk factor for progression to advanced AMD in AREDS",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2005",
+          "@notes": "2005 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Friberg TR, Chew E, Clemons TE, Bressler S, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The effect of AREDS supplementation on visual acuity loss in eyes with advanced AMD",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2005",
+          "@notes": "2005 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Bremer RW, Friberg TR, Mazumdar S, Oden NL, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The relation between depression and visual functioning. The AREDS Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2005",
+          "@notes": "2005 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "SanGiovanni JP, Chew EY, Clemons TE, Seddon JM, Klein R, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Dietary lipids intake and incident advanced Age-Related Macular Degeneration (AMD) in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2005",
+          "@notes": "2005 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Rosenthal JM, SanGiovanni JP, Chew EY, Seddon JM, Ferris FL, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Dietary zinc and risk for Age-Related Macular Degeneration",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2005",
+          "@notes": "2005 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Chew EY, Clemons TE, Bressler S, Klein M, Ruby A, Seddon J, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Serum nutrient levels as risk factors for neovascular AMD",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2005",
+          "@notes": "2005 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Cusick M, SanGiovanni JP, Chew EY, Reed GF, Agron E, Sperduto RD, Clemons TE, Ferris FL, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The relationship of Omega(n)-3 lnog-chain polyunsaturated fatty acid (LCPUFA) intake and regular aspirin (ASA) use with prevalent neovascular Age-Related Macular Degeneration",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2005",
+          "@notes": "2005 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Bressler SB, Ferris FL, Davis MD, Gangnon RE, Hubbard LD, Lee L-Y, Chew EY, Klein BE, Klein R, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "A simple clinical scale for estimating the risk of Age-Related Macular Degeneration progression",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2005",
+          "@notes": "2005 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Klein ML, Armstrong JR, Hwang TS, Ferris FL, Chew EY, Gensler GR, Seddon JM, Bressler SB, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Retinal risk factors and progression to geographic atrophy in Age-Related Macular Degeneration",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2005",
+          "@notes": "2005 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Rosenthal JM, SanGiovanni JP, Agron E, Reed G, Chew E, Seddon J, Ferris F, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "A Dietary Antioxidant Index and Risk for Advanced Age-Related Macular Degeneration in the Age-Related Eye Disease Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Bressler SB, Ferris FL, Milton RC, Gensler G, Harrington M, Kim J, Chew EY, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The Effect of Cataract Surgery on the Development of Neovascular Age-Related Macular Degeneration (AMD)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "SanGiovanni JP, Chew EY, Agron E, Clemons TE, Seddon JM, Ferris FL, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Dietary Lipid Intake and Vision Loss in the Age-Related Eye Disease Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Chiu CJ, Milton RC, Gensler G, Taylor A (Tufts)",
+          "@title": "Dietary Carbohydrate Intake and Glycemic Index in Relation to Age-Related Eye Disease Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Chew EY, Clemons T, Lindblad A, Ferris FL III, Klein R, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The Progression of Age-Related Macular Degeneration in African-Americans Enrolled in the Age-Related Eye Disease Study (AREDS), Using the AREDS Simple Scale",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Huang LL, Agron E, SanGiovanni JP, Clemons TE, Ferris F III, Sperduto R, Chew EY, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Is Cataract Associated With Cognitive Function? A Case-Control Study in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Jain N, SanGiovanni JP, Chew EY, Agron E, Reed GF, Sperduto RD, Clemons TE, Seddon JM, Ferris FL, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Dietary Carotenoids and Cataract in the Age-Related Eye Disease Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Lee LB, SanGiovanni JP, Chew EY, Agron E, Reed GF, Sperduto RD, Clemons TE, Seddon JM, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Dietary Lipids and Cataract in the Age-Related Eye Disease Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Taylor A, Chiu CJ (Tufts), Milton RC, Gensler G",
+          "@title": "Dietary Carbohydrate Intake and Glycemic Index in Relation to Cortical and Nuclear Lens Opacities in the Age-Related Eye Disease Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Clemons TE, Sperduto RD, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Cataract Risk Factors in a Subgroup of Patients Age 80 and Older From the Age-Related Eye Disease Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Lindblad AS, Sperduto RD, Clemons TE, Ferris FL, Klein BEK, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Cataract Phenotyping Using Serial Examinations in the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2006",
+          "@notes": "2006 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Chew EY, Clemons T, Milton R, Davis, MD, Ferris FL III, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Visual Acuity Loss Associated With Advanced AMD Fundus Lesions and With the Simplified AREDS AMD Severity Scale",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Sen H, Chew EY, Agron E, Reed GF, SanGiovanni J, Ferris FL III",
+          "@title": "Systemic Nsaids and Age-Related Macular Degeneration: The Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Clemons TC, Ferris FL, Chew EY, Davis MD, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The Age-Related Eye Disease Study (AREDS) Simple Scale: The Relation of the AREDS Simple Scale for AMD to Long-Term Progression to Advanced AMD and Reduced Vision",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Chew EY",
+          "@title": "AREDS2 with Lutein/Zeaxanthin and Omega-3 Fatty Acids: Update",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Chiu CJ, Milton RC, Klein R, Gensler G, Taylor (Tufts)",
+          "@title": "Dietary Glycemic Index is Related to Progression of Age-Related Macular Degeneration",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Milton RC, Ferris FL III, Gensler GR, Ho M, Davis MD, Clemons TE, Chew EY,  Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "The Effect of Cataract Surgery on the Development of Geographic Atrophy",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "SanGiovanni JP, Chew EY, Clemons TE, Henning AK, Hoh J, Elashoff M",
+          "@title": "Single Marker Associations of Nuclear-Encoded Mitochondrial Genes with Advanced AMD",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Vora A, SanGiovanni JP, Chew EY, Ajudua SN, Reed GF, Agron E, Henning AK, Clemons TE, Hoh J, Elashoff M",
+          "@title": "Single Marker Associations of Cell Cycle Pathway Genes with Advanced AMD",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Ajudua SN, Elashoff M, Chew EY, Vora A, Reed GF, Agron E, Henning AK, Clemons TE, Hoh J, SanGiovanni JP",
+          "@title": "Single Marker Associations of NFkB Pathway Genes with Advanced AMD",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Lindblad AS, Lloyd P, Gensler G, Clemons T, Ferris FL III, Age-Related Eye Disease Study (AREDS) Research Group",
+          "@title": "Progression of Geographic Atrophy as Measured by Digital Area; Results From the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "McBee WL, Stein J, Chew EY, Clemons TE",
+          "@title": "An approach to development and dissemination of patient recruitment materials for a large multicenter clinical trial",
+          "@journal": "Poster presented at the 28th Annual Meeting of the Society for Clinical Trials, Montreal, Canada, May 2007",
+          "@notes": "2007 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "SanGiovanni JP, Arking DE, Chew EY, Iyengar SK, Henning AK, Clemons TE, Hoh J, Elashoff M, Klein ML, Chakravarti A",
+          "@title": "A mitochondrial DNA haplogroup is associated with increased risk of advanced age-related macular degeneration",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, April 2008",
+          "@notes": "2008 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Clemons TE, Chew EY, Milton RC, AREDS Research Group",
+          "@title": "Association of mortality with AMD, cataract and high-dose antioxidants and zinc after long-term follow-up in the Age-Related Eye Disease Study",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, April 2008",
+          "@notes": "2008 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Iyengar SK, Wang Y, Igo RP, SanGiovanni JP, Henning AK, Clemons TE, Chew EY",
+          "@title": "Comparison of multiple predictive models for AMD susceptibility",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, April 2008",
+          "@notes": "2008 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Kopplin LJ, Wang Y, Ajudua S, Igo Jr, RP, Chew EY, Clemons TE, Henning AK, Francis, PJ, Klein ML, Iyengar SK",
+          "@title": "C3 variant is associated with neovasclar AMD and geographic atrophy in age-related macular degeneration",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, April 2008",
+          "@notes": "2008 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Cukras CA, Agron E, SanGiovanni JP, Clemons T, Ferris III FL, Chew EY",
+          "@title": "The use of statins and the development of AMD in AREDS",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, April 2008",
+          "@notes": "2008 Abstracts and Presentations"
+        }},
+        {"Journal": {
+          "@authors": "Chew EY, Cohen G, Clemons T, Milton R, Age-Related Eye Disease Group",
+          "@title": "Ten-year estimated progression rates to neovascular AMD and central geographic atrophy from the Age-Related Eye Disease Study (AREDS)",
+          "@journal": "Annual Meeting, Association for Research in Vision and Ophthalmology (ARVO), Fort Lauderdale, FL, April 2008",
+          "@notes": "2008 Abstracts and Presentations"
+        }}
+      ]},
+      "Diseases": {"Disease": [
+        {
+          "@vocab_source": "MESH",
+          "@vocab_term": "Macular Degeneration"
+        },
+        {
+          "@vocab_source": "MESH",
+          "@vocab_term": "Cataract"
+        }
+      ]},
+      "Attributions": {"Header": [
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Susan B. Bressler, MD"},
+          "Institution": {"_$": "Wilmer Eye Institute, The Johns Hopkins Medical Institutions, Baltimore, MD"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Suresh R. Chandra, MD"},
+          "Institution": {"_$": "University Station Clinics, University of Wisconsin, Madison, WI"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Emily Y. Chew, MD"},
+          "Institution": {"_$": "The National Eye Institute, National Institutes of Health, Bethesda, MD"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Michael J. Elman, MD"},
+          "Institution": {"_$": "Elman Retina Group, Baltimore, MD"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Thomas R. Friberg, MD"},
+          "Institution": {"_$": "The Eye and Ear Institute, University of Pittsburgh, Pittsburgh, PA"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Justin Gottlieb, MD"},
+          "Institution": {"_$": "University Station Clinics, University of Wisconsin, Madison, WI"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Aaron Kassoff, MD"},
+          "Institution": {"_$": "Albany Eye Associates, The Eye Center at Memorial, Albany, NY"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Michael L. Klein, MD"},
+          "Institution": {"_$": "Devers Eye Institute, Portland, OR"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Daniel F. Martin, MD"},
+          "Institution": {"_$": "Emory Eye Center, Emory University, Atlanta, GA"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "David H. Orth, MD"},
+          "Institution": {"_$": "Irwin Retina Center, Ingalls Memorial Hospital, Harvey, IL"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Alan J. Ruby, MD"},
+          "Institution": {"_$": "Associated Retinal Consultants, P.C., Clinical Research Center, Royal Oak, MI"}
+        },
+        {
+          "@title": "Directors of Clinical Sites",
+          "AttName": {"_$": "Johanna M. Seddon, MD"},
+          "Institution": {"_$": "Massachusetts Eye and Ear Infirmary, Boston, MA"}
+        },
+        {
+          "@title": "Funding Source for Genotyping",
+          "AttName": {"_$": "HHSN268200782096C. NIH contract \"High throughput genotyping for studying the genetic contributions to human disease\""},
+          "Institution": {"_$": "National Institutes of Health, Bethesda, MD, USA"}
+        }
+      ]},
+      "DisplayPublicSummary": {"_$": "yes"},
+      "StudyURLs": {"Url": [
+        {
+          "@name": "AREDS, The National Eye Institute",
+          "@url": "http://www.nei.nih.gov/neitrials/viewStudyWeb.aspx?id=44"
+        },
+        {
+          "@name": "AREDS, The EMMES Corporation",
+          "@url": "https://web.emmes.com/study/areds/"
+        }
+      ]},
+      "StudyHistory": {"_$": "<h3>AREDS Time Line<\/h3> \t<ul>      <li>November 1992 - first qualifying visit<\/li>      <li>February 1993 - first randomization visit<\/li>      <li>December 1993 - first annual visit<\/li>      <li>February 1994 - release of Finnish study results<\/li>      <li>December 1994 - second annual visits<\/li>      <li>January 1996 - release of Caret study results<\/li>      <li>March 1996 - implementation of sunlight exposure questionnaire (SEQ) and reassignment of smokers to non-antioxidant study medications<\/li>      <li>April 1997 - implementation of visual function questionnaire with appendix (NEI VFQ)<\/li>      <li>January 1998 - implementation of 5th year follow-up interview, approval of genetics ancillary study, and end of recruitment<\/li>      <li>May 1998 - first blood drawn for genetics ancillary study<\/li>      <li>June 2000 - implementation of cognitive function protocol; April 2001 - last phase II study visit<\/li>      <li>Fall 2001 - trial results announced and initiation of phase III<\/li>      <li>December 2005 - end of study<\/li> \t<\/ul>"},
+      "ConsentGroups": {"ConsentGroup": [
+        {
+          "@groupNum": "1",
+          "@shortName": "EDO",
+          "@longName": "Eye Disease Only"
+        },
+        {
+          "@groupNum": "2",
+          "@shortName": "GRU",
+          "@longName": "General Research Use"
+        }
+      ]}
+    },
+    "AuthorizedAccess": {
+      "DacInfo": {
+        "@ssDacId": "0",
+        "DacName": {"_$": "NEI"},
+        "DacFullName": {"_$": "National Eye Institute"},
+        "DacEmail": {"_$": "0"},
+        "DacPhone": {},
+        "DacUrl": {"_$": "http://grants.nih.gov/grants/gwas"}
+      },
+      "Policy": {
+        "@Policy_ID": "phs000001.v3.p1_policy",
+        "@ref_ssDacId": "0",
+        "DisplayResearchStatement": {"_$": "yes"},
+        "DisplayPublicSummary": {"_$": "yes"},
+        "EmbargoLength": {"_$": "0"},
+        "YearsUntilRenewal": {"_$": "1"},
+        "WeeksCancelRequest": {"_$": "8"},
+        "PdfSupplementReqired": {"_$": "no"},
+        "AcknowledgementText": {"para": {"_$": "http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000001.v3.p1"}},
+        "DocumentSet": {"DataUseCertificate": {
+          "@Label": "Data Use Certificate",
+          "@FilePath": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs000001.v3.p1",
+          "@FileName": "AREDS_DUCv3.pdf"
+        }}
+      },
+      "ConsentGroups": {"ParticipantSet": [
+        {
+          "@groupNum-REF": "1",
+          "ConsentName": {"_$": "Eye Disease Research Only"},
+          "ConsentAbbrev": {"_$": "EDO"},
+          "UseLimitation": {"_$": "For Use Eye Disease Research only"},
+          "IrbRequired": {"_$": "No"}
+        },
+        {
+          "@groupNum-REF": "2",
+          "ConsentName": {"_$": "General Research Purposes"},
+          "ConsentAbbrev": {"_$": "GRU"},
+          "UseLimitation": {"_$": "General research Purposes"},
+          "IrbRequired": {"_$": "No"}
+        }
+      ]}
+    },
+    "Documents": {"Document": [
+      {
+        "@phd": "phd000001.1",
+        "@type": "study-description",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-05-07",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000001.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=1",
+        "OrigName": {"_$": "ch1_mop.xml"},
+        "DisplayName": {"_$": "Chapter 1: BACKGROUND AND RATIONALE"},
+        "Description": {"_$": "BACKGROUND AND RATIONALE, Chapter 1"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000002.1",
+        "@type": "study-description",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-05-07",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000002.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=2",
+        "OrigName": {"_$": "ch2_mop.xml"},
+        "DisplayName": {"_$": "Chapter 2: LITERATURE REVIEW"},
+        "Description": {"_$": "LITERATURE REVIEW, Chapter 2"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@type": "protocol",
+        "@createDate": "2008-04-04",
+        "@modDate": "2008-08-18",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000003.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=3",
+        "OrigName": {"_$": "ch3_mop.xml"},
+        "DisplayName": {"_$": "Chapter 3: STUDY DESIGN"},
+        "Description": {"_$": "STUDY DESIGN , Chapter 3"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000004.1",
+        "@type": "administration",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000004.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=4",
+        "OrigName": {"_$": "ch4_mop.xml"},
+        "DisplayName": {"_$": "Chapter 4: STUDY RATIONALIZATION"},
+        "Description": {"_$": "STUDY RATIONALIZATION, Chapter 4"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000005.2",
+        "@type": "policy",
+        "@createDate": "2008-04-04",
+        "@modDate": "2008-05-12",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000005.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=5",
+        "OrigName": {"_$": "ch5_mop.xml"},
+        "DisplayName": {"_$": "Chapter 5: STUDY POLICIES"},
+        "Description": {"_$": "STUDY POLICIES, Chapter 5"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000006.2",
+        "@type": "protocol",
+        "@createDate": "2008-04-04",
+        "@modDate": "2008-06-26",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000006.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=6",
+        "OrigName": {"_$": "ch6_mop.xml"},
+        "DisplayName": {"_$": "Chapter 6: EXAMINATION SCHEDULE"},
+        "Description": {"_$": "EXAMINATION SCHEDULE, Chapter 6"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@type": "protocol",
+        "@createDate": "2008-04-04",
+        "@modDate": "2008-06-27",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000007.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=7",
+        "OrigName": {"_$": "ch7_mop.xml"},
+        "DisplayName": {"_$": "Chapter 7: EXAMINATION PROCEDURES"},
+        "Description": {"_$": "EXAMINATION PROCEDURES , Chapter 7"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000008.1",
+        "@type": "protocol",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000008.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=8",
+        "OrigName": {"_$": "ch8_mop.xml"},
+        "DisplayName": {"_$": "Chapter 8: PHOTOGRAPHIC PROCEDURES"},
+        "Description": {"_$": "PHOTOGRAPHIC PROCEDURES , Chapter 8"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000009.1",
+        "@type": "administration",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000009.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=9",
+        "OrigName": {"_$": "ch9_mop.xml"},
+        "DisplayName": {"_$": "Chapter 9: CERTIFICATION OF STAFF AND CLINICS"},
+        "Description": {"_$": "CERTIFICATION OF STAFF AND CLINICS, Chapter 9"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000010.2",
+        "@type": "protocol",
+        "@createDate": "2008-04-04",
+        "@modDate": "2008-05-07",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000010.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=10",
+        "OrigName": {"_$": "ch10_mop.xml"},
+        "DisplayName": {"_$": "Chapter 10: DESCRIPTION OF INTERVENTION"},
+        "Description": {"_$": "DESCRIPTION OF INTERVENTION, Chapter 10"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000011.1",
+        "@type": "analysis",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000011.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=11",
+        "OrigName": {"_$": "ch11_mop.xml"},
+        "DisplayName": {"_$": "Chapter 11: DATA ANALYSIS AND REPORTING"},
+        "Description": {"_$": "DATA ANALYSIS AND REPORTING , Chapter 11"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000012.1",
+        "@type": "quality-control",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-05-07",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000012.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=12",
+        "OrigName": {"_$": "ch12_mop.xml"},
+        "DisplayName": {"_$": "Chapter 12: QUALITY ENHANCEMENT"},
+        "Description": {"_$": "QUALITY ENHANCEMENT, Chapter 12"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000013.1",
+        "@type": "administration",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000013.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=13",
+        "OrigName": {"_$": "ch13_mop.xml"},
+        "DisplayName": {"_$": "Chapter 13: CLINICAL CENTER PROCEDURES"},
+        "Description": {"_$": "CLINICAL CENTER PROCEDURES, Chapter 13"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000014.1",
+        "@type": "administration",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000014.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=14",
+        "OrigName": {"_$": "ch14_mop.xml"},
+        "DisplayName": {"_$": "Chapter 14: COORDINATING CENTER PROCEDURES"},
+        "Description": {"_$": "COORDINATING CENTER PROCEDURES , Chapter 14"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@type": "protocol",
+        "@createDate": "2008-04-04",
+        "@modDate": "2008-08-18",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000015.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=15",
+        "OrigName": {"_$": "ch15_mop.xml"},
+        "DisplayName": {"_$": "Chapter 15: READING CENTER PROCEDURES"},
+        "Description": {"_$": "READING CENTER PROCEDURES , Chapter 15"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000016.1",
+        "@type": "protocol",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000016.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=16",
+        "OrigName": {"_$": "ch16_mop.xml"},
+        "DisplayName": {"_$": "Chapter 16: INTERVENTION MANUFACTURER'S PROCEDURES"},
+        "Description": {"_$": "INTERVENTION MANUFACTURER'S PROCEDURES , Chapter 16"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000017.1",
+        "@type": "protocol",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000017.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=17",
+        "OrigName": {"_$": "ch17_mop.xml"},
+        "DisplayName": {"_$": "Chapter 17: INTERVENTION PACKAGING AND DISTRIBUTION PROCEDURES"},
+        "Description": {"_$": "INTERVENTION PACKAGING AND DISTRIBUTION PROCEDURES , Chapter 17"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000018.1",
+        "@type": "administration",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000018.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=18",
+        "OrigName": {"_$": "ch18_mop.xml"},
+        "DisplayName": {"_$": "Chapter 18: PROCEDURES FOR CENTRAL LABORATORY SPECIMEN COLLECTING, SHIPPING AND PROCESSING"},
+        "Description": {"_$": "PROCEDURES FOR CENTRAL LABORATORY SPECIMEN COLLECTING, SHIPPING AND PROCESSING, Chapter 18"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000019.2",
+        "@type": "administration",
+        "@createDate": "2008-04-04",
+        "@modDate": "2008-05-07",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000019.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=19",
+        "OrigName": {"_$": "ch19_mop.xml"},
+        "DisplayName": {"_$": "Chapter 19: MANUAL OF OPERATIONS &#8212; PHASE III"},
+        "Description": {"_$": "MANUAL OF OPERATIONS &#8212; PHASE III, Chapter 19"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-04-01",
+        "@modDate": "2008-06-30",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000020.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=20",
+        "OrigName": {"_$": "baseline.xml"},
+        "DisplayName": {"_$": "BASELINE INTERVIEW &#8212; PHASE II"},
+        "Description": {"_$": "BASELINE INTERVIEW &#8212; PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000021.2",
+        "@type": "questionnaire",
+        "@createDate": "2012-01-11",
+        "@modDate": "2012-01-11",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000021.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=21",
+        "OrigName": {"_$": "sunexp51.xml"},
+        "DisplayName": {"_$": "SUNLIGHT EXPOSURE QUESTIONNAIRE &#8212; PHASE II"},
+        "Description": {"_$": "SUNLIGHT EXPOSURE QUESTIONNAIRE &#8212; PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000022.1",
+        "@type": "questionnaire",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000022.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=22",
+        "OrigName": {"_$": "missedvisit.xml"},
+        "DisplayName": {"_$": "MISSED VISIT &#8212; PHASE ll"},
+        "Description": {"_$": "MISSED VISIT &#8212; PHASE ll"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-04-01",
+        "@modDate": "2008-06-26",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000023.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=23",
+        "OrigName": {"_$": "adv_experience.xml"},
+        "DisplayName": {"_$": "ADVERSE EXPERIENCE REPORT &#8212; PHASE II"},
+        "Description": {"_$": "ADVERSE EXPERIENCE REPORT &#8212; PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-04-01",
+        "@modDate": "2009-02-11",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000024.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=24",
+        "OrigName": {"_$": "qualification.xml"},
+        "DisplayName": {"_$": "QUALIFICATION - PHASE II"},
+        "Description": {"_$": "QUALIFICATION - PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000025.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-04-01",
+        "@modDate": "2008-06-26",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000025.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=25",
+        "OrigName": {"_$": "hospitalization.xml"},
+        "DisplayName": {"_$": "HOSPITALIZATION-PHASE II"},
+        "Description": {"_$": "HOSPITALIZATION-PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000026.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-04-01",
+        "@modDate": "2008-06-26",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000026.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=26",
+        "OrigName": {"_$": "death_report.xml"},
+        "DisplayName": {"_$": "DEATH REPORT &#8212; PHASE II"},
+        "Description": {"_$": "DEATH REPORT &#8212; PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000027.1",
+        "@type": "questionnaire",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000027.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=27",
+        "OrigName": {"_$": "supplement_record.xml"},
+        "DisplayName": {"_$": "SUPPLEMENTATION RECORD AND ADHERENCE WORKSHEET - PHASE II"},
+        "Description": {"_$": "SUPPLEMENTATION RECORD AND ADHERENCE WORKSHEET - PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000028.1",
+        "@type": "questionnaire",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000028.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=28",
+        "OrigName": {"_$": "famhist_genetics.xml"},
+        "DisplayName": {"_$": "FAMILY HISTORY - GENETICS - PHASE II"},
+        "Description": {"_$": "FAMILY HISTORY - GENETICS - PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000029.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-06-27",
+        "@modDate": "2008-06-27",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000029.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=29",
+        "OrigName": {"_$": "approval_gen_blood"},
+        "DisplayName": {"_$": "PARTICIPANT APPROVAL OF GENETICS BLOOD SAMPLE USE"},
+        "Description": {"_$": "PARTICIPANT APPROVAL OF GENETICS BLOOD SAMPLE USE"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000030.1",
+        "@type": "questionnaire",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000030.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=30",
+        "OrigName": {"_$": "protocol_anomaly.xml"},
+        "DisplayName": {"_$": "PROTOCOL ANOMALY - PHASE II"},
+        "Description": {"_$": "PROTOCOL ANOMALY - PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000031.1",
+        "@type": "questionnaire",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000031.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=31",
+        "OrigName": {"_$": "ffq.xml"},
+        "DisplayName": {"_$": "NUTRITION QUESTIONNAIRE"},
+        "Description": {"_$": "NUTRITION QUESTIONNAIRE"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-04-01",
+        "@modDate": "2008-08-13",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000032.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=32",
+        "OrigName": {"_$": "vfq.xml"},
+        "DisplayName": {"_$": "NATIONAL EYE INSTITUTE VISUAL FUNCTIONING QUESTIONNAIRE - 25 (VFQ-25)"},
+        "Description": {"_$": "NATIONAL EYE INSTITUTE VISUAL FUNCTIONING QUESTIONNAIRE - 25 (VFQ-25)"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-04-01",
+        "@modDate": "2008-08-12",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000033.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=33",
+        "OrigName": {"_$": "annual_visit.xml"},
+        "DisplayName": {"_$": "ANNUAL VISIT FOLLOWUP - PHASE II"},
+        "Description": {"_$": "ANNUAL VISIT FOLLOWUP - PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000034.1",
+        "@type": "questionnaire",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-04-02",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000034.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=34",
+        "OrigName": {"_$": "blood_draw_ques.xml"},
+        "DisplayName": {"_$": "BLOOD DRAWING QUESTIONNAIRE &#8212; PHASE II"},
+        "Description": {"_$": "BLOOD DRAWING QUESTIONNAIRE &#8212; PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000035.1",
+        "@type": "questionnaire",
+        "@createDate": "2006-12-01",
+        "@modDate": "2008-08-14",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000035.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=35",
+        "OrigName": {"_$": "parallel_studies.xml"},
+        "DisplayName": {"_$": "PARALLEL STUDIES INFORMATION FORM"},
+        "Description": {"_$": "PARALLEL STUDIES INFORMATION FORM"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-04-01",
+        "@modDate": "2008-06-26",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000036.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=36",
+        "OrigName": {"_$": "nonannual_visitFU.xml"},
+        "DisplayName": {"_$": "NONANNUAL VISIT FOLLOWUP - PHASE II"},
+        "Description": {"_$": "NONANNUAL VISIT FOLLOWUP - PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000040.2",
+        "@type": "questionnaire",
+        "@createDate": "2008-04-01",
+        "@modDate": "2008-05-12",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000040.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=40",
+        "OrigName": {"_$": "eligibility_random.xml"},
+        "DisplayName": {"_$": "ELIGIBILITY AND RANDOMIZATION - PHASE II"},
+        "Description": {"_$": "ELIGIBILITY AND RANDOMIZATION - PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000901.1",
+        "@type": "questionnaire",
+        "@createDate": "2008-02-28",
+        "@modDate": "2008-06-26",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000901.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=901",
+        "OrigName": {"_$": "contact.pdf"},
+        "DisplayName": {"_$": "CONTACT FORM - PHASE III"},
+        "Description": {"_$": "CONTACT FORM - PHASE III"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000902.1",
+        "@type": "questionnaire",
+        "@createDate": "2008-02-28",
+        "@modDate": "2008-08-18",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000902.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=902",
+        "OrigName": {"_$": "detailed_lens_grading.pdf"},
+        "DisplayName": {"_$": "DETAILED LENS GRADING FORM"},
+        "Description": {"_$": "DETAILED LENS GRADING FORM"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@type": "questionnaire",
+        "@createDate": "2008-02-28",
+        "@modDate": "2008-08-18",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000903.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=903",
+        "OrigName": {"_$": "followup_interview.pdf"},
+        "DisplayName": {"_$": "FOLLOWUP INTERVIEW - PHASE III"},
+        "Description": {"_$": "FOLLOWUP INTERVIEW - PHASE III"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@type": "questionnaire",
+        "@createDate": "2008-02-28",
+        "@modDate": "2009-02-11",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000904.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=904",
+        "OrigName": {"_$": "in_clinic_visit.pdf"},
+        "DisplayName": {"_$": "IN-CLINIC VISIT FOLLOW-UP - PHASE III"},
+        "Description": {"_$": "IN-CLINIC VISIT FOLLOW-UP - PHASE III"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@type": "questionnaire",
+        "@createDate": "2008-02-28",
+        "@modDate": "2009-03-13",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000905.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=905",
+        "OrigName": {"_$": "maculopathy_grading.pdf"},
+        "DisplayName": {"_$": "Maculopathy Grading Form"},
+        "Description": {"_$": "Maculopathy Grading Form"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000906.1",
+        "@type": "questionnaire",
+        "@createDate": "2008-02-28",
+        "@modDate": "2008-08-12",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000906.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=906",
+        "OrigName": {"_$": "morb_mort.pdf"},
+        "DisplayName": {"_$": "MORBIDITY AND MORTALITY DATA SHEET"},
+        "Description": {"_$": "MORBIDITY AND MORTALITY DATA SHEET"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000907.1",
+        "@type": "questionnaire",
+        "@createDate": "2008-02-28",
+        "@modDate": "2008-06-26",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000907.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=907",
+        "OrigName": {"_$": "supplement_reassignment.pdf"},
+        "DisplayName": {"_$": "SUPPLEMENTATION REASSIGNMENT - PHASE II"},
+        "Description": {"_$": "SUPPLEMENTATION REASSIGNMENT - PHASE II"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd000908.1",
+        "@type": "questionnaire",
+        "@createDate": "2008-02-28",
+        "@modDate": "2008-06-26",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd000908.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=908",
+        "OrigName": {"_$": "vitamin_usage.pdf"},
+        "DisplayName": {"_$": "VITAMIN USAGE FORM - PHASE III"},
+        "Description": {"_$": "VITAMIN USAGE FORM - PHASE III"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd001138.1",
+        "@type": "protocol",
+        "@createDate": "2008-06-18",
+        "@modDate": "2008-10-31",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd001138.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=1138",
+        "OrigName": {"_$": "dbGaP_AREDS_phenotype_descriptions"},
+        "DisplayName": {"_$": "Definitions of Final Age-Related Macular Degeneration (AMD) Phenotype Categories"},
+        "Description": {"_$": "Definitions of Final Age-Related Macular Degeneration (AMD) Phenotype Categories"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@type": "protocol",
+        "@createDate": "2012-01-06",
+        "@modDate": "2012-01-06",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd001552.2",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=1552",
+        "OrigName": {"_$": "NEI-AREDS dbGaP User Guide.doc"},
+        "DisplayName": {"_$": "AREDS dbGaP Data Tables: A User's Guide"},
+        "Description": {"_$": "AREDS dbGaP Data Tables: A User's Guide"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      },
+      {
+        "@phd": "phd003307.1",
+        "@type": "protocol",
+        "@createDate": "2010-11-16",
+        "@modDate": "2010-11-17",
+        "@urlToXml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003307.1",
+        "@urlToHtml": "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000001.v3.p1&phd=3307",
+        "OrigName": {"_$": "AREDS_Photo_Description.docx"},
+        "DisplayName": {"_$": "Age-Related Eye Disease Study (AREDS) Ocular Photographs"},
+        "Description": {"_$": "Age-Related Eye Disease Study (AREDS) Ocular Photographs"},
+        "displayStatus": {"_$": "public"},
+        "xmlStatus": {"_$": "public"}
+      }
+    ]},
+    "Annotations": {"DocumentPart": [
+      {
+        "@phd": "phd000002.1",
+        "@sectionId": "Sec2..2.4.1c",
+        "phvList": {"phvRef": {"@variableId": "33"}}
+      },
+      {
+        "@phd": "phd000002.1",
+        "@sectionId": "Sec2.2.4.1b",
+        "phvList": {"phvRef": {"@variableId": "34"}}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Ex3-3",
+        "phvList": {"phvRef": [
+          {"@variableId": "3"},
+          {"@variableId": "4"},
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "11"},
+          {"@variableId": "12"},
+          {"@variableId": "14"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"},
+          {"@variableId": "54272"},
+          {"@variableId": "54278"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.2.1",
+        "phvList": {"phvRef": [
+          {"@variableId": "3"},
+          {"@variableId": "4"},
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "7"},
+          {"@variableId": "8"},
+          {"@variableId": "9"},
+          {"@variableId": "10"},
+          {"@variableId": "11"},
+          {"@variableId": "12"},
+          {"@variableId": "14"},
+          {"@variableId": "15"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"},
+          {"@variableId": "54270"},
+          {"@variableId": "54271"},
+          {"@variableId": "54272"},
+          {"@variableId": "54273"},
+          {"@variableId": "54276"},
+          {"@variableId": "54277"},
+          {"@variableId": "54278"},
+          {"@variableId": "54279"},
+          {"@variableId": "54280"},
+          {"@variableId": "54281"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.2.2",
+        "phvList": {"phvRef": [
+          {"@variableId": "54009"},
+          {"@variableId": "54023"},
+          {"@variableId": "54025"},
+          {"@variableId": "54029"},
+          {"@variableId": "54043"},
+          {"@variableId": "54045"},
+          {"@variableId": "54072"},
+          {"@variableId": "54073"},
+          {"@variableId": "54089"},
+          {"@variableId": "54090"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.2.3",
+        "phvList": {"phvRef": [
+          {"@variableId": "54009"},
+          {"@variableId": "54023"},
+          {"@variableId": "54025"},
+          {"@variableId": "54029"},
+          {"@variableId": "54043"},
+          {"@variableId": "54045"},
+          {"@variableId": "54072"},
+          {"@variableId": "54073"},
+          {"@variableId": "54089"},
+          {"@variableId": "54090"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.2.4",
+        "phvList": {"phvRef": [
+          {"@variableId": "54009"},
+          {"@variableId": "54023"},
+          {"@variableId": "54025"},
+          {"@variableId": "54029"},
+          {"@variableId": "54043"},
+          {"@variableId": "54045"},
+          {"@variableId": "54072"},
+          {"@variableId": "54073"},
+          {"@variableId": "54089"},
+          {"@variableId": "54090"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.2.5",
+        "phvList": {"phvRef": [
+          {"@variableId": "54010"},
+          {"@variableId": "54011"},
+          {"@variableId": "54013"},
+          {"@variableId": "54014"},
+          {"@variableId": "54015"},
+          {"@variableId": "54017"},
+          {"@variableId": "54018"},
+          {"@variableId": "54030"},
+          {"@variableId": "54031"},
+          {"@variableId": "54033"},
+          {"@variableId": "54034"},
+          {"@variableId": "54035"},
+          {"@variableId": "54036"},
+          {"@variableId": "54037"},
+          {"@variableId": "54038"},
+          {"@variableId": "54059"},
+          {"@variableId": "54060"},
+          {"@variableId": "54062"},
+          {"@variableId": "54063"},
+          {"@variableId": "54064"},
+          {"@variableId": "54066"},
+          {"@variableId": "54067"},
+          {"@variableId": "54076"},
+          {"@variableId": "54077"},
+          {"@variableId": "54079"},
+          {"@variableId": "54080"},
+          {"@variableId": "54081"},
+          {"@variableId": "54083"},
+          {"@variableId": "54084"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.2.6",
+        "phvList": {"phvRef": [
+          {"@variableId": "54019"},
+          {"@variableId": "54020"},
+          {"@variableId": "54021"},
+          {"@variableId": "54022"},
+          {"@variableId": "54039"},
+          {"@variableId": "54040"},
+          {"@variableId": "54041"},
+          {"@variableId": "54042"},
+          {"@variableId": "54068"},
+          {"@variableId": "54069"},
+          {"@variableId": "54070"},
+          {"@variableId": "54071"},
+          {"@variableId": "54085"},
+          {"@variableId": "54086"},
+          {"@variableId": "54087"},
+          {"@variableId": "54088"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.2.7",
+        "phvList": {"phvRef": [
+          {"@variableId": "54023"},
+          {"@variableId": "54024"},
+          {"@variableId": "54025"},
+          {"@variableId": "54043"},
+          {"@variableId": "54044"},
+          {"@variableId": "54045"},
+          {"@variableId": "54072"},
+          {"@variableId": "54073"},
+          {"@variableId": "54089"},
+          {"@variableId": "54090"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.2.8",
+        "phvList": {"phvRef": {"@variableId": "30"}}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.2.9",
+        "phvList": {"phvRef": {"@variableId": "27"}}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.1.5.5",
+        "phvList": {"phvRef": [
+          {"@variableId": "54270"},
+          {"@variableId": "54271"},
+          {"@variableId": "54273"},
+          {"@variableId": "54276"},
+          {"@variableId": "54277"},
+          {"@variableId": "54279"},
+          {"@variableId": "54280"},
+          {"@variableId": "54281"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.2.1",
+        "phvList": {"phvRef": {"@variableId": "15"}}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.3",
+        "phvList": {"phvRef": [
+          {"@variableId": "54270"},
+          {"@variableId": "54271"},
+          {"@variableId": "54273"},
+          {"@variableId": "54276"},
+          {"@variableId": "54277"},
+          {"@variableId": "54279"},
+          {"@variableId": "54280"},
+          {"@variableId": "54281"}
+        ]}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.3.1",
+        "phvList": {"phvRef": {"@variableId": "15"}}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "Sec3.4",
+        "phvList": {"phvRef": {"@variableId": "31"}}
+      },
+      {
+        "@phd": "phd000003.2",
+        "@sectionId": "tr1",
+        "phvList": {"phvRef": [
+          {"@variableId": "3"},
+          {"@variableId": "4"},
+          {"@variableId": "11"},
+          {"@variableId": "12"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"},
+          {"@variableId": "54270"},
+          {"@variableId": "54271"},
+          {"@variableId": "54272"},
+          {"@variableId": "54273"},
+          {"@variableId": "54276"},
+          {"@variableId": "54277"},
+          {"@variableId": "54278"},
+          {"@variableId": "54279"},
+          {"@variableId": "54280"},
+          {"@variableId": "54281"}
+        ]}
+      },
+      {
+        "@phd": "phd000005.2",
+        "@sectionId": "Sec5.2",
+        "phvList": {"phvRef": {"@variableId": "2"}}
+      },
+      {
+        "@phd": "phd000006.2",
+        "@sectionId": "Sec6.3",
+        "phvList": {"phvRef": {"@variableId": "26"}}
+      },
+      {
+        "@phd": "phd000006.2",
+        "@sectionId": "Sec6.3-10",
+        "phvList": {"phvRef": {"@variableId": "31"}}
+      },
+      {
+        "@phd": "phd000006.2",
+        "@sectionId": "li8",
+        "phvList": {"phvRef": {"@variableId": "27"}}
+      },
+      {
+        "@phd": "phd000006.2",
+        "@sectionId": "li9",
+        "phvList": {"phvRef": [
+          {"@variableId": "53937"},
+          {"@variableId": "53938"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.12",
+        "phvList": {"phvRef": [
+          {"@variableId": "31"},
+          {"@variableId": "172"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.19.2",
+        "phvList": {"phvRef": [
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.19.3",
+        "phvList": {"phvRef": [
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "14"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.19.4",
+        "phvList": {"phvRef": [
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "14"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.19.5",
+        "phvList": {"phvRef": [
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "13"},
+          {"@variableId": "14"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.2.1",
+        "phvList": {"phvRef": [
+          {"@variableId": "53851"},
+          {"@variableId": "53852"},
+          {"@variableId": "53939"},
+          {"@variableId": "53940"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.2.2",
+        "phvList": {"phvRef": [
+          {"@variableId": "53919"},
+          {"@variableId": "53920"},
+          {"@variableId": "53941"},
+          {"@variableId": "53942"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.3",
+        "phvList": {"phvRef": [
+          {"@variableId": "53937"},
+          {"@variableId": "53938"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.5",
+        "phvList": {"phvRef": [
+          {"@variableId": "60"},
+          {"@variableId": "61"},
+          {"@variableId": "62"},
+          {"@variableId": "63"},
+          {"@variableId": "64"},
+          {"@variableId": "65"},
+          {"@variableId": "66"},
+          {"@variableId": "67"},
+          {"@variableId": "68"},
+          {"@variableId": "69"},
+          {"@variableId": "70"},
+          {"@variableId": "71"},
+          {"@variableId": "53912"},
+          {"@variableId": "53923"},
+          {"@variableId": "53999"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "Sec7.6",
+        "phvList": {"phvRef": [
+          {"@variableId": "84"},
+          {"@variableId": "85"},
+          {"@variableId": "86"},
+          {"@variableId": "87"},
+          {"@variableId": "88"},
+          {"@variableId": "89"},
+          {"@variableId": "90"},
+          {"@variableId": "91"},
+          {"@variableId": "92"},
+          {"@variableId": "93"},
+          {"@variableId": "94"},
+          {"@variableId": "95"},
+          {"@variableId": "96"},
+          {"@variableId": "97"},
+          {"@variableId": "98"},
+          {"@variableId": "99"},
+          {"@variableId": "100"},
+          {"@variableId": "101"},
+          {"@variableId": "102"},
+          {"@variableId": "103"},
+          {"@variableId": "104"},
+          {"@variableId": "105"},
+          {"@variableId": "106"},
+          {"@variableId": "107"},
+          {"@variableId": "53859"},
+          {"@variableId": "53860"},
+          {"@variableId": "53910"},
+          {"@variableId": "53911"},
+          {"@variableId": "53986"},
+          {"@variableId": "53987"},
+          {"@variableId": "53997"},
+          {"@variableId": "53998"}
+        ]}
+      },
+      {
+        "@phd": "phd000007.2",
+        "@sectionId": "li1",
+        "phvList": {"phvRef": [
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "14"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"}
+        ]}
+      },
+      {
+        "@phd": "phd000008.1",
+        "@sectionId": "Sec8.2",
+        "phvList": {"phvRef": {"@variableId": "173"}}
+      },
+      {
+        "@phd": "phd000008.1",
+        "@sectionId": "Sec8.3",
+        "phvList": {"phvRef": {"@variableId": "15"}}
+      },
+      {
+        "@phd": "phd000010.2",
+        "@sectionId": "Sec10.2",
+        "phvList": {"phvRef": [
+          {"@variableId": "31"},
+          {"@variableId": "172"}
+        ]}
+      },
+      {
+        "@phd": "phd000010.2",
+        "@sectionId": "phd000010",
+        "phvList": {"phvRef": {"@variableId": "31"}}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec10",
+        "phvList": {"phvRef": [
+          {"@variableId": "173"},
+          {"@variableId": "54013"},
+          {"@variableId": "54014"},
+          {"@variableId": "54033"},
+          {"@variableId": "54034"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec11",
+        "phvList": {"phvRef": {"@variableId": "173"}}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec12",
+        "phvList": {"phvRef": [
+          {"@variableId": "173"},
+          {"@variableId": "54016"},
+          {"@variableId": "54017"},
+          {"@variableId": "54018"},
+          {"@variableId": "54036"},
+          {"@variableId": "54037"},
+          {"@variableId": "54038"},
+          {"@variableId": "54065"},
+          {"@variableId": "54066"},
+          {"@variableId": "54067"},
+          {"@variableId": "54082"},
+          {"@variableId": "54083"},
+          {"@variableId": "54084"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec13",
+        "phvList": {"phvRef": [
+          {"@variableId": "54019"},
+          {"@variableId": "54020"},
+          {"@variableId": "54039"},
+          {"@variableId": "54040"},
+          {"@variableId": "54068"},
+          {"@variableId": "54069"},
+          {"@variableId": "54085"},
+          {"@variableId": "54086"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec14",
+        "phvList": {"phvRef": [
+          {"@variableId": "54021"},
+          {"@variableId": "54022"},
+          {"@variableId": "54041"},
+          {"@variableId": "54042"},
+          {"@variableId": "54070"},
+          {"@variableId": "54071"},
+          {"@variableId": "54087"},
+          {"@variableId": "54088"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec17",
+        "phvList": {"phvRef": [
+          {"@variableId": "54023"},
+          {"@variableId": "54024"},
+          {"@variableId": "54025"},
+          {"@variableId": "54026"},
+          {"@variableId": "54027"},
+          {"@variableId": "54028"},
+          {"@variableId": "54043"},
+          {"@variableId": "54044"},
+          {"@variableId": "54045"},
+          {"@variableId": "54046"},
+          {"@variableId": "54047"},
+          {"@variableId": "54048"},
+          {"@variableId": "54049"},
+          {"@variableId": "54072"},
+          {"@variableId": "54073"},
+          {"@variableId": "54089"},
+          {"@variableId": "54090"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec4",
+        "phvList": {"phvRef": [
+          {"@variableId": "54009"},
+          {"@variableId": "54023"},
+          {"@variableId": "54025"},
+          {"@variableId": "54026"},
+          {"@variableId": "54028"},
+          {"@variableId": "54029"},
+          {"@variableId": "54043"},
+          {"@variableId": "54045"},
+          {"@variableId": "54046"},
+          {"@variableId": "54048"},
+          {"@variableId": "54049"},
+          {"@variableId": "54072"},
+          {"@variableId": "54073"},
+          {"@variableId": "54089"},
+          {"@variableId": "54090"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec7.1",
+        "phvList": {"phvRef": [
+          {"@variableId": "173"},
+          {"@variableId": "54009"},
+          {"@variableId": "54010"},
+          {"@variableId": "54011"},
+          {"@variableId": "54013"},
+          {"@variableId": "54015"},
+          {"@variableId": "54019"},
+          {"@variableId": "54020"},
+          {"@variableId": "54029"},
+          {"@variableId": "54030"},
+          {"@variableId": "54031"},
+          {"@variableId": "54033"},
+          {"@variableId": "54035"},
+          {"@variableId": "54039"},
+          {"@variableId": "54040"},
+          {"@variableId": "54054"},
+          {"@variableId": "54055"},
+          {"@variableId": "54068"},
+          {"@variableId": "54069"},
+          {"@variableId": "54085"},
+          {"@variableId": "54086"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec7.2",
+        "phvList": {"phvRef": [
+          {"@variableId": "173"},
+          {"@variableId": "54009"},
+          {"@variableId": "54010"},
+          {"@variableId": "54011"},
+          {"@variableId": "54013"},
+          {"@variableId": "54019"},
+          {"@variableId": "54020"},
+          {"@variableId": "54029"},
+          {"@variableId": "54030"},
+          {"@variableId": "54031"},
+          {"@variableId": "54033"},
+          {"@variableId": "54039"},
+          {"@variableId": "54040"},
+          {"@variableId": "54068"},
+          {"@variableId": "54069"},
+          {"@variableId": "54085"},
+          {"@variableId": "54086"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec7.3",
+        "phvList": {"phvRef": [
+          {"@variableId": "54009"},
+          {"@variableId": "54010"},
+          {"@variableId": "54011"},
+          {"@variableId": "54013"},
+          {"@variableId": "54019"},
+          {"@variableId": "54020"},
+          {"@variableId": "54029"},
+          {"@variableId": "54030"},
+          {"@variableId": "54031"},
+          {"@variableId": "54033"},
+          {"@variableId": "54039"},
+          {"@variableId": "54040"},
+          {"@variableId": "54068"},
+          {"@variableId": "54069"},
+          {"@variableId": "54085"},
+          {"@variableId": "54086"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec7.4",
+        "phvList": {"phvRef": [
+          {"@variableId": "54009"},
+          {"@variableId": "54010"},
+          {"@variableId": "54011"},
+          {"@variableId": "54013"},
+          {"@variableId": "54019"},
+          {"@variableId": "54020"},
+          {"@variableId": "54029"},
+          {"@variableId": "54030"},
+          {"@variableId": "54031"},
+          {"@variableId": "54033"},
+          {"@variableId": "54039"},
+          {"@variableId": "54040"},
+          {"@variableId": "54068"},
+          {"@variableId": "54069"},
+          {"@variableId": "54085"},
+          {"@variableId": "54086"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec7.5",
+        "phvList": {"phvRef": [
+          {"@variableId": "54009"},
+          {"@variableId": "54010"},
+          {"@variableId": "54011"},
+          {"@variableId": "54013"},
+          {"@variableId": "54019"},
+          {"@variableId": "54020"},
+          {"@variableId": "54029"},
+          {"@variableId": "54030"},
+          {"@variableId": "54031"},
+          {"@variableId": "54033"},
+          {"@variableId": "54039"},
+          {"@variableId": "54040"},
+          {"@variableId": "54068"},
+          {"@variableId": "54069"},
+          {"@variableId": "54085"},
+          {"@variableId": "54086"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec8",
+        "phvList": {"phvRef": [
+          {"@variableId": "54012"},
+          {"@variableId": "54032"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15BSec9",
+        "phvList": {"phvRef": [
+          {"@variableId": "173"},
+          {"@variableId": "54013"},
+          {"@variableId": "54014"},
+          {"@variableId": "54033"},
+          {"@variableId": "54034"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15DSec2.3",
+        "phvList": {"phvRef": [
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "54101"},
+          {"@variableId": "54107"},
+          {"@variableId": "54111"},
+          {"@variableId": "54112"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15DSec2.4",
+        "phvList": {"phvRef": [
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "54100"},
+          {"@variableId": "54106"},
+          {"@variableId": "54269"},
+          {"@variableId": "54275"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15DSec2.5",
+        "phvList": {"phvRef": [
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "54102"},
+          {"@variableId": "54104"},
+          {"@variableId": "54108"},
+          {"@variableId": "54110"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15DSec3.3.2",
+        "phvList": {"phvRef": [
+          {"@variableId": "3"},
+          {"@variableId": "4"},
+          {"@variableId": "7"},
+          {"@variableId": "8"},
+          {"@variableId": "9"},
+          {"@variableId": "10"},
+          {"@variableId": "11"},
+          {"@variableId": "12"},
+          {"@variableId": "13"},
+          {"@variableId": "14"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"},
+          {"@variableId": "54102"},
+          {"@variableId": "54103"},
+          {"@variableId": "54104"},
+          {"@variableId": "54108"},
+          {"@variableId": "54109"},
+          {"@variableId": "54110"},
+          {"@variableId": "54270"},
+          {"@variableId": "54271"},
+          {"@variableId": "54272"},
+          {"@variableId": "54273"},
+          {"@variableId": "54276"},
+          {"@variableId": "54277"},
+          {"@variableId": "54278"},
+          {"@variableId": "54279"},
+          {"@variableId": "54280"},
+          {"@variableId": "54281"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15DSec3.3.3",
+        "phvList": {"phvRef": [
+          {"@variableId": "3"},
+          {"@variableId": "4"},
+          {"@variableId": "7"},
+          {"@variableId": "8"},
+          {"@variableId": "9"},
+          {"@variableId": "10"},
+          {"@variableId": "11"},
+          {"@variableId": "12"},
+          {"@variableId": "13"},
+          {"@variableId": "14"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"},
+          {"@variableId": "54102"},
+          {"@variableId": "54103"},
+          {"@variableId": "54104"},
+          {"@variableId": "54108"},
+          {"@variableId": "54109"},
+          {"@variableId": "54110"},
+          {"@variableId": "54270"},
+          {"@variableId": "54271"},
+          {"@variableId": "54272"},
+          {"@variableId": "54273"},
+          {"@variableId": "54276"},
+          {"@variableId": "54277"},
+          {"@variableId": "54278"},
+          {"@variableId": "54279"},
+          {"@variableId": "54280"},
+          {"@variableId": "54281"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15DSec3.4",
+        "phvList": {"phvRef": [
+          {"@variableId": "7"},
+          {"@variableId": "8"},
+          {"@variableId": "9"},
+          {"@variableId": "10"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "54102"},
+          {"@variableId": "54104"},
+          {"@variableId": "54108"},
+          {"@variableId": "54110"},
+          {"@variableId": "54271"},
+          {"@variableId": "54273"},
+          {"@variableId": "54277"},
+          {"@variableId": "54279"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15DSec3.5",
+        "phvList": {"phvRef": [
+          {"@variableId": "11"},
+          {"@variableId": "12"},
+          {"@variableId": "13"},
+          {"@variableId": "14"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"},
+          {"@variableId": "54103"},
+          {"@variableId": "54109"},
+          {"@variableId": "54272"},
+          {"@variableId": "54278"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15DSec5",
+        "phvList": {"phvRef": [
+          {"@variableId": "54268"},
+          {"@variableId": "54274"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "App15DSec5.3",
+        "phvList": {"phvRef": [
+          {"@variableId": "54099"},
+          {"@variableId": "54105"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "Sec15.4.2",
+        "phvList": {"phvRef": {"@variableId": "173"}}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "Sec15.5",
+        "phvList": {"phvRef": [
+          {"@variableId": "3"},
+          {"@variableId": "4"},
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "7"},
+          {"@variableId": "8"},
+          {"@variableId": "9"},
+          {"@variableId": "10"},
+          {"@variableId": "11"},
+          {"@variableId": "12"},
+          {"@variableId": "13"},
+          {"@variableId": "14"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"},
+          {"@variableId": "54099"},
+          {"@variableId": "54100"},
+          {"@variableId": "54101"},
+          {"@variableId": "54102"},
+          {"@variableId": "54103"},
+          {"@variableId": "54104"},
+          {"@variableId": "54105"},
+          {"@variableId": "54106"},
+          {"@variableId": "54107"},
+          {"@variableId": "54108"},
+          {"@variableId": "54109"},
+          {"@variableId": "54110"},
+          {"@variableId": "54111"},
+          {"@variableId": "54112"},
+          {"@variableId": "54270"},
+          {"@variableId": "54271"},
+          {"@variableId": "54272"},
+          {"@variableId": "54273"},
+          {"@variableId": "54276"},
+          {"@variableId": "54277"},
+          {"@variableId": "54278"},
+          {"@variableId": "54279"},
+          {"@variableId": "54280"},
+          {"@variableId": "54281"}
+        ]}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "Sec15.5-p",
+        "phvList": {"phvRef": {"@variableId": "15"}}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "Sec15.5.1",
+        "phvList": {"phvRef": {"@variableId": "15"}}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "Sec15.5.2",
+        "phvList": {"phvRef": {"@variableId": "15"}}
+      },
+      {
+        "@phd": "phd000015.2",
+        "@sectionId": "Sec15.5.4",
+        "phvList": {"phvRef": {"@variableId": "15"}}
+      },
+      {
+        "@phd": "phd000016.1",
+        "@sectionId": "Sec0",
+        "phvList": {"phvRef": {"@variableId": "31"}}
+      },
+      {
+        "@phd": "phd000017.1",
+        "@sectionId": "phd000017",
+        "phvList": {"phvRef": {"@variableId": "31"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "53822"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V10",
+        "phvList": {"phvRef": [
+          {"@variableId": "53859"},
+          {"@variableId": "53860"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V15",
+        "phvList": {"phvRef": [
+          {"@variableId": "72"},
+          {"@variableId": "53861"},
+          {"@variableId": "53862"},
+          {"@variableId": "53863"},
+          {"@variableId": "53864"},
+          {"@variableId": "53865"},
+          {"@variableId": "53866"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V27",
+        "phvList": {"phvRef": [
+          {"@variableId": "108"},
+          {"@variableId": "53867"},
+          {"@variableId": "53868"},
+          {"@variableId": "53869"},
+          {"@variableId": "53870"},
+          {"@variableId": "53871"},
+          {"@variableId": "54122"},
+          {"@variableId": "54123"},
+          {"@variableId": "54124"},
+          {"@variableId": "54125"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V3",
+        "phvList": {"phvRef": [
+          {"@variableId": "34"},
+          {"@variableId": "53854"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V34",
+        "phvList": {"phvRef": [
+          {"@variableId": "53872"},
+          {"@variableId": "53873"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V36",
+        "phvList": {"phvRef": [
+          {"@variableId": "136"},
+          {"@variableId": "53874"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V38",
+        "phvList": {"phvRef": [
+          {"@variableId": "122"},
+          {"@variableId": "53875"},
+          {"@variableId": "53876"},
+          {"@variableId": "53877"},
+          {"@variableId": "53913"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V4",
+        "phvList": {"phvRef": [
+          {"@variableId": "32"},
+          {"@variableId": "53855"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V43",
+        "phvList": {"phvRef": [
+          {"@variableId": "53878"},
+          {"@variableId": "53879"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V46",
+        "phvList": {"phvRef": {"@variableId": "53880"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V47",
+        "phvList": {"phvRef": {"@variableId": "53881"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V48",
+        "phvList": {"phvRef": {"@variableId": "53882"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V49",
+        "phvList": {"phvRef": {"@variableId": "53883"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V5",
+        "phvList": {"phvRef": [
+          {"@variableId": "35"},
+          {"@variableId": "53856"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V50",
+        "phvList": {"phvRef": {"@variableId": "53884"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V51",
+        "phvList": {"phvRef": {"@variableId": "53885"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V52",
+        "phvList": {"phvRef": {"@variableId": "53886"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V53",
+        "phvList": {"phvRef": {"@variableId": "53887"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V54",
+        "phvList": {"phvRef": {"@variableId": "53888"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V55",
+        "phvList": {"phvRef": {"@variableId": "53889"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V56",
+        "phvList": {"phvRef": {"@variableId": "53890"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V57",
+        "phvList": {"phvRef": {"@variableId": "53891"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V58",
+        "phvList": {"phvRef": {"@variableId": "53892"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V59",
+        "phvList": {"phvRef": {"@variableId": "53893"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V6",
+        "phvList": {"phvRef": {"@variableId": "53857"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V60",
+        "phvList": {"phvRef": {"@variableId": "53894"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V61",
+        "phvList": {"phvRef": {"@variableId": "53895"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V62",
+        "phvList": {"phvRef": {"@variableId": "53896"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V63",
+        "phvList": {"phvRef": {"@variableId": "53897"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V64",
+        "phvList": {"phvRef": {"@variableId": "53898"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V65",
+        "phvList": {"phvRef": {"@variableId": "53899"}}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V67a",
+        "phvList": {"phvRef": [
+          {"@variableId": "53900"},
+          {"@variableId": "53901"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V70a",
+        "phvList": {"phvRef": [
+          {"@variableId": "53902"},
+          {"@variableId": "53903"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V73a",
+        "phvList": {"phvRef": [
+          {"@variableId": "53904"},
+          {"@variableId": "53905"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V76a",
+        "phvList": {"phvRef": [
+          {"@variableId": "53906"},
+          {"@variableId": "53907"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V79a",
+        "phvList": {"phvRef": [
+          {"@variableId": "53908"},
+          {"@variableId": "53909"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V8",
+        "phvList": {"phvRef": [
+          {"@variableId": "33"},
+          {"@variableId": "53858"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V81",
+        "phvList": {"phvRef": [
+          {"@variableId": "84"},
+          {"@variableId": "96"},
+          {"@variableId": "53910"},
+          {"@variableId": "53911"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V85",
+        "phvList": {"phvRef": [
+          {"@variableId": "60"},
+          {"@variableId": "53923"}
+        ]}
+      },
+      {
+        "@phd": "phd000020.2",
+        "@sectionId": "V89",
+        "phvList": {"phvRef": {"@variableId": "53912"}}
+      },
+      {
+        "@phd": "phd000021.2",
+        "@sectionId": "sec3",
+        "phvList": {"phvRef": {"@variableId": "164683"}}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "53730"}}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@sectionId": "V10",
+        "phvList": {"phvRef": {"@variableId": "53734"}}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@sectionId": "V11",
+        "phvList": {"phvRef": {"@variableId": "53735"}}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@sectionId": "V13",
+        "phvList": {"phvRef": [
+          {"@variableId": "53736"},
+          {"@variableId": "53737"}
+        ]}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@sectionId": "V16",
+        "phvList": {"phvRef": {"@variableId": "53738"}}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@sectionId": "V17",
+        "phvList": {"phvRef": {"@variableId": "53741"}}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@sectionId": "V3",
+        "phvList": {"phvRef": {"@variableId": "53740"}}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@sectionId": "V5",
+        "phvList": {"phvRef": [
+          {"@variableId": "53731"},
+          {"@variableId": "53732"},
+          {"@variableId": "53739"}
+        ]}
+      },
+      {
+        "@phd": "phd000023.2",
+        "@sectionId": "V9",
+        "phvList": {"phvRef": {"@variableId": "53733"}}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V13",
+        "phvList": {"phvRef": [
+          {"@variableId": "26"},
+          {"@variableId": "53914"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V158",
+        "phvList": {"phvRef": {"@variableId": "53915"}}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V2",
+        "phvList": {"phvRef": {"@variableId": "53822"}}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V229",
+        "phvList": {"phvRef": [
+          {"@variableId": "53917"},
+          {"@variableId": "53918"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V249",
+        "phvList": {"phvRef": {"@variableId": "53915"}}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V26",
+        "phvList": {"phvRef": [
+          {"@variableId": "53823"},
+          {"@variableId": "53824"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V31",
+        "phvList": {"phvRef": [
+          {"@variableId": "53825"},
+          {"@variableId": "53826"},
+          {"@variableId": "53827"},
+          {"@variableId": "53828"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V321",
+        "phvList": {"phvRef": {"@variableId": "53916"}}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V41",
+        "phvList": {"phvRef": [
+          {"@variableId": "53829"},
+          {"@variableId": "53830"},
+          {"@variableId": "53831"},
+          {"@variableId": "53832"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V503",
+        "phvList": {"phvRef": [
+          {"@variableId": "15"},
+          {"@variableId": "53847"},
+          {"@variableId": "53848"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V51",
+        "phvList": {"phvRef": [
+          {"@variableId": "53833"},
+          {"@variableId": "53834"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V535",
+        "phvList": {"phvRef": [
+          {"@variableId": "53849"},
+          {"@variableId": "53850"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V56",
+        "phvList": {"phvRef": [
+          {"@variableId": "53835"},
+          {"@variableId": "53836"},
+          {"@variableId": "53837"},
+          {"@variableId": "53838"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V66",
+        "phvList": {"phvRef": [
+          {"@variableId": "53839"},
+          {"@variableId": "53840"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V71",
+        "phvList": {"phvRef": [
+          {"@variableId": "53841"},
+          {"@variableId": "53842"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V76",
+        "phvList": {"phvRef": [
+          {"@variableId": "53843"},
+          {"@variableId": "53844"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V81",
+        "phvList": {"phvRef": [
+          {"@variableId": "53845"},
+          {"@variableId": "53846"}
+        ]}
+      },
+      {
+        "@phd": "phd000024.2",
+        "@sectionId": "V87",
+        "phvList": {"phvRef": {"@variableId": "53915"}}
+      },
+      {
+        "@phd": "phd000025.2",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "54260"}}
+      },
+      {
+        "@phd": "phd000025.2",
+        "@sectionId": "V12",
+        "phvList": {"phvRef": [
+          {"@variableId": "54261"},
+          {"@variableId": "54262"},
+          {"@variableId": "54263"}
+        ]}
+      },
+      {
+        "@phd": "phd000025.2",
+        "@sectionId": "V4",
+        "phvList": {"phvRef": {"@variableId": "54264"}}
+      },
+      {
+        "@phd": "phd000025.2",
+        "@sectionId": "V8",
+        "phvList": {"phvRef": {"@variableId": "54265"}}
+      },
+      {
+        "@phd": "phd000026.2",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "54287"}}
+      },
+      {
+        "@phd": "phd000026.2",
+        "@sectionId": "V3",
+        "phvList": {"phvRef": [
+          {"@variableId": "54292"},
+          {"@variableId": "54293"}
+        ]}
+      },
+      {
+        "@phd": "phd000026.2",
+        "@sectionId": "V4",
+        "phvList": {"phvRef": {"@variableId": "54288"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "54338"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V2",
+        "phvList": {"phvRef": {"@variableId": "54339"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V22",
+        "phvList": {"phvRef": {"@variableId": "54341"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V23",
+        "phvList": {"phvRef": {"@variableId": "54341"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V24",
+        "phvList": {"phvRef": {"@variableId": "54341"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V25",
+        "phvList": {"phvRef": {"@variableId": "54342"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V26",
+        "phvList": {"phvRef": {"@variableId": "54342"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V27",
+        "phvList": {"phvRef": {"@variableId": "54351"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V28",
+        "phvList": {"phvRef": {"@variableId": "54343"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V29",
+        "phvList": {"phvRef": {"@variableId": "54350"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V30",
+        "phvList": {"phvRef": {"@variableId": "54343"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V31",
+        "phvList": {"phvRef": {"@variableId": "54342"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V33",
+        "phvList": {"phvRef": {"@variableId": "54347"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V36",
+        "phvList": {"phvRef": {"@variableId": "54347"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V38",
+        "phvList": {"phvRef": {"@variableId": "54345"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V39",
+        "phvList": {"phvRef": {"@variableId": "54345"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V41",
+        "phvList": {"phvRef": {"@variableId": "54346"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V42",
+        "phvList": {"phvRef": {"@variableId": "54344"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V43",
+        "phvList": {"phvRef": {"@variableId": "54344"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V44",
+        "phvList": {"phvRef": {"@variableId": "54346"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V45",
+        "phvList": {"phvRef": {"@variableId": "54346"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V46",
+        "phvList": {"phvRef": {"@variableId": "54344"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V48",
+        "phvList": {"phvRef": {"@variableId": "54348"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V50",
+        "phvList": {"phvRef": {"@variableId": "54349"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V52",
+        "phvList": {"phvRef": {"@variableId": "54341"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V53",
+        "phvList": {"phvRef": {"@variableId": "54341"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V54",
+        "phvList": {"phvRef": {"@variableId": "54341"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V56",
+        "phvList": {"phvRef": {"@variableId": "54342"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V57",
+        "phvList": {"phvRef": {"@variableId": "54342"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V58",
+        "phvList": {"phvRef": {"@variableId": "54342"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V60",
+        "phvList": {"phvRef": {"@variableId": "54343"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V62",
+        "phvList": {"phvRef": {"@variableId": "54347"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V65",
+        "phvList": {"phvRef": {"@variableId": "54345"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V66",
+        "phvList": {"phvRef": {"@variableId": "54345"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V68",
+        "phvList": {"phvRef": {"@variableId": "54344"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "V69",
+        "phvList": {"phvRef": {"@variableId": "54346"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "v500",
+        "phvList": {"phvRef": {"@variableId": "54353"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "v501",
+        "phvList": {"phvRef": {"@variableId": "54348"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "v502",
+        "phvList": {"phvRef": {"@variableId": "54349"}}
+      },
+      {
+        "@phd": "phd000032.2",
+        "@sectionId": "v504",
+        "phvList": {"phvRef": {"@variableId": "54344"}}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "Sec8",
+        "phvList": {"phvRef": [
+          {"@variableId": "53933"},
+          {"@variableId": "53934"}
+        ]}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "Sec9",
+        "phvList": {"phvRef": [
+          {"@variableId": "53935"},
+          {"@variableId": "53936"},
+          {"@variableId": "54004"},
+          {"@variableId": "54005"}
+        ]}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "53924"}}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V100",
+        "phvList": {"phvRef": {"@variableId": "53939"}}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V171",
+        "phvList": {"phvRef": {"@variableId": "53940"}}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V3",
+        "phvList": {"phvRef": [
+          {"@variableId": "53926"},
+          {"@variableId": "53943"}
+        ]}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V31",
+        "phvList": {"phvRef": [
+          {"@variableId": "123"},
+          {"@variableId": "124"},
+          {"@variableId": "125"},
+          {"@variableId": "126"},
+          {"@variableId": "127"},
+          {"@variableId": "128"},
+          {"@variableId": "129"},
+          {"@variableId": "130"},
+          {"@variableId": "131"},
+          {"@variableId": "132"},
+          {"@variableId": "133"},
+          {"@variableId": "134"},
+          {"@variableId": "135"},
+          {"@variableId": "53925"},
+          {"@variableId": "53927"}
+        ]}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V33",
+        "phvList": {"phvRef": {"@variableId": "53928"}}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V34",
+        "phvList": {"phvRef": {"@variableId": "53929"}}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V35",
+        "phvList": {"phvRef": {"@variableId": "53930"}}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V36",
+        "phvList": {"phvRef": [
+          {"@variableId": "109"},
+          {"@variableId": "110"},
+          {"@variableId": "111"},
+          {"@variableId": "112"},
+          {"@variableId": "113"},
+          {"@variableId": "114"},
+          {"@variableId": "115"},
+          {"@variableId": "116"},
+          {"@variableId": "117"},
+          {"@variableId": "118"},
+          {"@variableId": "119"},
+          {"@variableId": "120"},
+          {"@variableId": "121"},
+          {"@variableId": "53944"},
+          {"@variableId": "53945"},
+          {"@variableId": "53946"},
+          {"@variableId": "54126"},
+          {"@variableId": "54127"},
+          {"@variableId": "54128"},
+          {"@variableId": "54129"},
+          {"@variableId": "54130"},
+          {"@variableId": "54131"},
+          {"@variableId": "54132"},
+          {"@variableId": "54133"},
+          {"@variableId": "54134"},
+          {"@variableId": "54135"},
+          {"@variableId": "54136"},
+          {"@variableId": "54137"},
+          {"@variableId": "54138"}
+        ]}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V4",
+        "phvList": {"phvRef": {"@variableId": "54001"}}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V49",
+        "phvList": {"phvRef": [
+          {"@variableId": "15"},
+          {"@variableId": "53931"},
+          {"@variableId": "53932"},
+          {"@variableId": "54002"},
+          {"@variableId": "54003"}
+        ]}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V56",
+        "phvList": {"phvRef": [
+          {"@variableId": "53947"},
+          {"@variableId": "53948"},
+          {"@variableId": "53949"},
+          {"@variableId": "53960"}
+        ]}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V63",
+        "phvList": {"phvRef": [
+          {"@variableId": "53950"},
+          {"@variableId": "53951"},
+          {"@variableId": "53952"},
+          {"@variableId": "53953"},
+          {"@variableId": "53954"},
+          {"@variableId": "53955"},
+          {"@variableId": "53956"},
+          {"@variableId": "53957"},
+          {"@variableId": "53958"},
+          {"@variableId": "53959"}
+        ]}
+      },
+      {
+        "@phd": "phd000033.2",
+        "@sectionId": "V80",
+        "phvList": {"phvRef": [
+          {"@variableId": "53941"},
+          {"@variableId": "53942"}
+        ]}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "Sec9",
+        "phvList": {"phvRef": [
+          {"@variableId": "53935"},
+          {"@variableId": "53936"},
+          {"@variableId": "54004"},
+          {"@variableId": "54005"}
+        ]}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "53924"}}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V158",
+        "phvList": {"phvRef": {"@variableId": "53940"}}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V232",
+        "phvList": {"phvRef": [
+          {"@variableId": "53941"},
+          {"@variableId": "53942"}
+        ]}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V3",
+        "phvList": {"phvRef": [
+          {"@variableId": "53926"},
+          {"@variableId": "53943"}
+        ]}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V31",
+        "phvList": {"phvRef": [
+          {"@variableId": "123"},
+          {"@variableId": "124"},
+          {"@variableId": "125"},
+          {"@variableId": "126"},
+          {"@variableId": "127"},
+          {"@variableId": "128"},
+          {"@variableId": "129"},
+          {"@variableId": "130"},
+          {"@variableId": "131"},
+          {"@variableId": "132"},
+          {"@variableId": "133"},
+          {"@variableId": "134"},
+          {"@variableId": "135"},
+          {"@variableId": "53925"},
+          {"@variableId": "53927"}
+        ]}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V33",
+        "phvList": {"phvRef": {"@variableId": "53928"}}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V34",
+        "phvList": {"phvRef": {"@variableId": "53929"}}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V348",
+        "phvList": {"phvRef": [
+          {"@variableId": "53937"},
+          {"@variableId": "53938"}
+        ]}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V35",
+        "phvList": {"phvRef": {"@variableId": "53930"}}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V39",
+        "phvList": {"phvRef": [
+          {"@variableId": "15"},
+          {"@variableId": "53931"},
+          {"@variableId": "53932"},
+          {"@variableId": "54002"},
+          {"@variableId": "54003"}
+        ]}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V4",
+        "phvList": {"phvRef": {"@variableId": "54001"}}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V400",
+        "phvList": {"phvRef": {"@variableId": "53939"}}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V521",
+        "phvList": {"phvRef": {"@variableId": "53940"}}
+      },
+      {
+        "@phd": "phd000036.2",
+        "@sectionId": "V87",
+        "phvList": {"phvRef": {"@variableId": "53939"}}
+      },
+      {
+        "@phd": "phd000040.2",
+        "@sectionId": "V232",
+        "phvList": {"phvRef": [
+          {"@variableId": "53919"},
+          {"@variableId": "53920"}
+        ]}
+      },
+      {
+        "@phd": "phd000040.2",
+        "@sectionId": "V249",
+        "phvList": {"phvRef": {"@variableId": "53851"}}
+      },
+      {
+        "@phd": "phd000040.2",
+        "@sectionId": "V321",
+        "phvList": {"phvRef": {"@variableId": "53852"}}
+      },
+      {
+        "@phd": "phd000040.2",
+        "@sectionId": "V39",
+        "phvList": {"phvRef": [
+          {"@variableId": "30"},
+          {"@variableId": "53922"}
+        ]}
+      },
+      {
+        "@phd": "phd000040.2",
+        "@sectionId": "V529",
+        "phvList": {"phvRef": [
+          {"@variableId": "172"},
+          {"@variableId": "53853"}
+        ]}
+      },
+      {
+        "@phd": "phd000040.2",
+        "@sectionId": "v531a",
+        "phvList": {"phvRef": [
+          {"@variableId": "30"},
+          {"@variableId": "31"},
+          {"@variableId": "53921"},
+          {"@variableId": "53922"},
+          {"@variableId": "54000"}
+        ]}
+      },
+      {
+        "@phd": "phd000901.1",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "53924"}}
+      },
+      {
+        "@phd": "phd000901.1",
+        "@sectionId": "V10",
+        "phvList": {"phvRef": [
+          {"@variableId": "53931"},
+          {"@variableId": "53932"},
+          {"@variableId": "54002"},
+          {"@variableId": "54003"}
+        ]}
+      },
+      {
+        "@phd": "phd000901.1",
+        "@sectionId": "V108",
+        "phvList": {"phvRef": {"@variableId": "54000"}}
+      },
+      {
+        "@phd": "phd000901.1",
+        "@sectionId": "V26",
+        "phvList": {"phvRef": [
+          {"@variableId": "53935"},
+          {"@variableId": "53936"},
+          {"@variableId": "54004"},
+          {"@variableId": "54005"}
+        ]}
+      },
+      {
+        "@phd": "phd000901.1",
+        "@sectionId": "V3",
+        "phvList": {"phvRef": {"@variableId": "53926"}}
+      },
+      {
+        "@phd": "phd000901.1",
+        "@sectionId": "V4",
+        "phvList": {"phvRef": {"@variableId": "54001"}}
+      },
+      {
+        "@phd": "phd000902.1",
+        "@sectionId": "V13",
+        "phvList": {"phvRef": [
+          {"@variableId": "54268"},
+          {"@variableId": "54274"}
+        ]}
+      },
+      {
+        "@phd": "phd000902.1",
+        "@sectionId": "V14",
+        "phvList": {"phvRef": [
+          {"@variableId": "54282"},
+          {"@variableId": "54284"}
+        ]}
+      },
+      {
+        "@phd": "phd000902.1",
+        "@sectionId": "V22",
+        "phvList": {"phvRef": [
+          {"@variableId": "7"},
+          {"@variableId": "8"},
+          {"@variableId": "54271"},
+          {"@variableId": "54273"},
+          {"@variableId": "54277"},
+          {"@variableId": "54279"}
+        ]}
+      },
+      {
+        "@phd": "phd000902.1",
+        "@sectionId": "V23",
+        "phvList": {"phvRef": [
+          {"@variableId": "11"},
+          {"@variableId": "12"},
+          {"@variableId": "54272"},
+          {"@variableId": "54278"}
+        ]}
+      },
+      {
+        "@phd": "phd000902.1",
+        "@sectionId": "V29",
+        "phvList": {"phvRef": [
+          {"@variableId": "54283"},
+          {"@variableId": "54285"}
+        ]}
+      },
+      {
+        "@phd": "phd000902.1",
+        "@sectionId": "V30",
+        "phvList": {"phvRef": [
+          {"@variableId": "54269"},
+          {"@variableId": "54275"}
+        ]}
+      },
+      {
+        "@phd": "phd000902.1",
+        "@sectionId": "V31",
+        "phvList": {"phvRef": [
+          {"@variableId": "3"},
+          {"@variableId": "4"},
+          {"@variableId": "54270"},
+          {"@variableId": "54276"},
+          {"@variableId": "54280"},
+          {"@variableId": "54281"}
+        ]}
+      },
+      {
+        "@phd": "phd000902.1",
+        "@sectionId": "V7",
+        "phvList": {"phvRef": {"@variableId": "54267"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": [
+          {"@variableId": "53924"},
+          {"@variableId": "54118"}
+        ]}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V11",
+        "phvList": {"phvRef": {"@variableId": "53962"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V12",
+        "phvList": {"phvRef": {"@variableId": "53963"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V13",
+        "phvList": {"phvRef": {"@variableId": "53964"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V14",
+        "phvList": {"phvRef": {"@variableId": "53965"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V15",
+        "phvList": {"phvRef": {"@variableId": "53966"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V16",
+        "phvList": {"phvRef": {"@variableId": "53967"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V17",
+        "phvList": {"phvRef": {"@variableId": "53968"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V18",
+        "phvList": {"phvRef": {"@variableId": "53969"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V19",
+        "phvList": {"phvRef": {"@variableId": "53970"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V20",
+        "phvList": {"phvRef": {"@variableId": "53971"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V21",
+        "phvList": {"phvRef": {"@variableId": "53972"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V22",
+        "phvList": {"phvRef": {"@variableId": "53973"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V23",
+        "phvList": {"phvRef": {"@variableId": "53974"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V24",
+        "phvList": {"phvRef": {"@variableId": "53975"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V25",
+        "phvList": {"phvRef": {"@variableId": "53976"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V26",
+        "phvList": {"phvRef": {"@variableId": "53977"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V27",
+        "phvList": {"phvRef": {"@variableId": "53978"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V28",
+        "phvList": {"phvRef": {"@variableId": "53979"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V29",
+        "phvList": {"phvRef": {"@variableId": "53980"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V3",
+        "phvList": {"phvRef": {"@variableId": "53961"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V30",
+        "phvList": {"phvRef": {"@variableId": "53981"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V31",
+        "phvList": {"phvRef": [
+          {"@variableId": "53982"},
+          {"@variableId": "53983"}
+        ]}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V33",
+        "phvList": {"phvRef": [
+          {"@variableId": "53984"},
+          {"@variableId": "53985"}
+        ]}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V35",
+        "phvList": {"phvRef": [
+          {"@variableId": "53986"},
+          {"@variableId": "53987"}
+        ]}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V4",
+        "phvList": {"phvRef": {"@variableId": "54006"}}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V41",
+        "phvList": {"phvRef": [
+          {"@variableId": "73"},
+          {"@variableId": "74"},
+          {"@variableId": "75"},
+          {"@variableId": "76"},
+          {"@variableId": "77"},
+          {"@variableId": "78"},
+          {"@variableId": "79"},
+          {"@variableId": "80"},
+          {"@variableId": "81"},
+          {"@variableId": "82"},
+          {"@variableId": "83"},
+          {"@variableId": "53988"},
+          {"@variableId": "53989"},
+          {"@variableId": "53990"}
+        ]}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V44",
+        "phvList": {"phvRef": [
+          {"@variableId": "53991"},
+          {"@variableId": "53992"},
+          {"@variableId": "53993"}
+        ]}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V51",
+        "phvList": {"phvRef": [
+          {"@variableId": "53994"},
+          {"@variableId": "53995"}
+        ]}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V53",
+        "phvList": {"phvRef": [
+          {"@variableId": "137"},
+          {"@variableId": "138"},
+          {"@variableId": "139"},
+          {"@variableId": "140"},
+          {"@variableId": "141"},
+          {"@variableId": "142"},
+          {"@variableId": "143"},
+          {"@variableId": "144"},
+          {"@variableId": "145"},
+          {"@variableId": "146"},
+          {"@variableId": "147"},
+          {"@variableId": "53996"}
+        ]}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V54",
+        "phvList": {"phvRef": [
+          {"@variableId": "85"},
+          {"@variableId": "86"},
+          {"@variableId": "87"},
+          {"@variableId": "88"},
+          {"@variableId": "89"},
+          {"@variableId": "90"},
+          {"@variableId": "91"},
+          {"@variableId": "92"},
+          {"@variableId": "93"},
+          {"@variableId": "94"},
+          {"@variableId": "95"},
+          {"@variableId": "97"},
+          {"@variableId": "98"},
+          {"@variableId": "99"},
+          {"@variableId": "100"},
+          {"@variableId": "101"},
+          {"@variableId": "102"},
+          {"@variableId": "103"},
+          {"@variableId": "104"},
+          {"@variableId": "105"},
+          {"@variableId": "106"},
+          {"@variableId": "107"},
+          {"@variableId": "53997"},
+          {"@variableId": "53998"}
+        ]}
+      },
+      {
+        "@phd": "phd000903.1",
+        "@sectionId": "V60a",
+        "phvList": {"phvRef": [
+          {"@variableId": "61"},
+          {"@variableId": "62"},
+          {"@variableId": "63"},
+          {"@variableId": "64"},
+          {"@variableId": "65"},
+          {"@variableId": "66"},
+          {"@variableId": "67"},
+          {"@variableId": "68"},
+          {"@variableId": "69"},
+          {"@variableId": "70"},
+          {"@variableId": "71"},
+          {"@variableId": "53999"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": [
+          {"@variableId": "53924"},
+          {"@variableId": "54294"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V10",
+        "phvList": {"phvRef": [
+          {"@variableId": "123"},
+          {"@variableId": "124"},
+          {"@variableId": "125"},
+          {"@variableId": "126"},
+          {"@variableId": "127"},
+          {"@variableId": "128"},
+          {"@variableId": "129"},
+          {"@variableId": "130"},
+          {"@variableId": "131"},
+          {"@variableId": "132"},
+          {"@variableId": "133"},
+          {"@variableId": "134"},
+          {"@variableId": "135"},
+          {"@variableId": "53925"},
+          {"@variableId": "53927"},
+          {"@variableId": "53928"},
+          {"@variableId": "53929"},
+          {"@variableId": "53930"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V103",
+        "phvList": {"phvRef": [
+          {"@variableId": "53947"},
+          {"@variableId": "53948"},
+          {"@variableId": "53949"},
+          {"@variableId": "53960"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V106",
+        "phvList": {"phvRef": [
+          {"@variableId": "53950"},
+          {"@variableId": "53951"},
+          {"@variableId": "53952"},
+          {"@variableId": "53953"},
+          {"@variableId": "53954"},
+          {"@variableId": "53955"},
+          {"@variableId": "53956"},
+          {"@variableId": "53957"},
+          {"@variableId": "53958"},
+          {"@variableId": "53959"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V124",
+        "phvList": {"phvRef": [
+          {"@variableId": "53941"},
+          {"@variableId": "53942"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V16",
+        "phvList": {"phvRef": [
+          {"@variableId": "109"},
+          {"@variableId": "110"},
+          {"@variableId": "111"},
+          {"@variableId": "112"},
+          {"@variableId": "113"},
+          {"@variableId": "114"},
+          {"@variableId": "115"},
+          {"@variableId": "116"},
+          {"@variableId": "117"},
+          {"@variableId": "118"},
+          {"@variableId": "119"},
+          {"@variableId": "120"},
+          {"@variableId": "121"},
+          {"@variableId": "53944"},
+          {"@variableId": "53945"},
+          {"@variableId": "53946"},
+          {"@variableId": "54126"},
+          {"@variableId": "54127"},
+          {"@variableId": "54128"},
+          {"@variableId": "54129"},
+          {"@variableId": "54130"},
+          {"@variableId": "54131"},
+          {"@variableId": "54132"},
+          {"@variableId": "54133"},
+          {"@variableId": "54134"},
+          {"@variableId": "54135"},
+          {"@variableId": "54136"},
+          {"@variableId": "54137"},
+          {"@variableId": "54138"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V3",
+        "phvList": {"phvRef": [
+          {"@variableId": "53926"},
+          {"@variableId": "54295"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V4",
+        "phvList": {"phvRef": [
+          {"@variableId": "54001"},
+          {"@variableId": "54337"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V402",
+        "phvList": {"phvRef": [
+          {"@variableId": "53935"},
+          {"@variableId": "53936"},
+          {"@variableId": "54004"},
+          {"@variableId": "54005"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V43",
+        "phvList": {"phvRef": {"@variableId": "54296"}}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V44",
+        "phvList": {"phvRef": [
+          {"@variableId": "54297"},
+          {"@variableId": "54298"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V46",
+        "phvList": {"phvRef": {"@variableId": "54299"}}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V479",
+        "phvList": {"phvRef": {"@variableId": "54000"}}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V48",
+        "phvList": {"phvRef": [
+          {"@variableId": "54300"},
+          {"@variableId": "54301"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V50",
+        "phvList": {"phvRef": [
+          {"@variableId": "54302"},
+          {"@variableId": "54303"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V514",
+        "phvList": {"phvRef": [
+          {"@variableId": "53937"},
+          {"@variableId": "53938"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V52",
+        "phvList": {"phvRef": [
+          {"@variableId": "54304"},
+          {"@variableId": "54305"},
+          {"@variableId": "54306"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V55",
+        "phvList": {"phvRef": [
+          {"@variableId": "54307"},
+          {"@variableId": "54308"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V57",
+        "phvList": {"phvRef": [
+          {"@variableId": "54309"},
+          {"@variableId": "54310"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V59",
+        "phvList": {"phvRef": [
+          {"@variableId": "54311"},
+          {"@variableId": "54312"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V61",
+        "phvList": {"phvRef": [
+          {"@variableId": "54313"},
+          {"@variableId": "54314"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V63",
+        "phvList": {"phvRef": {"@variableId": "54315"}}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V65",
+        "phvList": {"phvRef": [
+          {"@variableId": "54316"},
+          {"@variableId": "54317"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V67",
+        "phvList": {"phvRef": [
+          {"@variableId": "54318"},
+          {"@variableId": "54319"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V69",
+        "phvList": {"phvRef": [
+          {"@variableId": "54320"},
+          {"@variableId": "54321"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V71",
+        "phvList": {"phvRef": [
+          {"@variableId": "54322"},
+          {"@variableId": "54323"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V73",
+        "phvList": {"phvRef": [
+          {"@variableId": "54324"},
+          {"@variableId": "54325"},
+          {"@variableId": "54326"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V76",
+        "phvList": {"phvRef": [
+          {"@variableId": "54327"},
+          {"@variableId": "54328"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V78",
+        "phvList": {"phvRef": [
+          {"@variableId": "54329"},
+          {"@variableId": "54330"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V80",
+        "phvList": {"phvRef": [
+          {"@variableId": "54331"},
+          {"@variableId": "54336"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V82",
+        "phvList": {"phvRef": [
+          {"@variableId": "54332"},
+          {"@variableId": "54333"},
+          {"@variableId": "54334"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V85",
+        "phvList": {"phvRef": {"@variableId": "54335"}}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "V86",
+        "phvList": {"phvRef": [
+          {"@variableId": "53931"},
+          {"@variableId": "53932"},
+          {"@variableId": "54002"},
+          {"@variableId": "54003"}
+        ]}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "sec2",
+        "phvList": {"phvRef": {"@variableId": "53939"}}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "sec3",
+        "phvList": {"phvRef": {"@variableId": "53940"}}
+      },
+      {
+        "@phd": "phd000904.1",
+        "@sectionId": "sec4",
+        "phvList": {"phvRef": [
+          {"@variableId": "53933"},
+          {"@variableId": "53934"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V101",
+        "phvList": {"phvRef": [
+          {"@variableId": "54028"},
+          {"@variableId": "54048"},
+          {"@variableId": "54049"},
+          {"@variableId": "54074"},
+          {"@variableId": "54091"},
+          {"@variableId": "54092"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V102",
+        "phvList": {"phvRef": [
+          {"@variableId": "54026"},
+          {"@variableId": "54046"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V103",
+        "phvList": {"phvRef": [
+          {"@variableId": "54027"},
+          {"@variableId": "54047"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V11",
+        "phvList": {"phvRef": [
+          {"@variableId": "54053"},
+          {"@variableId": "54054"},
+          {"@variableId": "54055"},
+          {"@variableId": "54097"},
+          {"@variableId": "54098"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V37",
+        "phvList": {"phvRef": [
+          {"@variableId": "54009"},
+          {"@variableId": "54029"},
+          {"@variableId": "54058"},
+          {"@variableId": "54075"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V40",
+        "phvList": {"phvRef": [
+          {"@variableId": "54010"},
+          {"@variableId": "54030"},
+          {"@variableId": "54059"},
+          {"@variableId": "54076"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V44",
+        "phvList": {"phvRef": [
+          {"@variableId": "54011"},
+          {"@variableId": "54031"},
+          {"@variableId": "54060"},
+          {"@variableId": "54077"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V47",
+        "phvList": {"phvRef": [
+          {"@variableId": "54012"},
+          {"@variableId": "54032"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V5",
+        "phvList": {"phvRef": [
+          {"@variableId": "54007"},
+          {"@variableId": "54056"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V50",
+        "phvList": {"phvRef": [
+          {"@variableId": "54013"},
+          {"@variableId": "54033"},
+          {"@variableId": "54062"},
+          {"@variableId": "54079"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V53",
+        "phvList": {"phvRef": [
+          {"@variableId": "54014"},
+          {"@variableId": "54034"},
+          {"@variableId": "54063"},
+          {"@variableId": "54080"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V56",
+        "phvList": {"phvRef": [
+          {"@variableId": "54015"},
+          {"@variableId": "54035"},
+          {"@variableId": "54064"},
+          {"@variableId": "54081"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V59",
+        "phvList": {"phvRef": [
+          {"@variableId": "54016"},
+          {"@variableId": "54017"},
+          {"@variableId": "54018"},
+          {"@variableId": "54036"},
+          {"@variableId": "54037"},
+          {"@variableId": "54038"},
+          {"@variableId": "54065"},
+          {"@variableId": "54066"},
+          {"@variableId": "54067"},
+          {"@variableId": "54082"},
+          {"@variableId": "54083"},
+          {"@variableId": "54084"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V6",
+        "phvList": {"phvRef": {"@variableId": "27"}}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V64",
+        "phvList": {"phvRef": [
+          {"@variableId": "54019"},
+          {"@variableId": "54020"},
+          {"@variableId": "54039"},
+          {"@variableId": "54040"},
+          {"@variableId": "54068"},
+          {"@variableId": "54069"},
+          {"@variableId": "54085"},
+          {"@variableId": "54086"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V68",
+        "phvList": {"phvRef": [
+          {"@variableId": "54021"},
+          {"@variableId": "54022"},
+          {"@variableId": "54041"},
+          {"@variableId": "54042"},
+          {"@variableId": "54070"},
+          {"@variableId": "54071"},
+          {"@variableId": "54087"},
+          {"@variableId": "54088"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V93",
+        "phvList": {"phvRef": [
+          {"@variableId": "54023"},
+          {"@variableId": "54024"},
+          {"@variableId": "54043"},
+          {"@variableId": "54044"},
+          {"@variableId": "54072"},
+          {"@variableId": "54089"}
+        ]}
+      },
+      {
+        "@phd": "phd000905.1",
+        "@sectionId": "V97",
+        "phvList": {"phvRef": [
+          {"@variableId": "54025"},
+          {"@variableId": "54045"},
+          {"@variableId": "54073"},
+          {"@variableId": "54090"}
+        ]}
+      },
+      {
+        "@phd": "phd000906.1",
+        "@sectionId": "phd000906",
+        "phvList": {"phvRef": {"@variableId": "54289"}}
+      },
+      {
+        "@phd": "phd000907.1",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "53924"}}
+      },
+      {
+        "@phd": "phd000907.1",
+        "@sectionId": "V9",
+        "phvList": {"phvRef": {"@variableId": "54000"}}
+      },
+      {
+        "@phd": "phd000908.1",
+        "@sectionId": "V1",
+        "phvList": {"phvRef": {"@variableId": "53924"}}
+      },
+      {
+        "@phd": "phd000908.1",
+        "@sectionId": "V5",
+        "phvList": {"phvRef": {"@variableId": "54000"}}
+      },
+      {
+        "@phd": "phd001138.1",
+        "@sectionId": "phd001138",
+        "phvList": {"phvRef": [
+          {"@variableId": "3"},
+          {"@variableId": "4"},
+          {"@variableId": "5"},
+          {"@variableId": "6"},
+          {"@variableId": "7"},
+          {"@variableId": "8"},
+          {"@variableId": "9"},
+          {"@variableId": "10"},
+          {"@variableId": "11"},
+          {"@variableId": "12"},
+          {"@variableId": "13"},
+          {"@variableId": "14"},
+          {"@variableId": "15"},
+          {"@variableId": "16"},
+          {"@variableId": "17"},
+          {"@variableId": "18"},
+          {"@variableId": "19"},
+          {"@variableId": "20"},
+          {"@variableId": "21"},
+          {"@variableId": "22"},
+          {"@variableId": "23"},
+          {"@variableId": "24"},
+          {"@variableId": "30"},
+          {"@variableId": "173"},
+          {"@variableId": "53743"},
+          {"@variableId": "53744"},
+          {"@variableId": "53745"},
+          {"@variableId": "53746"},
+          {"@variableId": "53747"},
+          {"@variableId": "53748"},
+          {"@variableId": "53749"},
+          {"@variableId": "53750"},
+          {"@variableId": "53751"},
+          {"@variableId": "53752"},
+          {"@variableId": "53753"},
+          {"@variableId": "53754"},
+          {"@variableId": "53755"},
+          {"@variableId": "53756"},
+          {"@variableId": "53757"},
+          {"@variableId": "53758"},
+          {"@variableId": "53759"},
+          {"@variableId": "53760"},
+          {"@variableId": "53761"},
+          {"@variableId": "53762"},
+          {"@variableId": "53763"},
+          {"@variableId": "53764"},
+          {"@variableId": "53765"}
+        ]}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li1",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li10",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li11",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li12",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li13",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li14",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li15",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li16",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li17",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li18",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li2",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li21",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li22",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li23",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li24",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li25",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li26",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li27",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li28",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li29",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li30",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li32",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li33",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li37",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li38",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li39",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li40",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li41",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li42",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li43",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li44",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li49",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li5",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li50",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li51",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li52",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li53",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li54",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li55",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li56",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li57",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li58",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li59",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li6",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li60",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li61",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li62",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li63",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li64",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li65",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li66",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li67",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li68",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li69",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li7",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li70",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li71",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li76",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li77",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li78",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li79",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li8",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li80",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li81",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li82",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li83",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li84",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li85",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li86",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li87",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li88",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li89",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li9",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li90",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li91",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li92",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "li93",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "list1",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "list2",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "list3",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "p1",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "p10",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "p11",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "p12",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "p3",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "p4",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "p7",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr1",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr10",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr11",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr12",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr13",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr2",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr3",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr4",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr5",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr6",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr7",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr8",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "pr9",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.1.1",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.1.2",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.1.3",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.2.1",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.2.2",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.2.3",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.2.4",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.2.5",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.2.6",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.2.7",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.1.2.8",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.2.1",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.2.2",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec1.2a",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec2.1.1",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec2.1.2",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec2.1.3",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec2.1.4",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "sec2.1.5",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "td1",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "td2",
+        "phvList": {}
+      },
+      {
+        "@phd": "phd001552.2",
+        "@sectionId": "td3",
+        "phvList": {}
+      }
+    ]},
+    "Analyses": {"Analysis": [
+      {
+        "@pha": "1",
+        "@genomeBuild": "36.3",
+        "@snpBuild": "129",
+        "@analysisType": "",
+        "Description": {"_$": "<description> This analysis of association between allele and the AMD status variable (amdstat) from the National Eye Institute Age-Related Eye Disease Study (AREDS) was <font color=\"red\">pre-computed by NCBI<\/font>. It contained 395 cases and 198 controls. Case individuals have been diagnosed as having non-vascular AMD (198), geographic atrophy (133), both non-vascular AMD and geographic atrophy (50), or large drusen (14). Genotyping was conducted by the <a href=\"http://www.cidr.jhmi.edu/\">Center for Inherited Disease Research (CIDR)<\/a> using the Illumina Sentrix Human-1 Genotyping Beadchip.<\/description>"},
+        "Method": {"_$": "Univariate SNP Allelic Association Method"},
+        "GtyPlatform": {
+          "@probeNum": "109372",
+          "@snpBatchId": "33668",
+          "Vendor": {"_$": "Illumina"},
+          "VendorURL": {},
+          "Platform": {"_$": "Illum100k"}
+        },
+        "Comment": {}
+      },
+      {
+        "@pha": "2",
+        "@genomeBuild": "36.3",
+        "@snpBuild": "129",
+        "@analysisType": "",
+        "Description": {"_$": "<description> This analysis of association between allele and the AMD status variable (amdstat) from the National Eye Institute Age-Related Eye Disease Study (AREDS) was <font color=\"red\">pre-computed by NCBI<\/font>. It contained 350 cases and 171 controls. Genotyping was conducted by the <a ref=\"http://www.cidr.jhmi.edu/\">Center for Inherited Disease Research (CIDR)<\/a> using Affymetrix GeneChip Human Mapping 100K Set <\/description>"},
+        "Method": {"_$": "Univariate SNP Allelic Association Method"},
+        "GtyPlatform": {
+          "@probeNum": "116630",
+          "@snpBatchId": "",
+          "Vendor": {"_$": "Affy"},
+          "VendorURL": {"_$": "Mapping50k_Hind240 (33750) and Mapping50k_Xba240(33751)"},
+          "Platform": {"_$": "Affy100k"}
+        },
+        "Comment": {}
+      },
+      {
+        "@pha": "2856",
+        "@genomeBuild": "36.3",
+        "@snpBuild": "129",
+        "@analysisType": "",
+        "Description": {"_$": "This analysis of association between genotype and the AMD status variable (AMDSTAT) from the National Eye Institute Age-Related Eye Disease Study (AREDS) was <font color=\"red\">pre-computed by NCBI<\/font>.  It contained 381 cases and 187 controls.  The case group includes individuals whose final AMD phenotype is neovascular AMD (197), geographic atrophy (133), or both neovascular AMD and geographic atrophy (51).  The control group includes individuals whose final AMD phenotype is Control (151), Control Questionable 1 (14), Control Questionable 2 (1), or Control Questionable 4 (21).  Participants whose final AMD phenotype is Large Drusen (2), Large Drusen Questionable 2 (1), Questionable Advanced AMD (12), or Other, non-control (10) were not included in the analyses.  Participants were originally selected for genotyping prior to final AMD phenotype information being available. Analyses are adjusted for age at last fundus photograph, gender, and smoking status at baseline. Genotyping was conducted by the <a href=http://www.cidr.jhmi.edu/> Center for Inherited Disease Research (CIDR)<\/a> using the Illumina Sentrix Human-1 Genotyping Beadchip."},
+        "Method": {"_$": "Testing for AMD-Genotype Association using Logistic Regression under the Additive Genetic Model Adjusted for Sex, Smoking Status at Baseline, and Age at Last Photo"},
+        "GtyPlatform": {
+          "@probeNum": "109372",
+          "@snpBatchId": "33668",
+          "Vendor": {"_$": "Illumina"},
+          "VendorURL": {},
+          "Platform": {"_$": "Illum100k"}
+        },
+        "Comment": {}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

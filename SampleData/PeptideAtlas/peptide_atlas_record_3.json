@@ -1,0 +1,22 @@
+{"pr_nif_0000_03266_2": {
+  "e_uid": "PAe000005",
+  "acc": "PAe000005",
+  "name": "Human",
+  "summary": "Human prostate cancer cell lines: LNCaP, CL-1, cytosolic. labeled with old ICAT\ncytosolic fraction comparison with ICAT",
+  "title": "Human prostate cancer cell lines, cytosolic, ICAT",
+  "char": "Human prostate cancer cell lines LNCaP, CL-1.",
+  "tag": "Human prostate cancer cell lines, cytosolic, ICAT",
+  "instrument": "LCQ DECA",
+  "pmid": "15833837",
+  "pmid_display": "PMID:15833837",
+  "treatment": "",
+  "growth": "LNCaP and CL1 cells were grown as described by Tso et al. Cancer J Sci Am 2000, 6: 220â\u0080\u009333.",
+  "digestion": "Procedures based on Han et al., Nat Biotechnol 2001; 19: 946â\u0080\u009351.",
+  "extract": "Fractionation of cells into cytosolic, microsomal, and nuclear fractions according to Han et al., Nat Biotechnol 2001; 19: 946â\u0080\u009351.",
+  "separation": "Procedures based on Han et al., Nat Biotechnol 2001; 19: 946â\u0080\u009351.",
+  "v_uid": "PAe000005",
+  "v_uuid": "309bd4e9-295d-5ba1-9493-879278ff02e2",
+  "v_lastmodified": "2016-04-29 16:57:05.099531",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.461949025099531E9
+}}

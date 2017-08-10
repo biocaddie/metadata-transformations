@@ -1,0 +1,23 @@
+{"pr_nlx_144048_1": {
+  "e_uid": "ds0000531.0.0",
+  "title": "Training of loss aversion modulates neural sensitivity toward potential gains",
+  "id": "ds000053",
+  "description": "<h3>Aims:<\/h3><p>We investigated behavioral and neural mechanisms for modulating loss aversion.<\/p><h3>Methods<\/h3><p><strong>Behavior task<\/strong>: We adapted the gambling task (Tom et al., 2007) by introducing contexts and feedback that encourage participants to take more or less loss averse choices.<\/p><p><strong>fMRI<\/strong>: We used general linear model to find brain activation that correlates with magnitude of potential gains or potential losses during the learning and post-learning probe. We also used psychophysiological interaction analysis (independent seeded at vmPFC) to identified the brain areas showing interaction with vmPFC over the course of training.<\/p><h3>General findings and importance:<\/h3><p>Training primarily modulated behavioral and neural sensitivity toward potential gains, and was reflected in connectivity between regions involved in cognitive control and those involved in value representation. These findings highlight the importance of experience in development of biases in decision-making.<\/p><h3>Sample Size<\/h3><p>Sixty human participants completed the behavioral paradigm in the MRI scanner (31 females, 29 males; age range: 18 -&nbsp;30 with mean 22.9-year-old). Two participants were discarded from the brain imaging analyses; one due to a missing anatomical image, and the other due to excessive head movement (more than one-third of the volumes were considered &ldquo;bad time points&rdquo; according to the motion correction procedures detailed in the Preprocessing section).<\/p>",
+  "link": "https://openfmri.org/dataset/ds000053",
+  "cognitive_task_seq_name": "<a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4f24496a80587\">1 gambling task<\/a>",
+  "task_name": "gambling task",
+  "pubmed_id": "",
+  "license": "PDDL",
+  "investigator": "Mei-Yen Chen, Corey N. White, Nathan Giles, Albert Elumn, Sagar Parikh, Ungi Kim, W. Todd Maddox, Russell A. Poldrack",
+  "version_num": "1.0.0",
+  "revision_history": " Manuscript is currently under consideration and raw data will be made available upon publication.",
+  "version_date": "2016-03-25",
+  "organism": "human",
+  "assay": "MRI",
+  "nifid": "nlx_144048",
+  "v_uid": "ds0000531.0.0",
+  "v_uuid": "65998058-c1d6-5c00-a309-1ac18c2f86b5",
+  "v_lastmodified": "2016-10-18 17:01:56.252636",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.475148811107917E9
+}}

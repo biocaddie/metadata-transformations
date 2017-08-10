@@ -1,0 +1,23 @@
+{"pr_nlx_144048_1": {
+  "e_uid": "ds000158",
+  "title": "The human Voice Areas: spatial organisation and inter-individual variability in temporal and extra-temporal cortices",
+  "id": "ds000158",
+  "description": "<p>FMRI studies increasingly examine functions and properties of non-primary areas of human auditory cortex. However there is currently no standardized localization procedure to reliably identify specific areas across individuals such as the standard &#39;localizers&#39; available in the visual domain. Here we present an fMRI &#39;voice localizer&#39; scan allowing rapid and reliable localization of the voice-sensitive &#39;temporal voice areas&#39; (TVA) of human auditory cortex. We describe results obtained using this standardized localizer scan in a large cohort of normal adult subjects. Most participants (94%) showed bilateral patches of significantly greater response to vocal than non-vocal sounds along the superior temporal sulcus/gyrus (STS/STG). Individual activation patterns, although reproducible, showed high inter-individual variability in precise anatomical location. Cluster analysis of individual peaks from the large cohort highlighted three bilateral clusters of voice-sensitivity, or &quot;voice patches&quot; along posterior (TVAp), mid (TVAm) and anterior (TVAa) STS/STG, respectively. A series of extra-temporal areas including bilateral inferior prefrontal cortex and amygdalae showed small, but reliable voice sensitivity as part of a large-scale cerebral voice network. Stimuli for the voice localizer scan and probabilistic maps in MNI space are available for download.<\/p><p>NOTE: This dataset is formatted according to the new <a href=\"http://bids.neuroimaging.io\">Brain Imaging Data Structure<\/a>.<\/p>",
+  "link": "https://openfmri.org/dataset/ds000158",
+  "cognitive_task_seq_name": "",
+  "task_name": "",
+  "pubmed_id": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/26116964\">PMID:26116964<\/a>",
+  "license": "CC-BY 4.0",
+  "investigator": "Pernet, CR, Belin, P, McAleer, P, Gorgolewski, KJ, Valdes-Sosa, M, Latinus, M, Charest, I, Bestelmeyer, PEG, Watson, RH, Fleming, D",
+  "version_num": "",
+  "revision_history": "",
+  "version_date": "",
+  "organism": "human",
+  "assay": "MRI",
+  "nifid": "nlx_144048",
+  "v_uid": "ds000158",
+  "v_uuid": "fe1aa7c2-2288-55b8-9bca-4d54e00b93b6",
+  "v_lastmodified": "2016-10-18 17:01:56.252636",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.475148811107917E9
+}}
