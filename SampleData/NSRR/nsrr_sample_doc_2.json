@@ -1,0 +1,17 @@
+{
+  "identifiers": [{
+    "identifier": "CFS",
+    "identifierSource": "National Sleep Research Resource"
+  }],
+  "title": "Cleveland Family Study",
+  "description": "The largest family-based study of sleep apnea worldwide, consisting of 2,284 individuals (46% African American) from 361 families studied on up to 4 occasions over a period of 16 years. The study was begun in 1990 with the initial aims of quantifying the familial aggregation of sleep apnea. NIH renewals provided expansion of the original cohort (including increased minority recruitment) and longitudinal follow-up, with the last exam occurring in February 2006.",
+  "creators": [{"name": "National Sleep Research Resource"}],
+  "types": [{"value": "observational study"}],
+  "distributions": [{
+    "dates": [{
+      "date": "2014/10/01",
+      "type": {"value": "release date"}
+    }],
+    "accessModalities": [{"landingPage": "https://urldefense.proofpoint.com/v2/url?u=https-3A__www.sleepdata.org_datasets_cfs&d=CwIGAg&c=6vgNTiRn9_pqCD9hKx9JgXN1VapJQ8JVoF8oWH1AgfQ&r=cj-BmNj7Nn6Jxz8vm5u8BhemMM8Al46N_u3DwJpc4tk&m=iLj2gvcJuFJ-GkhMKBgfdqOybh-B3LxWFMuFnEnVR6Q&s=2COnAmPhjRuaRKqeBLZsrqI0pUUObk0ZquAqO40vqDI&e= "}]
+  }]
+}

@@ -1,0 +1,17 @@
+{
+  "identifiers": [{
+    "identifier": "CHAT",
+    "identifierSource": "National Sleep Research Resource"
+  }],
+  "title": "Childhood Adenotonsillectomy Trial",
+  "description": "A multi-center, single-blind, randomized, controlled trial designed to test whether after a 7-month observation period, children, ages 5 to 9.9 years, with mild to moderate obstructive sleep apnea randomized to early adenotonsillectomy (eAT) will show greater levels of neurocognitive functioning, specifically in the attention-executive functioning domain, than children randomized to watchful waiting plus supportive care (WWSC).",
+  "creators": [{"name": "National Sleep Research Resource"}],
+  "types": [{"value": "randomized controlled trial"}],
+  "distributions": [{
+    "dates": [{
+      "date": "2014/07/01",
+      "type": {"value": "release date"}
+    }],
+    "accessModalities": [{"landingPage": "https://urldefense.proofpoint.com/v2/url?u=https-3A__www.sleepdata.org_datasets_chat&d=CwIGAg&c=6vgNTiRn9_pqCD9hKx9JgXN1VapJQ8JVoF8oWH1AgfQ&r=cj-BmNj7Nn6Jxz8vm5u8BhemMM8Al46N_u3DwJpc4tk&m=iLj2gvcJuFJ-GkhMKBgfdqOybh-B3LxWFMuFnEnVR6Q&s=jF1gSwzCVA2zhUhoOUDlOUbfH3Ih40YNEylR_08aCTo&e= "}]
+  }]
+}

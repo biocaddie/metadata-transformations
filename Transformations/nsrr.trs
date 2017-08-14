@@ -1,0 +1,46 @@
+/*Dataset information*/
+transform column "$.'identifiers'[*].'identifier'" to "dataset.ID" apply {{ result = 'NSRR:' + value.lower() }};
+transform column "$.'creators'[*].'name'" to "dataset.creators";
+transform column "$.'description'" to "dataset.description";
+transform column "$.'title'" to "dataset.title";
+transform column "$.'distributions'[*].'dates'[*].'date'" to "dataset.dateReleased" apply toStandardDate("yyyy/MM/dd");
+
+transform column "$.'types'[*].'value'" to "study.type";
+
+/* Access information */
+transform column "$.'distributions'[*].'accessModalities'[*].'landingPage'" to "access.landingPage";
+let "datasetDistributions.accessType"  = "download";
+let "datasetDistributions.authorization"  = "none";
+let "datasetDistributions.authentication" = "none"; 
+
+
+/*Data Repository Information */
+let "dataRepository.ID" = "";
+let "dataRepository.name" = "National Sleep Research Resource";
+let "dataRepository.abbreviation" = "NSRR";
+let "dataRepository.homePage"= "https://sleepdata.org/";
+
+
+/* Organization Information */
+let "organization[0].ID" = "";
+let "organization[0].name" = "National Heart, Lung, and Blood Institute";
+let "organization[0].abbreviation" = "NHLBI";
+let "organization[0].homePage" = "https://www.nhlbi.nih.gov/";
+
+
+let "organization[1].ID" = "";
+let "organization[1].name" = "Beth Israel Deaconess Medical Center";
+let "organization[1].abbreviation" = "BIDMC";
+let "organization[1].homePage" = "http://www.bidmc.org/";
+
+let "organization[2].ID" = "";
+let "organization[2].name" = "Brigham and Women's Hospital";
+let "organization[2].abbreviation" = "BWH";
+let "organization[2].homePage" = "http://www.brighamandwomens.org/";
+
+let "organization[3].ID" = "";
+let "organization[3].name" = "Case Western Reserve University";
+let "organization[3].abbreviation" = "CWRU";
+let "organization[3].homePage" = "https://www.case.edu/";
+
+

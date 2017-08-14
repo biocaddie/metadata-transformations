@@ -1,0 +1,822 @@
+[
+{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "CCSHS",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "Cleveland Children's Sleep and Health Study",
+
+
+
+  "description": "One of the largest population-based pediatric cohorts studied with objective sleep studies, and probably one with the largest minority representation. The cohort includes 907 children, studied at ages 8-11 years with in-home sleep studies, acoustic reflectometry, anthropometry, spirometry, blood pressure (BP), and neuropschology (NP) and behavioral assessments. The cohort is a stratified random sample of full-term (FT) and preterm (PT) children, born between 1988-1993, identified from the birth records of 3 Cleveland area hospitals.",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "observational study"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2015/10/01",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/ccshs"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+,{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "CFS",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "Cleveland Family Study",
+
+
+
+  "description": "The largest family-based study of sleep apnea worldwide, consisting of 2,284 individuals (46% African American) from 361 families studied on up to 4 occasions over a period of 16 years. The study was begun in 1990 with the initial aims of quantifying the familial aggregation of sleep apnea. NIH renewals provided expansion of the original cohort (including increased minority recruitment) and longitudinal follow-up, with the last exam occurring in February 2006.",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "observational study"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2014/10/01",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/cfs"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+,{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "CHAT",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "Childhood Adenotonsillectomy Trial",
+
+
+
+  "description": "A multi-center, single-blind, randomized, controlled trial designed to test whether after a 7-month observation period, children, ages 5 to 9.9 years, with mild to moderate obstructive sleep apnea randomized to early adenotonsillectomy (eAT) will show greater levels of neurocognitive functioning, specifically in the attention-executive functioning domain, than children randomized to watchful waiting plus supportive care (WWSC).",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "randomized controlled trial"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2014/07/01",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/chat"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+,{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "HAASSA",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "Honolulu-Asia Aging Study of Sleep Apnea",
+
+
+
+  "description": "The study was conducted to assess sleep-disordered breathing (SDB) in an elderly cohort of Japanese-American men under surveillance for Alzheimer disease (AD) and other dementias.",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "observational study"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2016/08/31",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/haassa"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+,{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "HCHS",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "Hispanic Community Health Study / Study of Latinos",
+
+
+
+  "description": "A multi-center epidemiologic study in Hispanic/Latino populations to determine the role of acculturation in the prevalence and development of disease, and to identify risk factors playing a protective or harmful role in Hispanics/Latinos.",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "observational study"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2015/12/01",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/hchs"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+,{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "HeartBEAT",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "Heart Biomarker Evaluation in Apnea Treatment",
+
+
+
+  "description": "A Phase II randomized controlled trial, 4 center trial that evaluates the effects of supplemental nocturnal oxygen or Positive Airway Pressure (PAP) therapy, compared to optimal medical preventive therapy, over a 3 month intervention period in patients with cardiovascular disease (CVD) or CVD risk factors and moderate to severe obstructive sleep apnea (apnea hypopnea index 15 to 50).",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "randomized controlled trial"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2014/09/01",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/heartbeat"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+,{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "MESA",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "Multi-Ethnic Study of Atherosclerosis",
+
+
+
+  "description": "An NHLBI-sponsored 6-center collaborative longitudinal investigation of factors associated with the development of subclinical cardiovascular disease and the progression of subclinical to clinical cardiovascular disease in 6,814 black, white, Hispanic, and Chinese-American men and women initially ages 45-84 at baseline in 2000-2002.",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "observational study"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2016/10/04",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/mesa"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+,{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "MrOS",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "MrOS Sleep Study",
+
+
+
+  "description": "The MrOS Sleep Study is an ancillary study of the parent Osteoporotic Fractures in Men Study. Between 2000 and 2002, 5,994 community-dwelling men 65 years or older were enrolled at 6 clinical centers in a baseline examination.",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "observational study"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2015/06/01",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/mros"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+,{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "SHHS",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "Sleep Heart Health Study",
+
+
+
+  "description": "A multi-center cohort study implemented by the National Heart Lung & Blood Institute to determine the cardiovascular and other consequences of sleep-disordered breathing.",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "observational study"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2014/04/01",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/shhs"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+,{
+
+  "identifiers": [
+
+    {
+
+      "identifier": "SOF",
+
+      "identifierSource": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "title": "Study of Osteoporotic Fractures",
+
+
+
+  "description": "The multi-center Study of Osteoporotic Fractures (SOF) has 16 years of prospective data about osteoporosis that has served as the basis for many findings about osteoporosis and aging in women >= age 65. In addition to adjudication of fractures, SOF has tracked cases of incident breast cancer, stroke, and total and cause-specific mortality. The data include serial measures of bone mineral density, measurements of sex and calcitropic hormones, tests of strength and function, cognitive exams, use of medication, health habits and much more.",
+
+
+
+  "creators": [
+
+    {
+
+      "name": "National Sleep Research Resource"
+
+    }
+
+  ],
+
+
+
+  "types": [
+
+    {
+
+      "value": "observational study"
+
+    }
+
+  ],
+
+
+
+  "distributions": [
+
+    {
+
+      "dates": [
+
+        {
+
+          "date": "2015/01/05",
+
+          "type": { "value": "release date"}
+
+        }
+
+      ],
+
+
+
+      "accessModalities": [
+
+        {
+
+          "landingPage": "https://www.sleepdata.org/datasets/sof"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+
+]

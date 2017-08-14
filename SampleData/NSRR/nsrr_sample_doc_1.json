@@ -1,0 +1,17 @@
+{
+  "identifiers": [{
+    "identifier": "CCSHS",
+    "identifierSource": "National Sleep Research Resource"
+  }],
+  "title": "Cleveland Children's Sleep and Health Study",
+  "description": "One of the largest population-based pediatric cohorts studied with objective sleep studies, and probably one with the largest minority representation. The cohort includes 907 children, studied at ages 8-11 years with in-home sleep studies, acoustic reflectometry, anthropometry, spirometry, blood pressure (BP), and neuropschology (NP) and behavioral assessments. The cohort is a stratified random sample of full-term (FT) and preterm (PT) children, born between 1988-1993, identified from the birth records of 3 Cleveland area hospitals.",
+  "creators": [{"name": "National Sleep Research Resource"}],
+  "types": [{"value": "observational study"}],
+  "distributions": [{
+    "dates": [{
+      "date": "2015/10/01",
+      "type": {"value": "release date"}
+    }],
+    "accessModalities": [{"landingPage": "https://urldefense.proofpoint.com/v2/url?u=https-3A__www.sleepdata.org_datasets_ccshs&d=CwIGAg&c=6vgNTiRn9_pqCD9hKx9JgXN1VapJQ8JVoF8oWH1AgfQ&r=cj-BmNj7Nn6Jxz8vm5u8BhemMM8Al46N_u3DwJpc4tk&m=iLj2gvcJuFJ-GkhMKBgfdqOybh-B3LxWFMuFnEnVR6Q&s=0JBVeo-xxsDnDvSyVIR8v_FQg516R_8FfyBsudbfmpA&e= "}]
+  }]
+}

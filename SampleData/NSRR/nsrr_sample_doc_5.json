@@ -1,0 +1,17 @@
+{
+  "identifiers": [{
+    "identifier": "HCHS",
+    "identifierSource": "National Sleep Research Resource"
+  }],
+  "title": "Hispanic Community Health Study / Study of Latinos",
+  "description": "A multi-center epidemiologic study in Hispanic/Latino populations to determine the role of acculturation in the prevalence and development of disease, and to identify risk factors playing a protective or harmful role in Hispanics/Latinos.",
+  "creators": [{"name": "National Sleep Research Resource"}],
+  "types": [{"value": "observational study"}],
+  "distributions": [{
+    "dates": [{
+      "date": "2015/12/01",
+      "type": {"value": "release date"}
+    }],
+    "accessModalities": [{"landingPage": "https://urldefense.proofpoint.com/v2/url?u=https-3A__www.sleepdata.org_datasets_hchs&d=CwIGAg&c=6vgNTiRn9_pqCD9hKx9JgXN1VapJQ8JVoF8oWH1AgfQ&r=cj-BmNj7Nn6Jxz8vm5u8BhemMM8Al46N_u3DwJpc4tk&m=iLj2gvcJuFJ-GkhMKBgfdqOybh-B3LxWFMuFnEnVR6Q&s=HNW4sdH6IEQ0fRNBa2a_0RWvbbGNKwAuXNUbkD1V9XE&e= "}]
+  }]
+}

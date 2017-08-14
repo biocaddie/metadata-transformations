@@ -1,0 +1,17 @@
+{
+  "identifiers": [{
+    "identifier": "HAASSA",
+    "identifierSource": "National Sleep Research Resource"
+  }],
+  "title": "Honolulu-Asia Aging Study of Sleep Apnea",
+  "description": "The study was conducted to assess sleep-disordered breathing (SDB) in an elderly cohort of Japanese-American men under surveillance for Alzheimer disease (AD) and other dementias.",
+  "creators": [{"name": "National Sleep Research Resource"}],
+  "types": [{"value": "observational study"}],
+  "distributions": [{
+    "dates": [{
+      "date": "2016/08/31",
+      "type": {"value": "release date"}
+    }],
+    "accessModalities": [{"landingPage": "https://urldefense.proofpoint.com/v2/url?u=https-3A__www.sleepdata.org_datasets_haassa&d=CwIGAg&c=6vgNTiRn9_pqCD9hKx9JgXN1VapJQ8JVoF8oWH1AgfQ&r=cj-BmNj7Nn6Jxz8vm5u8BhemMM8Al46N_u3DwJpc4tk&m=iLj2gvcJuFJ-GkhMKBgfdqOybh-B3LxWFMuFnEnVR6Q&s=_WY1NCBrKBthrFQlXUScctKap7vAUygNVb8RHmtlzOQ&e= "}]
+  }]
+}
