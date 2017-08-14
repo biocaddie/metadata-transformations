@@ -1,0 +1,139 @@
+/* Dataset Basic Information */
+transform column "$.'pr_nif_0000_37639_1'.'id'" to "dataset.ID" apply {{ result = 'cellimage:' + value }};
+transform column "$.'pr_nif_0000_37639_1'.'id'" to "dataset.title" apply {{ result = 'Cell Image Library Dataset CIL:' + value }};
+transform column "$.'pr_nif_0000_37639_1'.'imagedescription'" to "dataset.description";
+transform column "$.'pr_nif_0000_37639_1'.'parameterimaged'" to "dataset.dimensions";
+
+/* Dataset Landing Page */
+transform column "$.'pr_nif_0000_37639_1'.'id'" to "access.landingPage" apply {{ result = 'http://www.cellimagelibrary.org/images/' + value }};
+
+/* Dataset Creator */
+transform column "$.'pr_nif_0000_37639_1'.'attribution'" to "dataset.creators[0]
+" apply {{
+m = re.search(r"NAME:\s*(.+)$",value)
+result = m.group(1) if m else ''
+}};
+
+/* Dataset Release Date Information */
+transform column "$.'pr_nif_0000_37639_1'.'release_date'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd"); 
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = "image";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "not applicable";
+let "dataset.refinement" = "curated";
+
+/* Information on Dataset Distributions */
+
+/* Dataset Distribution - JPGE */
+let "datasetDistributions[0].format" = "JPGE";
+transform column "$.'pr_nif_0000_37639_1'.'id'" to "datasetDistributions[0].accessURL" apply {{ result='www.cellimagelibrary.org/images/download_jpeg/' + value + '.jpg' }};
+let "datasetDistributions[0].accessType" = "download";
+let "datasetDistributions[0].storedIn" = "Cell Image Library";
+let "datasetDistributions[0].qualifier" = "not compressed";
+transform column "$.'pr_nif_0000_37639_1'.'termsandconditions'" to  "datasetDistributions[0].license" ;
+let "datasetDistributions[0].accesstypes"  = "download";
+let "datasetDistributions[0].authorization"  = "none";
+let "datasetDistributions[0].authentication" = "none";
+
+/* Dataset Distribution - OME-TIF */
+let "datasetDistributions[1].format" = "OME-TIF";
+transform column "$.'pr_nif_0000_37639_1'.'id'"  to "datasetDistributions[1].accessURL" apply {{ result='http://grackle.crbs.ucsd.edu:8080/OmeroWebService/images/' + value + '.tif' }};
+let "datasetDistributions[1].accessType" = "download";
+let "datasetDistributions[1].storedIn" = "Cell Image Library";
+let "datasetDistributions[1].qualifier" = "not compressed";
+transform column "$.'pr_nif_0000_37639_1'.'termsandconditions'" to "datasetDistributions[1].license";
+let "datasetDistributions[1].accesstypes"  = "download";
+let "datasetDistributions[1].authorization"  = "none";
+let "datasetDistributions[1].authentication" = "none";
+
+/* Dataset Distribution - CSV */
+let "datasetDistributions[2].format" = "CSV";
+transform column "$.'pr_nif_0000_37639_1'.'id'"  to "datasetDistributions[2].accessURL" apply {{ result='http://grackle.crbs.ucsd.edu:8080/OmeroWebService/images/' + value + '.raw' }};
+let "datasetDistributions[2].accessType" = "download";
+let "datasetDistributions[2].storedIn" = "Cell Image Library";
+let "datasetDistributions[2].qualifier" = "compressed";
+transform column "$.'pr_nif_0000_37639_1'.'termsandconditions'" to "datasetDistributions[2].license";
+let "datasetDistributions[2].accesstypes"  = "download";
+let "datasetDistributions[2].authorization"  = "none";
+let "datasetDistributions[2].authentication" = "none";
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:003510";
+let "dataRepository.name" = "Cell Image Library";
+let "dataRepository.abbreviation" = "CIL";
+let "dataRepository.homePage" = "http://www.cellimagelibrary.org/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:010600";
+let "organization.name" = "American Society for Cell Biology";
+let "organization.abbreviation" = "ASCB";
+let "organization.homePage" = "http://ascb.org/";
+
+/* Specific Information on Extended Attributes */
+/* Taxonomic Information 
+need add 'taxonomy:' prefix in each id*/
+transform column "$.'pr_nif_0000_37639_1'.'ncbiorganismalclassification'" to "taxonomicInformation[].name" apply {{
+arr=re.split("\s*,\s*",value,)
+result=['taxonomy:' + x for x in arr]
+}};
+
+/* Activity */
+transform column "$.'pr_nif_0000_37639_1'.'preparation'" to "activity.name";
+transform column "$.'pr_nif_0000_37639_1'.'visualizationmethods'" to "activity.keywords";
+
+/* Data Acquisition Information */
+transform column "$.'pr_nif_0000_37639_1'.'imagingmode'" to "dataAcquisition.name";
+
+/* Biological Entity */
+transform column "$.'pr_nif_0000_37639_1'.'celltype'" to "biologicalEntity[].name" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+
+/* Dataq which needs to be reconciled with DATS 2.0 */
+transform column "$.'pr_nif_0000_37639_1'.'cellline'" to "cellLine[].name" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+transform column "$.'pr_nif_0000_37639_1'.'cellularcomponent'" to "cellularComponent[].name" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+transform columns "$.'pr_nif_0000_37639_1'.'biologicalprocess'", "$.'pr_nif_0000_37639_1'.'pathologicalprocess'"to "biologicalProcess[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+
+/* Data import needs to be fixed */
+/*
+transform column "$.'pr_nif_0000_37639_1'.'attribution'" to "attribution";
+*/
+
+/* Data not included */
+/*
+transform column "$.'pr_nif_0000_37639_1'.'e_uid'" to "e_uid";
+transform column "$.'pr_nif_0000_37639_1'.'preparation_id'" to "preparation_id";
+transform column "$.'pr_nif_0000_37639_1'.'v_uid'" to "v_uid";
+transform column "$.'pr_nif_0000_37639_1'.'v_uuid'" to "v_uuid";
+transform column "$.'pr_nif_0000_37639_1'.'visualizationmethods_id'" to "visualizationmethods_id";
+transform column "$.'pr_nif_0000_37639_1'.'relationtointactcell_id'" to "relationtointactcell_id";
+transform column "$.'pr_nif_0000_37639_1'.'biologicalprocess_id'" to "biologicalprocess_id";
+transform column "$.'pr_nif_0000_37639_1'.'pathologicalprocess_id'" to "pathologicalprocess_id";
+transform column "$.'pr_nif_0000_37639_1'.'itemtype_id'" to "itemtype_id";
+transform column "$.'pr_nif_0000_37639_1'.'processinghistory_id'" to "processinghistory_id";
+transform column "$.'pr_nif_0000_37639_1'.'imagingmode_id'" to "imagingmode_id";
+transform column "$.'pr_nif_0000_37639_1'.'parameterimaged_id'" to "parameterimaged_id";
+transform column "$.'pr_nif_0000_37639_1'.'ncbiorganismalclassification_id'" to "ncbiorganismalclassification_id";
+transform column "$.'pr_nif_0000_37639_1'.'celltype_id'" to "celltype_id";
+transform column "$.'pr_nif_0000_37639_1'.'cellularcomponent_id'" to "cellularcomponent_id";
+transform column "$.'pr_nif_0000_37639_1'.'processinghistory'" to "processinghistory";
+transform column "$.'pr_nif_0000_37639_1'.'speciestaxaspecific'" to "speciestaxaspecific";
+transform column "$.'pr_nif_0000_37639_1'.'technicaldetails'" to "technicaldetails";
+transform column "$.'pr_nif_0000_37639_1'.'dataqualification'" to "dataqualification";
+transform column "$.'pr_nif_0000_37639_1'.'relationtointactcell'" to "relationtointactcell";
+transform column "$.'pr_nif_0000_37639_1'.'itemtype'" to "dataset.types";
+
+*/
