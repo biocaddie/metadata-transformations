@@ -1,0 +1,63 @@
+/* Dataset Basic Information */
+transform column "$.'pr_nlx_48903_1'.'name'" to "dataset.title"; 
+transform column "$.'pr_nlx_48903_1'.'url'" to "dataset.ID" apply {{
+m = re.search('database\/(\w+)', value)
+result = 'physiobank:' + m.group(1) if m else 'physiobank:' +value
+}};
+
+transform column "$.'pr_nlx_48903_1'.'description'" to "dataset.description";
+
+/* Dataset Landing Page*/
+transform column "$.'pr_nlx_48903_1'.'url'" to "access.landingPage";
+
+/* Dataset Creator */
+let "dataset.creators[0]" = "NULL"
+/* need extract author names from original citation ID
+transform column "$.'pr_nlx_48903_1'.'reference_name'" to "dataset.creators[0]";
+*/
+
+/* Dataset Release Date Information */
+let "dataset.dateReleased" = "NULL"
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = " physiologic signal";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "infromation not available";
+let "dataset.refinement" = "raw";
+
+/* Information on Dataset Distributions */
+let "datasetDistributions[0].format" = "html";
+let "datasetDistributions[0].storedIn" = "Physiobank";
+transform column "$.'pr_nlx_48903_1'.'url'" to "datasetDistributions[0].accessURL";
+let "datasetDistributions[0].accesstypes" = "Landing Page";
+let "datasetDistributions[0].authorization" = "registration";
+let "datasetDistributions[0].authentication" = "simpleLogin";
+
+/* Publication Information */
+transform column "$.'pr_nlx_48903_1'.'pmid'" to "primaryPublication.ID[0]" apply {{ result = 'pmid:' + value }};
+transform column "$.'pr_nlx_48903_1'.'reference_name'" to "primaryPublication.formattedCitation";
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:006949";
+let "dataRepository.name" = "Physiobank";
+let "dataRepository.abbreviation" = "Physiobank";
+let "dataRepository.homePage" = "http://physionet.org/physiobank/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:007345";
+let "organization.name" = "PhysioNet";
+let "organization.abbreviation" = "PhysioNet";
+let "organization.homePage" = "http://www.physionet.org/";
+
+
+/* Items not included */
+/*
+transform column "$.'pr_nlx_48903_1'.'class'" to "dataset.status";
+transform column "$.'pr_nlx_48903_1'.'reference_link'" to "reference_link";
+transform column "$.'pr_nlx_48903_1'.'e_uid'" to "e_uid";
+transform column "$.'pr_nlx_48903_1'.'v_uid'" to "v_uid";
+transform column "$.'pr_nlx_48903_1'.'v_uuid'" to "v_uuid";
+transform column "$.'pr_nlx_48903_1'.'v_lastmodified'" to "v_lastmodified";
+transform column "$.'pr_nlx_48903_1'.'section'" to "section";
+*/

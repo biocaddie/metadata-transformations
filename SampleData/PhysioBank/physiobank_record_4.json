@@ -1,0 +1,16 @@
+{"pr_nlx_48903_1": {
+  "e_uid": "http://physionet.org/physiobank/database/gaitdb/",
+  "section": "",
+  "name": "Gait in Aging and Disease Database",
+  "url": "http://physionet.org/physiobank/database/gaitdb/",
+  "class": "archival copies of raw data that support published research, contributed by authors or journals",
+  "description": "Gait in Aging and Disease Database (a \"mini-collection\" of data from healthy young and old volunteers, and patients with Parkinson's disease)",
+  "reference_name": "",
+  "reference_link": "",
+  "pmid": "",
+  "v_uid": "http://physionet.org/physiobank/database/gaitdb/",
+  "v_uuid": "72000ee4-1544-504f-bd6f-8edc1918ceff",
+  "v_lastmodified": "2016-02-18 14:11:04.609688",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.455804664609688E9
+}}

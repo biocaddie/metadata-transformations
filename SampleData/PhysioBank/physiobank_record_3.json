@@ -1,0 +1,16 @@
+{"pr_nlx_48903_1": {
+  "e_uid": "http://physionet.org/physiobank/database/challenge/2014",
+  "section": "",
+  "name": "2014 Database",
+  "url": "http://physionet.org/physiobank/database/challenge/2014",
+  "class": "",
+  "description": "2014 Database. Robust detection of heart beats in multimodal data.",
+  "reference_name": "",
+  "reference_link": "",
+  "pmid": "",
+  "v_uid": "http://physionet.org/physiobank/database/challenge/2014",
+  "v_uuid": "283b0522-bf12-5e84-aafb-230bd52d7c3d",
+  "v_lastmodified": "2016-04-18 09:10:06.09007",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.46097060609007E9
+}}

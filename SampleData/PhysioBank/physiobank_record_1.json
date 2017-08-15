@@ -1,0 +1,16 @@
+{"pr_nlx_48903_1": {
+  "e_uid": "http://physionet.org/physiobank/database/gait-maturation-db/",
+  "section": "",
+  "name": "Gait Maturation Database",
+  "url": "http://physionet.org/physiobank/database/gait-maturation-db/",
+  "class": "archival copies of raw data that support published research, contributed by authors or journals",
+  "description": "Gait Maturation Database (a collection of data from healthy children ages 3-14)",
+  "reference_name": "",
+  "reference_link": "",
+  "pmid": "",
+  "v_uid": "http://physionet.org/physiobank/database/gait-maturation-db/",
+  "v_uuid": "3c233e7c-be6c-5e0b-9879-2480c5ebd60a",
+  "v_lastmodified": "2016-02-18 14:11:04.609688",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.455804664609688E9
+}}
