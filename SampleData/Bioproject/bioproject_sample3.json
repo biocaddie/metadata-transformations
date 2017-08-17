@@ -1,0 +1,121 @@
+{
+  "Package": {
+    "Project": {"Project": {
+      "ProjectID": {"ArchiveID": {
+        "@accession": "PRJNA7",
+        "@archive": "NCBI",
+        "@id": "7"
+      }},
+      "ProjectDescr": {
+        "Name": {"_$": "Campylobacter fetus subsp. venerealis str. Azul-94"},
+        "Title": {"_$": "Causes infertility, infectious abortions, septicemia, meningitis"},
+        "Description": {"_$": "<P>\n<B><I>Campylobacter fetus<\/I> subsp. <I>venerealis<\/I> str. Azul-94<\/B>. Field isolate obtained from an aborted Bos taurus (cow) fetus (Year: 1994, Place: Tandil, Argentina)."},
+        "ExternalLink": {
+          "@category": "Other Databases",
+          "@label": "GOLD",
+          "URL": {"_$": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gi00119"}
+        },
+        "Publication": {
+          "@date": "2009-05-09T00:00:00Z",
+          "@id": "19422718",
+          "@status": "ePublished",
+          "Reference": {},
+          "DbType": {"_$": "ePubmed"}
+        },
+        "ProjectReleaseDate": {"_$": "2009-04-22T00:00:00Z"},
+        "LocusTagPrefix": {
+          "@assembly_id": "GCF_000174675",
+          "@biosample_id": "SAMN02471365",
+          "_$": "CFV"
+        }
+      },
+      "ProjectType": {"ProjectTypeSubmission": {
+        "Target": {
+          "@capture": "eWhole",
+          "@material": "eGenome",
+          "@sample_scope": "eMonoisolate",
+          "Organism": {
+            "@species": "196",
+            "@taxID": "593452",
+            "OrganismName": {"_$": "Campylobacter fetus subsp. venerealis str. Azul-94"},
+            "Strain": {"_$": "Azul-94"},
+            "Supergroup": {"_$": "eBacteria"},
+            "BiologicalProperties": {
+              "Morphology": {
+                "Gram": {"_$": "eNegative"},
+                "Shape": {"_$": "eSpirilla"},
+                "Motility": {"_$": "eYes"}
+              },
+              "Environment": {
+                "OxygenReq": {"_$": "eMicroaerophilic"},
+                "TemperatureRange": {"_$": "eMesophilic"},
+                "Habitat": {"_$": "eHostAssociated"}
+              },
+              "Phenotype": {"Disease": {"_$": "Infertility, infectious abortions, septicemia, meningitis"}}
+            },
+            "GenomeSize": {
+              "@units": "Kb",
+              "_$": "2055.030000"
+            }
+          }
+        },
+        "Method": {"@method_type": "eSequencing"},
+        "Objectives": {"Data": {"@data_type": "eAssembly"}},
+        "ProjectDataTypeSet": {"DataType": {"_$": "Genome sequencing"}}
+      }}
+    }},
+    "Submission": {"Submission": {
+      "@submitted": "2003-03-20",
+      "Description": {
+        "Organization": {
+          "@role": "owner",
+          "@type": "center",
+          "@url": "http://campy.unsam.edu.ar/",
+          "Name": {
+            "@abbr": "IIB-UNSAM",
+            "_$": "IIB-UNSAM"
+          }
+        },
+        "Access": {"_$": "public"}
+      }
+    }},
+    "ProjectLinks": {"Link": [
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA7",
+          "@archive": "NCBI",
+          "@id": "7"
+        },
+        "Hierarchical": {
+          "@type": "TopSingle",
+          "MemberID": {
+            "@accession": "PRJNA16290",
+            "@archive": "NCBI",
+            "@id": "16290"
+          }
+        },
+        "ID": {"@archive": "NCBI"},
+        "LinkExplanation": {}
+      },
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA54087",
+          "@archive": "NCBI",
+          "@id": "54087"
+        },
+        "PeerProject": {
+          "CommonInputData": {"_$": "eRefseqGenbank"},
+          "MemberID": {
+            "@accession": "PRJNA7",
+            "@archive": "NCBI",
+            "@id": "7"
+          }
+        },
+        "ID": {"@archive": "NCBI"},
+        "LinkExplanation": {}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

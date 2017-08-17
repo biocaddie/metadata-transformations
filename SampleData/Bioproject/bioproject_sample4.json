@@ -1,0 +1,168 @@
+{
+  "Package": {
+    "Project": {"Project": {
+      "ProjectID": {"ArchiveID": {
+        "@accession": "PRJNA8",
+        "@archive": "NCBI",
+        "@id": "8"
+      }},
+      "ProjectDescr": {
+        "Name": {"_$": "Campylobacter jejuni subsp. jejuni NCTC 11168"},
+        "Title": {"_$": "Leading cause of food poisoning (altered virulence strain)"},
+        "Description": {"_$": "<P> \n<B><I> Campylobacter jejuni<\/I> strain NCTC11168<\/B>. This strain (originally 5636/77) was isolated from a diarrheic patient in 1977 and minimally passaged. This strain displays aberrant virulence phenotypes in animal models and tissue culture. Contains many homopolymeric tracts in the genome which result in hypervariable sequences in many genes having to do with cell surface structures. These sequences result in hypervarible antigenic diversity and immune evasion. Overall, the genome contains very few repetitive DNA sequences and very few coding regions arranged in operons. Pathogenicity factors include cytolethal-distending toxin, hemolysin-like toxins, and a type II secretion system."},
+        "ExternalLink": {
+          "@category": "Other Databases",
+          "@label": "GOLD",
+          "URL": {"_$": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00025"}
+        },
+        "Publication": [
+          {
+            "@date": "2000-02-25T00:00:00Z",
+            "@id": "10688204",
+            "@status": "ePublished",
+            "Reference": {},
+            "DbType": {"_$": "ePubmed"}
+          },
+          {
+            "@date": "2007-06-15T00:00:00Z",
+            "@id": "17565669",
+            "@status": "ePublished",
+            "Reference": {},
+            "DbType": {"_$": "ePubmed"}
+          }
+        ],
+        "ProjectReleaseDate": {"_$": "2000-02-25T00:00:00Z"},
+        "LocusTagPrefix": {
+          "@assembly_id": "GCA_000009085",
+          "@biosample_id": "SAMEA1705929",
+          "_$": "CJ"
+        }
+      },
+      "ProjectType": {"ProjectTypeSubmission": {
+        "Target": {
+          "@capture": "eWhole",
+          "@material": "eGenome",
+          "@sample_scope": "eMonoisolate",
+          "Organism": {
+            "@species": "197",
+            "@taxID": "192222",
+            "OrganismName": {"_$": "Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819"},
+            "Strain": {"_$": "NCTC 11168"},
+            "Supergroup": {"_$": "eBacteria"},
+            "BiologicalProperties": {
+              "Morphology": {
+                "Gram": {"_$": "eNegative"},
+                "Shape": {"_$": "eSpirilla"},
+                "Motility": {"_$": "eNo"}
+              },
+              "Environment": {
+                "OxygenReq": {"_$": "eMicroaerophilic"},
+                "TemperatureRange": {"_$": "eMesophilic"},
+                "Habitat": {"_$": "eMultiple"}
+              },
+              "Phenotype": {"Disease": {"_$": "Food poisoning"}}
+            },
+            "RepliconSet": {
+              "Replicon": {
+                "@order": "1",
+                "Type": {
+                  "@location": "eNuclearProkaryote",
+                  "_$": "eChromosome"
+                },
+                "Name": {},
+                "Size": {
+                  "@units": "Mb",
+                  "_$": "1.641481"
+                }
+              },
+              "Count": {
+                "@repliconType": "eOther",
+                "_$": "1"
+              }
+            },
+            "GenomeSize": {
+              "@units": "Kb",
+              "_$": "1641.481000"
+            }
+          }
+        },
+        "Method": {"@method_type": "eSequencing"},
+        "Objectives": {"Data": {"@data_type": "eAssembly"}},
+        "ProjectDataTypeSet": {"DataType": {"_$": "Genome sequencing and assembly"}}
+      }}
+    }},
+    "Submission": {"Submission": {
+      "@submitted": "2003-02-25",
+      "Description": {
+        "Organization": {
+          "@role": "owner",
+          "@type": "center",
+          "@url": "http://www.sanger.ac.uk/Projects/C_jejuni/",
+          "Name": {
+            "@abbr": "Sanger Institute",
+            "_$": "Sanger Institute"
+          }
+        },
+        "Access": {"_$": "public"}
+      }
+    }},
+    "ProjectLinks": {"Link": [
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA8",
+          "@archive": "NCBI",
+          "@id": "8"
+        },
+        "Hierarchical": {
+          "@type": "TopSingle",
+          "MemberID": {
+            "@accession": "PRJNA12299",
+            "@archive": "NCBI",
+            "@id": "12299"
+          }
+        },
+        "ID": {"@archive": "NCBI"},
+        "LinkExplanation": {}
+      },
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA8",
+          "@archive": "NCBI",
+          "@id": "8"
+        },
+        "Hierarchical": {
+          "@type": "TopAdmin",
+          "MemberID": {
+            "@accession": "PRJNA13633",
+            "@archive": "NCBI",
+            "@id": "13633"
+          }
+        },
+        "ID": {
+          "@archive": "NCBI",
+          "_$": "65781"
+        },
+        "LinkExplanation": {"_$": "Campylobacter jejuni subsp. jejuni NCTC 11168 Genome sequencing from Sanger Institute"}
+      },
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA57587",
+          "@archive": "NCBI",
+          "@id": "57587"
+        },
+        "PeerProject": {
+          "CommonInputData": {"_$": "eRefseqGenbank"},
+          "MemberID": {
+            "@accession": "PRJNA8",
+            "@archive": "NCBI",
+            "@id": "8"
+          }
+        },
+        "ID": {"@archive": "NCBI"},
+        "LinkExplanation": {}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

@@ -1,0 +1,17 @@
+{
+  "Strain": {
+    "RGD_ID": {"_$": "10004"},
+    "STRAIN_SYMBOL": {"_$": "BC/CpbU"},
+    "FULL_NAME": {},
+    "ORIGIN": {"_$": "Obtained from the Central Laboratory Animal Institute of Utrecht University, The Netherlands."},
+    "SOURCE": {"_$": "Central Laboratory Animal Institute of Utrecht University, The Netherlands."},
+    "STRAIN_TYPE": {"_$": "inbred"},
+    "AVAILABILITY": {},
+    "RESEARCH_USE": {},
+    "ALLELES": {},
+    "ALLELE_RGD_IDS": {},
+    "POSITIONS": {}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

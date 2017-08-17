@@ -1,0 +1,39 @@
+{
+  "Strain": {
+    "RGD_ID": {"_$": "1598797"},
+    "STRAIN_SYMBOL": {"_$": "WF.WKY-(<i>D10Got124-D10Rat187<\/i>)/Uwm"},
+    "FULL_NAME": {},
+    "ORIGIN": {"_$": "WKY/NHsd females were bred with WF/NHsd males to generate F1 males which were backcrossed with WF/NHsd females. This contains 24.7 Mb region of Mcs7 QTL."},
+    "SOURCE": {"_$": "Department of Oncology, University of Wisconsin, Madison Wisconsin"},
+    "STRAIN_TYPE": {"_$": "congenic"},
+    "AVAILABILITY": {},
+    "RESEARCH_USE": {},
+    "ALLELES": {},
+    "ALLELE_RGD_IDS": {},
+    "POSITIONS": {"POSITION": [
+      {
+        "@ASSEMBLY": "Rnor_6.0",
+        "@CHR": "10",
+        "@START_POS": "88544136",
+        "@STOP_POS": "110355174",
+        "@METHOD": "1 - by flanking markers"
+      },
+      {
+        "@ASSEMBLY": "Rnor_5.0",
+        "@CHR": "10",
+        "@START_POS": "88338460",
+        "@STOP_POS": "109941891",
+        "@METHOD": "1 - by flanking markers"
+      },
+      {
+        "@ASSEMBLY": "RGSC v.3.4",
+        "@CHR": "10",
+        "@START_POS": "89575059",
+        "@STOP_POS": "110385665",
+        "@METHOD": "1 - by flanking markers"
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

@@ -1,0 +1,125 @@
+{
+  "Package": {
+    "Project": {"Project": {
+      "ProjectID": {"ArchiveID": {
+        "@accession": "PRJNA12",
+        "@archive": "NCBI",
+        "@id": "12"
+      }},
+      "ProjectDescr": {
+        "Name": {"_$": "Pseudomonas fluorescens Pf0-1"},
+        "Title": {"_$": "Microorganism of putrefaction"},
+        "Description": {"_$": "<P> <B><I>Pseudomonas fluorescens<\/I> strain Pf0-1<\/B>. This strain was isolated from agricultural loam (sand, clay, and organic matter) soil in 1988 by Compeau <I>et al<\/I>. and is well adapted to soil environments."},
+        "ExternalLink": [
+          {
+            "@category": "Other Databases",
+            "@label": "GOLD",
+            "URL": {"_$": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00305"}
+          },
+          {
+            "@category": "Sequencing Centers",
+            "@label": "DOE Joint Genome Institute",
+            "URL": {"_$": "http://www.jgi.doe.gov/"}
+          }
+        ],
+        "Publication": {
+          "@date": "2009-05-13T00:00:00Z",
+          "@id": "19432983",
+          "@status": "ePublished",
+          "Reference": {},
+          "DbType": {"_$": "ePubmed"}
+        },
+        "ProjectReleaseDate": {"_$": "2005-10-07T00:00:00Z"},
+        "LocusTagPrefix": {
+          "@assembly_id": "GCF_000012445",
+          "@biosample_id": "SAMN02598267",
+          "_$": "PFL01"
+        }
+      },
+      "ProjectType": {"ProjectTypeSubmission": {
+        "Target": {
+          "@capture": "eWhole",
+          "@material": "eGenome",
+          "@sample_scope": "eMonoisolate",
+          "Organism": {
+            "@species": "294",
+            "@taxID": "205922",
+            "OrganismName": {"_$": "Pseudomonas fluorescens Pf0-1"},
+            "Supergroup": {"_$": "eBacteria"},
+            "BiologicalProperties": {
+              "Morphology": {
+                "Gram": {"_$": "eNegative"},
+                "Shape": {"_$": "eBacilli"},
+                "Motility": {"_$": "eYes"}
+              },
+              "Environment": {
+                "OxygenReq": {"_$": "eAerobic"},
+                "TemperatureRange": {"_$": "eMesophilic"},
+                "Habitat": {"_$": "eMultiple"}
+              }
+            },
+            "RepliconSet": {
+              "Replicon": {
+                "@order": "1",
+                "Type": {
+                  "@location": "eNuclearProkaryote",
+                  "_$": "eChromosome"
+                },
+                "Name": {},
+                "Size": {
+                  "@units": "Mb",
+                  "_$": "6.438405"
+                }
+              },
+              "Count": {
+                "@repliconType": "eOther",
+                "_$": "1"
+              }
+            },
+            "GenomeSize": {
+              "@units": "Kb",
+              "_$": "6438.405000"
+            }
+          }
+        },
+        "Method": {"@method_type": "eSequencing"},
+        "Objectives": {"Data": {"@data_type": "eAssembly"}},
+        "ProjectDataTypeSet": {"DataType": {"_$": "Genome sequencing"}}
+      }}
+    }},
+    "Submission": {"Submission": {
+      "@submitted": "2003-02-25",
+      "Description": {
+        "Organization": {
+          "@role": "owner",
+          "@type": "center",
+          "@url": "http://genome.jgi-psf.org/draft_microbes/psefl/psefl.home.html",
+          "Name": {
+            "@abbr": "DOE Joint Genome Institute",
+            "_$": "DOE Joint Genome Institute"
+          }
+        },
+        "Access": {"_$": "public"}
+      }
+    }},
+    "ProjectLinks": {"Link": {
+      "ProjectIDRef": {
+        "@accession": "PRJNA12",
+        "@archive": "NCBI",
+        "@id": "12"
+      },
+      "Hierarchical": {
+        "@type": "TopSingle",
+        "MemberID": {
+          "@accession": "PRJNA12300",
+          "@archive": "NCBI",
+          "@id": "12300"
+        }
+      },
+      "ID": {"@archive": "NCBI"},
+      "LinkExplanation": {}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

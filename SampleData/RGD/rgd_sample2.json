@@ -1,0 +1,17 @@
+{
+  "Strain": {
+    "RGD_ID": {"_$": "60988"},
+    "STRAIN_SYMBOL": {"_$": "LOU/M"},
+    "FULL_NAME": {},
+    "ORIGIN": {"_$": "Histocompatible with LOU/C and maintained by selection of LOU/M males on the basis of acceptance of skin grafts  from LOU/C rats (Bazin 1977, Beckers and Bazin 1978)."},
+    "SOURCE": {},
+    "STRAIN_TYPE": {"_$": "inbred"},
+    "AVAILABILITY": {},
+    "RESEARCH_USE": {},
+    "ALLELES": {},
+    "ALLELE_RGD_IDS": {},
+    "POSITIONS": {}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

@@ -1,0 +1,17 @@
+{
+  "Strain": {
+    "RGD_ID": {"_$": "10001"},
+    "STRAIN_SYMBOL": {"_$": "AVN/Orl"},
+    "FULL_NAME": {},
+    "ORIGIN": {},
+    "SOURCE": {"_$": "Ctr de Selection et d'Elev d'Anim de Lab, Orleans, France."},
+    "STRAIN_TYPE": {"_$": "inbred"},
+    "AVAILABILITY": {},
+    "RESEARCH_USE": {},
+    "ALLELES": {},
+    "ALLELE_RGD_IDS": {},
+    "POSITIONS": {}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

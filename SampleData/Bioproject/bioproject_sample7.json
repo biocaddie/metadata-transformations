@@ -1,0 +1,137 @@
+{
+  "Package": {
+    "Project": {"Project": {
+      "ProjectID": {"ArchiveID": {
+        "@accession": "PRJNA13",
+        "@archive": "NCBI",
+        "@id": "13"
+      }},
+      "ProjectDescr": {
+        "Name": {"_$": "Ralstonia solanacearum GMI1000"},
+        "Title": {"_$": "Soil-born pathogen that naturally infects plant roots"},
+        "Description": {"_$": "<p>\n<B><I>Ralstonia solanacearum<\/I> strain GMI1000<\/B>. This strain is a race 1 strain isolated from the tomato plant and is also pathogenic on <I>Arabidopsis thaliana<\/I>. It specifically invades the plant xylem. \n<P>\nPathogenicity factors include an extracellular polysaccharide that protects the bacterium and a type III secretion system (the <I>hrp<\/I> system) that is encoded on the megaplasmid and delivers effector molecules such as avirulence (Avr) proteins into the host cell. There is a type II secretion system for export of degradative enzymes such as plant cell wall hydrolases. This organism expresses a large number of outer membrane proteins including several that are related to hemagglutinins, as well as numerous fimbriae, including a type IV pilus for attachment and twitching motility. The two chromosomes contains many copies of insertion elements."},
+        "ExternalLink": [
+          {
+            "@category": "Sequencing Projects",
+            "@label": "Genoscope",
+            "URL": {"_$": "http://www.genoscope.cns.fr/externe/English/Projets/Projet_Y/Y.html"}
+          },
+          {
+            "@category": "Other Databases",
+            "@label": "GOLD",
+            "URL": {"_$": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00077"}
+          }
+        ],
+        "Publication": {
+          "@date": "2002-02-02T00:00:00Z",
+          "@id": "11823852",
+          "@status": "ePublished",
+          "Reference": {},
+          "DbType": {"_$": "ePubmed"}
+        },
+        "ProjectReleaseDate": {"_$": "2002-02-02T00:00:00Z"},
+        "LocusTagPrefix": {
+          "@assembly_id": "GCA_000009125",
+          "@biosample_id": "SAMEA3138192",
+          "_$": "RS"
+        }
+      },
+      "ProjectType": {"ProjectTypeSubmission": {
+        "Target": {
+          "@capture": "eWhole",
+          "@material": "eGenome",
+          "@sample_scope": "eMonoisolate",
+          "Organism": {
+            "@species": "305",
+            "@taxID": "267608",
+            "OrganismName": {"_$": "Ralstonia solanacearum GMI1000"},
+            "Strain": {"_$": "GMI1000"},
+            "Supergroup": {"_$": "eBacteria"},
+            "BiologicalProperties": {
+              "Morphology": {"Shape": {"_$": "eBacilli"}},
+              "Environment": {
+                "OxygenReq": {"_$": "eAerobic"},
+                "TemperatureRange": {"_$": "eMesophilic"},
+                "Habitat": {"_$": "eMultiple"}
+              },
+              "Phenotype": {"Disease": {"_$": "Plant rot"}}
+            },
+            "RepliconSet": {
+              "Replicon": [
+                {
+                  "@order": "1",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "eChromosome"
+                  },
+                  "Name": {},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "3.700000"
+                  }
+                },
+                {
+                  "@order": "2",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "pGMI1000MP"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "2.100000"
+                  }
+                }
+              ],
+              "Count": {
+                "@repliconType": "eOther",
+                "_$": "2"
+              }
+            },
+            "GenomeSize": {
+              "@units": "Kb",
+              "_$": "5800.000000"
+            }
+          }
+        },
+        "Method": {"@method_type": "eSequencing"},
+        "Objectives": {"Data": {"@data_type": "eAssembly"}},
+        "ProjectDataTypeSet": {"DataType": {"_$": "Genome sequencing and assembly"}}
+      }}
+    }},
+    "Submission": {"Submission": {
+      "@submitted": "2003-02-25",
+      "Description": {
+        "Organization": {
+          "@role": "owner",
+          "@type": "center",
+          "@url": "http://histone.toulouse.inra.fr/bioinfo/annotation/iANT/bacteria/ralsto/index.html",
+          "Name": {
+            "@abbr": "Genoscope",
+            "_$": "Genoscope"
+          }
+        },
+        "Access": {"_$": "public"}
+      }
+    }},
+    "ProjectLinks": {"Link": {
+      "ProjectIDRef": {
+        "@accession": "PRJNA13",
+        "@archive": "NCBI",
+        "@id": "13"
+      },
+      "Hierarchical": {
+        "@type": "TopSingle",
+        "MemberID": {
+          "@accession": "PRJNA15600",
+          "@archive": "NCBI",
+          "@id": "15600"
+        }
+      },
+      "ID": {"@archive": "NCBI"},
+      "LinkExplanation": {}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

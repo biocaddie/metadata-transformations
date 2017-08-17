@@ -1,0 +1,174 @@
+{
+  "Package": {
+    "Project": {"Project": {
+      "ProjectID": {"ArchiveID": {
+        "@accession": "PRJNA9",
+        "@archive": "NCBI",
+        "@id": "9"
+      }},
+      "ProjectDescr": {
+        "Name": {"_$": "Francisella tularensis subsp. tularensis SCHU S4"},
+        "Title": {"_$": "Aquatic bacterium that cause tularemia"},
+        "Description": {"_$": "<P>\n<B><I>Francisella tularensis<\/I> subsp. <I>tularensis<\/I> strain Schu S4<\/B>. This subspecies is virulent in humans, and the strain is a clinical isolate that is also virulent in an animal model. Originally isolated from a human case of tularemia in 1951. Genome analysis indicates the presence of a large number of pseudogenes, many that disrupt important metabolic pathways, which is the reason for the exacting nutritional requirements of this organism. There is a duplicated pathogenicity island that has also been detected in strain LVS and mutations in the <i>iglA<\/i>, <i>iglC<\/i>, or <i>pdpD<\/i> genes affect the ability of the pathogen to survive in macrophages. The genome also contains genes for type IV pili production and capsular polysaccharide genes similar to those of Bacillus anthracis as well as numerous ABC transporters. There are a large number of insertion sequences including a mariner element, which is a transposon typically found in eukaryotes and is the first instance of this element to be found in a microbe, which may have acquired it during transit through one of the insect vectors."},
+        "ExternalLink": [
+          {
+            "@category": "Other Databases",
+            "@label": "GOLD",
+            "URL": {"_$": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00241"}
+          },
+          {
+            "@category": "Related Resources",
+            "@label": "FrantCyc",
+            "URL": {"_$": "http://biocyc.org/FRANT/pathologic-index.html"}
+          }
+        ],
+        "Publication": [
+          {
+            "@date": "2001-09-29T00:00:00Z",
+            "@id": "11576297",
+            "@status": "ePublished",
+            "Reference": {},
+            "DbType": {"_$": "ePubmed"}
+          },
+          {
+            "@date": "2005-01-11T00:00:00Z",
+            "@id": "15640799",
+            "@status": "ePublished",
+            "Reference": {},
+            "DbType": {"_$": "ePubmed"}
+          }
+        ],
+        "ProjectReleaseDate": {"_$": "2004-12-17T00:00:00Z"},
+        "LocusTagPrefix": {
+          "@assembly_id": "GCA_000008985",
+          "@biosample_id": "SAMEA3138185",
+          "_$": "FTT"
+        }
+      },
+      "ProjectType": {"ProjectTypeSubmission": {
+        "Target": {
+          "@capture": "eWhole",
+          "@material": "eGenome",
+          "@sample_scope": "eMonoisolate",
+          "Organism": {
+            "@species": "263",
+            "@taxID": "177416",
+            "OrganismName": {"_$": "Francisella tularensis subsp. tularensis SCHU S4"},
+            "Strain": {"_$": "Schu S4"},
+            "Supergroup": {"_$": "eBacteria"},
+            "BiologicalProperties": {
+              "Morphology": {
+                "Gram": {"_$": "eNegative"},
+                "Shape": {"_$": "eBacilli"},
+                "Motility": {"_$": "eNo"}
+              },
+              "Environment": {
+                "OxygenReq": {"_$": "eAerobic"},
+                "Habitat": {"_$": "eAquatic"}
+              },
+              "Phenotype": {"Disease": {"_$": "Tularemia"}}
+            },
+            "RepliconSet": {
+              "Replicon": {
+                "@order": "1",
+                "Type": {
+                  "@location": "eNuclearProkaryote",
+                  "_$": "eChromosome"
+                },
+                "Name": {},
+                "Size": {
+                  "@units": "Mb",
+                  "_$": "1.900000"
+                }
+              },
+              "Count": {
+                "@repliconType": "eOther",
+                "_$": "1"
+              }
+            },
+            "GenomeSize": {
+              "@units": "Kb",
+              "_$": "1900.000000"
+            }
+          }
+        },
+        "Method": {"@method_type": "eSequencing"},
+        "Objectives": {"Data": {"@data_type": "eAssembly"}},
+        "ProjectDataTypeSet": {"DataType": {"_$": "Genome sequencing and assembly"}}
+      }}
+    }},
+    "Submission": {"Submission": {
+      "@submitted": "2003-03-20",
+      "Description": {
+        "Organization": [
+          {
+            "@role": "owner",
+            "@type": "center",
+            "@url": "http://www.foi.se",
+            "Name": {
+              "@abbr": "Swedish Defence Research Agency",
+              "_$": "Swedish Defence Research Agency"
+            }
+          },
+          {
+            "@role": "participant",
+            "@type": "center",
+            "@url": "http://www.dstl.gov.uk/",
+            "Name": {
+              "@abbr": "Defence Science and Technology Laboratory, UK",
+              "_$": "Defence Science and Technology Laboratory, UK"
+            }
+          },
+          {
+            "@role": "participant",
+            "@type": "center",
+            "@url": "http://artedi.ebc.uu.se/Projects/Francisella/",
+            "Name": {
+              "@abbr": "Uppsala Univ.",
+              "_$": "Uppsala Univ."
+            }
+          }
+        ],
+        "Access": {"_$": "public"}
+      }
+    }},
+    "ProjectLinks": {"Link": [
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA9",
+          "@archive": "NCBI",
+          "@id": "9"
+        },
+        "Hierarchical": {
+          "@type": "TopSingle",
+          "MemberID": {
+            "@accession": "PRJNA16086",
+            "@archive": "NCBI",
+            "@id": "16086"
+          }
+        },
+        "ID": {"@archive": "NCBI"},
+        "LinkExplanation": {}
+      },
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA57589",
+          "@archive": "NCBI",
+          "@id": "57589"
+        },
+        "PeerProject": {
+          "CommonInputData": {"_$": "eRefseqGenbank"},
+          "MemberID": {
+            "@accession": "PRJNA9",
+            "@archive": "NCBI",
+            "@id": "9"
+          }
+        },
+        "ID": {"@archive": "NCBI"},
+        "LinkExplanation": {}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

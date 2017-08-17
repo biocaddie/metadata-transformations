@@ -1,0 +1,36 @@
+/* Dataset Information */
+transform column "$.'Strain'.'RGD_ID'.'_$'" to "dataset.ID" apply {{ result = 'rgd.strain:' + value }};
+transform column "$.'Strain'.'SOURCE'.'_$'" to "dataset.creators";
+transform column "$.'Strain'.'ORIGIN'.'_$'" to "dataset.description";
+
+/* BiologicalEntity Information */
+transform column "$.'Strain'.'FULL_NAME'.'_$'" to "biologicalEntity.name";
+transform column "$.'Strain'.'STRAIN_SYMBOL'.'_$'" to "biologicalEntity.identifiers";
+transform column "$.'Strain'.'STRAIN_TYPE'.'_$'" to "biologicalEntity.type";
+
+
+/* Access information */
+transform column "$.'Strain'.'RGD_ID'.'_$'" to "access.landingPage" apply {{ result = 'http://rgd.mcw.edu/rgdweb/report/strain/main.html?id=' + value }};
+let "access.accesstypes"  = "download";
+let "access.authorization"  = "none";
+let "access.authentication" = "none"; 
+
+
+/*Data Repository Information */
+let "dataRepository.ID" = "";
+let "dataRepository.name" = "Rat Genome Database";
+let "dataRepository.abbreviation" = "RGD";
+let "dataRepository.homePage"= "http://rgd.mcw.edu";
+
+
+/* Organization Information */
+let "organization[0].ID" = "";
+let "organization[0].name" = "Medical College of Wisconsin";
+let "organization[0].abbreviation" = "MCW";
+let "organization[0].homePage" = "http://www.mcw.edu/MCW";
+
+
+
+/* Dataset Release Date Information */
+let "dataset.dateReleased" = "NULL";
+

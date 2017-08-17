@@ -1,0 +1,415 @@
+{
+  "Package": {
+    "Project": {"Project": {
+      "ProjectID": {"ArchiveID": {
+        "@accession": "PRJNA3",
+        "@archive": "NCBI",
+        "@id": "3"
+      }},
+      "ProjectDescr": {
+        "Name": {"_$": "Borrelia burgdorferi B31"},
+        "Title": {"_$": "Causes Lyme disease"},
+        "Description": {"_$": "<P>\n<I><B>Borrelia burgdorferi<\/I> strain B31<\/B>. This is the type strain (ATCC 35210) for this organism and was derived by limited dilutional cloning from the original Lyme-disease tick isolate derived by A. Barbour."},
+        "ExternalLink": [
+          {
+            "@category": "Related Resources",
+            "@label": "TIGR Microbial Database",
+            "URL": {"_$": "http://www.tigr.org/tdb/mdb/mdbinprogress.html"}
+          },
+          {
+            "@category": "Other Databases",
+            "@label": "GOLD",
+            "URL": {"_$": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00012"}
+          }
+        ],
+        "Publication": [
+          {
+            "@date": "2004-01-21T00:00:00Z",
+            "@id": "14731275",
+            "@status": "ePublished",
+            "Reference": {},
+            "DbType": {"_$": "ePubmed"}
+          },
+          {
+            "@date": "1997-12-24T00:00:00Z",
+            "@id": "9403685",
+            "@status": "ePublished",
+            "Reference": {},
+            "DbType": {"_$": "ePubmed"}
+          },
+          {
+            "@date": "2000-02-15T00:00:00Z",
+            "@id": "10672174",
+            "@status": "ePublished",
+            "Reference": {},
+            "DbType": {"_$": "ePubmed"}
+          }
+        ],
+        "ProjectReleaseDate": {"_$": "1997-12-24T00:00:00Z"},
+        "LocusTagPrefix": {
+          "@assembly_id": "GCF_000008685",
+          "@biosample_id": "SAMN02603966",
+          "_$": "BB"
+        }
+      },
+      "ProjectType": {"ProjectTypeSubmission": {
+        "Target": {
+          "@capture": "eWhole",
+          "@material": "eGenome",
+          "@sample_scope": "eMonoisolate",
+          "Organism": {
+            "@species": "139",
+            "@taxID": "224326",
+            "OrganismName": {"_$": "Borrelia burgdorferi B31"},
+            "Strain": {"_$": "B31"},
+            "Supergroup": {"_$": "eBacteria"},
+            "BiologicalProperties": {
+              "Morphology": {
+                "Shape": {"_$": "eSpirilla"},
+                "Motility": {"_$": "eNo"}
+              },
+              "Environment": {
+                "OxygenReq": {"_$": "eMicroaerophilic"},
+                "TemperatureRange": {"_$": "eMesophilic"},
+                "Habitat": {"_$": "eHostAssociated"}
+              },
+              "Phenotype": {"Disease": {"_$": "Lyme disease"}}
+            },
+            "RepliconSet": {
+              "Replicon": [
+                {
+                  "@order": "1",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "eChromosome"
+                  },
+                  "Name": {},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.910000"
+                  }
+                },
+                {
+                  "@order": "377",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp17"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.016823"
+                  }
+                },
+                {
+                  "@order": "378",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp25"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.024177"
+                  }
+                },
+                {
+                  "@order": "379",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp28-1"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.026921"
+                  }
+                },
+                {
+                  "@order": "101",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "cp9"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.009386"
+                  }
+                },
+                {
+                  "@order": "102",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "cp26"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.026498"
+                  }
+                },
+                {
+                  "@order": "380",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp28-2"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.029766"
+                  }
+                },
+                {
+                  "@order": "381",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp28-3"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.028601"
+                  }
+                },
+                {
+                  "@order": "382",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp28-4"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.027323"
+                  }
+                },
+                {
+                  "@order": "383",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp36"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.036849"
+                  }
+                },
+                {
+                  "@order": "384",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp38"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.038829"
+                  }
+                },
+                {
+                  "@order": "385",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp54"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.053561"
+                  }
+                },
+                {
+                  "@order": "103",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "cp32-1"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.030750"
+                  }
+                },
+                {
+                  "@order": "104",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "cp32-3"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.030223"
+                  }
+                },
+                {
+                  "@order": "105",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "cp32-4"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.030299"
+                  }
+                },
+                {
+                  "@order": "106",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "cp32-6"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.029838"
+                  }
+                },
+                {
+                  "@order": "107",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "cp32-7"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.030800"
+                  }
+                },
+                {
+                  "@order": "108",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "cp32-8"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.030885"
+                  }
+                },
+                {
+                  "@order": "109",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "cp32-9"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.030651"
+                  }
+                },
+                {
+                  "@order": "110",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp5"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.005228"
+                  }
+                },
+                {
+                  "@order": "111",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp21"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.018753"
+                  }
+                },
+                {
+                  "@order": "112",
+                  "Type": {
+                    "@location": "eNuclearProkaryote",
+                    "_$": "ePlasmid"
+                  },
+                  "Name": {"_$": "lp56"},
+                  "Size": {
+                    "@units": "Mb",
+                    "_$": "0.052971"
+                  }
+                }
+              ],
+              "Count": {
+                "@repliconType": "eOther",
+                "_$": "22"
+              }
+            },
+            "GenomeSize": {
+              "@units": "Kb",
+              "_$": "1519.132000"
+            }
+          }
+        },
+        "Method": {"@method_type": "eSequencing"},
+        "Objectives": {"Data": {"@data_type": "eAssembly"}},
+        "ProjectDataTypeSet": {"DataType": {"_$": "Genome sequencing"}}
+      }}
+    }},
+    "Submission": {"Submission": {
+      "@submitted": "2003-02-23",
+      "Description": {
+        "Organization": {
+          "@role": "owner",
+          "@type": "center",
+          "@url": "http://www.tigr.org/tigr-scripts/CMR2/GenomePage3.spl?database=gbb",
+          "Name": {
+            "@abbr": "TIGR",
+            "_$": "TIGR"
+          }
+        },
+        "Access": {"_$": "public"}
+      }
+    }},
+    "ProjectLinks": {"Link": [
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA3",
+          "@archive": "NCBI",
+          "@id": "3"
+        },
+        "Hierarchical": {
+          "@type": "TopSingle",
+          "MemberID": {
+            "@accession": "PRJNA19847",
+            "@archive": "NCBI",
+            "@id": "19847"
+          }
+        },
+        "ID": {"@archive": "NCBI"},
+        "LinkExplanation": {}
+      },
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA57581",
+          "@archive": "NCBI",
+          "@id": "57581"
+        },
+        "PeerProject": {
+          "CommonInputData": {"_$": "eRefseqGenbank"},
+          "MemberID": {
+            "@accession": "PRJNA3",
+            "@archive": "NCBI",
+            "@id": "3"
+          }
+        },
+        "ID": {"@archive": "NCBI"},
+        "LinkExplanation": {}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

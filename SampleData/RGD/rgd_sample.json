@@ -1,0 +1,17 @@
+{
+  "Strain": {
+    "RGD_ID": {"_$": "60985"},
+    "STRAIN_SYMBOL": {"_$": "BN"},
+    "FULL_NAME": {"_$": "BN"},
+    "ORIGIN": {"_$": "Billingham and Silvers 1958, from a brown mutation maintained by DH King and P Aptekman in a pen-bred colony (Billingham and Silvers 1959).  A plasma kininogen-deficient mutant strain (BN/Ka) has been described  in which release of heat-induced substance P is defective (Tang et al, 1994) and response to the hypertensive effects of deoxycorticosterone acetate salt is much faster than in normal BN rats (Majima et al, 1995a,b)."},
+    "SOURCE": {"_$": "<a href=http://www.criver.com/index.html>Charles River Laboratories<\/a>"},
+    "STRAIN_TYPE": {"_$": "inbred"},
+    "AVAILABILITY": {},
+    "RESEARCH_USE": {},
+    "ALLELES": {"_$": "Cd36|Tnfrsf1a"},
+    "ALLELE_RGD_IDS": {"_$": "2301|621237"},
+    "POSITIONS": {}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

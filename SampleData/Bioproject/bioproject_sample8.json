@@ -1,0 +1,143 @@
+{
+  "Package": {
+    "Project": {"Project": {
+      "ProjectID": {"ArchiveID": {
+        "@accession": "PRJNA15",
+        "@archive": "NCBI",
+        "@id": "15"
+      }},
+      "ProjectDescr": {
+        "Name": {"_$": "Xanthomonas campestris pv. campestris str. 8004"},
+        "Title": {"_$": "Causes black rot and citrus canker"},
+        "Description": {"_$": "<p>\n<B><I>Xanthomonas campestris<\/I> pv. <i>campestris<\/i> strain 8004<\/B>. This strain is a derivative of strain NCPBB No. 1145. The original was isolated from an inflected cauliflower in Sussex, United Kingdom, in 1958. Strain 8004 is a spontaneous rifampicin resistant strain and has been used extensively in many studies."},
+        "ExternalLink": {
+          "@category": "Other Databases",
+          "@label": "GOLD",
+          "URL": {"_$": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00265"}
+        },
+        "Publication": {
+          "@date": "2005-05-19T00:00:00Z",
+          "@id": "15899963",
+          "@status": "ePublished",
+          "Reference": {},
+          "DbType": {"_$": "ePubmed"}
+        },
+        "ProjectReleaseDate": {"_$": "2005-05-25T00:00:00Z"},
+        "LocusTagPrefix": {
+          "@assembly_id": "GCF_000012105",
+          "@biosample_id": "SAMN02603125",
+          "_$": "XC"
+        }
+      },
+      "ProjectType": {"ProjectTypeSubmission": {
+        "Target": {
+          "@capture": "eWhole",
+          "@material": "eGenome",
+          "@sample_scope": "eMonoisolate",
+          "Organism": {
+            "@species": "339",
+            "@taxID": "314565",
+            "OrganismName": {"_$": "Xanthomonas campestris pv. campestris str. 8004"},
+            "Strain": {"_$": "8004"},
+            "Supergroup": {"_$": "eBacteria"},
+            "BiologicalProperties": {
+              "Morphology": {
+                "Gram": {"_$": "eNegative"},
+                "Shape": {"_$": "eBacilli"},
+                "Motility": {"_$": "eYes"}
+              },
+              "Environment": {
+                "OxygenReq": {"_$": "eAerobic"},
+                "OptimumTemperature": {"_$": "25-30"},
+                "TemperatureRange": {"_$": "eMesophilic"},
+                "Habitat": {"_$": "eHostAssociated"}
+              },
+              "Phenotype": {"Disease": {"_$": "Black rot and citrus canker"}}
+            },
+            "RepliconSet": {
+              "Replicon": {
+                "@order": "1",
+                "Type": {
+                  "@location": "eNuclearProkaryote",
+                  "_$": "eChromosome"
+                },
+                "Name": {},
+                "Size": {
+                  "@units": "Mb",
+                  "_$": "5.148708"
+                }
+              },
+              "Count": {
+                "@repliconType": "eOther",
+                "_$": "1"
+              }
+            },
+            "GenomeSize": {
+              "@units": "Kb",
+              "_$": "5148.708000"
+            }
+          }
+        },
+        "Method": {"@method_type": "eSequencing"},
+        "Objectives": {"Data": {"@data_type": "eAssembly"}},
+        "ProjectDataTypeSet": {"DataType": {"_$": "Genome sequencing"}}
+      }}
+    }},
+    "Submission": {"Submission": {
+      "@submitted": "2003-03-20",
+      "Description": {
+        "Organization": {
+          "@role": "owner",
+          "@type": "center",
+          "@url": "http://www.chgc.sh.cn/",
+          "Name": {
+            "@abbr": "Chinese National HGC, Shanghai",
+            "_$": "Chinese National HGC, Shanghai"
+          }
+        },
+        "Access": {"_$": "public"}
+      }
+    }},
+    "ProjectLinks": {"Link": [
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA15",
+          "@archive": "NCBI",
+          "@id": "15"
+        },
+        "Hierarchical": {
+          "@type": "TopSingle",
+          "MemberID": {
+            "@accession": "PRJNA12301",
+            "@archive": "NCBI",
+            "@id": "12301"
+          }
+        },
+        "ID": {"@archive": "NCBI"},
+        "LinkExplanation": {}
+      },
+      {
+        "ProjectIDRef": {
+          "@accession": "PRJNA15",
+          "@archive": "NCBI",
+          "@id": "15"
+        },
+        "Hierarchical": {
+          "@type": "TopAdmin",
+          "MemberID": {
+            "@accession": "PRJNA13900",
+            "@archive": "NCBI",
+            "@id": "13900"
+          }
+        },
+        "ID": {
+          "@archive": "NCBI",
+          "_$": "65830"
+        },
+        "LinkExplanation": {"_$": "Xanthomonas campestris pv. campestris str. 8004 Genome sequencing from Chinese National HGC, Shanghai"}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

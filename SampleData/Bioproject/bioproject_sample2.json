@@ -1,0 +1,182 @@
+{
+  "Package": {
+    "Project": {"Project": {
+      "ProjectID": {"ArchiveID": {
+        "@accession": "PRJNA5",
+        "@archive": "NCBI",
+        "@id": "5"
+      }},
+      "ProjectDescr": {
+        "Name": {"_$": "Treponema pallidum subsp. pallidum str. Nichols"},
+        "Title": {"_$": "Causative agent of syphilis"},
+        "Description": {"_$": "<P><I><B>Treponema pallidum<\/I> subsp. <I>pallidum<\/I><\/B>. This organism is the causative agent of endemic and venereal syphilis. This sexual transmitted disease was first discovered in Europe at the end of the fifteenth century, however, the causative agent was not identified until 1905. At one time syphilis was the third most commonly reported communicable disease in the USA. Syphilis is characterized by multiple clinical stages and long periods of latent, asymptomatic infection. Although effective therapies have been available since the introduction of penicillin, syphilis remains a global health problem.\n<P><I><B>Treponema pallidum<\/I> subsp. <I>pallidum<\/I> strain Nichols<\/B>. This strain was originally isolated in 1912 from a neurosyphilitic patient and is virulent."},
+        "ExternalLink": [
+          {
+            "@category": "Related Resources",
+            "@label": "TIGR Microbial Database",
+            "URL": {"_$": "http://www.tigr.org/tdb/mdb/mdbinprogress.html"}
+          },
+          {
+            "@category": "Related Resources",
+            "@label": "HGSC Treponema pallidum",
+            "URL": {"_$": "http://www.hgsc.bcm.tmc.edu/projects/microbial/Tpallidum/"}
+          },
+          {
+            "@category": "Other Databases",
+            "@label": "GOLD",
+            "URL": {"_$": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00016"}
+          }
+        ],
+        "Publication": {
+          "@date": "1998-07-17T00:00:00Z",
+          "@id": "9665876",
+          "@status": "ePublished",
+          "Reference": {},
+          "DbType": {"_$": "ePubmed"}
+        },
+        "ProjectReleaseDate": {"_$": "1998-07-17T00:00:00Z"},
+        "LocusTagPrefix": {
+          "@assembly_id": "GCF_000008605",
+          "@biosample_id": "SAMN02604348",
+          "_$": "TP"
+        }
+      },
+      "ProjectType": {"ProjectTypeSubmission": {
+        "Target": {
+          "@capture": "eWhole",
+          "@material": "eGenome",
+          "@sample_scope": "eMonoisolate",
+          "Organism": {
+            "@species": "160",
+            "@taxID": "243276",
+            "OrganismName": {"_$": "Treponema pallidum subsp. pallidum str. Nichols"},
+            "Strain": {"_$": "Nichols"},
+            "Supergroup": {"_$": "eBacteria"},
+            "BiologicalProperties": {
+              "Morphology": {
+                "Shape": {"_$": "eSpirilla"},
+                "Motility": {"_$": "eNo"}
+              },
+              "Environment": {
+                "OxygenReq": {"_$": "eAnaerobic"},
+                "TemperatureRange": {"_$": "eMesophilic"},
+                "Habitat": {"_$": "eHostAssociated"}
+              },
+              "Phenotype": {"Disease": {"_$": "Syphilis"}}
+            },
+            "RepliconSet": {
+              "Replicon": {
+                "@order": "1",
+                "Type": {
+                  "@location": "eNuclearProkaryote",
+                  "_$": "eChromosome"
+                },
+                "Name": {},
+                "Size": {
+                  "@units": "Mb",
+                  "_$": "1.138011"
+                }
+              },
+              "Count": {
+                "@repliconType": "eOther",
+                "_$": "1"
+              }
+            },
+            "GenomeSize": {
+              "@units": "Kb",
+              "_$": "1138.011000"
+            }
+          }
+        },
+        "Method": {"@method_type": "eSequencing"},
+        "Objectives": {"Data": {"@data_type": "eAssembly"}},
+        "ProjectDataTypeSet": {"DataType": {"_$": "Genome sequencing"}}
+      }}
+    }},
+    "Submission": {"Submission": {
+      "@submitted": "2003-02-25",
+      "Description": {
+        "Organization": [
+          {
+            "@role": "participant",
+            "@type": "center",
+            "@url": "http://www.tigr.org/tigr-scripts/CMR2/GenomePage3.spl?database=gtp",
+            "Name": {
+              "@abbr": "TIGR",
+              "_$": "TIGR"
+            }
+          },
+          {
+            "@role": "owner",
+            "@type": "consortium",
+            "Name": {
+              "@abbr": "US DOE Joint Genome Institute (JGI-PGF)",
+              "_$": "US DOE Joint Genome Institute (JGI-PGF)"
+            }
+          },
+          {
+            "@role": "participant",
+            "@type": "center",
+            "@url": "http://dpalm.med.uth.tmc.edu/treponema/tpall.html",
+            "Name": {
+              "@abbr": "University of Texas",
+              "_$": "University of Texas"
+            }
+          },
+          {
+            "@role": "participant",
+            "@type": "center",
+            "Name": {
+              "@abbr": "US DOE Joint Genome Institute, USA, Walnut Creek",
+              "_$": "US DOE Joint Genome Institute, USA, Walnut Creek"
+            }
+          },
+          {
+            "@role": "participant",
+            "@type": "center",
+            "Name": {
+              "@abbr": "University of Florida, Plant Pathology Department, USA, Gainesville",
+              "_$": "University of Florida, Plant Pathology Department, USA, Gainesville"
+            }
+          },
+          {
+            "@role": "participant",
+            "@type": "center",
+            "Name": {
+              "@abbr": "J Craig Venter Institute, USA, Rockville",
+              "_$": "J Craig Venter Institute, USA, Rockville"
+            }
+          },
+          {
+            "@role": "participant",
+            "@type": "center",
+            "Name": {
+              "@abbr": "Broad Institute of MIT and Harvard, USA, Cambridge",
+              "_$": "Broad Institute"
+            }
+          }
+        ],
+        "Access": {"_$": "public"}
+      }
+    }},
+    "ProjectLinks": {"Link": {
+      "ProjectIDRef": {
+        "@accession": "PRJNA5",
+        "@archive": "NCBI",
+        "@id": "5"
+      },
+      "Hierarchical": {
+        "@type": "TopSingle",
+        "MemberID": {
+          "@accession": "PRJNA20075",
+          "@archive": "NCBI",
+          "@id": "20075"
+        }
+      },
+      "ID": {"@archive": "NCBI"},
+      "LinkExplanation": {}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

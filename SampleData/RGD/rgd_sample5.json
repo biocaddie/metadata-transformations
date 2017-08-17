@@ -1,0 +1,17 @@
+{
+  "Strain": {
+    "RGD_ID": {"_$": "1598798"},
+    "STRAIN_SYMBOL": {"_$": "BBDP/WorN"},
+    "FULL_NAME": {},
+    "ORIGIN": {"_$": "Developed from a closed colony of outbred wistar rats which spontaneously developed autoimmune diabetes mellitus at the Bio-Breeding Laboratories, Ontario. University of Massachusetts Medical Center started inbreeding these in 1977. In 1983 NIH established a reference colony from this inbred colony."},
+    "SOURCE": {"_$": "NIH Autoimmune Rat Model Repository and Dev Ctr"},
+    "STRAIN_TYPE": {"_$": "inbred"},
+    "AVAILABILITY": {"_$": "Extinct"},
+    "RESEARCH_USE": {},
+    "ALLELES": {},
+    "ALLELE_RGD_IDS": {},
+    "POSITIONS": {}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

@@ -1,0 +1,148 @@
+{
+  "Package": {
+    "Project": {"Project": {
+      "ProjectID": {"ArchiveID": {
+        "@accession": "PRJNA16",
+        "@archive": "NCBI",
+        "@id": "16"
+      }},
+      "ProjectDescr": {
+        "Name": {"_$": "Azotobacter vinelandii DJ"},
+        "Title": {"_$": "Nitrogen-fixing bacterium"},
+        "Description": {"_$": "<P><B><I>Azotobacter vinelandii<\/B><\/I>. This organism will provide information on the proteins involved in nitrogen fixation and the production of PHB and alginate."},
+        "ExternalLink": [
+          {
+            "@category": "Related Resources",
+            "@label": "Azotobacter Org",
+            "URL": {"_$": "http://www.azotobacter.org"}
+          },
+          {
+            "@category": "Sequencing Centers",
+            "@label": "DOE Joint Genome Institute",
+            "URL": {"_$": "http://www.jgi.doe.gov/"}
+          },
+          {
+            "@category": "Other Databases",
+            "@label": "GOLD",
+            "URL": {"_$": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gi00047"}
+          }
+        ],
+        "Publication": {
+          "@date": "2009-05-12T00:00:00Z",
+          "@id": "19429624",
+          "@status": "ePublished",
+          "Reference": {},
+          "DbType": {"_$": "ePubmed"}
+        },
+        "ProjectReleaseDate": {"_$": "2002-07-10T00:00:00Z"},
+        "LocusTagPrefix": {
+          "@assembly_id": "GCF_000021045",
+          "@biosample_id": "SAMN02604349",
+          "_$": "AVIN"
+        }
+      },
+      "ProjectType": {"ProjectTypeSubmission": {
+        "Target": {
+          "@capture": "eWhole",
+          "@material": "eGenome",
+          "@sample_scope": "eMonoisolate",
+          "Organism": {
+            "@species": "354",
+            "@taxID": "322710",
+            "OrganismName": {"_$": "Azotobacter vinelandii DJ"},
+            "Strain": {"_$": "DJ"},
+            "Supergroup": {"_$": "eBacteria"},
+            "BiologicalProperties": {
+              "Morphology": {
+                "Gram": {"_$": "eNegative"},
+                "Motility": {"_$": "eYes"}
+              },
+              "Environment": {
+                "OxygenReq": {"_$": "eAerobic"},
+                "TemperatureRange": {"_$": "eMesophilic"},
+                "Habitat": {"_$": "eMultiple"}
+              }
+            },
+            "RepliconSet": {
+              "Replicon": {
+                "@order": "1",
+                "Type": {
+                  "@location": "eNuclearProkaryote",
+                  "_$": "eChromosome"
+                },
+                "Name": {},
+                "Size": {
+                  "@units": "Mb",
+                  "_$": "5.365318"
+                }
+              },
+              "Count": {
+                "@repliconType": "eOther",
+                "_$": "1"
+              }
+            },
+            "GenomeSize": {
+              "@units": "Kb",
+              "_$": "5365.318000"
+            }
+          }
+        },
+        "Method": {"@method_type": "eSequencing"},
+        "Objectives": {"Data": {"@data_type": "eAssembly"}},
+        "ProjectDataTypeSet": {"DataType": {"_$": "Genome sequencing"}}
+      }}
+    }},
+    "Submission": {"Submission": {
+      "@submitted": "2003-02-25",
+      "Description": {
+        "Organization": [
+          {
+            "@role": "participant",
+            "@type": "center",
+            "@url": "http://genome.jgi-psf.org/draft_microbes/azovi/azovi.home.html",
+            "Name": {
+              "@abbr": "DOE Joint Genome Institute",
+              "_$": "DOE Joint Genome Institute"
+            }
+          },
+          {
+            "@role": "owner",
+            "@type": "consortium",
+            "Name": {
+              "@abbr": "US DOE Joint Genome Institute (JGI-PGF)",
+              "_$": "US DOE Joint Genome Institute (JGI-PGF)"
+            }
+          },
+          {
+            "@role": "participant",
+            "@type": "center",
+            "Name": {
+              "@abbr": "Virginia Polytechnic Institute and State University, Virginia Bioinformatics Institute, USA, Blacksburg",
+              "_$": "Virginia Polytechnic Institute and State University, Virginia Bioinformatics Institute, USA, Blacksburg"
+            }
+          }
+        ],
+        "Access": {"_$": "public"}
+      }
+    }},
+    "ProjectLinks": {"Link": {
+      "ProjectIDRef": {
+        "@accession": "PRJNA16",
+        "@archive": "NCBI",
+        "@id": "16"
+      },
+      "Hierarchical": {
+        "@type": "TopSingle",
+        "MemberID": {
+          "@accession": "PRJNA35043",
+          "@archive": "NCBI",
+          "@id": "35043"
+        }
+      },
+      "ID": {"@archive": "NCBI"},
+      "LinkExplanation": {}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

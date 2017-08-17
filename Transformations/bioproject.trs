@@ -1,0 +1,80 @@
+/* Dataset Basic Information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataset.ID" apply {{ result = 'bioproject:' + value }};
+transform columns "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Name'.'_$'", "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Title'.'_$'"  to "dataset.title" apply {{ result = value1 + ' : ' + value2; }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Description'.'_$'" to "dataset.description" apply {{ result = re.compile(r'<.*?>').sub('',value) }};
+
+/* Dataset Landing Page*/
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "access.landingPage" apply {{ result = 'http://identifiers.org/bioproject:' + value }};
+
+/* Dataset Creator */
+let "dataset.creators" = "NULL";
+
+/* Dataset Release Date Information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'ProjectReleaseDate'.'_$'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'ProjectDataTypeSet'.'DataType'.'_$'" to "dataset.types[0]";
+let "dataset.aggregation" = "collection of datasets";
+let "dataset.privacy" = "not applicable";
+let "dataset.refinement" = "raw";
+
+/* Publication Information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Publication'.'@id'" to "primaryPublication.ID" apply {{ result = 'pmid:' + value }};
+
+/* Information on Dataset Distributions */
+/* Dataset Distribution - Nucleotide (Genomic DNA) */
+let "datasetDistributions[0].format" = "HTML";
+let "datasetDistributions[0].storedIn" = "NCBI";
+let "datasetDistributions[0].qualifier" = "not compressed";
+transform column "$.'Package'.'Projectlinks'.'link[*]'.'ProjectIDRed'.'@id'" to  "datasetDistributions[0].accessURL" apply {{ result='https://www.ncbi.nlm.nih.gov/sites/nuccore?term=' + value +'[BioProject]' }};
+let "datasetDistributions[0].accessType" = "landing page";
+let "datasetDistributions[0].authorization" = "none";
+let "datasetDistributions[0].authentication" = "none"; 
+let "datasetDistributions[0].primary" = "true";
+
+/* Dataset Distribution - Protein Sequences */
+let "datasetDistributions[1].format" = "HTML";
+let "datasetDistributions[1].storedIn" = "NCBI"; 
+let "datasetDistributions[1].qualifier" = "not compressed";
+transform column "$.'Package'.'Projectlinks'.'link[*]'.'ProjectIDRed'.'@id'" to  "datasetDistributions[1].accessURL" apply {{ result='https://www.ncbi.nlm.nih.gov/bioproject/protein?LinkName=bioproject_protein&from_uid=' + value }};
+let "datasetDistributions[1].accessType" = "landing page";
+let "datasetDistributions[1].authorization" = "none";
+let "datasetDistributions[1].authentication" = "none"; 
+let "datasetDistributions[1].primary" = "true";
+
+/* Dataset Distribution - BioSample */
+let "datasetDistributions[2].format" = "HTML";
+let "datasetDistributions[2].storedIn" = "NCBI"; 
+let "datasetDistributions[2].qualifier" = "not compressed";
+transform column "$.'Package'.'Projectlinks'.'link[*]'.'ProjectIDRed'.'@id'" to "datasetDistributions[2].accessURL" apply {{ result='https://www.ncbi.nlm.nih.gov/biosample?Db=biosample&DbFrom=bioproject&Cmd=Link&LinkName=bioproject_biosample&LinkReadableName=BioSample&ordinalpos=1&IdsFromResult=' + value }};
+let "datasetDistributions[2].accessType" = "landing page";
+let "datasetDistributions[2].authorization" = "none";
+let "datasetDistributions[2].authentication" = "none"; 
+let "datasetDistributions[2].primary" = "true";
+
+/* Dataset Distribution - Assembly */
+let "datasetDistributions[3].format" = "HTML";
+let "datasetDistributions[3].storedIn" = "NCBI"; 
+let "datasetDistributions[3].qualifier" = "not compressed";
+transform column "$.'Package'.'Projectlinks'.'link[*]'.'ProjectIDRed'.'@id'" to "datasetDistributions[3].accessURL" apply {{ result='https://www.ncbi.nlm.nih.gov/assembly?LinkName=bioproject_assembly_all&from_uid=' + value }};
+let "datasetDistributions[3].accessType" = "landing page";
+let "datasetDistributions[3].authorization" = "none";
+let "datasetDistributions[3].authentication" = "none"; 
+let "datasetDistributions[3].primary" = "true";
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:004801";
+let "dataRepository.name" = "NCBI BioProject";
+let "dataRepository.homePage" = "http://www.ncbi.nlm.nih.gov/bioproject";
+
+/* Organization Information */
+let "organization.ID" = "SCR:006472";
+let "organization.name" = "National Center for Biotechnology Information";
+let "organization.abbreviation" = "NCBI";
+let "organization.homePage" = "http://www.ncbi.nlm.nih.gov";
+
+/* Taxonomic Information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'@taxID'" to "taxonomicInformation[0].ncbiID" apply {{ result = 'taxonomy:' + value }}; 
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'OrganismName'.'_$'" to "taxonomicInformation[0].name";
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'Strain'.'_$'" to "taxonomicInformation[0].strain";
