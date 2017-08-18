@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.5281/ZENODO.164885",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.5281/ZENODO.164885",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Higbie/Alww: American Labor Who'S Who (1925) Dataset",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Toby",
+      "last-name": "Higbie"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-11-05T00:14:24Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-05T00:42:11Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Zenodo",
+    "description": "<p><strong>American Labor Who's Who dataset, version 2.2.0<\/strong><\/p>\n\n<p>A dataset derived from the digitized text of Solon de Leon, et al., <em>The American Labor Who's Who<\/em> (New York: Hanford Press, 1925). This release includes separate files the U.S. and \"Other Countries\" sections of the directory.<\/p>\n\n<p>The American Labor Who's Who (ALWW), published in 1925, is a directory of activists in the fields of trade unionism, immigrant rights, civil liberties, progressive and radical politics. The directory includes roughly 1,300 entries for U.S. activists and 300 additional non-US activists. Each entry is a telegraphic biography. Some provide only name, professional title and address at the time of publication, but many sketch rich life histories. Nearly all provide details on birth date and place, family background, education, migration, and work histories, as well as key organizations, events publications, home and work addresses.<\/p>\n\n<p>The ALWW dataset is derived from the text hosted on the HathiTrust digital library: https://catalog.hathitrust.org/Record/000591300. Faculty, staff, and students at UCLA corrected the plain text from the scanned document and parsed the text into comma-separated fields. This release includes separate files for US entries and \"Other Countries\" entries. About 30 individuals are listed in the US section with the notation \"see other countries,\" mainly Canadians and Mexicans. This subset is also in a separate file in this release.<\/p>\n\n<p>For more information about this and related projects see: http://socialjusticehistory.org/projects/networkedlabor/.<\/p>\n\n<p><strong>Contributors<\/strong> Tobias Higbie, Principal Investigator, UCLA History Department Craig Messner, UCLA Center for Digital Humanities Nick de Carlo, UCLA Center for Digital Humanities Zoe Borovsky, UCLA Library<\/p>\n\n<p><strong>Contents of Release<\/strong> The US and Other Country datasets were developed separately as reflected in their different version numbers. The US entries are more developed and clean. Consider the Other Country files as beta releases. The files listed below are the most up-to-date available. Previous versions are also available via GitHub.<\/p>\n\n<ul>\n\t<li>alww-us-2-2-0.csv (all US entries)<\/li>\n\t<li>alww-othercountries-o.3.2.csv (all other country entries)<\/li>\n\t<li>alww-othercountries-0.3.2-subset-crossrefd.csv (other country entries cross-referenced in the US entry section)<\/li>\n<\/ul>\n\n<p><strong>Field Layouts<\/strong><\/p>\n\n<p>The field layouts for the US and Other Country files are slightly different in this release.<\/p>\n\n<p><em>US Entries<\/em> The fields for the US file (alww-us-2-2-0.csv) include: NAME [first and last], NAME-ALWW [name as it appears in the original text], TITLES [named offices or occupations in 1925], ORGS [compiled list of organizations belonged to at any time], BIRTHDATES [m/d/y where present], BIRTHCOUNTRY [derived from Birthplace], BIRTHPLACE [as listed], FATHER [father's occupation, in a few cases includes mother], CAREER (UNABBREVIATED) [education and experience, usually chronological, most common abbreviations expanded to full words], CAREER (ABBREVIATED) [same as previous with original abbreviations], HOME ADDRESS [where present], WORK ADDRESS [where present], PUBLICATIONS [incomplete], INDEX CATEGORY 1 [categories derived from the ALWW index, many have more than one category], INDEX CATEGORY 2, INDEX CATEGORY 3, INDEX CATEGORY 4, INDEX CATEGORY 5, INDEX CATEGORY 6, INDEX CATEGORY 7, INDEX CATEGORY 8, ORIGINAL [unparsed entry text carried over from earlier versions].<\/p>\n\n<p><em>Other Countries<\/em> The other country files (alww-othercountries-o.3.2.csv and alww-othercountries-0.3.2-subset-crossrefd.csv) include these fields: Name [last, first], Titles [named offices or occupations in 1925], Organizations [compiled list of organizations belonged to at any time], Birthdate [as listed], Birthplace [as listed], Father [father's occupation], Other [same as Career above], HomeAddress [as listed], WorkAddress [as listed], Publications [derived from entries].<\/p>\n\n<p><strong>Related datasets<\/strong> American Labor Press Directory (1925); American Labor Press Directory (1940); Who's Who in Labor (1947).<\/p>"
+  }
+}
