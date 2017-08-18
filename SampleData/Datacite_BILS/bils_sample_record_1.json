@@ -1,0 +1,87 @@
+{
+  "id": "https://doi.org/10.5879/BILS/GA00001",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.5879/BILS/GA00001",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Data from: Peacefully extreme - loss of combative strategies in the unstressed, sugar-xerophilic mould, Xeromyces bisporus",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Henrik",
+        "last-name": "Lantz"
+      },
+      {
+        "first-name": "Olga",
+        "last-name": "Vinnere-Pettersson"
+      },
+      {
+        "first-name": "Jens C.",
+        "last-name": "Frisvad"
+      },
+      {
+        "first-name": "Ulf",
+        "last-name": "Thrane"
+      },
+      {
+        "first-name": "Hermann J.",
+        "last-name": "Heipieper"
+      },
+      {
+        "first-name": "Jan",
+        "last-name": "Dijksterhuis"
+      },
+      {
+        "first-name": "Manfred",
+        "last-name": "Grabherr"
+      },
+      {
+        "first-name": "Mats",
+        "last-name": "Pettersson"
+      },
+      {
+        "first-name": "Christian",
+        "last-name": "Tellgren-Roth"
+      },
+      {
+        "first-name": "Johan",
+        "last-name": "Schnurer"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2014",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2014-09-12T07:41:31Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2015-02-23T15:59:05Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Uppsala University",
+    "description": "Annotation in GFF3-format for the draft genome of Xeromyces bisporus. Genome available for download at EMBL, accession nr. PRJEB6149."
+  }
+}

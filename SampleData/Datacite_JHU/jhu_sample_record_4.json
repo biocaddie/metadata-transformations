@@ -1,0 +1,67 @@
+{
+  "id": "https://doi.org/10.7281/T10Z715B",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.7281/T10Z715B",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Data associated with Scott et al 2016, Intra-Urban temperature variability in Baltimore.",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Anna",
+        "last-name": "Scott"
+      },
+      {
+        "first-name": "Ben",
+        "last-name": "Zaitchik"
+      },
+      {
+        "first-name": "Darryn",
+        "last-name": "Waugh"
+      },
+      {
+        "first-name": "Katie",
+        "last-name": "O'Meara"
+      },
+      {
+        "first-name": "Clara",
+        "last-name": "Hickman"
+      },
+      {
+        "first-name": "Sophie",
+        "last-name": "Stoerkel"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-07-20T13:58:29Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-07-20T13:58:29Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Johns Hopkins University Data Archive",
+    "description": null
+  }
+}

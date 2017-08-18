@@ -1,0 +1,75 @@
+{
+  "id": "https://doi.org/10.7281/T1RF5RZ7",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.7281/T1RF5RZ7",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Data associated with Wu et al. 2016 Tuning and stabilizing topological insulator Bi2Se3 in the intrinsic regime by charge extraction with organic overlayers.",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Liang",
+        "last-name": "Wu"
+      },
+      {
+        "first-name": "R. M.",
+        "last-name": "Ireland"
+      },
+      {
+        "first-name": "M.",
+        "last-name": "Salehi"
+      },
+      {
+        "first-name": "B.",
+        "last-name": "Cheng"
+      },
+      {
+        "first-name": "N.",
+        "last-name": "Koirala"
+      },
+      {
+        "first-name": "S.",
+        "last-name": "Oh"
+      },
+      {
+        "first-name": "H. E.",
+        "last-name": "Katz"
+      },
+      {
+        "first-name": "N. P.",
+        "last-name": "Armitage"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-08-03T16:07:22Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-08-03T16:07:22Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "JHU Data Management Services",
+    "description": null
+  }
+}
