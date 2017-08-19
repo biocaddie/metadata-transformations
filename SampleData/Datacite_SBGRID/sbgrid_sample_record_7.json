@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.15785/SBGRID/334",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.15785/SBGRID/334",
+      "identifier-source": "DataCite"
+    }],
+    "title": "X-Ray Diffraction data from Deinococcus radiodurans MntH in complex with Fab, source of 5KTE structure",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Wilhelm",
+      "last-name": "Weihofen"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-11-15T22:05:32Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-15T22:05:32Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "SBGrid Data Bank",
+    "description": "The second of two osmium containing data sets."
+  }
+}

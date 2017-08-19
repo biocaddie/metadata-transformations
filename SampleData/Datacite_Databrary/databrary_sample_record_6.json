@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.17910/B7.108",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.17910/B7.108",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Facial expressions in 4-month-olds in the still face paradigm and later attachment at 12 months in the Strange Situation",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Daniel",
+      "last-name": "Messinger"
+    }],
+    "dates": [
+      {
+        "date": "2015",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-06-12T07:01:22Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-13T07:01:52Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Databrary",
+    "description": "Four-month-old infants and their parents were video-recorded in the Face-to-Face/Still-Face (FFSF) procedure (Adamson & Frick, 2003). Infants sat in a seat and their parents sat across from them. Parents and infants engaged in 2 minutes of natural positive interaction, then 2 minutes of parent still-face in which parents were asked to not respond to their infants, and then 2 minutes of renewed interaction. At 12 months, these infants and parents then completed the Strange Situation to assess attachment security, which consists of a series of separations and reunions."
+  }
+}

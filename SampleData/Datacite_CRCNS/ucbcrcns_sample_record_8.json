@@ -1,0 +1,63 @@
+{
+  "id": "https://doi.org/10.6080/K02N506Q",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6080/K02N506Q",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Multi-unit spiking activity recorded from rat frontal cortex (brain regions mPFC,\n                OFC, ACC, and M2) during wake-sleep episode wherein at least 7 minutes of wake are\n                followed by 20 minutes of sleep.",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "BO",
+        "last-name": "Watson"
+      },
+      {
+        "first-name": "D",
+        "last-name": "Levenstein"
+      },
+      {
+        "first-name": "JP",
+        "last-name": "Greene"
+      },
+      {
+        "first-name": "JN",
+        "last-name": "Gelinas"
+      },
+      {
+        "first-name": "G",
+        "last-name": "Buzsáki"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-07-26T17:27:58Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-07-26T19:28:02Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "CRCNS.org",
+    "description": "Data was recorded using silicon probe electrodes in the frontal cortices of male Long\n                Evans rats between 4-7 months of age.  The design was to have no specific behavior, task\n                or stimulus, rather the animal was left alone in it\u2019s home cage (which it lives in at\n                all times).  Data includes both local field potentials (LFP) and spikes.  11 total\n                animals, 27 recording sessions, 1360 total units recorded, 1121 units considered stable,\n                995 putative excitatory units and 126 putative inhibitory units.  Only recordings\n                including a \u201cWAKE-SLEEP\u201d episode wherein at least 7 minutes of wake are followed by 20\n                minutes of sleep.  On average 2 such WAKE-SLEEP episodes per recording session."
+  }
+}

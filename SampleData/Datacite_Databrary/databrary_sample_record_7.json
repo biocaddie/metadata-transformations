@@ -1,0 +1,51 @@
+{
+  "id": "https://doi.org/10.17910/B7.241",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.17910/B7.241",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Examples of True Belief and False Belief Contents tasks with 4-year-olds",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "William",
+        "last-name": "Fabricius"
+      },
+      {
+        "first-name": "Christopher R",
+        "last-name": "Gonzales"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-06-05T07:01:43Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-13T07:01:54Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Databrary",
+    "description": "We use a standard Contents False Belief (FB) task paired with a Contents True Belief (TB) task to assess children\u2019s Belief Understanding. In each task, children are asked the test question (\u201cWhat will the other person think is in the box?\u201d and are asked to justify their answers (\u201cWhy will he think _____ is inside the box\u201d?). The order of the TB and FB tasks are counterbalanced across children. \n\nNote: The \u201cHighlights\u201d show children answering the TB test question. Go to the individual participants' folder (just below the \"Highlights\" section under \"Data\") in order to see the video which shows the entirety of the TB and FB tasks. The full data forms and task scripts are available in the \"Materials\" folder. \n\nOne child illustrates Reality Reasoning (RR). He fails the FB task and passes the TB task. In both he says that the other person will \u201cget it right\u201d and think that the actual contents are in the box, and justifies his answers by saying, in effect, \u201cbecause that\u2019s what\u2019s in there.\u201d\n\nOne child illustrates Perceptual Access Reasoning (PAR). He passes the FB task and fails the TB task. In both cases he says that the other person will \u201cget it wrong\u201d and think that what isn\u2019t in the box is in there (crayons in false belief, key in true belief), and justifies his answers by saying, in effect, \u201cbecause he doesn\u2019t know what\u2019s in there.\u201d\n\nOne child illustrates Belief Reasoning (BR). He passes the FB task and passes the TB task. In both cases he says that the other person will think the typical contents are in the box, and justifies his answers by saying, \u201cbecause it\u2019s a [crayon / M&M\u2019s] box.\u201d\n\nIn a large (N = 161) longitudinal study of ours, all children at 4 ½ and at 6 years of age could be reliably classified as using RR, a mixture of RR & PAR, PAR, or BR. Scoring criteria are available upon request."
+  }
+}

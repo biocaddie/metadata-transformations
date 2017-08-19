@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.15785/SBGRID/389",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.15785/SBGRID/389",
+      "identifier-source": "DataCite"
+    }],
+    "title": "X-Ray Diffraction data from Putative PIN domain (VapC4 toxin component), source of 5H4G structure",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Ansuman",
+      "last-name": "Biswas"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-11-18T22:32:07Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-18T22:32:07Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "SBGrid Data Bank",
+    "description": "Native VapC4 dataset at 1.77 A"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.6072/H0CC0XM4",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6072/H0CC0XM4",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Ficolin-1",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Anjana",
+      "last-name": "Chandrasekhar"
+    }],
+    "dates": [
+      {
+        "date": "2014",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2014-07-28T18:47:02Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-06-17T17:14:48Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "UCSD Molecule Pages",
+    "description": "Ficolin-1 is a member of the lectin family of proteins, which act as pattern recognition receptors in the innate immune system. Its overall structure resembles other lectins such as L- and H-Ficolin and MBL. The ~35kDa polypeptide has an amino (N)-terminal cysteine-rich region, a middle stretch of a collagen-like sequence, and a fibrinogen-like domain in the carboxy (C)-terminus. Three identical polypeptides form a structural (triple helical) subunit, with the help of the collagen-like domain. Further oligomerization of this subunit results in the tetrameric functional form (composed of 12 polypeptides). The polypeptides in the structural subunit are cross-linked by disulphide bonds in the N-terminal region. The fibrinogen-like domain forms a globular structure. Ficolin-1 recognizes specific acetylated sugars on pathogen surfaces. Unlike other ficolins and MBL, which are synthesized by the liver and found in serum, ficolin-1 is mainly synthesized by monocytes and neutrophils, and exhibit surface or granular expression along with presence in serum. Further, ficolin-1 also recognizes sialic acid, a component found in host cell membranes, as a ligand. These characteristics attribute distinct functions to ficolin-1 in regulation of immune response."
+  }
+}

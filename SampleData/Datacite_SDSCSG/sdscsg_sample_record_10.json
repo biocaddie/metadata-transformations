@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.6072/H0.MP.A004267.01",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6072/H0.MP.A004267.01",
+      "identifier-source": "DataCite"
+    }],
+    "title": "H-Ficolin",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Anjana",
+      "last-name": "Chandrasekhar"
+    }],
+    "dates": [
+      {
+        "date": "2013",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2013-10-30T22:40:05Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-06-17T17:14:37Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "UCSD Signaling Gateway",
+    "description": ""
+  }
+}

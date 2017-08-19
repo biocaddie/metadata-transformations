@@ -1,0 +1,63 @@
+{
+  "id": "https://doi.org/10.6080/K01N7Z2Z",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6080/K01N7Z2Z",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Single-unit extracellular recordings of projection neurons in the premotor\n                 cortical area HVC of juvenile male zebra finches during singing.",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-09-26T20:25:44Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-26T23:11:31Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "CRCNS.org",
+    "description": "This data set contains extracellular recordings of projection neurons in the premotor\n                cortical area HVC of juvenile male zebra finches (Taeniopygia gutatta) during singing\n                (n=32 birds, 44-112 days post hatch). The results are reported in:\n                Okubo TS, Mackevicius EL, Payne HL, Lynch GF, Fee MS.  Growth and splitting of neural\n                sequences in songbird vocal development. (Nature, 2015; 528(7582):352-7).\n                DOI: 10.1038/nature15741"
+  }
+}

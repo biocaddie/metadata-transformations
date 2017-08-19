@@ -1,0 +1,99 @@
+{
+  "id": "https://doi.org/10.17037/DATA.122",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.17037/DATA.122",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Autopsy Prevalence of Tuberculosis and Other Potentially Treatable Infections among Adults with Advanced HIV Enrolled in Out-Patient Care in South Africa: Lesedi Kamoso study data",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Aaron S.",
+        "last-name": "Karat"
+      },
+      {
+        "first-name": "Tanvier",
+        "last-name": "Omar"
+      },
+      {
+        "first-name": "Anne",
+        "last-name": "Von Gottberg"
+      },
+      {
+        "first-name": "Mpho",
+        "last-name": "Tlali"
+      },
+      {
+        "first-name": "Violet N.",
+        "last-name": "Chihota"
+      },
+      {
+        "first-name": "Gavin J.",
+        "last-name": "Churchyard"
+      },
+      {
+        "first-name": "Katherine L.",
+        "last-name": "Fielding"
+      },
+      {
+        "first-name": "Suzanne",
+        "last-name": "Johnson"
+      },
+      {
+        "first-name": "Neil A.",
+        "last-name": "Martinson"
+      },
+      {
+        "first-name": "Kerrigan",
+        "last-name": "McCarthy"
+      },
+      {
+        "first-name": "Nicole",
+        "last-name": "Wolter"
+      },
+      {
+        "first-name": "Emily B.",
+        "last-name": "Wong"
+      },
+      {
+        "first-name": "Salome",
+        "last-name": "Charalambous"
+      },
+      {
+        "first-name": "Alison D.",
+        "last-name": "Grant"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-10-21T13:53:59Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-10-21T13:53:59Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "London School of Hygiene & Tropical Medicine",
+    "description": null
+  }
+}

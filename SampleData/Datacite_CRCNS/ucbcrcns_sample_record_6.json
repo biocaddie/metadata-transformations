@@ -1,0 +1,59 @@
+{
+  "id": "https://doi.org/10.6080/K0T43R01",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6080/K0T43R01",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Data related to: Layer 4 fast-spiking interneurons filter thalamocortical signals during\n                active somatosensation.  Yu, Gutnisky, Hires, Svoboda, Nature Neurosci. 2016.",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Diego",
+        "last-name": "Gutnisky"
+      },
+      {
+        "first-name": "Samuel Andrew",
+        "last-name": "Hires"
+      },
+      {
+        "first-name": "Karel",
+        "last-name": "Svoboda"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-08-29T17:31:37Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-08-29T17:31:37Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "CRCNS.org",
+    "description": "(This data is not yet available but will be sometime during 2016).\n                This data set includes behavioral data, whole cell measurements of stellate cells and\n                fast-spiking interneurons in L4, and silicon probe single unit measurements in VPM."
+  }
+}

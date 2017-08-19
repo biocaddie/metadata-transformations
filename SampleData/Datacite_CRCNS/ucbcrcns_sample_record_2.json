@@ -1,0 +1,59 @@
+{
+  "id": "https://doi.org/10.6080/K0S46PV7",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6080/K0S46PV7",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Simultaneous calcium imaging using GCaMP sensors and electrophysiology in L2/3\n                       pyramidal neurons of the visual cortex in thy1 transgenic mice",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Douglas S.",
+        "last-name": "Kim"
+      },
+      {
+        "first-name": "Karel",
+        "last-name": "Svoboda"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-10-19T16:52:27Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-10-19T16:52:27Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "CRCNS.org",
+    "description": "(This data set is not yet available but should be sometime in late 2016, early 2017).\n                This data set contains simultaneous calcium imaging and electrophysiology in L2/3\n                of the visual cortex during visual stimulations with drifting gratings. We used\n                transgenic mouse lines GP4.3 (expressing GCaMP6s) and GP5.17 (expressing GCaMP6f)\n                (Dana, H. et al 2014 PloS One). These mice express GCaMP6s/f under the thy-1 promoter."
+  }
+}

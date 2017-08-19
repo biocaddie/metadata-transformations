@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.5255/UKDA-SN-7280-6",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.5255/UKDA-SN-7280-6",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Crime Survey for England and Wales, 1996-2015: Secure Access",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": null,
+      "last-name": null
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-11-15T14:06:33Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-15T14:06:33Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Colchester, Essex: UK Data Archive",
+    "description": null
+  }
+}

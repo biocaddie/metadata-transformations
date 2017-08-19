@@ -1,0 +1,51 @@
+{
+  "id": "https://doi.org/10.7272/Q6D798BD",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.7272/Q6D798BD",
+      "identifier-source": "DataCite"
+    }],
+    "title": "NODDI-PLOS-ONE-Chang et al 2015",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Yishin",
+        "last-name": "Chang"
+      },
+      {
+        "first-name": "Pratik",
+        "last-name": "Mukherjee"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2015",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2015-03-02T16:57:56Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-17T00:13:23Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "University of California, San Francisco",
+    "description": "Diffusion tensor imaging (DTI) studies of human brain development have\n      consistently shown widespread, but nonlinearly increasing white matter\n      anisotropy through childhood, adolescence, and into adulthood. However,\n      despite its sensitivity to changes in tissue microstructure, DTI lacks the\n      specificity to disentangle distinct microstructural features of white and\n      gray matter. Neurite orientation dispersion and density imaging (NODDI) is\n      a recently proposed multi-compartment biophysical model of brain\n      microstructure that can estimate non-collinear properties of white matter,\n      such as neurite orientation dispersion (OD) and neurite density (ND). In\n      this study, we apply NODDI to 67 healthy controls aged 7-63 years to\n      investigate changes of OD and ND with brain maturation, with comparison to\n      standard DTI metrics. Using both region-of-interest and voxel-wise\n      analyses, we find that ND exhibits striking increases over the studied age\n      range following a logarithmic growth pattern, while OD rises following an\n      exponential growth pattern. This novel finding is consistent with\n      well-established age-related changes of FA over the lifespan that show\n      growth during childhood and adolescence, plateau during early adulthood,\n      and accelerating decay after the fourth decade of life. Our results\n      suggest that the rise of FA during the first two decades of life is\n      dominated by increasing ND, while the fall in FA after the fourth decade\n      is driven by the exponential rise of OD that overcomes the slower\n      increases of ND. Using partial least squares regression, we further\n      demonstrate that NODDI better predicts chronological age than DTI.\n      Finally, we show excellent test-retest reliability of NODDI metrics, with\n      coefficients of variation below 5% in all measured regions of interest.\n      Our results support the conclusion that NODDI reveals biologically\n      specific characteristics of brain development that are more closely linked\n      to the microstructural features of white matter than are the empirical\n      metrics provided by DTI."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "https://doi.org/10.6080/K06D5QXN",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6080/K06D5QXN",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Extracellular recordings in rat barrel cortex during a whisker based discrimination task of tactile stimuli that \n                varied in whisker deflection speed at short and fast time scales.",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Leah M.",
+        "last-name": "McGuire"
+      },
+      {
+        "first-name": "Gregory",
+        "last-name": "Telian"
+      },
+      {
+        "first-name": "Keven",
+        "last-name": "Laboy-Juárez"
+      },
+      {
+        "first-name": "Toshio",
+        "last-name": "Miyashita"
+      },
+      {
+        "first-name": "Daniel J.",
+        "last-name": "Lee"
+      },
+      {
+        "first-name": "Katherine A.",
+        "last-name": "Smith"
+      },
+      {
+        "first-name": "Daniel E.",
+        "last-name": "Feldman"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-07-25T20:14:14Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-07-25T21:06:58Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "CRCNS.org",
+    "description": "The data set was collected from extracellular spike recordings in whisker primary somatosensory cortex (S1) of\n               rats performing a whisker based discrimination task. Neural activity is described by the spike times of isolated\n               single and multiunit clusters obtained from spike sorting from moveable tetrode arrays. The whisker stimuli\n               consisted of rapid whisker impulse sequences.  Each sequence (120-150 ms total duration) contained 3 brief\n               impulses (16-26 ms each) with either Fast (F), Medium (M) or Slow (S) rise-fall velocity.  Sequences had FFF,\n               FMS, SMF or SSS order.  Thus, sequences varied in whisker deflection speed at short (5-20 ms) and long (150 ms)\n               time scales.  On each trial, one stimulus was delivered, and rats discriminated stimuli in a 2-alternative forced\n               choice task.  Hence, this data set serves as a resource to explore the time scales at which cortical neurons encode\n               whisker stimuli and how their spiking activity correlates to sensory perception. The structure contains trial\n               information and complete neurophysiology data from 5 rats, over a total of 80 recording sessions.  Neural\n               recordings are from layer 2/3 to 6 of S1, and include both fast-spiking and regular spiking single units\n               (identified separately).  These data are the basis for the following paper, which contains a detailed description\n               of the methods and results:  Short time-scale sensory coding in S1 during discrimination of whisker vibrotactile\n               sequences.   Leah M. McGuire, Gregory Telian, Keven Laboy-Juárez, Toshio Miyashita, Daniel J. Lee,\n               Katherine A. Smith, and Daniel E. Feldman.  PLoS Biology, 2016."
+  }
+}

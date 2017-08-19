@@ -1,0 +1,55 @@
+{
+  "id": "https://doi.org/10.6080/K0B56GNC",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6080/K0B56GNC",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Measurements of spikes in mouse VPM, barrel cortex L4 excitatory and PV neurons, as well as membrane \n                potential measurements in L4 excitatory and PV neurons, during whisker-based\n                object localization, as described in Yu / Gutnisky et al 2016.",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Diego",
+        "last-name": "Gutnisky"
+      },
+      {
+        "first-name": "Karel",
+        "last-name": "Svoboda"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-07-25T18:22:42Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-07-25T19:46:36Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "CRCNS.org",
+    "description": "(This data is not yet available but will be sometime during 2016)."
+  }
+}

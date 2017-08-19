@@ -1,0 +1,51 @@
+{
+  "id": "https://doi.org/10.17910/B7.272",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.17910/B7.272",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Pubertal development shapes perception of complex facial expressions",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Natalie V.",
+        "last-name": "Motta-Mena"
+      },
+      {
+        "first-name": "Kathryn Suzanne",
+        "last-name": "Scherf"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-10-30T07:01:41Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-13T07:01:37Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Databrary",
+    "description": "We previously hypothesized that pubertal development shapes the emergence of new components of face processing (Scherf et al., 2012; Garcia & Scherf, 2015). Here, we evaluate this hypothesis by investigating emerging perceptual sensitivity to complex versus basic facial expressions across pubertal development. We tested pre-pubescent children (6\u20138 years), age- and sex-matched adolescents in early and later stages of pubertal development (11\u201314 years), and sexually mature adults (18\u201324 years). Using a perceptual staircase procedure, participants made visual discriminations of both socially complex expressions (sexual interest, contempt) that are arguably relevant to emerging peer-oriented relationships of adolescence, and basic (happy, anger) expressions that are important even in early infancy. Only sensitivity to detect complex expressions improved as a function of pubertal development. The ability to perceive these expressions is adult-like by late puberty when adolescents become sexually mature. This pattern of results provides the first evidence that pubertal development specifically influences emerging affective components of face perception in adolescence."
+  }
+}

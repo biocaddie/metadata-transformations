@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.17910/B7.239",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.17910/B7.239",
+      "identifier-source": "DataCite"
+    }],
+    "title": "XX ICIS 2016 New Orleans Invited Program",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": null,
+      "last-name": null
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-06-19T07:01:42Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-13T07:01:43Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Databrary",
+    "description": "Invited program International Congress on Infant Studies.\n\nWEDNESDAY MAY 25, 2016\nPreconference: Best Practices in Infancy Research \nJessica Sommerville, Kiley Hamlin, Lisa Oakes, John Colombo, Michael Frank, Laura Namy, Lisa Freund, Marita Hopmann, Infancy/ICIS panel\n\nPreconference: Databrary & Datavyu\nKaren Adolph, Rick O. Gilmore\n\n\nTHURSDAY MAY 26, 2016\nPlenary Speaker: Birth of a Word\nDeb Roy\n\nInvited Speaker: Nutrition & Early Child Development: The First 1000 Days\nMaureen Black\n\nInvited Speaker: Human Amygdala: PFC Circuit Development & the Role of Caregiving\nNim Tottenham\n\nInvited Symposium: Development of Attentional Control in Infancy: Insights from Eye-Movements\nShannon Ross-Sheehy, Sam Wass, Susan Rivera\n\n\nFRIDAY MAY 27, 2016\nPresidential Address: Oh, Behave!\nKaren Adolph\n\nInvited Speaker: Ontogeny of Social Visual Engagement in Infants and Toddlers with Autism Spectrum Disorder\nAmi Klin\n\nViews by Two: Comparative & Developmental Methods in Social Cognition\nLaurie Santos, Felix Warneken\n\nViews by Two: Language Learning in Multiple Language Contexts\nJesse Snedeker, Catherine Tamis-LeMonda\n\nViews by Two: Learning from Multiple Inputs by Humans and Robots\nLinda Smith, Pierre-Yves Oudeyer\n\nDedicated Session: Carolyn Rovee-Collier: Her Legacy for Science, Practice, and Academic Leadership\nAndrew Meltzoff, Rachel Barr, Kimberly Boller, Harlene Hayne\n\nPresidential Symposium: Global Issues in Development\nSandra Waxman, Cristine Legare\n\n\nSATURDAY MAY 28, 2016\nInvited Speaker: Learning in Infancy: A Rational Response to Stability and Change\nDick Aslin\n\nInvited Speaker: Just Babies: The Origin of Good and Evil\nPaul Bloom\n\nViews by Two: Studying Autism with Technology \u2013 Sponsored by Positive Science\nJim Rehg, Brian Scassellati\n\nDedicated Session: In Honor of Gerald Turkewitz: His Scientific Legacy \u2013 Sponsored  by Johnson and Johnson Consumer Inc.\nDavid J. Lewkowicz, Robert Lickliter, David S. Moore, Janet Werker \n\nInvited Symposium: Methods & Meanings: New Insights into Infant Emotional Processes\nKoraly Perez-Edgar, Daniel Messinger\n\nAwards Ceremony"
+  }
+}

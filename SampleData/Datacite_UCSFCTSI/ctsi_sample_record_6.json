@@ -1,0 +1,51 @@
+{
+  "id": "https://doi.org/10.7272/Q6MS3QNX",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.7272/Q6MS3QNX",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Shock Index for Predicting Adverse Obstetric Hemorrhage Outcome",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Suellen",
+        "last-name": "Miller"
+      },
+      {
+        "first-name": "Alison",
+        "last-name": "El Ayadi"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-02-01T23:37:35Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-17T00:10:42Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "UC San Francisco",
+    "description": "This dataset includes clinical data for 958 women comprising\n      pre-intervention/control participants from four studies conducted by the\n      Safe Motherhood Program at the University of California, San Francisco\n      that evaluated the effectiveness of the non-pneumatic anti-shock garment\n      (NASG) to reduce adverse maternal outcomes for women with hypovolemic\n      shock secondary to severe obstetric hemorrhage: Egypt 2004 (n=158), Egypt\n      2006-2008 (n=430), Nigeria 2004-2007 (n=179) and Zambia and Zimbabwe\n      2007-2012 (n=191) and were not missing data on vital signs or death. Three\n      of these studies, based at the tertiary level, followed a\n      quasi-experimental design where a pre-intervention period was temporally\n      followed by an NASG intervention period, and one was a cluster-randomized\n      control trial (CRCT) of NASG application at the primary health clinic\n      (PHC) level, prior to transport to tertiary facility for definitive\n      treatment. The pre-intervention/control participants in all studies\n      received standardized evidence-based hemorrhage and shock management.\n      Women in all trials were eligible for study participation if they reached\n      a threshold estimated blood loss and one or more of the following: SBP\n      < 100 mm Hg and/or pulse > 100 BPM. In the tertiary facility studies\n      in Egypt and Nigeria, the threshold estimated blood loss was >750ml,\n      while in the Zambia and Zimbabwe PHC-enrolled study the threshold EBL was\n      >500 mL. The majority of facilities were under-staffed,\n      under-resourced, and characterized by long delays in obtaining definitive\n      care (surgery, blood transfusions). Initial study protocols, including\n      informed consent procedures, were approved by institutional review boards\n      at the University of California, San Francisco, and for each study,\n      respectively, by the following institutions: University of Zambia, Lusaka\n      Research Ethics Committee; Medical Research Council of Zimbabwe;\n      Department of Reproductive Health and Research of the World Health\n      Organization Ethics Review Committee; National Reproductive Health\n      Research Committee of the Nigerian Federal Ministry of Health, El Galaa\n      Maternity Teaching Hospital; Assiut University Women\u2019s Health Center;\n      Alexandria University Teaching Hospital; and Al Minya University Teaching\n      Hospital. All women provided written or thumbprint (if illiterate)\n      informed consent for study participation; all ethics committees provided a\n      waiver of consent from women who were unconscious or confused at time of\n      admission until they recovered or written consent was obtained from a\n      relative as proxy."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "https://doi.org/10.6080/K05D8PS8",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6080/K05D8PS8",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Simultaneous two-photon imaging and electrophysiological recordings from neurons\n                in the mouse retina and primary visual cortex using OGB and GCamp6",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "P",
+        "last-name": "Berens"
+      },
+      {
+        "first-name": "L.",
+        "last-name": "Theis"
+      },
+      {
+        "first-name": "E.",
+        "last-name": "Froudarakis"
+      },
+      {
+        "first-name": "J.",
+        "last-name": "Reimer"
+      },
+      {
+        "first-name": "M. R.",
+        "last-name": "Rosón"
+      },
+      {
+        "first-name": "T.",
+        "last-name": "Baden"
+      },
+      {
+        "first-name": "T.",
+        "last-name": "Euler"
+      },
+      {
+        "first-name": "A.S.",
+        "last-name": "Tolias"
+      },
+      {
+        "first-name": "M.",
+        "last-name": "Bethge"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-09-02T20:19:03Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-27T00:25:58Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "CRCNS.org",
+    "description": "This dataset provides data from N=50 neurons measured simultaneously using two-photon\n                calcium imaging and electrophysiology in the mouse retina and visual cortex using different\n                recording techniques, scanning rates and indicators. Importantly, all data has been acquired\n                under typical population recording conditions in anesthetized and awake animals. \n                This dataset has been assembled for benchmarking spike inference algorithms described in:\n                Theis, L., Berens, P., Froudarakis, E., Reimer, J., Rosón, M. R., Baden, T., Euler T.,\n                Tolias, A.S. and Bethge, M. (2016). Benchmarking spike rate inference in population\n                calcium imaging. Neuron, 90(3), 471-482. doi: http://dx.doi.org/10.1016/j.neuron.2016.04.014"
+  }
+}

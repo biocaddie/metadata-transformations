@@ -1,0 +1,59 @@
+{
+  "id": "https://doi.org/10.5524/100237",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.5524/100237",
+      "identifier-source": "DataCite"
+    }],
+    "title": "NeuroView: a customizable browser-base utility",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Anibal Solon",
+        "last-name": "Heinsfeld"
+      },
+      {
+        "first-name": "Alexandre Rosa",
+        "last-name": "Franco"
+      },
+      {
+        "first-name": "Augusto",
+        "last-name": "Buchweitz"
+      },
+      {
+        "first-name": "Felipe",
+        "last-name": "Meneguzzi"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-10-19T06:49:54Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-10-24T08:35:59Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "GigaScience Database",
+    "description": "The amount of data acquired for an fMRI experiment dimension wise is very large and a challenge for neuroscience studies, in particular for data analysis and visualization. Diverse tools have been developed to confront these challenges, but their analytical results can differ. Addressing those differences is not facilitated by existing tools. The goal of this Brainhack project was to build a flexible utility to analyze fMRI experimental results. This utility is called NeuroView. NeuroView allows researchers to extend the visualizations to their context: every visual behavior or interactions of this tool is customizable. We implemented NeuroView to work in Web-browsers, using JavaScript and the libraries D3.js and jQuery.We create three tools using NeuroView to best analyze our research results: CC200 search, SVM coefficients and Connectivity matrix.This is an initial version of a browser-based neuroimage viewer. The main focus is to develop an embeddable viewer, instead of a standalone desktop software. By doing so, research results can be presented on interactive views, enriching their analysis and interpretation. In our case study, NeuroView facilitates quick evaluation of features for machine learning algorithms, and promotes discussion about them, since the results will inform researchers about their data.In future work, we aim to directly load Nifti images at client-side and support some AFNI features, such as voxel clustering."
+  }
+}

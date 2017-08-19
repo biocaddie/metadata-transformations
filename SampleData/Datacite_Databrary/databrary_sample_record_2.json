@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.17910/B7.273",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.17910/B7.273",
+      "identifier-source": "DataCite"
+    }],
+    "title": "2016 Cognitive Science Workshop: Active Learning",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Elizabeth",
+      "last-name": "Bonawitz"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-10-23T07:01:43Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-13T07:01:56Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Databrary",
+    "description": "Talks and slides from a full day workshop on \"Active Learning\" at the 2016 Cognitive Science Society. In this workshop, we invite speakers from a variety of approaches to broadly inform our understanding of active learning, including cognitive development, education, and computational modeling. We examine what -active- means in active learning, and include talks on the cognitive mechanisms that might support active learning including attention, hypothesis-generation, explanation, pretend play, and question asking. We also explore how -efficient- learners are when planning and executing actions in the service of learning, and whether there are developmental or socio-economic differences in active learning. The workshop is divided into three main themes, with speakers from education, modeling, and developmental backgrounds in each. After each set of talks, we schedule ample time for discussion, encouraging participants to fully engage with the speakers. The workshop concludes with a final broad discussion on open questions and the future of active learning research."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.6072/H0.MP.A004234.01",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6072/H0.MP.A004234.01",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Complement C2",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Ashok Reddy",
+      "last-name": "Dinasarapu"
+    }],
+    "dates": [
+      {
+        "date": "2013",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2013-12-10T20:44:32Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-06-17T17:14:30Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "UCSD Signaling Gateway Molecule Pages",
+    "description": ""
+  }
+}

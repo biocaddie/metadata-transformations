@@ -1,0 +1,51 @@
+{
+  "id": "https://doi.org/10.7272/Q68G8HMP",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.7272/Q68G8HMP",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Media coverage of nonsmoker only hiring policies",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Ruth E.",
+        "last-name": "Malone"
+      },
+      {
+        "first-name": "Patricia A.",
+        "last-name": "McDaniel"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2015",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2015-06-23T22:13:18Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-17T00:12:59Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "University of California, San Francisco",
+    "description": "This SPSS dataset contains 1,159 records (from 1995-2013) representing the\n      content of media items published in the US concerning employers who chose\n      to hire only nonsmokers. The Excel spreadsheet contains a list of the\n      titles, authors, publication sources, and publication dates of all the\n      media items in the SPSS database."
+  }
+}

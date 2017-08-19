@@ -1,0 +1,143 @@
+{
+  "id": "https://doi.org/10.5524/100253",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.5524/100253",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Supporting data for \"Shotgun Metagenomics of 250 Adult Twins Reveals Genetic and Environmental Impacts on the Gut Microbiome\"",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Qiang",
+        "last-name": "Feng"
+      },
+      {
+        "first-name": "Zhou",
+        "last-name": "Lan"
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Kirsten J",
+        "last-name": "Ward"
+      },
+      {
+        "first-name": "Matthew A",
+        "last-name": "Jackson"
+      },
+      {
+        "first-name": "Yan",
+        "last-name": "Xia"
+      },
+      {
+        "first-name": "Xu",
+        "last-name": "Chen"
+      },
+      {
+        "first-name": "Bing",
+        "last-name": "Chen"
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Fei",
+        "last-name": "Li"
+      },
+      {
+        "first-name": "Xun",
+        "last-name": "Xu"
+      },
+      {
+        "first-name": "Jumana Yousuf",
+        "last-name": "Al-Aama"
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Jian",
+        "last-name": "Wang"
+      },
+      {
+        "first-name": "Karsten",
+        "last-name": "Kristiansen"
+      },
+      {
+        "first-name": "Jun",
+        "last-name": "Wang"
+      },
+      {
+        "first-name": "Claire J",
+        "last-name": "Steves"
+      },
+      {
+        "first-name": "Jordana T",
+        "last-name": "Bell"
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Timothy D",
+        "last-name": "Spector"
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-11-02T03:39:53Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-02T03:39:53Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "GigaScience",
+    "description": "The first large cohort of shotgun sequenced dataset for the gut microbiome in twins, including 250 adult twins in the TwinsUK registry, leading to an updated reference gene catalog of 11.4 million genes. Heritability was identified in microbial taxa and potential functions, and sharing of microbial single-nucleotide polymorphisms (SNPs) between twins were demonstrated, all underscoring the value of twins for the understanding of the genetic and environmental underpinnings of the gut microbiome."
+  }
+}

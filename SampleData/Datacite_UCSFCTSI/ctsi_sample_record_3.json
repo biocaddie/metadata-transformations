@@ -1,0 +1,67 @@
+{
+  "id": "https://doi.org/10.7272/Q63R0QR4",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.7272/Q63R0QR4",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Mentor Assessment Instrument validation study",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Michi",
+        "last-name": "Yukawa"
+      },
+      {
+        "first-name": "Stuart",
+        "last-name": "Gansky"
+      },
+      {
+        "first-name": "Patricia",
+        "last-name": "O'Sullivan"
+      },
+      {
+        "first-name": "Mitchell",
+        "last-name": "Feldman"
+      },
+      {
+        "first-name": "Holly",
+        "last-name": "Nishimura"
+      },
+      {
+        "first-name": "Arianne",
+        "last-name": "Teherani"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-08-19T00:49:38Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-17T00:10:06Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "UC San Francisco",
+    "description": "Prospective survey study"
+  }
+}

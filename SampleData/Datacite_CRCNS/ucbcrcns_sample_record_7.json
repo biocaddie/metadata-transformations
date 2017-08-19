@@ -1,0 +1,79 @@
+{
+  "id": "https://doi.org/10.6080/K0XW4GQ1",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6080/K0XW4GQ1",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Recordings of electrical potentials in the in vivo human brain induced by\n                transcranial electrical stimulation",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Y.",
+        "last-name": "Huang"
+      },
+      {
+        "first-name": "A.",
+        "last-name": "Liu"
+      },
+      {
+        "first-name": "B.",
+        "last-name": "Lafon"
+      },
+      {
+        "first-name": "D.",
+        "last-name": "Friedman"
+      },
+      {
+        "first-name": "M.",
+        "last-name": "Dayan"
+      },
+      {
+        "first-name": "X.",
+        "last-name": "Wang"
+      },
+      {
+        "first-name": "M.",
+        "last-name": "Bikson"
+      },
+      {
+        "first-name": "O.",
+        "last-name": "Devinsky"
+      },
+      {
+        "first-name": "L.",
+        "last-name": "Parra"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-07-26T23:32:43Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-07-27T00:14:24Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "CRCNS.org",
+    "description": "The data set contains the voltage magnitudes at intracranial electrodes induced\n                by transcranial electrical stimulation (tES). It is derived from the in vivo electrocorticography\n                (ECoG) recordings of electrical potential on human subjects when weak alternating current (smaller\n                than 2 mA) is applied transcranially from the scalp surface. 10 individuals are recorded with almost\n                1400 intracranial electrodes in total covering most cortical regions and some deep brain areas.\n                They have been used to calibrate and validate our tES models which may be published in the manuscripts\n                referenced in the data set description.  We hope these data can also be used in the future to\n                facilitate the validation of newly developed modeling approaches for the study of tES.\n                Also the magnetic resonance image (MRI) of each subject is included.  Note that the raw ECoG recordings\n                are not included in this data set. The voltage values in this data set are estimated by fitting a\n                sinusoid to the recordings at each intracranial electrode. They are therefore the electrical potentials\n                in the brain induced by the stimulation, not the spontaneous brain activities."
+  }
+}

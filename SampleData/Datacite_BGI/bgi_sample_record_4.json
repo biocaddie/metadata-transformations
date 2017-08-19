@@ -1,0 +1,51 @@
+{
+  "id": "https://doi.org/10.5524/100238",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.5524/100238",
+      "identifier-source": "DataCite"
+    }],
+    "title": "DIPY: Brain tissue classification",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Julio E",
+        "last-name": "Villalon-Reina"
+      },
+      {
+        "first-name": "Eleftherios",
+        "last-name": "Garyfallidis"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-10-19T06:50:27Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-10-24T08:36:18Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "GigaScience Database",
+    "description": "To implement an image segmentation algorithm in DIPY  for classifying the different tissue types of the brain using structural T1 images and diffusion MRI images (dMRI) as well as to incorporate tissue probability maps for Anatomically constrained tractography (ACT). DMRI is used for creating visual representations of the structural connectivity of the brain, also known as tractography. Research has shown that using a tissue classifier can be of great benefit to create more accurate representations of the underlying connections.We used a Bayesian approach for the segmentation by applying the Maximum-A-Posteriori (MAP) procedure. The prior probability was modeled with Markov Random Fields (MRF). The MRF distribution was modeled as a Gibbs distribution. We used the Expectation Maximization (EM) algorithm to update the tissue labels at each site and to update the parameters of the log-likelihood in all iterations.We developed a segmentation algorithm based on a Bayesian framework by using the MAP-MRF approach and EM. The algorithm was tested on T1-weighted images as well as on dMRI derived maps, such as the Diffusion Power Maps (DPM)  The tissue specific probability maps from both the T1 and the DPMs were then used for ACT."
+  }
+}

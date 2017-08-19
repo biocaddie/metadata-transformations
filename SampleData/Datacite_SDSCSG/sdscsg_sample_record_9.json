@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.6072/H0.MP.A004263.01",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6072/H0.MP.A004263.01",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Integrin beta-2",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Ashok Reddy",
+      "last-name": "Dinasarapu"
+    }],
+    "dates": [
+      {
+        "date": "2013",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2013-10-31T20:05:14Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-06-17T17:14:35Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "UCSD Signaling Gateway Molecule Pages",
+    "description": ""
+  }
+}

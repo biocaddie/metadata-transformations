@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.6072/H0RN35SK",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.6072/H0RN35SK",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Tyrosine-protein phosphatase non-receptor type 2",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Vijay",
+      "last-name": "Gupta"
+    }],
+    "dates": [
+      {
+        "date": "2014",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2014-05-15T23:32:57Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-06-17T17:14:51Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "UCSD Molecule Pages",
+    "description": ""
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "https://doi.org/10.17037/DATA.115",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.17037/DATA.115",
+      "identifier-source": "DataCite"
+    }],
+    "title": "IDEAS project - Private sector health data sharing study in Uttar Pradesh",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Meenakshi",
+        "last-name": "Gautham"
+      },
+      {
+        "first-name": "Manish",
+        "last-name": "Subharwal"
+      },
+      {
+        "first-name": "Sanjay",
+        "last-name": "Gupta"
+      },
+      {
+        "first-name": "Neil",
+        "last-name": "Spicer"
+      },
+      {
+        "first-name": "Nirmala",
+        "last-name": "Mishra"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-09-20T17:41:06Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-20T17:41:06Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "London School of Hygiene & Tropical Medicine",
+    "description": null
+  }
+}

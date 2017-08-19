@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.17910/B7.252",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.17910/B7.252",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Infant-specific gaze patterns in response to radial optic flow",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Nobu",
+      "last-name": "Shirai"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-07-17T07:01:39Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-13T07:01:54Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Databrary",
+    "description": "The focus of a radial optic flow is a valid visual cue used to perceive and control the heading direction of animals. Gaze patterns in response to the focus of radial optic flow were measured in human infants (N = 100, 4\u201318 months) and in adults (N = 20) using an eye-tracking technique. Overall, although the adults showed an advantage in detecting the focus of an expansion flow (representing forward locomotion) against that of a contraction flow (representing backward locomotion), infants younger than 1 year showed an advantage in detecting the focus of a contraction flow. Infants aged between 13 and 18 months showed no significant advantage in detecting the focus in either the expansion or in the contraction flow. The uniqueness of the gaze patterns in response to the focus of radial optic flow in infants shows that the visual information necessary to perceive heading direction potentially differs between younger and mature individuals."
+  }
+}

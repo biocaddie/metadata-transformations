@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.17910/B7.270",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.17910/B7.270",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Emergence of the ability to perceive dynamic events from still pictures in human infants",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Nobu",
+      "last-name": "Shirai"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-10-23T07:01:28Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-11-13T07:01:56Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Databrary",
+    "description": "The ability to understand a visual scene depicted in a still image is among the abilities shared by all human beings. The aim of the present study was to examine when human infants acquire the ability to perceive the dynamic events depicted in still images (implied motion perception). To this end, we tested whether 4- and 5-month-old infants shifted their gaze toward the direction cued by a dynamic running action depicted in a still figure of a person. Results indicated that the 5- but not the 4-month-olds showed a significant gaze shift toward the direction implied by the posture of the runner (Experiments 1, 2, and 3b). Moreover, the older infants showed no significant gaze shift toward the direction cued by control stimuli, which depicted a figure in a non-dynamic standing posture (Experiment 1), an inverted running figure (Experiment 2), and some of the body parts of a running figure (Experiment 3a). These results suggest that only the older infants responded in the direction of the implied running action of the still figure; thus, implied motion perception emerges around 5 months of age in human infants."
+  }
+}
