@@ -1,0 +1,59 @@
+{
+  "id": "https://doi.org/10.5156/DEAS.2002.M.003",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.5156/DEAS.2002.M.003",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Scientific Use File German Ageing Survey (SUF DEAS) 2002, Version 3.0",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Andreas",
+        "last-name": "Motel-Klingebiel"
+      },
+      {
+        "first-name": "Clemens",
+        "last-name": "Tesch-Römer"
+      },
+      {
+        "first-name": "Susanne",
+        "last-name": "Wurm"
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-09-22T14:03:37Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-23T23:30:07Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "DZA  The German Centre of Gerontology",
+    "description": "<p>Der Deutsche Alterssurvey (DEAS) ist eine Langzeitstudie zum Wandel der Lebenssituationen und Alternsverläufe von Menschen, die sich in der zweiten Lebenshälfte befinden. Grundlage sind bundesweit repräsentative Befragungen im Quer- und Längsschnitt von jeweils mehreren tausend Teilnehmern im Alter ab 40 Jahren.<br /> <br /> In den Erhebungsjahren 1996, 2002, 2008 und 2014 wurde je eine neue Basisstichprobe gezogen und in den Jahren 2002, 2008, 2011 und 2014 wurden frühere Teilnehmer erneut interviewt (Panel).<br /> <br /> Im Jahr 2002 wurden (wie in den vorangegangenen Jahren) folgende Themen erhoben:<\/p>\n<ul>\n<li>       Beruflicher Werdegang, Arbeit und Ruhestand<\/li>\n<li>       Außerberufliche Tätigkeiten und ehrenamtliches Engagement<\/li>\n<li>       Partnerschaft, Familie und Generationenbeziehungen<\/li>\n<li>       Haushalt und soziales Netzwerk<\/li>\n<li>       Wohnen und Mobilität<\/li>\n<li>       Ökonomische Lage und Vorsorge<\/li>\n<li>       Soziale und finanzielle Unterstützung<\/li>\n<li>       Lebensqualität und Wohlbefinden<\/li>\n<li>       Gesundheit und Gesundheitsverhalten<\/li>\n<li>       Hilfe- und Pflegebedürftigkeit<\/li>\n<li>       Einstellungen, Normen, Werte und Altersbilder<\/li>\n<\/ul>"
+  }
+}

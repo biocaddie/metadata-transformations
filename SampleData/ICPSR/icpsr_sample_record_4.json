@@ -1,0 +1,4267 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "4"},
+      "datestamp": {"_$": "2010-05-06T01:01:01Z"},
+      "repository": {"_$": "Inter-University Consortium for Political and Social Research"},
+      "setName": {},
+      "fetchURL": {"_$": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?verb=ListRecords&metadataPrefix=oai_ddi25_citations"},
+      "recNum": {"_$": "3"}
+    },
+    "metadata": {"codeBook": {
+      "@schemaLocation": "ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd",
+      "@version": "2.5",
+      "docDscr": {"citation": {
+        "titlStmt": {
+          "titl": {"_$": "Metadata record for United States Congressional Roll Call Voting Records, 1789-1998"},
+          "IDNo": {
+            "@agency": "ICPSR",
+            "_$": "4"
+          }
+        },
+        "prodStmt": {
+          "producer": {
+            "@abbr": "ICPSR",
+            "_$": "Inter-university Consortium for Political and Social Research"
+          },
+          "copyright": {"_$": "ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License."}
+        },
+        "verStmt": {"version": {
+          "@date": "2016-04-13",
+          "_$": "2016-04-13"
+        }},
+        "holdings": {"@URI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?metadataPrefix=oai_ddi25&verb=GetRecord&identifier=4"}
+      }},
+      "stdyDscr": {
+        "citation": {
+          "titlStmt": {
+            "titl": {"_$": "United States Congressional Roll Call Voting Records, 1789-1998"},
+            "IDNo": [
+              {
+                "@agency": "ICPSR",
+                "_$": "4"
+              },
+              {
+                "@agency": "dara",
+                "_$": "10.3886/ICPSR00004.v3"
+              }
+            ]
+          },
+          "rspStmt": {"AuthEnty": [
+            {"_$": "Inter-university Consortium for Political and Social Research"},
+            {"_$": "Congressional Quarterly, Inc."}
+          ]},
+          "prodStmt": {"producer": {"_$": "Please see full citation."}},
+          "distStmt": {
+            "distrbtr": {"_$": "Ann Arbor, MI: Inter-university Consortium for Political and Social Research"},
+            "distDate": {
+              "@date": "1984-06-29",
+              "_$": "1984-06-29"
+            }
+          },
+          "serStmt": {"serName": {
+            "@ID": "Series159",
+            "_$": "United States Congressional Roll Call Voting Records Series"
+          }},
+          "verStmt": [
+            {
+              "version": {
+                "@date": "2010-05-06",
+                "_$": "2010-05-06"
+              },
+              "notes": {"_$": "Data for the 105th Congress, House, and Senate (Parts 209-210), have been added to this collection, along with the standard ICPSR full product suite of files."}
+            },
+            {
+              "version": {
+                "@date": "2004-06-17",
+                "_$": "2004-06-17"
+              },
+              "notes": {"_$": "Variables were added to Part 110, Senate (55th Congress), and data within certain variables were corrected. SAS and SPSS data definition statements and the codebook have been modified to reflect these changes."}
+            },
+            {
+              "version": {
+                "@date": "2001-08-24",
+                "_$": "2001-08-24"
+              },
+              "notes": {"_$": "Logical record length data for the 8th session of the Senate, Part 16, is being made available along with SAS and SPSS data definition statements. The codebook has been modified to reflect these changes."}
+            },
+            {
+              "version": {
+                "@date": "1998-12-17",
+                "_$": "1998-12-17"
+              },
+              "notes": {"_$": "Data for the 104th Congress, House and Senate (Parts 207-208), have been added to this collection, along with corresponding machine-readable documentation and SAS and SPSS data definition statements."}
+            },
+            {
+              "version": {
+                "@date": "1997-02-24",
+                "_$": "1997-02-24"
+              },
+              "notes": {"_$": "Data for the 102nd and 103rd Congresses, House, and Senate (Parts 203-206) have been added to this collection, along with corresponding machine-readable documentation and SAS and SPSS data definition statements."}
+            }
+          ],
+          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research, and Congressional Quarterly, Inc. United States Congressional Roll Call Voting Records, 1789-1998. ICPSR00004-v3. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2010-05-06. http://doi.org/10.3886/ICPSR00004.v3"},
+          "holdings": {"_$": "http://doi.org/10.3886/ICPSR00004.v3"}
+        },
+        "stdyInfo": {
+          "subject": {
+            "keyword": [
+              {
+                "@vocab": "thesaurus",
+                "_$": "eighteenth century"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "historical data"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "legislators"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "nineteenth century"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "political history"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "roll call data"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "roll call voting records"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "twentieth century"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "United States Congress"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "United States House of Representatives"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "United States Senate"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "voting behavior"
+              }
+            ],
+            "topcClas": [
+              {
+                "@source": "archive",
+                "@vocab": "ICPSR subject classifications",
+                "_$": "ICPSR XIII.A.1. Legislative and Deliberative Bodies, Historical and Contemporary Roll Call Voting Records, United States"
+              },
+              {
+                "@source": "archive",
+                "@vocab": "TPDRC subject classifications",
+                "_$": "TPDRC I. Terrorism"
+              }
+            ]
+          },
+          "abstract": {"_$": "Roll call voting records for both chambers of the United States Congress through the second session of the 105th Congress are presented in this data collection. Each data file in the collection contains information for one chamber of a single Congress. The units of analysis in each part are the individual members of Congress. Each record contains a member's voting action on every roll call vote taken during that Congress, along with variables that identify the member (e.g., name, party, state, district, uniform ICPSR member number, and most recent means of attaining office). In addition, the codebook provides descriptive information for each roll call, including the date of the vote, outcome in terms of nays and yeas, name of initiator, the relevant bill or resolution number, and a synopsis of the issue."},
+          "sumDscr": {
+            "timePrd": [
+              {
+                "@cycle": "P1",
+                "@event": "start",
+                "@date": "1789",
+                "_$": "1789"
+              },
+              {
+                "@cycle": "P1",
+                "@event": "end",
+                "@date": "1998",
+                "_$": "1998"
+              }
+            ],
+            "nation": {"_$": "Please see geographic coverage."},
+            "universe": {"_$": "All roll call votes in the United States Congress."},
+            "dataKind": {"_$": "rollcall"}
+          }
+        },
+        "method": {
+          "dataColl": {
+            "sources": {"dataSrc": {"_$": "Materials for the House from the 1st through the 75th Congresses and for the Senate from the 1st through the 73rd Congresses were keypunched from the Congressional Vote Analysis Collection originally prepared by Clifford Lord under Works Progress Administration auspices. Data for the Senate from the 74th through the 78th Congresses were supplied by Richard W. Kirkendall, University of Missouri. Data for the House from the 76th through the 78th Congresses, and for both chambers of the 79th Congress through the 101st Congresses, were prepared by ICPSR staff utilizing the DAILY CONGRESSIONAL RECORD. Data for both chambers from the 102nd through the 105th Congresses were prepared by Congressional Quarterly, Inc."}},
+            "cleanOps": {
+              "p": {"_$": "ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:"},
+              "list": {
+                "@type": "bulleted",
+                "itm": {"_$": "Checked for undocumented or out-of-range codes."}
+              }
+            }
+          },
+          "notes": {"_$": "The technical format has been standardized for all Congresses. Each file contains data for one chamber of a single Congress."}
+        },
+        "dataAccs": {
+          "setAvail": {
+            "@media": "online",
+            "accsPlac": {
+              "@URI": "http://doi.org/10.3886/ICPSR00004.v3",
+              "_$": "Ann Arbor, Mi.: Inter-university Consortium for Political and Social Research"
+            }
+          },
+          "useStmt": {
+            "conditions": {"p": [
+              {"_$": "Terms of use are available at http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/4/terms"},
+              {"_$": "AVAILABLE. This study is freely available to ICPSR member institutions."}
+            ]},
+            "disclaimer": {"_$": "The original collector of the data, ICPSR, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses."}
+          }
+        },
+        "othrStdyMat": {"relPubl": [
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Abortion: Evidence of an Issue Evolution"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1169"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Adams, Greg D."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Adams, Greg D. \"Abortion: Evidence of an Issue Evolution.\" American Journal of Political Science 41.3 (1997): 718-737."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The causal impact of education on economic growth: Evidence from the United States"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "113264"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Aghion, Philippe"},
+              {"_$": "Boustan, Leah"},
+              {"_$": "Hoxby, Caroline"},
+              {"_$": "Vandenussche, Jerome"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Harvard University"},
+              "prodDate": {
+                "@date": "2009",
+                "_$": "Mar 2009"
+              },
+              "prodPlac": {"_$": "Cambridge, MA"}
+            },
+            "biblCit": {"_$": "Aghion, Philippe, Boustan, Leah, Hoxby, Caroline, and Jerome Vandenussche. The causal impact of education on economic growth: Evidence from the United States. Cambridge, MA: Harvard University, 2009."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The governance and performance of universities: Evidence from Europe and the U.S."},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "113263"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Aghion, Philippe"},
+              {"_$": "Dewatripont, Mathias"},
+              {"_$": "Hoxby, Caroline"},
+              {"_$": "Mas-Colell, Andreu"},
+              {"_$": "Sapir, Andre"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Aghion, Philippe, Dewatripont, Mathias, Hoxby, Caroline, Mas-Colell, Andreu, and Andre Sapir. \"The governance and performance of universities: Evidence from Europe and the U.S..\" Economic Policy 25.61 (2010): 7-59."},
+            "holdings": {"_$": "http://doi.org/10.1111/j.1468-0327.2009.00238.x"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Antifederalists, the first Congress, and the first parties"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1443"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Aldrich, John H."},
+              {"_$": "Grant, Ruth W."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Aldrich, John H., and Ruth W. Grant. \"The Antifederalists, the first Congress, and the first parties.\" Journal of Politics 55.2 (1993): 295-326."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Poindexter of Washington: A Study of Progressive Politics"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "1507"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Allen, Howard W."}},
+            "prodStmt": {
+              "producer": {"_$": "Southern Illinois University Press"},
+              "prodPlac": {"_$": "Carbondale, IL"}
+            },
+            "biblCit": {"_$": "Allen, Howard W. Poindexter of Washington: A Study of Progressive Politics. Carbondale, IL: Southern Illinois University Press, 1981.Allen, Howard W. Poindexter of Washington: A Study of Progressive Politics. Carbondale, IL: Southern Illinois University Press, 1981."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Progressive reform and the political system"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1509"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0030-8803"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Allen, Howard W."},
+              {"_$": "Clubb, Jerome M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Allen, Howard W., and Jerome M. Clubb. \"Progressive reform and the political system.\" Pacific Northwest Quarterly 65.3 (1974): 130-145."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congress in Crisis: Changes in Personnel and the Legislative Agenda in the U.S. Congress in the 1890s"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1510"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Allen, Howard W."},
+              {"_$": "Slagter, Robert"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Allen, Howard W., and Robert Slagter. \"Congress in Crisis: Changes in Personnel and the Legislative Agenda in the U.S. Congress in the 1890s.\" Social Science History 16.3 (1992): 401-420."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Wage wars: Institutional politics, WPA wages, and the struggle for U.S. social policy"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1691"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Amenta, Edwin"},
+              {"_$": "Halfmann, Drew"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Amenta, Edwin, and Drew Halfmann. \"Wage wars: Institutional politics, WPA wages, and the struggle for U.S. social policy.\" American Sociological Review 65.4 (2000): 506-528."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Variability in the unidimensionality of legislative voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1795"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Anderson, Lee F."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Anderson, Lee F. \"Variability in the unidimensionality of legislative voting.\" Journal of Politics 26.3 (1964): 568-585."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Voting Change in Congress: Some Dynamic Perspectives on an Evolutionary Process"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "2358"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Asher, Herbert B."},
+              {"_$": "Weisberg, Herbert F."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Asher, Herbert B., and Herbert F. Weisberg. \"Voting Change in Congress: Some Dynamic Perspectives on an Evolutionary Process.\" American Journal of Political Science 22.2 (1978): 391-425."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The effect of recruitment upon metropolitan voting cohesion in the House of Representatives: A research note"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "2411"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Atkins, Burton M."},
+              {"_$": "Baer, Michael A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Atkins, Burton M., and Michael A. Baer. \"The effect of recruitment upon metropolitan voting cohesion in the House of Representatives: A research note.\" Journal of Politics 32.1 (1970): 177-180."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Political Facts of the United States Since 1789"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "2461"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Austin, Erik W."}},
+            "prodStmt": {
+              "producer": {"_$": "Columbia University Press"},
+              "prodPlac": {"_$": "New York, NY"}
+            },
+            "biblCit": {"_$": "Austin, Erik W. Political Facts of the United States Since 1789. New York, NY: Columbia University Press, 1986.Austin, Erik W. Political Facts of the United States Since 1789. New York, NY: Columbia University Press, 1986."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "How Johnson fought the war on poverty: The economics and politics of funding at the office of economic opportunity"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "113261"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Bailey, Martha J."},
+              {"_$": "Duquette, Nicolas J."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "University of Michigan"},
+              "prodDate": {
+                "@date": "2013",
+                "_$": "2013"
+              },
+              "prodPlac": {"_$": "Ann Arbor, MI"}
+            },
+            "biblCit": {"_$": "Bailey, Martha J., and Nicolas J. Duquette. How Johnson fought the war on poverty: The economics and politics of funding at the office of economic opportunity. Ann Arbor, MI: University of Michigan, 2013."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Southern Democrats in the U.S. House of Representatives"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "3402"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Berard, Stanley P."}},
+            "prodStmt": {
+              "producer": {"_$": "University of Oklahoma Press"},
+              "prodPlac": {"_$": "Norman, OK"}
+            },
+            "biblCit": {"_$": "Berard, Stanley P. Southern Democrats in the U.S. House of Representatives. Norman, OK: University of Oklahoma Press, 2001."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The ABM issue in the Senate, 1968-1970: The importance of ideology"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "3514"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Bernstein, Robert A."},
+              {"_$": "Anthony, William W."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Bernstein, Robert A., and William W. Anthony. \"The ABM issue in the Senate, 1968-1970: The importance of ideology.\" American Political Science Review 68.3 (1974): 1198-1206."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Vital Statistics on Congress 1980"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "3588"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Bibby, John F."},
+              {"_$": "Mann, Thomas E."},
+              {"_$": "Ornstein, Norman J."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "American Enterprise Institute"},
+              "prodPlac": {"_$": "Washington, DC"}
+            },
+            "biblCit": {"_$": "Bibby, John F., Mann, Thomas E., and Norman J. Ornstein. Vital Statistics on Congress 1980. Washington, DC: American Enterprise Institute, 1980."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Partisanship and procedural choice: Institutional change in the early Congress, 1789-1823"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "3636"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Binder, Sarah A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Binder, Sarah A. \"Partisanship and procedural choice: Institutional change in the early Congress, 1789-1823.\" Journal of Politics 57.4 (1995): 1093-1118."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The partisan basis of procedural choice: Allocating parliamentary rights in the House, 1789-1990"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "3635"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Binder, Sarah A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Binder, Sarah A. \"The partisan basis of procedural choice: Allocating parliamentary rights in the House, 1789-1990.\" American Political Science Review 90.1 (1996): 8 -."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Racial composition of congressional districts and support for federal voting rights in the American South"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "3715"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4941"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Black, Merle"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Black, Merle. \"Racial composition of congressional districts and support for federal voting rights in the American South.\" Social Science Quarterly 59.3 (1978): 435-450."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The closed rule and the paradox of voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4089"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Blydenburgh, John C."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Blydenburgh, John C. \"The closed rule and the paradox of voting.\" Journal of Politics 33.1 (1971): 57-71."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The radical voting dimension in the U.S. Senate during the Civil War"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4147"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Bogue, Allan G."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Bogue, Allan G. \"The radical voting dimension in the U.S. Senate during the Civil War.\" Journal of Interdisciplinary History 3.3 (1973): 449-474."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Of Mess and Men: The Boardinghouse and Congressional Voting, 1821-1842"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4149"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Bogue, Allan G."},
+              {"_$": "Marlaire, Mark Paul"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Bogue, Allan G., and Mark Paul Marlaire. \"Of Mess and Men: The Boardinghouse and Congressional Voting, 1821-1842.\" American Journal of Political Science 17.2 (1975): 207-230."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Cue-taking within state party delegations in the U.S. House of Representatives"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4302"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Born, Richard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Born, Richard. \"Cue-taking within state party delegations in the U.S. House of Representatives.\" Journal of Politics 38.1 (1976): 71-94."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congressional leadership and party voting in the mcKinley era: A comparison to the modern House"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4540"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0026-3397"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Brady, David W."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Brady, David W. \"Congressional leadership and party voting in the mcKinley era: A comparison to the modern House.\" Midwest Journal of Political Science 16.3 (1972): 439-459."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party voting in the U.S. House of Representatives, 1890-1910: Elements of a responsible party system"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4541"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Brady, David W."},
+              {"_$": "Althoff, Phillip"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Brady, David W., and Phillip Althoff. \"Party voting in the U.S. House of Representatives, 1890-1910: Elements of a responsible party system.\" Journal of Politics 36.3 (1974): 753-775."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "House lawyers and support for the Supreme Court"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4542"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Brady, David W."},
+              {"_$": "Schmidhauser, John"},
+              {"_$": "Berh, Larry L."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Brady, David W., Schmidhauser, John, and Larry L. Berh. \"House lawyers and support for the Supreme Court.\" Journal of Politics 35.3 (1973): 723-729."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congressional party realignment and transformations of public policy in three realignment eras"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4543"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Brady, David"},
+              {"_$": "Stewart, Joseph, Jr."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Brady, David, and Joseph, Jr. Stewart. \"Congressional party realignment and transformations of public policy in three realignment eras.\" American Journal of Political Science 26.2 (1982): 333-360."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Preferences, partisanship, and whip activity in the U.S. House of Representatives"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "113270"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Burden, Barry C."},
+              {"_$": "Frisby, Tammy M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Burden, Barry C., and Tammy M. Frisby. \"Preferences, partisanship, and whip activity in the U.S. House of Representatives.\" Legislative Studies Quarterly 29.4 (2004): 569-590."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Insulation and responsiveness in congressional elections"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "5308"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0032-3195"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Burnham, Walter Dean"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Burnham, Walter Dean. \"Insulation and responsiveness in congressional elections.\" Political Science Quarterly 90.3 (1975): 411-435.Burnham, Walter Dean. \"Insulation and responsiveness in congressional elections.\" Political Science Quarterly 90.3 (1975): 411-435."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Strategy and sophisticated voting in the Senate"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "5502"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Calvert, Randall L."},
+              {"_$": "Fenno, Richard F., Jr."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Calvert, Randall L., and Richard F., Jr. Fenno. \"Strategy and sophisticated voting in the Senate.\" Journal of Politics 56.2 (1994): 349-376."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Senate voting on Supreme Court nominees: A neoinstitutional model"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "5511"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Cameron, Charles M."},
+              {"_$": "Cover, Albert D."},
+              {"_$": "Segal, Jeffrey A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Cameron, Charles M., Cover, Albert D., and Jeffrey A. Segal. \"Senate voting on Supreme Court nominees: A neoinstitutional model.\" American Political Science Review 84.2 (1990): 525-534."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The yeas and the nays: Key congressional decisions, 1774-1945"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "5945"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Castel, Alkbert"},
+              {"_$": "Gibson, Scott L."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "New Issues Press"},
+              "prodPlac": {"_$": "Kalamazoo, MI"}
+            },
+            "biblCit": {"_$": "Castel, Alkbert, and Scott L. Gibson. The yeas and the nays: Key congressional decisions, 1774-1945. Kalamazoo, MI: New Issues Press, 1975."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "How Congressmen Decide: A Policy Focus"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "6602"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Clausen, Aage"}},
+            "prodStmt": {
+              "producer": {"_$": "St. Martin's"},
+              "prodPlac": {"_$": "New York, NY"}
+            },
+            "biblCit": {"_$": "Clausen, Aage. How Congressmen Decide: A Policy Focus. New York, NY: St. Martin's, 1973."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Measurement identity in the longitudinal analysis of legislative voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6605"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Clausen, Aage R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Clausen, Aage R. \"Measurement identity in the longitudinal analysis of legislative voting.\" American Political Science Review 61.4 (1967): 1020-1035."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "State Party Influence on Congressional Policy Decision"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6604"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0026-3397"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Clausen, Aage R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Clausen, Aage R. \"State Party Influence on Congressional Policy Decision.\" Midwest Journal of Political Science 16.1 (1972): 77-101."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A comparative analysis of Senate House voting on economic and welfare policy: 1953-1964"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6606"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Clausen, Aage R."},
+              {"_$": "Cheney, Richard B."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Clausen, Aage R., and Richard B. Cheney. \"A comparative analysis of Senate House voting on economic and welfare policy: 1953-1964.\" American Political Science Review 64.1 (1970): 138-152."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The congressional response to a decade of change"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6607"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Clausen, Aage R."},
+              {"_$": "Van Horn, Carl E."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Clausen, Aage R., and Carl E. Van Horn. \"The congressional response to a decade of change.\" Journal of Politics 39.3 (1977): 624-666."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Policy partisanship in legislative leadership recruitment and behavior"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6608"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Clausen, Aage R."},
+              {"_$": "Wilcox, Clyde"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Clausen, Aage R., and Clyde Wilcox. \"Policy partisanship in legislative leadership recruitment and behavior.\" Legislative Studies Quarterly 12.2 (1987): 243-263."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Senate voting and constitency stake in defense spending"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6652"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Clotfelter, James"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Clotfelter, James. \"Senate voting and constitency stake in defense spending.\" Journal of Politics 32.4 (1970): 979-983."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party loyalty in the Progressive years: The Senate, 1909-1915"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6661"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Clubb, Jerome M."},
+              {"_$": "Allen, Howard W."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Clubb, Jerome M., and Howard W. Allen. \"Party loyalty in the Progressive years: The Senate, 1909-1915.\" Journal of Politics 29.3 (1967): 567-587."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Partisan Realignment: Voters, Parties, and Government in American History"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "6664"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Clubb, Jerome M."},
+              {"_$": "Flanigan, William H."},
+              {"_$": "Zingale, Nancy H."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Sage"},
+              "prodPlac": {"_$": "Beverly Hills"}
+            },
+            "biblCit": {"_$": "Clubb, Jerome M., Flanigan, William H., and Nancy H. Zingale. Partisan Realignment: Voters, Parties, and Government in American History. Beverly Hills: Sage, 1980.Clubb, Jerome M., Flanigan, William H., and Nancy H. Zingale. Partisan Realignment: Voters, Parties, and Government in American History. Beverly Hills: Sage, 1980."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party contributions and influence of campaign committee chairs on roll-call voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6666"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Clucas, Richard A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Clucas, Richard A. \"Party contributions and influence of campaign committee chairs on roll-call voting.\" Legislative Studies Quarterly 22.2 (1997): 179-194."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A dynamic test of the marginality hypothesis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6751"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0190-9320"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Cohen, Jeffrey E."},
+              {"_$": "Brunk, Gregory G."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Cohen, Jeffrey E., and Gregory G. Brunk. \"A dynamic test of the marginality hypothesis.\" Political Behavior 5.3 (1983): 293-307."},
+            "holdings": {"_$": "http://doi.org/10.1007/BF00988579"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "How to vote, whether to vote: Strategies for voting and abstaining on congressional roll calls"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6762"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0190-9320"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Cohen, Linda R."},
+              {"_$": "Noll, Roger G."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Cohen, Linda R., and Roger G. Noll. \"How to vote, whether to vote: Strategies for voting and abstaining on congressional roll calls.\" Political Behavior 13.2 (1991): 97-127."},
+            "holdings": {"_$": "http://doi.org/10.1007/BF00992292"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Rating Congress -- A Guide to Separating The Liberals from the Conservatives"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6777"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0360-4217"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Cohen, Richard E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Cohen, Richard E. \"Rating Congress -- A Guide to Separating The Liberals from the Conservatives.\" National Journal May 8, 1982: 800 -."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The decline and resurgence of congressional party conflict"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6844"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Coleman, John J."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Coleman, John J. \"The decline and resurgence of congressional party conflict.\" Journal of Politics 59.1 (1997): 165-184."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Electoral patterns and voting alignments in the U.S. House, 1886-1986"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6864"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Collie, Melissa P."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Collie, Melissa P. \"Electoral patterns and voting alignments in the U.S. House, 1886-1986.\" Legislative Studies Quarterly 14.1 (1989): 107-127."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The rise of coalition politics: Voting in the U.S. House, 1933-1980"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6865"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Collie, Melissa P."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Collie, Melissa P. \"The rise of coalition politics: Voting in the U.S. House, 1933-1980.\" Legislative Studies Quarterly 13.3 (1988): 321-342."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Universalism and the parties in the U.S. House of Representatives, 1921-80"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6863"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Collie, Melissa P."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Collie, Melissa P. \"Universalism and the parties in the U.S. House of Representatives, 1921-80.\" American Journal of Political Science 32.4 (1988): 865-883."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Trading places: Choice and committee chairs in the U.S. Senate, 1950-1986"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6866"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Collie, Melissa P."},
+              {"_$": "Roberts, Brian E."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Collie, Melissa P., and Brian E. Roberts. \"Trading places: Choice and committee chairs in the U.S. Senate, 1950-1986.\" Journal of Politics 54.1 (1992): 231-245."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Presidential leadership and party success"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "7112"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Cooper, Joseph"},
+              {"_$": "Bombardier, Gary"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Cooper, Joseph, and Gary Bombardier. \"Presidential leadership and party success.\" Journal of Politics 30.4 (1968): 1012-1027."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Building presidential coalitions among cross-pressured members of congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "7320"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0043-4078"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Covington, Cary R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Covington, Cary R. \"Building presidential coalitions among cross-pressured members of congress.\" Western Political Quarterly 41.1 (1988): 47-62."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A 'presidency-augmented' model of presidential success on House roll call votes"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "7321"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Covington, Cary R."},
+              {"_$": "Wrighton, J. Mark"},
+              {"_$": "Kinney, Rhonda"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Covington, Cary R., Wrighton, J. Mark, and Rhonda Kinney. \"A 'presidency-augmented' model of presidential success on House roll call votes.\" American Journal of Political Science 39.4 (1995): 1001-1024."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "On the decline of party voting in Congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "7367"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Cox, Gary W."},
+              {"_$": "McCubbins, Matthew D."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Cox, Gary W., and Matthew D. McCubbins. \"On the decline of party voting in Congress.\" Legislative Studies Quarterly 16.4 (1991): 547-570."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Timeless principles or today's fashion? Testing the stability of the linkage between ideology and foreign policy in the Senate"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "7490"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Cronin, Patrick"},
+              {"_$": "Fordham, Benjamin O."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Cronin, Patrick, and Benjamin O. Fordham. \"Timeless principles or today's fashion? Testing the stability of the linkage between ideology and foreign policy in the Senate.\" Journal of Politics 61.4 (1999): 967-998."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Electoral Marginality and Party Loyalty in House Roll Call Voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "8154"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Deckard, Barbara Sinclair"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Deckard, Barbara Sinclair. \"Electoral Marginality and Party Loyalty in House Roll Call Voting.\" American Journal of Political Science 20.3 (1976): 469-481."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Political upheaval and congressional voting: The effects of the 1960s on voting patterns in the House of Representatives"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "8155"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Deckard, Barbara Sinclair"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Deckard, Barbara Sinclair. \"Political upheaval and congressional voting: The effects of the 1960s on voting patterns in the House of Representatives.\" Journal of Politics 38.2 (1976): 326-345."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Voting Behavior and Ideology in the House of Representatives: The Impact of Socialization"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "8989"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Dunham, Patricia Marie"}},
+            "prodStmt": {"producer": {"_$": "Miami University"}},
+            "biblCit": {"_$": "Dunham, Patricia Marie. Voting Behavior and Ideology in the House of Representatives: The Impact of Socialization. Diss. Miami University, 1983."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congressional voting in the 1920s: A test of urban-rural conflict"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "9096"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-8723"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Eagles, Charles W."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Eagles, Charles W. \"Congressional voting in the 1920s: A test of urban-rural conflict.\" Journal of American History 76.2 (1989): 528-534."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The changing dynamics of Senate voting on Supreme Court nominees"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "113271"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Epstein, Lee"},
+              {"_$": "Lindstadt, Rene"},
+              {"_$": "Segal, Jeffrey A."},
+              {"_$": "Westerland, Chad"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Epstein, Lee, Lindstadt, Rene, Segal, Jeffrey A., and Chad Westerland. \"The changing dynamics of Senate voting on Supreme Court nominees.\" Journal of Politics 68.2 (2006): 296-307."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The electoral impact of congressional roll call voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "9567"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Erikson, Robert S."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Erikson, Robert S. \"The electoral impact of congressional roll call voting.\" American Political Science Review 65.4 (1971): 1018-1032."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Standing committees in legislatures: Three decades of research"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "9684"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Eulau, Heinz"},
+              {"_$": "McCluggage, Vera"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Eulau, Heinz, and Vera McCluggage. \"Standing committees in legislatures: Three decades of research.\" Legislative Studies Quarterly 9.2 (1984): 195-270."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Holy Roll Calls: Religious Tradition and Voting Behavior in the U.S. House"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "9978"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4941"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fastnow, Chris"},
+              {"_$": "Grant, J. Tobin"},
+              {"_$": "Rudolph, Thomas J."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fastnow, Chris, Grant, J. Tobin, and Thomas J. Rudolph. \"Holy Roll Calls: Religious Tradition and Voting Behavior in the U.S. House.\" Social Science Quarterly 80.4 (1999): 687-701."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Presidential legislative priorities and legislators' voting decisions: An exploratory analysis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10199"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Fett, Patrick J."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fett, Patrick J. \"Presidential legislative priorities and legislators' voting decisions: An exploratory analysis.\" Journal of Politics 56.2 (1994): 502-512."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The effect of retirement on political shirking: Evidence from congressoinal voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10241"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0048-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Figlio, David N."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Figlio, David N. \"The effect of retirement on political shirking: Evidence from congressoinal voting.\" Public Finance Quarterly 23.2 (1995): 226 -."},
+            "holdings": {"_$": "http://doi.org/10.1177/109114219502300206"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Prologue: The Senate voting record of Harry S. Truman"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10300"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fink, Gary M."},
+              {"_$": "Hilty, James W."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fink, Gary M., and James W. Hilty. \"Prologue: The Senate voting record of Harry S. Truman.\" Journal of Interdisciplinary History 4.2 (1973): 207-235."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "In search of killer amendments in the modern U.S. House"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "113279"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Finocchiaro, Charles J."},
+              {"_$": "Jenkins, Jeffery A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Finocchiaro, Charles J., and Jeffery A. Jenkins. \"In search of killer amendments in the modern U.S. House.\" Legislative Studies Quarterly 33.2 (2008): 263-294."},
+            "holdings": {"_$": "http://doi.org/10.3162/036298008784310984"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Economic Benefit, Ideology, and Senate Voting on the B-1 Bomber"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10537"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0044-7803"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Fleisher, Richard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fleisher, Richard. \"Economic Benefit, Ideology, and Senate Voting on the B-1 Bomber.\" American Politics Quarterly 13.2 (1985): 200-211."},
+            "holdings": {"_$": "http://doi.org/10.1177/1532673X8501300204"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Explaining the change in roll-call voting behavior of Southern Democrats"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10538"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Fleisher, Richard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fleisher, Richard. \"Explaining the change in roll-call voting behavior of Southern Democrats.\" Journal of Politics 55.2 (1993): 327-341."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "PAC contributions and congressional voting on national defense"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10539"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Fleisher, Richard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fleisher, Richard. \"PAC contributions and congressional voting on national defense.\" Legislative Studies Quarterly 18.3 (1993): 391-409."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Are there two presidencies? Yes, but only for Republicans"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10540"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fleisher, Richard"},
+              {"_$": "Bond, Jon R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fleisher, Richard, and Jon R. Bond. \"Are there two presidencies? Yes, but only for Republicans.\" Journal of Politics 50.3 (1988): 747-767."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congress and the Presidency: Institutional Politics in a Separated System"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "10609"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Foley, Michael"},
+              {"_$": "Owens, John E."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Manchester University Press"},
+              "prodPlac": {"_$": "Manchester"}
+            },
+            "biblCit": {"_$": "Foley, Michael, and John E. Owens. Congress and the Presidency: Institutional Politics in a Separated System. Manchester: Manchester University Press, 1996."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Conditional party government and member turnout on Senate recorded votes, 1873-1935"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10678"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Forgette, Richard"},
+              {"_$": "Sala, Brian R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Forgette, Richard, and Brian R. Sala. \"Conditional party government and member turnout on Senate recorded votes, 1873-1935.\" Journal of Politics 61.2 (1999): 467-484."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Sex and voting in the U.S. House of Representatives, 1961-1975"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10826"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0044-7803"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Frankovic, Kathleen A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Frankovic, Kathleen A. \"Sex and voting in the U.S. House of Representatives, 1961-1975.\" American Politics Quarterly 5.3 (1977): 315-330."},
+            "holdings": {"_$": "http://doi.org/10.1177/1532673X7700500305"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The importance of individuality in voting in Congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11001"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Froman, Lewis A., Jr."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Froman, Lewis A., Jr. \"The importance of individuality in voting in Congress.\" Journal of Politics 25.2 (1963): 324-332."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Does party ideology matter? A roll-call analysis of key congressional votes, 1833-1992"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11475"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0898-0306"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Gerring, John"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gerring, John. \"Does party ideology matter? A roll-call analysis of key congressional votes, 1833-1992.\" Journal of Policy History 11.4 (1999): 399-432."},
+            "holdings": {"_$": "http://doi.org/10.1017/S0898030600003390"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congressional racial solidarity: Exploring Congressional Black Caucus voting cohesion 1971-1990"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11617"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-9347"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Gile, Roxanne L."},
+              {"_$": "Jones, Charles E."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gile, Roxanne L., and Charles E. Jones. \"Congressional racial solidarity: Exploring Congressional Black Caucus voting cohesion 1971-1990.\" Journal of Black Studies 25.5 (1995): 622-641."},
+            "holdings": {"_$": "http://doi.org/10.1177/002193479502500507"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congressional tightwads and spendthrifts: Measuring fiscal behavior in the changing House of Representatives"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11644"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1065-9129"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Gill, Jeff"},
+              {"_$": "Thurber, James A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gill, Jeff, and James A. Thurber. \"Congressional tightwads and spendthrifts: Measuring fiscal behavior in the changing House of Representatives.\" Political Research Quarterly 52.2 (1999): 387-402."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Specialization as a Strategy in Legislative Decision-Making"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "12311"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Grant, Lawrence V."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Grant, Lawrence V. \"Specialization as a Strategy in Legislative Decision-Making.\" American Journal of Political Science 17.1 (1973): 123-147."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A scale analysis of the voting records of Senators Kennedy, Johnson and Goldwater, 1957-1960"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "12363"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Gray, Charles H."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gray, Charles H. \"A scale analysis of the voting records of Senators Kennedy, Johnson and Goldwater, 1957-1960.\" American Political Science Review 59.3 (1965): 615-621."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The effect of black population on electing Democrats and Liberals to the House of Representatives"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "12616"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Grofman, Bernard"},
+              {"_$": "Griffin, Robert"},
+              {"_$": "Glazer, Amihai"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Grofman, Bernard, Griffin, Robert, and Amihai Glazer. \"The effect of black population on electing Democrats and Liberals to the House of Representatives.\" Legislative Studies Quarterly 17.3 (1992): 365-379."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Changing patterns of voting agreement among senatorial leadership 1947-1976"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "12640"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0043-4078"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Gross, Donald A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gross, Donald A. \"Changing patterns of voting agreement among senatorial leadership 1947-1976.\" Western Political Quarterly 37.1 (1984): 120-142."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The committee assignment process and the conditional nature of committee bias"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13041"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Hall, Richard L."},
+              {"_$": "Grofman, Bernard"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hall, Richard L., and Bernard Grofman. \"The committee assignment process and the conditional nature of committee bias.\" American Political Science Review 84.4 (1990): 1149-1166."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Baselines for evaluating explanations of coalition behavior in Congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13198"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Hammond, Thomas H."},
+              {"_$": "Fraser, Jane M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hammond, Thomas H., and Jane M. Fraser. \"Baselines for evaluating explanations of coalition behavior in Congress.\" Journal of Politics 45.3 (1983): 635-656."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "What roll calls should we exclude from conservative coalition calculations"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13199"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Hammond, Thomas H."},
+              {"_$": "Fraser, Jane M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hammond, Thomas H., and Jane M. Fraser. \"What roll calls should we exclude from conservative coalition calculations.\" Legislative Studies Quarterly 7.3 (1982): 423-434."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Right Fork or Left Fork? The Section-Party Alignments of Southern Democrats in Congress, 1873-1897"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13415"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-4642"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Harris, Carl V."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Harris, Carl V. \"Right Fork or Left Fork? The Section-Party Alignments of Southern Democrats in Congress, 1873-1897.\" Journal of Southern History 42.4 (1976): 471-506."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The war hawks and the question of congressional leadership in 1812"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13551"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0030-8684"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hatzenbuehler, Ronald L."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hatzenbuehler, Ronald L. \"The war hawks and the question of congressional leadership in 1812.\" Pacific Historical Review 45.1 (1976): 1-22."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Justifying the War of 1812: Toward a model of congressional behavior in early war crises"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13552"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Hatzenbuehler, Ronald L."},
+              {"_$": "Ivie, Robert L."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hatzenbuehler, Ronald L., and Robert L. Ivie. \"Justifying the War of 1812: Toward a model of congressional behavior in early war crises.\" Social Science History 4.4 (1980): 453-477."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Metropolitan areas and Congress: Foreign policy and national security"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13636"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Havens, Murray Clark"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Havens, Murray Clark. \"Metropolitan areas and Congress: Foreign policy and national security.\" Journal of Politics 26.4 (1964): 758-774."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Representatives' constituency and national security"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13842"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0043-4078"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Heighberger, Neil"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Heighberger, Neil. \"Representatives' constituency and national security.\" Western Political Quarterly 26.2 (1973): 224-235."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Ambition in the House: Behavioral consequences of higher office goals among U.S. representatives"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "14132"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hibbing, John R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hibbing, John R. \"Ambition in the House: Behavioral consequences of higher office goals among U.S. representatives.\" American Journal of Political Science 30.3 (1986): 651-665."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Washington on 75 dollars a day: Members of Congress voting on their own tax break"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "14133"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hibbing, John R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hibbing, John R. \"Washington on 75 dollars a day: Members of Congress voting on their own tax break.\" Legislative Studies Quarterly 8.284 (1983): 219-230."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The modern United States Senate: What is accorded respect"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "14136"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Hibbing, John R."},
+              {"_$": "Thomas, Sue"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hibbing, John R., and Sue Thomas. \"The modern United States Senate: What is accorded respect.\" Journal of Politics 52.1 (1990): 123-145."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "'Stylized' opposition in the U.S. House of Representatives: The effects of coalition behavior"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "14340"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hinckley, Barbara"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hinckley, Barbara. \"'Stylized' opposition in the U.S. House of Representatives: The effects of coalition behavior.\" Legislative Studies Quarterly 2.1 (1977): 5-28."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The emergence of political parties in Congress, 1789-1803"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "14417"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hoadley, John G."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hoadley, John G. \"The emergence of political parties in Congress, 1789-1803.\" American Political Science Review 74.3 (1980): 757-779."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Constituency opinion, Ross Perot, and roll-call behavior in the U.S. House: The case of the NAFTA"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "14605"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Holian, David B."},
+              {"_$": "Krebs, Timothy B."},
+              {"_$": "Walsh, Michael H."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Holian, David B., Krebs, Timothy B., and Michael H. Walsh. \"Constituency opinion, Ross Perot, and roll-call behavior in the U.S. House: The case of the NAFTA.\" Legislative Studies Quarterly 22.3 (1997): 369-392."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "American exceptionalism revisited: The military-industrial complex, racial tension, and the underdeveloped welfare state"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "98219"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Hooks, Gregory"},
+              {"_$": "McQueen, Brian"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hooks, Gregory, and Brian McQueen. \"American exceptionalism revisited: The military-industrial complex, racial tension, and the underdeveloped welfare state.\" American Sociological Review 75.2 (2010): 185-204."},
+            "holdings": {"_$": "http://doi.org/10.1177/0003122410363566"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Collective representation reappraised"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "15146"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hurley, Patricia A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hurley, Patricia A. \"Collective representation reappraised.\" Legislative Studies Quarterly 7.1 (1982): 119-136."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Partisan voting patterns in the U.S. Senate, 1877-1986"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "15149"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Hurley, Patricia A."},
+              {"_$": "Wilson, Rick K."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hurley, Patricia A., and Rick K. Wilson. \"Partisan voting patterns in the U.S. Senate, 1877-1986.\" Legislative Studies Quarterly 14.2 (1989): 225-250."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Statistical models of Senate roll call voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "15491"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Jackson, John E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Jackson, John E. \"Statistical models of Senate roll call voting.\" American Political Science Review 65.2 (1971): 451-470."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Public goods, private interests, and representation"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "15492"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Jackson, John E."},
+              {"_$": "King, David C."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Jackson, John E., and David C. King. \"Public goods, private interests, and representation.\" American Political Science Review 83.4 (1989): 1143-1164."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Examining the bonding effects of party: A comparative analysis of roll-call voting in the U.S. and Confederate houses"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "15744"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Jenkins, Jeffery A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Jenkins, Jeffery A. \"Examining the bonding effects of party: A comparative analysis of roll-call voting in the U.S. and Confederate houses.\" American Journal of Political Science 43.4 (1999): 1144-1165."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Competitiveness, role orientations, and legislative responsiveness"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "16083"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Jones, Bryan D."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Jones, Bryan D. \"Competitiveness, role orientations, and legislative responsiveness.\" Journal of Politics 35.4 (1973): 924-947."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Limiting liberalism: The Southern veto in Congress, 1933-1950"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "16553"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0032-3195"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Katznelson, Ira"},
+              {"_$": "Geiger, Kim"},
+              {"_$": "Kryder, Daniel"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Katznelson, Ira, Geiger, Kim, and Daniel Kryder. \"Limiting liberalism: The Southern veto in Congress, 1933-1950.\" Political Science Quarterly 108.2 (1993): 283-306."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Ordinal preference games: An analysis of legislative coalition formation without transferable utility"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "17488"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Koehler, David H."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Koehler, David H. \"Ordinal preference games: An analysis of legislative coalition formation without transferable utility.\" American Political Science Review 78.3 (1984): 750-763."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Sophisticated voting in Congress: A reconsideration"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "17770"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Krehbiel, Keith"},
+              {"_$": "Rivers, Douglas"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Krehbiel, Keith, and Douglas Rivers. \"Sophisticated voting in Congress: A reconsideration.\" Journal of Politics 52.2 (1990): 548-578."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Political correlates of the behavior of federal district judges: A 'best case' analysis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "17801"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Kritzer, Herbert M."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kritzer, Herbert M. \"Political correlates of the behavior of federal district judges: A 'best case' analysis.\" Journal of Politics 40.1 (1978): 25-58."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "District competitiveness and legislative roll-call behavior: A reassessment of the marginality hypothesis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "17893"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Kuklinski, James H."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kuklinski, James H. \"District competitiveness and legislative roll-call behavior: A reassessment of the marginality hypothesis.\" American Journal of Political Science 21.3 (1977): 627-638."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Representativeness and elections: A policy analysis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "17894"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Kuklinski, James H."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kuklinski, James H. \"Representativeness and elections: A policy analysis.\" American Political Science Review 72.1 (1978): 165-177."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Representational role, constituency opinion, and legislative roll-call behavior"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "17895"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Kuklinski, James H."},
+              {"_$": "Elling, Richard C."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kuklinski, James H., and Richard C. Elling. \"Representational role, constituency opinion, and legislative roll-call behavior.\" American Journal of Political Science 21.1 (1977): 135-147."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Strategic party government: Party influence in congress, 1789-2000"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "113277"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Lebo, Matthew J."},
+              {"_$": "McGlynn, Adam J."},
+              {"_$": "Koger, Gregory"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lebo, Matthew J., McGlynn, Adam J., and Gregory Koger. \"Strategic party government: Party influence in congress, 1789-2000.\" American Journal of Political Science 51.3 (2007): 464-481."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Do voters affect or elect policies? Evidence from the U.S. House"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "113265"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0033-5533"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Lee, David S."},
+              {"_$": "Moretti, Enrico"},
+              {"_$": "Butler, Matthew J."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lee, David S., Moretti, Enrico, and Matthew J. Butler. \"Do voters affect or elect policies? Evidence from the U.S. House.\" Quarterly Journal of Economics 119.3 (2004): 807-859."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Committee assignments and the cost of party loyalty"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18671"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1065-9129"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Leighton, Wayne A."},
+              {"_$": "Lopez, Edward J."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Leighton, Wayne A., and Edward J. Lopez. \"Committee assignments and the cost of party loyalty.\" Political Research Quarterly 55.1 (2002): 59-90."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congressional party unity and executive-legislative relations"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18686"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4941"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Lenchner, Paul"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lenchner, Paul. \"Congressional party unity and executive-legislative relations.\" Social Science Quarterly 57.3 (1976): 589-596."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Partisan conflict in the Senate and the realignment process"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18688"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Lenchner, Paul"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lenchner, Paul. \"Partisan conflict in the Senate and the realignment process.\" Journal of Politics 41.2 (1979): 680-686."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Partisan realignments and congressional behavior: Some preliminary snapshots"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18687"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0044-7803"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Lenchner, Paul"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lenchner, Paul. \"Partisan realignments and congressional behavior: Some preliminary snapshots.\" American Politics Quarterly 4.2 (1976): 223-236."},
+            "holdings": {"_$": "http://doi.org/10.1177/1532673X7600400205"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Sources of voting cues for the Congressional Black Caucus"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18856"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-9347"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Levy, Arthur B."},
+              {"_$": "Stoudinger, Susan"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Levy, Arthur B., and Susan Stoudinger. \"Sources of voting cues for the Congressional Black Caucus.\" Journal of Black Studies 7.1 (1976): 29-46."},
+            "holdings": {"_$": "http://doi.org/10.1177/002193477600700103"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Testing the parochial hypothesis: Congress and the Strategic Defense Initiative"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "19122"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Lindsay, James M."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lindsay, James M. \"Testing the parochial hypothesis: Congress and the Strategic Defense Initiative.\" Journal of Politics 53.3 (1991): 860-876."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "An integrative approach to modeling presidential success in Congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "19290"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1065-9129"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Lockerbie, Brad"},
+              {"_$": "Borrelli, Stephen"},
+              {"_$": "Hedger, Scott"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lockerbie, Brad, Borrelli, Stephen, and Scott Hedger. \"An integrative approach to modeling presidential success in Congress.\" Political Research Quarterly 51.1 (1998): 155-172."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A method for identifying issues and factions from legislative votes"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "19766"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "MacRae, Duncan, Jr."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "MacRae, Duncan, Jr. \"A method for identifying issues and factions from legislative votes.\" American Political Science Review 59.4 (1965): 909-926."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Meeting Competing Demands: Committee Performance in the Postreform House"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "19923"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Maltzman, Forrest"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Maltzman, Forrest. \"Meeting Competing Demands: Committee Performance in the Postreform House.\" American Journal of Political Science 39.3 (1995): 653-682."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congressional decision making and the separation of powers"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20301"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Martin, Andrew D."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Martin, Andrew D. \"Congressional decision making and the separation of powers.\" American Political Science Review 95.2 (2001): 361-378."},
+            "holdings": {"_$": "http://doi.org/10.1017/S0003055401002180"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party, region and the dimensions of conflict in the House of Representatives, 1949-1954"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20398"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Marwell, Gerald"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Marwell, Gerald. \"Party, region and the dimensions of conflict in the House of Representatives, 1949-1954.\" American Political Science Review 61.2 (1967): 380-399."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The effects of economic conditions and access to reproductive health services on state abortion rates and birthrates"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20517"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0014-7354"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Matthews, Stephen"},
+              {"_$": "Ribar, David"},
+              {"_$": "Wilhelm, Mark"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Matthews, Stephen, Ribar, David, and Mark Wilhelm. \"The effects of economic conditions and access to reproductive health services on state abortion rates and birthrates.\" Family Planning Perspectives 29.2 (1997): 52-60."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Determinants of spending by House challengers, 1974-84"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20653"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "McAdams, John C."},
+              {"_$": "Johannes, John R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "McAdams, John C., and John R. Johannes. \"Determinants of spending by House challengers, 1974-84.\" American Journal of Political Science 31.3 (1987): 457-483."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Bipartisanship, partisanship, and ideology in congressional-executive foreign policy relations, 1947-1988"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20791"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "McCormick, James M."},
+              {"_$": "Wittkopf, Eugene R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "McCormick, James M., and Eugene R. Wittkopf. \"Bipartisanship, partisanship, and ideology in congressional-executive foreign policy relations, 1947-1988.\" Journal of Politics 52.4 (1990): 1077-1100."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Bush and Bipartisanship: The Past as Prologue?"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20790"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0163-660X"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "McCormick, James M."},
+              {"_$": "Wittkopf, Eugene R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "McCormick, James M., and Eugene R. Wittkopf. \"Bush and Bipartisanship: The Past as Prologue?.\" Washington Quarterly 13.1 (1989): 3 -."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Politics and bipartisanship at the water's edge: a note on Bush and Clinton"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20792"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0032-3497"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "McCormick, James M."},
+              {"_$": "Wittkopf, Eugene R."},
+              {"_$": "Danna, David M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "McCormick, James M., Wittkopf, Eugene R., and David M. Danna. \"Politics and bipartisanship at the water's edge: a note on Bush and Clinton.\" Polity 30.1 (1997): 133 -."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The structure of constituency representation: On theory and method"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20805"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "McCrone, Donald J."},
+              {"_$": "Stone, Walter J."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "McCrone, Donald J., and Walter J. Stone. \"The structure of constituency representation: On theory and method.\" Journal of Politics 48.4 (1986): 956-975."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Issues and constituencies in the Progressive Era: House roll call votin on the Nineteenth Amendment, 1913-1919"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20832"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "McDonagh, Eileen L."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "McDonagh, Eileen L. \"Issues and constituencies in the Progressive Era: House roll call votin on the Nineteenth Amendment, 1913-1919.\" Journal of Politics 51.10 (1989): 119-136."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Constituency influence on House roll-call votes in the Progressive era, 1913-1915"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20835"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "McDonagh, Eileen Lorenzi"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "McDonagh, Eileen Lorenzi. \"Constituency influence on House roll-call votes in the Progressive era, 1913-1915.\" Legislative Studies Quarterly 18.2 (1993): 185-210."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Protecting the public--Legislative behavior and social regulation: Constituent demand, agenda setting and the congress"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "20928"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "McGinley, Arthur Lynn"}},
+            "prodStmt": {
+              "producer": {"_$": "American University"},
+              "prodDate": {
+                "@date": "1989",
+                "_$": "1989"
+              }
+            },
+            "biblCit": {"_$": "McGinley, Arthur Lynn. Protecting the public--Legislative behavior and social regulation: Constituent demand, agenda setting and the congress. Diss. American University, 1989."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A Computer Program for Guttman Scaling of Roll Calls"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "21043"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-5440"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "McLaughlin, Patrick L."},
+              {"_$": "Nofziger, David L."},
+              {"_$": "Rohrs, Richard C."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "McLaughlin, Patrick L., Nofziger, David L., and Richard C. Rohrs. \"A Computer Program for Guttman Scaling of Roll Calls.\" Historical Methods 18.2 (1985): 45-50."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Presidential support in Congress: Conflict and consensus on foreign and defense policy"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "21174"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Meernik, James"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Meernik, James. \"Presidential support in Congress: Conflict and consensus on foreign and defense policy.\" Journal of Politics 55.3 (1993): 569-587."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Parental leave legislation in the U.S. Senate: Toward a model of roll-call voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "21958"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0197-6664"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Monroe, Pamela A."},
+              {"_$": "Garand, James C."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Monroe, Pamela A., and James C. Garand. \"Parental leave legislation in the U.S. Senate: Toward a model of roll-call voting.\" Family Relations 40.2 (1991): 208-217."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Factionalism in the national conventions, 1940-1964: An analhysis of ideological consistency in state delegation voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "22459"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Munger, Frank"},
+              {"_$": "Blackhurst, James"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Munger, Frank, and James Blackhurst. \"Factionalism in the national conventions, 1940-1964: An analhysis of ideological consistency in state delegation voting.\" Journal of Politics 27.2 (1965): 375-394."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Interest-Group PACsmanship: An Analysis of Campaign Contributions, Issue Visibility, and Legislative Impact"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "22905"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Neustadtl, Alan"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Neustadtl, Alan. \"Interest-Group PACsmanship: An Analysis of Campaign Contributions, Issue Visibility, and Legislative Impact.\" Social Forces 69.2 (1990): 549-564."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Constituency, Party, and Representation in Congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "23726"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0033-362X"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Page, Benjamin I."},
+              {"_$": "Shapiro, Robert Y."},
+              {"_$": "Gronke, Paul W."},
+              {"_$": "Rosenberg, Robert M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Page, Benjamin I., Shapiro, Robert Y., Gronke, Paul W., and Robert M. Rosenberg. \"Constituency, Party, and Representation in Congress.\" Public Opinion Quarterly 48.4 (1984): 741-756."},
+            "holdings": {"_$": "http://doi.org/10.1086/268880"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Information flow and party influence: Theory, measurement, and policy consequences"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "23807"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0190-9320"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Panning, William H."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Panning, William H. \"Information flow and party influence: Theory, measurement, and policy consequences.\" Political Behavior 5.2 (1983): 161-189."},
+            "holdings": {"_$": "http://doi.org/10.1007/BF00987441"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Factions in committees: The U.S. House of Representatives"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "23881"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Parker, Glenn R."},
+              {"_$": "Parker, Suzanne L."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Parker, Glenn R., and Suzanne L. Parker. \"Factions in committees: The U.S. House of Representatives.\" American Political Science Review 73.1 (1979): 85-102."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A conservative coalition forms in Congress, 1933-1939"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24045"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-8723"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Patterson, James T."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Patterson, James T. \"A conservative coalition forms in Congress, 1933-1939.\" Journal of American History 52.4 (1966): 757-772."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party Voting in the United States Congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24047"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0007-1234"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Patterson, Samuel C."},
+              {"_$": "Caldeira, Gregory A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Patterson, Samuel C., and Gregory A. Caldeira. \"Party Voting in the United States Congress.\" British Journal of Political Science 18.1 (1988): 111-131."},
+            "holdings": {"_$": "http://doi.org/10.1017/S000712340000497X"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Congressional Black Caucus and vote cohesion: Placing the Caucus within House voting patterns"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24529"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1065-9129"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Pinney, Neil"},
+              {"_$": "Serra, George"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Pinney, Neil, and George Serra. \"The Congressional Black Caucus and vote cohesion: Placing the Caucus within House voting patterns.\" Political Research Quarterly 52.3 (1999): 583-608."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Public Education and the Role of Women in American Political Development, 1852-1979"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "119601"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Pisapia, Michael Callaghan"}},
+            "prodStmt": {"producer": {"_$": "University of Wisconsin - Madison"}},
+            "biblCit": {"_$": "Pisapia, Michael Callaghan. Public Education and the Role of Women in American Political Development, 1852-1979. Diss. University of Wisconsin - Madison, 2010."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Directional and Euclidean theories of voting behavior: A legislative comparison"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24583"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Platt, Glenn"},
+              {"_$": "Poole, Keith T."},
+              {"_$": "Rosenthal, Howard"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Platt, Glenn, Poole, Keith T., and Howard Rosenthal. \"Directional and Euclidean theories of voting behavior: A legislative comparison.\" Legislative Studies Quarterly 17.4 (1992): 561-572."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Recent developments in analytical models of voting in the U.S. Congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24756"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Poole, Keith T."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Poole, Keith T. \"Recent developments in analytical models of voting in the U.S. Congress.\" Legislative Studies Quarterly 13.1 (1988): 117-133."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Ideology, party, and voting in the U.S. Congress, 1959-1980"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24757"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Poole, Keith T."},
+              {"_$": "Daniels, R. Steven"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Poole, Keith T., and R. Steven Daniels. \"Ideology, party, and voting in the U.S. Congress, 1959-1980.\" American Political Science Review 79.2 (1985): 373-399."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A Spatial Model for Legislative Roll Call Analysis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24758"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Poole, Keith T."},
+              {"_$": "Rosenthal, Howard"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Poole, Keith T., and Howard Rosenthal. \"A Spatial Model for Legislative Roll Call Analysis.\" American Journal of Political Science 29.2 (1985): 357-384."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Patterns of congressional voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24759"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Poole, Keith T."},
+              {"_$": "Rosenthal, Howard"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Poole, Keith T., and Howard Rosenthal. \"Patterns of congressional voting.\" American Journal of Political Science 35.1 (1991): 228-278."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congress and the Waning of the New Deal"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "24778"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Porter, David L."}},
+            "prodStmt": {
+              "producer": {"_$": "Kennikat Press"},
+              "prodPlac": {"_$": "Port Washington"}
+            },
+            "biblCit": {"_$": "Porter, David L. Congress and the Waning of the New Deal. Port Washington: Kennikat Press, 1980."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Seventy-Sixth Congress and World War II, 1939-40"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "24777"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Porter, David L."}},
+            "prodStmt": {
+              "producer": {"_$": "University of Missouri Press"},
+              "prodPlac": {"_$": "Columbia"}
+            },
+            "biblCit": {"_$": "Porter, David L. The Seventy-Sixth Congress and World War II, 1939-40. Columbia: University of Missouri Press, 1979."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The demography of the congressional vote on foreign aid, 1939-1958"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "25703"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Rieselbach, Leroy N."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Rieselbach, Leroy N. \"The demography of the congressional vote on foreign aid, 1939-1958.\" American Political Science Review 58.3 (1964): 577-588."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Minority rights and majority power: Conditional party government and the motion to recommit in the house"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "113266"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Roberts, Jason M."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Roberts, Jason M. \"Minority rights and majority power: Conditional party government and the motion to recommit in the house.\" Legislative Studies Quarterly 30.2 (2005): 219-234."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Parties and Leaders in the Postreform House"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "26071"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Rohde, David W."}},
+            "prodStmt": {
+              "producer": {"_$": "University of Chicago Press"},
+              "prodPlac": {"_$": "Chicago, IL"}
+            },
+            "biblCit": {"_$": "Rohde, David W. Parties and Leaders in the Postreform House. Chicago, IL: University of Chicago Press, 1991."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Severing the electoral connection: Shirking in the contemporary congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "26339"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Rothenberg, Lawrence S."},
+              {"_$": "Sanders, Mitchell S."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Rothenberg, Lawrence S., and Mitchell S. Sanders. \"Severing the electoral connection: Shirking in the contemporary congress.\" American Journal of Political Science 44.2 (2000): 316-325."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Mapping Congress: Developing a geographic understanding of American political history"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "26408"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0033-1031"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Rowles, Ruth A."},
+              {"_$": "Martis, Kenneth C."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Rowles, Ruth A., and Kenneth C. Martis. \"Mapping Congress: Developing a geographic understanding of American political history.\" Prologue 16.1 (1984): 5-21."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Political Representation of Political Campaign Contributors"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "26540"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Russell, Allen Arthur"}},
+            "prodStmt": {"producer": {"_$": "University of Michigan"}},
+            "biblCit": {"_$": "Russell, Allen Arthur. The Political Representation of Political Campaign Contributors. Diss. University of Michigan, 1980."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Civil rights roll-call voting in the House of Representatives, 1957-1991: A systematic analysis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "26796"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1065-9129"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sanders, Francine"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sanders, Francine. \"Civil rights roll-call voting in the House of Representatives, 1957-1991: A systematic analysis.\" Political Research Quarterly 50.3 (1997): 483-502."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Presidential election results and congressional roll call behavior: The cases of 1964, 1968, and 1972"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27268"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Schwarz, John E."},
+              {"_$": "Fenmore, Barton"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Schwarz, John E., and Barton Fenmore. \"Presidential election results and congressional roll call behavior: The cases of 1964, 1968, and 1972.\" Legislative Studies Quarterly 2.4 (1977): 409-422."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Partisanship in the United States Senate: 1869-1901"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27503"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Shade, William G."},
+              {"_$": "Hoppee, Stanley D."},
+              {"_$": "Jacobson, David"},
+              {"_$": "Moiles, Stephen"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Shade, William G., Hoppee, Stanley D., Jacobson, David, and Stephen Moiles. \"Partisanship in the United States Senate: 1869-1901.\" Journal of Interdisciplinary History 4.2 (1973): 185-205."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Electoral margins and voting behavior in the House of Representatives: The case of the eighty-sixth and eighty-seventh Congresses"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27567"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Shannon, Wayne"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Shannon, Wayne. \"Electoral margins and voting behavior in the House of Representatives: The case of the eighty-sixth and eighty-seventh Congresses.\" Journal of Politics 30.4 (1968): 1028-1045."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Voting behavior of metropolitan congressmen: Prospects for changes with reapportionment"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27613"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sharkansky, Ira"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sharkansky, Ira. \"Voting behavior of metropolitan congressmen: Prospects for changes with reapportionment.\" Journal of Politics 28.4 (1966): 774-793."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "After 'The first northern victory': The Republican Party comes to Congress, 1855-1856"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27986"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Silbey, Joel H."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Silbey, Joel H. \"After 'The first northern victory': The Republican Party comes to Congress, 1855-1856.\" Journal of Interdisciplinary History 20.1 (1989): 1-24."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "From party voting to regional fragmentation: The House of Representatives, 1933-1956"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28072"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0044-7803"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sinclair, Barbara"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sinclair, Barbara. \"From party voting to regional fragmentation: The House of Representatives, 1933-1956.\" American Politics Quarterly 6.2 (1978): 125-146."},
+            "holdings": {"_$": "http://doi.org/10.1177/1532673X7800600202"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Determinants of aggregate party cohesion in the U.S. House of Representatives, 1901-1956"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28075"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sinclair, Barbara Deckard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sinclair, Barbara Deckard. \"Determinants of aggregate party cohesion in the U.S. House of Representatives, 1901-1956.\" Legislative Studies Quarterly 2.2 (1977): 155-175."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party realignment and the transformation of the political agenda: The House of Representatives, 1925-1938"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28074"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sinclair, Barbara Deckard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sinclair, Barbara Deckard. \"Party realignment and the transformation of the political agenda: The House of Representatives, 1925-1938.\" American Political Science Review 71.3 (1977): 940-953."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The policy consequences of party realignment: Social welfare legislation in the House of Representatives, 1933-1954"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28077"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sinclair, Barbara Deckard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sinclair, Barbara Deckard. \"The policy consequences of party realignment: Social welfare legislation in the House of Representatives, 1933-1954.\" American Journal of Political Science 22.1 (1978): 83-105."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Who wins in the House of Representatives: The effects of declining party cohesion on policy outputs, 1959-1970"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28076"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4941"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sinclair, Barbara Deckard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sinclair, Barbara Deckard. \"Who wins in the House of Representatives: The effects of declining party cohesion on policy outputs, 1959-1970.\" Social Science Quarterly 58.1 (1977): 121-128."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Consistency and Ideological Structure of U.S. Senate Voting Alignments, 1957-1976"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28441"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Smith, Steve S."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Smith, Steve S. \"The Consistency and Ideological Structure of U.S. Senate Voting Alignments, 1957-1976.\" American Journal of Political Science 25.4 (1981): 780-795."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Presidential power vs. congressional time: Legislative history in the first Congress of the Civil War"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28495"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0734-3469"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Smith, Troy E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Smith, Troy E. \"Presidential power vs. congressional time: Legislative history in the first Congress of the Civil War.\" Congress and the Presidency 27.2 (2000): 149-162."},
+            "holdings": {"_$": "http://doi.org/10.1080/07343460009507767"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Roll calls, party labels, and elections"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "113273"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1047-1987"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Snyder, James M. Jr."},
+              {"_$": "Ting, Michael M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Snyder, James M. Jr., and Michael M. Ting. \"Roll calls, party labels, and elections.\" Political Analysis 11.4 (2003): 419-444."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Estimating party influence in congressional roll-call voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28579"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Snyder, James M., Jr."},
+              {"_$": "Groseclose, Tim"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Snyder, James M., Jr., and Tim Groseclose. \"Estimating party influence in congressional roll-call voting.\" American Journal of Political Science 44.2 (2000): 193-211."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Mobilization of liberal strength in the House, 1955-1970: The Democratic Study Group"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "29201"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Stevens, Arthur G., Jr."},
+              {"_$": "Miller, Arthur H."},
+              {"_$": "Mann, Thomas E."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Stevens, Arthur G., Jr., Miller, Arthur H., and Thomas E. Mann. \"Mobilization of liberal strength in the House, 1955-1970: The Democratic Study Group.\" American Political Science Review 68.2 (1974): 667-681."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Electoral choice and popular control of public policy: The case of the 1966 House elections"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "29559"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Sullivan, John L."},
+              {"_$": "O'Connor, Robert E."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sullivan, John L., and Robert E. O'Connor. \"Electoral choice and popular control of public policy: The case of the 1966 House elections.\" American Political Science Review 66.4 (1972): 1256-1268."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congressional behavior and electoral marginality"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "29563"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Sullivan, John L."},
+              {"_$": "Uslaner, Eric M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sullivan, John L., and Eric M. Uslaner. \"Congressional behavior and electoral marginality.\" American Journal of Political Science 22.3 (1978): 536-553."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The influence of recruitment on the structure of power in the U.S. House, 1870-1940"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "29704"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Swenson, Peter"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Swenson, Peter. \"The influence of recruitment on the structure of power in the U.S. House, 1870-1940.\" Legislative Studies Quarterly 7.1 (1982): 7-36."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Election proximity and senatorial roll call voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30038"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Thomas, Martin"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Thomas, Martin. \"Election proximity and senatorial roll call voting.\" American Journal of Political Science 29.1 (1985): 96-111."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Issue avoidance: Evidence from the U.S. Senate"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30039"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0190-9320"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Thomas, Martin"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Thomas, Martin. \"Issue avoidance: Evidence from the U.S. Senate.\" Political Behavior 13.1 (1991): 1-20."},
+            "holdings": {"_$": "http://doi.org/10.1007/BF00996996"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Sectionalism and American Foreign Policy: The Political Geography of Consensus and Conflict"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30450"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0020-8833"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Trubowitz, Peter"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Trubowitz, Peter. \"Sectionalism and American Foreign Policy: The Political Geography of Consensus and Conflict.\" International Studies Quarterly 36.2 (1992): 173-190."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congressional committee leadership, 1971-1978"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30680"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Unekis, Joseph K."},
+              {"_$": "Rieselbach, Leroy N."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Unekis, Joseph K., and Leroy N. Rieselbach. \"Congressional committee leadership, 1971-1978.\" Legislative Studies Quarterly 8.2 (1983): 251-270."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A contextual model of coalition formation in Congress: The dimensions of party and 'political time'"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30712"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0002-7642"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Uslaner, Eric M."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Uslaner, Eric M. \"A contextual model of coalition formation in Congress: The dimensions of party and 'political time'.\" American Behavioral Scientist 18.4 (1975): 513-529."},
+            "holdings": {"_$": "http://doi.org/10.1177/000276427501800405"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Constituency Characteristics and Roll Call Voting on Negro Rights in the 88th Congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30750"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4941"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Van Der Silk, Jack R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Van Der Silk, Jack R. \"Constituency Characteristics and Roll Call Voting on Negro Rights in the 88th Congress.\" Social Science Quarterly 49.3 (1968): 720-731."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The politics of abortion in the House of Representatives in 1976"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30986"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0026-2234"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Vinovskis, Maris A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Vinovskis, Maris A. \"The politics of abortion in the House of Representatives in 1976.\" Michigan Law Review 77.7 (1979): 1790-1827."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Sophisticated voting in supermajoritarian settings"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31029"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Volden, Craig"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Volden, Craig. \"Sophisticated voting in supermajoritarian settings.\" Journal of Politics 60.1 (1998): 149-173."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A Testing Time for Southern Congressional Leadership: The War Crisis of 1917-1918"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31361"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-4642"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Watson, Richard L., Jr."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Watson, Richard L., Jr. \"A Testing Time for Southern Congressional Leadership: The War Crisis of 1917-1918.\" Journal of Southern History 64.2 (1977): 493-494."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A panel probit analysis of campaign contributions and roll-call votes"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "113274"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Wawro, Gregory"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Wawro, Gregory. \"A panel probit analysis of campaign contributions and roll-call votes.\" American Journal of Political Science 45.3 (2001): 563-579."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Arms Control and Strategic Arms Voting in the U.S. Senate: Patterns of Change, 1967-1983"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31386"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0027"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Wayman, Frank Whelon"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Wayman, Frank Whelon. \"Arms Control and Strategic Arms Voting in the U.S. Senate: Patterns of Change, 1967-1983.\" Journal of Conflict Resolution 29.2 (1985): 225-251."},
+            "holdings": {"_$": "http://doi.org/10.1177/0022002785029002004"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "In search of a mandated Congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31500"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0026-3397"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Weinbaum, Marvin G."},
+              {"_$": "Judd, Dennis R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Weinbaum, Marvin G., and Dennis R. Judd. \"In search of a mandated Congress.\" Midwest Journal of Political Science 14.2 (1970): 276-302."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The institutional roots of American trade policy: Politics, coalitions, and international trade"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31520"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0043-8871"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Weingast, Barry R."},
+              {"_$": "Goldstein, Judith"},
+              {"_$": "Bailey, Michael A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Weingast, Barry R., Goldstein, Judith, and Michael A. Bailey. \"The institutional roots of American trade policy: Politics, coalitions, and international trade.\" World Politics 49.3 (1997): 309-338."},
+            "holdings": {"_$": "http://doi.org/10.1353/wp.1997.0007"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Models of statistical relationships"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31534"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Weisberg, Herbert"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Weisberg, Herbert. \"Models of statistical relationships.\" American Political Science Review 68.4 (1974): 1638-1655."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Evaluating Theories of Congressional Roll-Call Voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31538"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Weisberg, Herbert F."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Weisberg, Herbert F. \"Evaluating Theories of Congressional Roll-Call Voting.\" American Journal of Political Science 22.3 (1978): 554-577."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Measuring Congressional Responsiveness to the Policy Interests of Black Constituents"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31859"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4941"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Whitby, Kenny J."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Whitby, Kenny J. \"Measuring Congressional Responsiveness to the Policy Interests of Black Constituents.\" Social Science Quarterly 68.2 (1987): 367-377."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A longitudinal analysis of competing explanations for the transformation of Southern congressional politics"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31860"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Whitby, Kenny J."},
+              {"_$": "Gilliam, Franklin D., Jr."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Whitby, Kenny J., and Franklin D., Jr. Gilliam. \"A longitudinal analysis of competing explanations for the transformation of Southern congressional politics.\" Journal of Politics 53.2 (1991): 504-518."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The dimensionality of roll-call voting reconsidered"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "32013"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Wilcox, Clyde"},
+              {"_$": "Clausen, Aage"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Wilcox, Clyde, and Aage Clausen. \"The dimensionality of roll-call voting reconsidered.\" Legislative Studies Quarterly 16.3 (1991): 393-406."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congress, the president, and the end of the cold war"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "32358"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0027"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Wittkopf, Eugene R."},
+              {"_$": "McCormick, James M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Wittkopf, Eugene R., and James M. McCormick. \"Congress, the president, and the end of the cold war.\" Journal of Conflict Resolution 42.4 (1998): 440-466."},
+            "holdings": {"_$": "http://doi.org/10.1177/0022002798042004003"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Transaction costs and the politics of administrative design"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "113268"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Wood, B. Dan"},
+              {"_$": "Bohte, John"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Wood, B. Dan, and John Bohte. \"Transaction costs and the politics of administrative design.\" Journal of Politics 66.1 (2004): 176-202."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Policy voting in the U.S. Senate: Who is represented?"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "32605"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Wright, Gerald C."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Wright, Gerald C. \"Policy voting in the U.S. Senate: Who is represented?.\" Legislative Studies Quarterly 14.4 (1989): 465-486."}
+          }}
+        ]}
+      },
+      "fileDscr": [
+        {"fileTxt": {"fileName": {"_$": "DS1: House (1st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS2: Senate (1st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS3: House (2nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS4: Senate (2nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS5: House (3rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS6: Senate (3rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS7: House (4th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS8: Senate (4th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS9: House (5th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS10: Senate (5th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS11: House (6th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS12: Senate (6th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS13: House (7th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS14: Senate (7th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS15: House (8th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS16: Senate (8th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS17: House (9th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS18: Senate (9th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS19: House (10th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS20: Senate (10th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS21: House (11th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS22: Senate (11th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS23: House (12th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS24: Senate (12th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS25: House (13th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS26: Senate (13th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS27: House (14th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS28: Senate (14th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS29: House (15th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS30: Senate (15th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS31: House (16th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS32: Senate (16th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS33: House (17th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS34: Senate (17th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS35: House (18th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS36: Senate (18th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS37: House (19th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS38: Senate (19th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS39: House (20th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS40: Senate (20th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS41: House (21st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS42: Senate (21st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS43: House (22nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS44: Senate (22nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS45: House (23rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS46: Senate (23rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS47: House (24th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS48: Senate (24th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS49: House (25th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS50: Senate (25th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS51: House (26th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS52: Senate (26th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS53: House (27th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS54: Senate (27th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS55: House (28th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS56: Senate (28th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS57: House (29th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS58: Senate (29th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS59: House (30th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS60: Senate (30th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS61: House (31st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS62: Senate (31st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS63: House (32nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS64: Senate (32nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS65: House (33rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS66: Senate (33rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS67: House (34th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS68: Senate (34th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS69: House (35th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS70: Senate (35th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS71: House (36th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS72: Senate (36th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS73: House (37th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS74: Senate (37th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS75: House (38th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS76: Senate (38th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS77: House (39th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS78: Senate (39th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS79: House (40th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS80: Senate (40th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS81: House (41st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS82: Senate (41st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS83: House (42nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS84: Senate (42nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS85: House (43rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS86: Senate (43rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS87: House (44th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS88: Senate (44th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS89: House (45th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS90: Senate (45th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS91: House (46th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS92: Senate (46th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS93: House (47th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS94: Senate (47th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS95: House (48th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS96: Senate (48th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS97: House (49th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS98: Senate (49th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS99: House (50th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS100: Senate (50th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS101: House (51st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS102: Senate (51st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS103: House (52nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS104: Senate (52nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS105: House (53rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS106: Senate (53rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS107: House (54th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS108: Senate (54th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS109: House (55th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS110: Senate (55th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS111: House (56th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS112: Senate (56th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS113: House (57th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS114: Senate (57th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS115: House (58th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS116: Senate (58th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS117: House (59th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS118: Senate (59th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS119: House (60th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS120: Senate (60th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS121: House (61st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS122: Senate (61st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS123: House (62nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS124: Senate (62nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS125: House (63rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS126: Senate (63rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS127: House (64th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS128: Senate (64th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS129: House (65th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS130: Senate (65th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS131: House (66th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS132: Senate (66th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS133: House (67th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS134: Senate (67th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS135: House (68th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS136: Senate (68th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS137: House (69th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS138: Senate (69th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS139: House (70th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS140: Senate (70th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS141: House (71st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS142: Senate (71st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS143: House (72nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS144: Senate (72nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS145: House (73rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS146: Senate (73rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS147: House (74th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS148: Senate (74th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS149: House (75th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS150: Senate (75th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS151: House (76th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS152: Senate (76th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS153: House (77th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS154: Senate (77th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS155: House (78th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS156: Senate (78th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS157: House (79th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS158: Senate (79th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS159: House (80th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS160: Senate (80th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS161: House (81st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS162: Senate (81st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS163: House (82nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS164: Senate (82nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS165: House (83rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS166: Senate (83rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS167: House (84th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS168: Senate (84th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS169: House (85th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS170: Senate (85th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS171: House (86th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS172: Senate (86th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS173: House (87th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS174: Senate (87th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS175: House (88th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS176: Senate (88th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS177: House (89th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS178: Senate (89th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS179: House (90th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS180: Senate (90th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS181: House (91st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS182: Senate (91st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS183: House (92nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS184: Senate (92nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS185: House (93rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS186: Senate (93rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS187: House (94th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS188: Senate (94th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS189: House (95th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS190: Senate (95th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS191: House (96th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS192: Senate (96th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS193: House (97th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS194: Senate (97th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS195: House (98th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS196: Senate (98th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS197: House (99th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS198: Senate (99th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS199: House (100th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS200: Senate (100th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS201: House (101st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS202: Senate (101st Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS203: House (102nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS204: Senate (102nd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS205: House (103rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS206: Senate (103rd Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS207: House (104th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS208: Senate (104th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS209: House (105th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS210: Senate (105th Congress)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS301: Diskette D00014, 101st House and Senate (both sessions)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS499: List of Member Number, Party ID and State Errata Announced in January 1988"}}},
+        {"fileTxt": {"fileName": {"_$": "DS500: Roll Calls Database SPIRES File Definition"}}},
+        {"fileTxt": {"fileName": {"_$": "DS501: SPIRES Roll Calls Database RCSETS Information"}}},
+        {"fileTxt": {"fileName": {"_$": "DS502: SPIRES Roll Calls Database RCNOTES Information"}}},
+        {"fileTxt": {"fileName": {"_$": "DS503: SPIRES Roll Calls Database Data"}}},
+        {"fileTxt": {"fileName": {"_$": "DS504: SPIRES Roll Calls Database Output Formats"}}},
+        {"fileTxt": {"fileName": {"_$": "DS505: SPIRES Roll Calls Database Data Additions and Updates As of September 1, 1987"}}}
+      ]
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

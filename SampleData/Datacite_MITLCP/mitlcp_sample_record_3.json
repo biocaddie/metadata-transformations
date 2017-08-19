@@ -1,0 +1,67 @@
+{
+  "id": "https://doi.org/10.13026/C2NC7F",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.13026/C2NC7F",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Indwelling arterial catheter clinical data from the MIMIC II database",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Douglas J.",
+        "last-name": "Hsu"
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      },
+      {
+        "first-name": "Kenneth P.",
+        "last-name": "Chen"
+      },
+      {
+        "first-name": "Leo A.",
+        "last-name": "Celi"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-06-22T17:37:10Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-06-22T17:37:10Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "physionet.org",
+    "description": null
+  }
+}

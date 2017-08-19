@@ -1,0 +1,71 @@
+{
+  "id": "https://doi.org/10.13026/C2S59C",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.13026/C2S59C",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Long Term Movement Monitoring Database",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Aner",
+        "last-name": "Weiss"
+      },
+      {
+        "first-name": "Marina",
+        "last-name": "Brozgol"
+      },
+      {
+        "first-name": "Moran",
+        "last-name": "Dorfman"
+      },
+      {
+        "first-name": "Talia",
+        "last-name": "Herman"
+      },
+      {
+        "first-name": "Shirley",
+        "last-name": "Shema"
+      },
+      {
+        "first-name": "Nir",
+        "last-name": "Giladi"
+      },
+      {
+        "first-name": "Jeffrey M.",
+        "last-name": "Hausdorff"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-06-22T01:35:03Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-06-22T01:35:03Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "physionet.org",
+    "description": null
+  }
+}

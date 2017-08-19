@@ -1,0 +1,54 @@
+/* Dataset Basic Information */
+transform column "$.'attributes'.'identifiers'[0].'identifier'" to "dataset.ID" apply {{ result = re.sub('https?:/?/?','',value) }};
+transform column "$.'attributes'.'title'"  to "dataset.title";
+transform column "$.'attributes'.'description'" to "dataset.description";
+
+/* Dataset Landing Page*/
+transform column "$.'id'" to "access.landingPage";
+
+/* Dataset Creator */
+transform columns "$.'attributes'.'creators'[*].'first-name'", "$.'attributes'.'creators'[*].'last-name'" to "dataset.creators[]"apply {{ result= value2 + ', ' + value1}};
+
+/* Dataset Release Date Information */
+transform column "$.'attributes'.'dates'[2].'date'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd");
+transform column "$.'attributes'.'dates'[1].'date'" to "dataset.dateCreated" apply toStandardDateTime("yyyy-MM-dd");
+
+/* Dataset Qualifiers */
+let "dataset.availability" = "available";
+let "dataset.types[0]" = "other";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "information not avaiable";
+let "dataset.refinement" = "curated";
+
+/* Information on Dataset Distributions */
+
+/* Dataset Distribution - HTML */
+let "datasetDistributions[0].format" = "HTML";
+transform column "$.'attributes'.'container-title'" to "datasetDistributions[0].storedIn";
+let "datasetDistributions[0].qualifier" = "not compressed";
+transform column "$.'id'" to "datasetDistributions[0].accessURL";
+let "datasetDistributions[0].accessType" = "landing page";
+let "datasetDistributions[0].authorization" = "none";
+let "datasetDistributions[0].authentication" = "none"; 
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:014706";
+let "dataRepository.name" = "Australian Data Archive ";
+let "dataRepository.abbreviation" = "ADA";
+let "dataRepository.homePage"= "https://www.ada.edu.au/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:001086";
+let "organization.name" = "The Australian National University";
+let "organization.abbreviation" = "ANU";
+let "organization.homePage"= "http://www.anu.edu.au/";
+
+/* Items not included */
+/*
+transform column "$.'attributes'.'dates'[*].'type'.'ontology-term-iri'" to "attributes.dates[].type.ontology-term-iri";
+transform column "$.'attributes'.'identifiers'[*].'identifier-source'" to "attributes.identifiers[].identifier-source";
+transform column "$.'attributes'.'types'[*].'information'.'value'.'id'" to "attributes.types[].information.value.id";
+transform column "$.'attributes'.'types'[*].'information'.'value'.'title'" to "attributes.types[].information.value.title";
+transform column "$.'attributes'.'types'[*].'information'.'value'.'updated_at'" to "attributes.types[].information.value.updated_at";
+transform column "$.'type'" to "type";
+*/

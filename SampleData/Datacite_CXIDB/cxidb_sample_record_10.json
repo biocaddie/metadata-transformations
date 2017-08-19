@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.11577/1249397",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.11577/1249397",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Oil-free hyaluronic acid matrix for serial femtosecond crystallography (CXIDB ID 41)",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "M.",
+      "last-name": "Sugahara"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-05-03T03:13:01Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-17T08:02:42Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Coherent X-ray Imaging Data Bank (Lawrence Berkeley National Laboratory); The University of Tokyo, RIKEN SPring-8 \nCenter, POSTECH,Osaka University, Kyoto University, Japan Synchrotron Radiation Research Institute, KEK High Energy \nAccelerator Research Organization",
+    "description": "Please check the README file inside the metadata directory for more information about the dataset."
+  }
+}

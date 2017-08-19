@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.15154/1252218",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.15154/1252218",
+      "identifier-source": "DataCite"
+    }],
+    "title": "De novo genic mutations among a Chinese autism spectrum disorder cohort",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": null,
+      "last-name": "Tianyun Wang"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-09-15T04:46:34Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-15T04:46:34Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "NIMH Data Archives",
+    "description": "Recurrent de novo (DN) and likely gene-disruptive (LGD) mutations are important risk factors for autism spectrum disorders (ASD) but have been primarily investigated in cohorts of European ancestry. We sequenced 189 risk genes in 1,543 ASD probands (1,045 from trios) with Chinese ancestry. We report an 11-fold increase in the odds of DN LGD mutations compared to expectation under an exome-wide mutational rate model based on chimpanzee\u2013human divergence. This enrichment for DN LGD mutations remains even after removing known syndromic ASD and intellectual disability genes from our panel (p = 1.17x10-5; odds ratio = 4.1). In aggregate, ~4% of ASD patients carry a DN mutation in one of just 29 autism risk genes. The most prevalent gene for recurrent DN mutations was SCN2A (1.1% of patients) followed by CHD8, DSCAM, MECP2, POGZ, WDFY3 and ASH1L. We identify novel DN LGD recurrences (GIGYF2, MYT1L, CUL3, DOCK8 and ZNF292) and DN mutations in genes previously implicated in ASD (ARHGAP32, NCOR1, PHIP, STXBP1, CDKL5 and SHANK1). Patient follow-up confirms phenotypic features associated with the genetic subtypes and highlights how large global cohorts might be leveraged to identify individually rare mutations in genes that together prove pathogenic significance."
+  }
+}

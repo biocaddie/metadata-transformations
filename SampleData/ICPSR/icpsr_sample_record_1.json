@@ -1,0 +1,1917 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "1"},
+      "datestamp": {"_$": "1999-04-26T01:01:01Z"},
+      "repository": {"_$": "Inter-University Consortium for Political and Social Research"},
+      "setName": {},
+      "fetchURL": {"_$": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?verb=ListRecords&metadataPrefix=oai_ddi25_citations"},
+      "recNum": {"_$": "0"}
+    },
+    "metadata": {"codeBook": {
+      "@schemaLocation": "ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd",
+      "@version": "2.5",
+      "docDscr": {"citation": {
+        "titlStmt": {
+          "titl": {"_$": "Metadata record for United States Historical Election Returns, 1824-1968"},
+          "IDNo": {
+            "@agency": "ICPSR",
+            "_$": "1"
+          }
+        },
+        "prodStmt": {
+          "producer": {
+            "@abbr": "ICPSR",
+            "_$": "Inter-university Consortium for Political and Social Research"
+          },
+          "copyright": {"_$": "ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License."}
+        },
+        "verStmt": {"version": {
+          "@date": "2016-04-13",
+          "_$": "2016-04-13"
+        }},
+        "holdings": {"@URI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?metadataPrefix=oai_ddi25&verb=GetRecord&identifier=1"}
+      }},
+      "stdyDscr": {
+        "citation": {
+          "titlStmt": {
+            "titl": {"_$": "United States Historical Election Returns, 1824-1968"},
+            "IDNo": [
+              {
+                "@agency": "ICPSR",
+                "_$": "1"
+              },
+              {
+                "@agency": "dara",
+                "_$": "10.3886/ICPSR00001.v3"
+              }
+            ]
+          },
+          "rspStmt": {"AuthEnty": {"_$": "Inter-university Consortium for Political and Social Research"}},
+          "prodStmt": {
+            "producer": {"_$": "Please see full citation."},
+            "fundAg": {"_$": "National Science Foundation"},
+            "grantNo": {
+              "@agency": "National Science Foundation",
+              "_$": "GS881"
+            }
+          },
+          "distStmt": {
+            "distrbtr": {"_$": "Ann Arbor, MI: Inter-university Consortium for Political and Social Research"},
+            "distDate": {
+              "@date": "1984-06-19",
+              "_$": "1984-06-19"
+            }
+          },
+          "serStmt": {"serName": {
+            "@ID": "Series59",
+            "_$": "United States Historical Election Returns Series"
+          }},
+          "verStmt": [
+            {
+              "version": {
+                "@date": "1999-04-26",
+                "_$": "1999-04-26"
+              },
+              "notes": {"_$": "A machine-readable listing of political party codes has been added to the collection as Part 204."}
+            },
+            {
+              "version": {
+                "@date": "1997-09-26",
+                "_$": "1997-09-26"
+              },
+              "notes": {"_$": "SAS and SPSS data definition statements have been generated for all parts, and reformatted logical record length data files are now available for Parts 12, 33, 34, 35, 84, 96, 101, 104, 130, 156, and 194."}
+            }
+          ],
+          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. United States Historical Election Returns, 1824-1968 [Computer File]. ICPSR00001-v3. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1999-04-26. http://doi.org/10.3886/ICPSR00001.v3"},
+          "holdings": {"_$": "http://doi.org/10.3886/ICPSR00001.v3"}
+        },
+        "stdyInfo": {
+          "subject": {
+            "keyword": [
+              {
+                "@vocab": "thesaurus",
+                "_$": "candidates"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "congressional elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "counties"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "election returns"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "gubernatorial elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "historical data"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "political attitudes"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "political behavior"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "political parties"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "presidential elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "senatorial elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "states (USA)"
+              }
+            ],
+            "topcClas": {
+              "@source": "archive",
+              "@vocab": "ICPSR subject classifications",
+              "_$": "ICPSR XIV.A.3.a. Mass Political Behavior and Attitudes, Historical and Contemporary Electoral Processes, Election Returns, United States"
+            }
+          },
+          "abstract": {"_$": "This collection of historical election data contains state files that list county-level returns for over 90 percent of all elections to the offices of president, governor, United States senator, and United States representative from 1824 through 1968. The data files include returns for all parties and candidates (as well as write-in and scattering votes if available for individual states), and for special elections as well as regularly-scheduled contests. Over 1,000 individual party names and many additional unaffiliated candidates are included."},
+          "sumDscr": {
+            "timePrd": [
+              {
+                "@cycle": "P1",
+                "@event": "start",
+                "@date": "1824",
+                "_$": "1824"
+              },
+              {
+                "@cycle": "P1",
+                "@event": "end",
+                "@date": "1968",
+                "_$": "1968"
+              }
+            ],
+            "nation": {"_$": "Please see geographic coverage."},
+            "geogCover": {"_$": "United States"},
+            "dataKind": [
+              {"_$": "aggregate"},
+              {"_$": "survey"}
+            ]
+          }
+        },
+        "method": {
+          "dataColl": {
+            "sources": {"dataSrc": {"_$": "official election returns provided by state governments"}},
+            "cleanOps": {
+              "p": {"_$": "ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:"},
+              "list": {
+                "@type": "bulleted",
+                "itm": [
+                  {"_$": "Performed consistency checks."},
+                  {"_$": "Standardized missing values."}
+                ]
+              }
+            }
+          },
+          "notes": [
+            {"_$": "The election data have been matched-merged and fixed-formatted within states. Because of the volume of data available for some states, it was necessary to store the election returns in more than one file per state."},
+            {"_$": "County names have been standardized, including names for counties that have experienced name changes over time. In addition to the names, a county identification number was added to all county-level records. This number allows unique identification of all counties within states."},
+            {"_$": "Data for elections to the office of United States representative have been collapsed to the whole-county level."},
+            {"_$": "The election data files for each county contain the congressional district number of that county at the time of each election for the office of United States representative. When a county was divided into more than one congressional district, a code value indicating the number of congressional districts into which the county was divided was inserted in place of the congressional district number. It is thus possible to aggregate to the congressional district level all county-level election data (except in the case of split-district counties), and to perform the aggregations for the districts as they were constituted for any Congress."},
+            {"_$": "Counties may have been assigned a congressional district number of zero if they were not in existence at the time of the election, did not report vote totals, or did not participate in that election."},
+            {"_$": "For 1970 to 1990 election returns data, see GENERAL ELECTION DATA FOR THE UNITED STATES, 1970-1990 (ICPSR 0013)."},
+            {"_$": "Part 204, a listing of political party codes used in all data files, is an ASCII text file included as supplementary documentation. There is no actual codebook for this collection. Variable information is contained in the setup files. Some variable labels are cryptic. For example, the variable label V34=\"825 2 GOV 9001 VOTE\" is interpreted as year of election/code for elected office/type of election/elected office/party code."},
+            {"_$": "There are data for one race in Delaware from 1823 included in the collection, though this year is not reflected in the title."}
+          ]
+        },
+        "dataAccs": {
+          "setAvail": {
+            "@media": "online",
+            "accsPlac": {
+              "@URI": "http://doi.org/10.3886/ICPSR00001.v3",
+              "_$": "Ann Arbor, Mi.: Inter-university Consortium for Political and Social Research"
+            }
+          },
+          "useStmt": {
+            "conditions": {"p": [
+              {"_$": "Terms of use are available at http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/1/terms"},
+              {"_$": "AVAILABLE. This study is freely available to ICPSR member institutions."}
+            ]},
+            "disclaimer": {"_$": "The original collector of the data, ICPSR, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses."}
+          }
+        },
+        "othrStdyMat": {"relPubl": [
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Poindexter of Washington: A Study of Progressive Politics"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "1507"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Allen, Howard W."}},
+            "prodStmt": {
+              "producer": {"_$": "Southern Illinois University Press"},
+              "prodPlac": {"_$": "Carbondale, IL"}
+            },
+            "biblCit": {"_$": "Allen, Howard W. Poindexter of Washington: A Study of Progressive Politics. Carbondale, IL: Southern Illinois University Press, 1981."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "From the Populist era to the New Deal: A study of partisan realignment in Washington State, 1889-1950"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1508"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Allen, Howard W."},
+              {"_$": "Austin, Erik W."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Allen, Howard W., and Erik W. Austin. \"From the Populist era to the New Deal: A study of partisan realignment in Washington State, 1889-1950.\" Social Science History 3.2 (1979): 115-143."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Political Facts of the United States Since 1789"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "2461"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Austin, Erik W."}},
+            "prodStmt": {
+              "producer": {"_$": "Columbia University Press"},
+              "prodPlac": {"_$": "New York, NY"}
+            },
+            "biblCit": {"_$": "Austin, Erik W. Political Facts of the United States Since 1789. New York, NY: Columbia University Press, 1986."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Electoral participation in the United States, 1968-1986"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "2463"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Austin, Erik W."},
+              {"_$": "Clubb, Jerome M."},
+              {"_$": "Granda, Peter A."},
+              {"_$": "Flanigan, William H."},
+              {"_$": "Zingale, Nancy"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Austin, Erik W., Clubb, Jerome M., Granda, Peter A., Flanigan, William H., and Nancy Zingale. \"Electoral participation in the United States, 1968-1986.\" Legislative Studies Quarterly 16.1 (1991): 145-164."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Voter response to short-run economic conditions: The asymmetric effect of prosperity and recession"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4042"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Bloom, Howard S."},
+              {"_$": "Price, H. Douglas"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Bloom, Howard S., and H. Douglas Price. \"Voter response to short-run economic conditions: The asymmetric effect of prosperity and recession.\" American Political Science Review 69.4 (1975): 1240-1254."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Mass dynamics of U.S. presidential competitions, 1928-1936"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4912"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Brown, Courtney"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Brown, Courtney. \"Mass dynamics of U.S. presidential competitions, 1928-1936.\" American Political Science Review 82.4 (1988): 1153-1181."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Nonlinear transformation in a landslide: Johnson and Goldwater in 1964"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4913"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Brown, Courtney"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Brown, Courtney. \"Nonlinear transformation in a landslide: Johnson and Goldwater in 1964.\" American Journal of Political Science 37.2 (1993): 582-609."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Agrarian radicals and their opponents: Political conflict in Southern Oklahoma, 1910-1924"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "5189"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-8723"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Burbank, Garin"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Burbank, Garin. \"Agrarian radicals and their opponents: Political conflict in Southern Oklahoma, 1910-1924.\" Journal of American History 58.1 (1971): 5-23."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Insulation and responsiveness in congressional elections"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "5308"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0032-3195"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Burnham, Walter Dean"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Burnham, Walter Dean. \"Insulation and responsiveness in congressional elections.\" Political Science Quarterly 90.3 (1975): 411-435."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party formation through petitions: The Whigs and the Bank War of 1832-1834"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "120311"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0898-588X"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Carpenter, Daniel"},
+              {"_$": "Schneer, Benjamin"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Carpenter, Daniel, and Benjamin Schneer. \"Party formation through petitions: The Whigs and the Bank War of 1832-1834.\" Studies in American Political Development 29.2 (2015): 213-234."},
+            "holdings": {"_$": "http://doi.org/10.1017/S0898588X15000073"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Aggregate vote functions for the U.S. Presidency, Senate and House"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6162"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Chappell, Henry W., Jr."},
+              {"_$": "Suzuki, Motoshi"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Chappell, Henry W., Jr., and Motoshi Suzuki. \"Aggregate vote functions for the U.S. Presidency, Senate and House.\" Journal of Politics 55.1 (1993): 207-217."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A specification test for discrete choice models"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "119805"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0165-1765"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Chicu, Mark"},
+              {"_$": "Masten, Matthew A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Chicu, Mark, and Matthew A. Masten. \"A specification test for discrete choice models.\" Economics Letters 121.2 (2013): 336-339."},
+            "holdings": {"_$": "http://doi.org/10.1016/j.econlet.2013.08.024"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Nationalization of Congressional Turnout: A Research Note"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6465"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0043-4078"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Claggett, William"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Claggett, William. \"The Nationalization of Congressional Turnout: A Research Note.\" Western Political Quarterly 40.3 (1987): 527-533."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Nationalization of the American electorate"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6469"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Claggett, William"},
+              {"_$": "Flanigan, William H."},
+              {"_$": "Zingale, Nancy H."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Claggett, William, Flanigan, William H., and Nancy H. Zingale. \"Nationalization of the American electorate.\" American Political Science Review 78.1 (1984): 77-91."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Cities and the Election of 1928: Partisan Realignment?"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6660"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0002-8762"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Clubb, Jerome M."},
+              {"_$": "Allen, Howard W."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Clubb, Jerome M., and Howard W. Allen. \"The Cities and the Election of 1928: Partisan Realignment?.\" American Historical Review 74.4 (1969): 1205-1220."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Partisan Realignment: Voters, Parties, and Government in American History"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "6664"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Clubb, Jerome M."},
+              {"_$": "Flanigan, William H."},
+              {"_$": "Zingale, Nancy H."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Sage"},
+              "prodPlac": {"_$": "Beverly Hills"}
+            },
+            "biblCit": {"_$": "Clubb, Jerome M., Flanigan, William H., and Nancy H. Zingale. Partisan Realignment: Voters, Parties, and Government in American History. Beverly Hills: Sage, 1980."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party Strength in the United States, 1872-1970"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "7937"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "David, Paul T."}},
+            "prodStmt": {
+              "producer": {"_$": "University Press of Virginia"},
+              "prodPlac": {"_$": "Charlottesville"}
+            },
+            "biblCit": {"_$": "David, Paul T. Party Strength in the United States, 1872-1970. Charlottesville: University Press of Virginia, 1972."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party Formation in the United States"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "119578"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "DeWitt, Darin Dion"}},
+            "prodStmt": {"producer": {"_$": "University of California, Los Angeles"}},
+            "biblCit": {"_$": "DeWitt, Darin Dion. Party Formation in the United States. Diss. University of California, Los Angeles, 2013."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The changing shape of the American political universe revisited"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "8841"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Dugan, William E."},
+              {"_$": "Taggart, William A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Dugan, William E., and William A. Taggart. \"The changing shape of the American political universe revisited.\" Journal of Politics 57.2 (1995): 469-482."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Presidential Coattails in Historical Perspective"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10130"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Ferejohn, John A."},
+              {"_$": "Calvert, Randall L."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Ferejohn, John A., and Randall L. Calvert. \"Presidential Coattails in Historical Perspective.\" American Journal of Political Science 28.1 (1984): 127-146."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Redistribution, income, and voting"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10258"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Filer, John E."},
+              {"_$": "Kenny, Lawrence W."},
+              {"_$": "Morton, Rebecca B."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Filer, John E., Kenny, Lawrence W., and Rebecca B. Morton. \"Redistribution, income, and voting.\" American Journal of Political Science 37.1 (1993): 63-87."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Births, deaths, and New Deal relief during the Great Depression"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "87468"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0034-6535"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Haines, Michael R."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fishback, Price V., Haines, Michael R., and Shawn Kantor. \"Births, deaths, and New Deal relief during the Great Depression.\" Review of Economics and Statistics 89.1 (2007): 1-14."},
+            "holdings": {"_$": "http://doi.org/10.1162/rest.89.1.1"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The impact of the New Deal on black and white infant mortality in the South"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92395"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0014-4983"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Haines, Michael R."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fishback, Price V., Haines, Michael R., and Shawn Kantor. \"The impact of the New Deal on black and white infant mortality in the South.\" Explorations in Economic History 38.1 (2001): 93-122."},
+            "holdings": {"_$": "http://doi.org/10.1006/exeh.2000.0759"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Do Federal Programs Affect Internal Migration? The Impact of New Deal Expenditures on Mobility During the Great Depression"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "93578"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Horrace, William C."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "University of Arizona"},
+              "prodDate": {
+                "@date": "2005",
+                "_$": "Jan 2005"
+              },
+              "prodPlac": {"_$": "Tucson, AZ"}
+            },
+            "biblCit": {"_$": "Fishback, Price V., Horrace, William C., and Shawn Kantor. Do Federal Programs Affect Internal Migration? The Impact of New Deal Expenditures on Mobility During the Great Depression. Tucson, AZ: University of Arizona, 2005."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Impact of New Deal Expenditures on Local Economic Activity: An Examination of Retail Sales, 1929-1939"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92975"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Horrace, William C."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "National Bureau of Economic Research"},
+              "prodDate": {
+                "@date": "2001",
+                "_$": "Feb 2001"
+              },
+              "prodPlac": {"_$": "Cambridge, MA"}
+            },
+            "biblCit": {"_$": "Fishback, Price V., Horrace, William C., and Shawn Kantor. The Impact of New Deal Expenditures on Local Economic Activity: An Examination of Retail Sales, 1929-1939. Cambridge, MA: National Bureau of Economic Research, 2001."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Origins of Modern Housing Finance: The Impact of Federal Housing Programs During the Great Depression"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92731"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Horrace, William C."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Yale University"},
+              "prodDate": {
+                "@date": "2001",
+                "_$": "Sep 2001"
+              },
+              "prodPlac": {"_$": "New Haven, CT"}
+            },
+            "biblCit": {"_$": "Fishback, Price V., Horrace, William C., and Shawn Kantor. The Origins of Modern Housing Finance: The Impact of Federal Housing Programs During the Great Depression. Yale University, 2001."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Can the New Deal's three Rs be rehabilitated? A program-by-program, county-by-county analysis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92399"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0014-4983"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Kantor, Shawn"},
+              {"_$": "Wallis, John Joseph"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fishback, Price V., Kantor, Shawn, and John Joseph Wallis. \"Can the New Deal's three Rs be rehabilitated? A program-by-program, county-by-county analysis.\" Explorations in Economic History 40.3 (2003): 278-307."},
+            "holdings": {"_$": "http://doi.org/10.1016/S0014-4983(03)00029-9"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Changes in the Vote Margins for Congressional Candidates: A Specification of Historical Trends"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11202"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Garand, James C."},
+              {"_$": "Gross, Donald A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Garand, James C., and Donald A. Gross. \"Changes in the Vote Margins for Congressional Candidates: A Specification of Historical Trends.\" American Political Science Review 78.1 (1984): 17-30."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Nativism and the Creation of a Republican Majority in the North before the Civil War"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11580"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-8723"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Gienapp, William E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gienapp, William E. \"Nativism and the Creation of a Republican Majority in the North before the Civil War.\" Journal of American History 72.3 (1985): 529-559."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Salmon P. Chase, nativism, and the formation of the Republican Party in Ohio"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11581"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0030-0934"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Gienapp, William E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gienapp, William E. \"Salmon P. Chase, nativism, and the formation of the Republican Party in Ohio.\" Ohio History 93 (1984): 5-39."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Computing antebellum turnout: Methods and models"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11708"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Ginsburg, Gerald"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Ginsburg, Gerald. \"Computing antebellum turnout: Methods and models.\" Journal of Interdisciplinary History 16.4 (1986): 579-611."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Units of analysis and Rae's fractionalization index"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "12639"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0010-4140"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Gross, Donald A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gross, Donald A. \"Units of analysis and Rae's fractionalization index.\" Comparative Political Studies 15.1 (1982): 85-98."},
+            "holdings": {"_$": "http://doi.org/10.1177/0010414082015001004"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Vanishing Marginals, 1824-1980"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "12641"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Gross, Donald A."},
+              {"_$": "Garand, James C."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gross, Donald A., and James C. Garand. \"The Vanishing Marginals, 1824-1980.\" Journal of Politics 46.1 (1984): 224-237."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "From local to national political cultures: Social capital and civic organization in the Great Plains"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "35884"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Gutmann, Myron P."},
+              {"_$": "Pullum, Sara M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gutmann, Myron P., and Sara M. Pullum. \"From local to national political cultures: Social capital and civic organization in the Great Plains.\" Journal of Interdisciplinary History 24.4 (1999): 725-762."},
+            "holdings": {"_$": "http://doi.org/10.1162/002219599551877"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Minor parties and electoral realignments"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13192"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0044-7803"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hammond, John L."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hammond, John L. \"Minor parties and electoral realignments.\" American Politics Quarterly 4.1 (1976): 63-87."},
+            "holdings": {"_$": "http://doi.org/10.1177/1532673X7600400103"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Revival Religion and Antislavery Politics"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13190"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hammond, John L."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hammond, John L. \"Revival Religion and Antislavery Politics.\" American Sociological Review 39.2 (1974): 175-186."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Third parties, elections, and roll-call votes: The populist party and the late nineteenth-century U.S. congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92734"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hirano, Shigeo"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hirano, Shigeo. \"Third parties, elections, and roll-call votes: The populist party and the late nineteenth-century U.S. congress.\" Legislative Studies Quarterly 33.1 (2008): 131-160."},
+            "holdings": {"_$": "http://doi.org/10.3162/036298008783743282"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Resisting redemption: The Republican vote in Georgia in 1876"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "96012"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hogan, Richard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hogan, Richard. \"Resisting redemption: The Republican vote in Georgia in 1876.\" Social Science History 35.2 (2011): 133-166."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-2010-019"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The attribution of variance in electoral returns: An alternative measurement technique"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "16539"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Katz, Richard S."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Katz, Richard S. \"The attribution of variance in electoral returns: An alternative measurement technique.\" American Political Science Review 67.3 (1973): 817-828."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Toward Understanding 19th Century Congressional Careers: Ambition, Competition, and Rotation"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "16818"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Kernell, Samuel"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kernell, Samuel. \"Toward Understanding 19th Century Congressional Careers: Ambition, Competition, and Rotation.\" American Journal of Political Science 21.4 (1977): 669-693."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Social determinism and electoral decision: The case of Indiana"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "16903"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Key, V.O., Jr."},
+              {"_$": "Munger, Frank"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Free Press of Glencoe"},
+              "prodPlac": {"_$": "New York"}
+            },
+            "biblCit": {"_$": "Key, V.O., Jr., and Frank Munger. \"Social determinism and electoral decision: The case of Indiana.\" American Voting Behavior. Ed. Burdick, Eugene; Brdbeck, Arthur J.. New York: Free Press of Glencoe, 1959. 281-299."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Third Electoral System, 1853-1892: Parties, Voters, and Political Cultures"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "17264"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Kleppner, Paul"}},
+            "prodStmt": {
+              "producer": {"_$": "University of North Carolina Press"},
+              "prodPlac": {"_$": "Chapel Hill, NC"}
+            },
+            "biblCit": {"_$": "Kleppner, Paul. The Third Electoral System, 1853-1892: Parties, Voters, and Political Cultures. Chapel Hill, NC: University of North Carolina Press, 1979."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Evolution of American Electoral Systems"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "17266"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Kleppner, Paul"},
+              {"_$": "Burnham, Walter Dean"},
+              {"_$": "Formisano, Ronald P."},
+              {"_$": "Hays, Samuel P."},
+              {"_$": "Jenson, Richard"},
+              {"_$": "Shade, William G."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Greenwood"},
+              "prodPlac": {"_$": "Westport, CT"}
+            },
+            "biblCit": {"_$": "Kleppner, Paul, Burnham, Walter Dean, Formisano, Ronald P., Hays, Samuel P., Jenson, Richard, and William G. Shade. The Evolution of American Electoral Systems. Westport, CT: Greenwood, 1981."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Taxes and voting: Electoral retribution in the American States"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "17586"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Kone, Susan L."},
+              {"_$": "Winters, Richard F."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kone, Susan L., and Richard F. Winters. \"Taxes and voting: Electoral retribution in the American States.\" Journal of Politics 55.1 (1993): 22-40."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Shaping of Southern Politics: Suffrage Restriction and the Establishment of the One Party South, 1880-1910"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "17663"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Kousser, J. Morgan"}},
+            "prodStmt": {
+              "producer": {"_$": "Yale University Press"},
+              "prodPlac": {"_$": "New Haven, CT"}
+            },
+            "biblCit": {"_$": "Kousser, J. Morgan. The Shaping of Southern Politics: Suffrage Restriction and the Establishment of the One Party South, 1880-1910. New Haven, CT: Yale University Press, 1974."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "American Political Parties: Social Change and Political Response"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "18004"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Ladd, Everett Carll, Jr."}},
+            "prodStmt": {
+              "producer": {"_$": "Norton"},
+              "prodPlac": {"_$": "New York"}
+            },
+            "biblCit": {"_$": "Ladd, Everett Carll, Jr. American Political Parties: Social Change and Political Response. New York: Norton, 1970."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Where Have all the Voters Gone?: The Fracturing of America's Political Parties, 2nd Edition"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "18005"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Ladd, Everett Carll, Jr."}},
+            "prodStmt": {
+              "producer": {"_$": "Norton"},
+              "prodPlac": {"_$": "New York"}
+            },
+            "biblCit": {"_$": "Ladd, Everett Carll, Jr. Where Have all the Voters Gone?: The Fracturing of America's Political Parties, 2nd Edition. New York: Norton, 1982."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Divisive nominating mechanisms and democratic party electoral prospects"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18704"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Lengle, James I."},
+              {"_$": "Owen, Diana"},
+              {"_$": "Sonner, Molly W."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lengle, James I., Owen, Diana, and Molly W. Sonner. \"Divisive nominating mechanisms and democratic party electoral prospects.\" Journal of Politics 57.2 (1995): 370-383."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Draft Evasion in the North during the Civil War, 1863-1865"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18817"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-8723"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Levine, Peter"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Levine, Peter. \"Draft Evasion in the North during the Civil War, 1863-1865.\" Journal of American History 67.4 (1981): 816-834."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Critical election theory and the reality of American presidential politics, 1916-1940"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "19009"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0002-8762"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Lichtman, Allan J."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lichtman, Allan J. \"Critical election theory and the reality of American presidential politics, 1916-1940.\" American Historical Review 81.2 (1976): 317-351."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Longitudinal analysis of republican presidential electoral trends, 1896-1968"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "19109"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0026-3397"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Lindeen, James W."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lindeen, James W. \"Longitudinal analysis of republican presidential electoral trends, 1896-1968.\" Midwest Journal of Political Science 16.1 (1972): 102-122."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Immigrant Support for the American Socialist Party, 1912 and 1920"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20175"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Marks, Gary"},
+              {"_$": "Burbank, Matthew"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Marks, Gary, and Matthew Burbank. \"Immigrant Support for the American Socialist Party, 1912 and 1920.\" Social Science History 14.2 (1990): 175-202."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Exploratory analysis of aggregate voting behavior: Presidential elections in New Hampshire, 1896-1972"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20727"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "McCarthy, John L."},
+              {"_$": "Tukey, John W."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "McCarthy, John L., and John W. Tukey. \"Exploratory analysis of aggregate voting behavior: Presidential elections in New Hampshire, 1896-1972.\" Social Science History 2.3 (1978): 292-331."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Racism and the electorate: Two late nineteenth century mountain elections"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20994"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0090-3779"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "McKinney, Gordon"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "McKinney, Gordon. \"Racism and the electorate: Two late nineteenth century mountain elections.\" Appalachian Journal 1.2 (1973): 98-110."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Southern Mountain Republicans and the Negro, 1865-1900"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20995"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-4642"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "McKinney, Gordon B."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "McKinney, Gordon B. \"Southern Mountain Republicans and the Negro, 1865-1900.\" Journal of Southern History 41.4 (1975): 493-516."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Politics of Depression: Political Behavior in the Northeast, 1893-1896"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "21133"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "McSeveney, Samuel"}},
+            "prodStmt": {
+              "producer": {"_$": "Oxford University Press"},
+              "prodPlac": {"_$": "New York"}
+            },
+            "biblCit": {"_$": "McSeveney, Samuel. The Politics of Depression: Political Behavior in the Northeast, 1893-1896. New York: Oxford University Press, 1972."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Structural incentives for conservative mobilization: power devaluation and the rise of the Ku Klux Klan, 1915-1925"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "21136"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "McVeigh, Rory"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "McVeigh, Rory. \"Structural incentives for conservative mobilization: power devaluation and the rise of the Ku Klux Klan, 1915-1925.\" Social Forces 77.4 (1999): 1461-1496."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Beating the spread: Analyzing American election outcomes"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "23874"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-8723"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Parker, Albert C.E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Parker, Albert C.E. \"Beating the spread: Analyzing American election outcomes.\" Journal of American History 67.1 (1980): 61-87."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Differences in access to outpatient medical care for Black and White adults in the rural Southeast"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "46772"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0025-7079"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Pathman, D.E."},
+              {"_$": "Fowler-Brown, A."},
+              {"_$": "Corbie-Smith, G."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Pathman, D.E., Fowler-Brown, A., and G. Corbie-Smith. \"Differences in access to outpatient medical care for Black and White adults in the rural Southeast.\" Medical Care 44 (2006): 429-438."},
+            "holdings": {"_$": "http://doi.org/10.1097/01.mlr.0000207487.85689.a8"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Estimating levels and modeling determinants of black and white voter turnout in the South, 1880 to 1912"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "25349"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-5440"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Redding, Kent"},
+              {"_$": "James, David R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Redding, Kent, and David R. James. \"Estimating levels and modeling determinants of black and white voter turnout in the South, 1880 to 1912.\" Historical Methods 34.4 (2001): 141-158."},
+            "holdings": {"_$": "http://doi.org/10.1080/01615440109598978"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Educational documentation to accompany the great American history machine"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "27007"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Schlatterer, Helen Marie Fell"}},
+            "prodStmt": {
+              "producer": {"_$": "Carnegie-Mellon University"},
+              "prodDate": {
+                "@date": "1989",
+                "_$": "1989"
+              }
+            },
+            "biblCit": {"_$": "Schlatterer, Helen Marie Fell. Educational documentation to accompany the great American history machine. Diss. Carnegie-Mellon University, 1989."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The equilibrium cycle in two-party politics"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27420"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0033-362X"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sellers, Charles"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sellers, Charles. \"The equilibrium cycle in two-party politics.\" Public Opinion Quarterly 29.1 (1965): 16-38."},
+            "holdings": {"_$": "http://doi.org/10.1086/267295"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "'New political history': Some statistical questions raised"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27502"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Shade, William G."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Shade, William G. \"'New political history': Some statistical questions raised.\" Social Science History 5.2 (1981): 171-196."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Regional receptivity to reform: The elgacy of the Progressive Era"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27709"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0032-3195"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Shefter, Martin"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Shefter, Martin. \"Regional receptivity to reform: The elgacy of the Progressive Era.\" Political Science Quarterly 98.3 (1983): 459-483."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Sectionalism and presidential politics: Voting patterns in Illinois, Indiana, and Ohio"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27724"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Shelley, Fred M."},
+              {"_$": "Archer, J. Clark"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Shelley, Fred M., and J. Clark Archer. \"Sectionalism and presidential politics: Voting patterns in Illinois, Indiana, and Ohio.\" Journal of Interdisciplinary History 20.2 (1989): 227-255."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Voter turnout in the Midwest, 1840-1872: Democracy's golden age?"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27883"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4941"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Shortridge, Ray M."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Shortridge, Ray M. \"Voter turnout in the Midwest, 1840-1872: Democracy's golden age?.\" Social Science Quarterly 60.4 (1980): 617-629."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Voting for minor parties in the antebellum Midwest"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27882"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0019-6673"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Shortridge, Ray M."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Shortridge, Ray M. \"Voting for minor parties in the antebellum Midwest.\" Indiana Magazine of History 74.2 (1978): 117-134."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Aid to Sharecroppers: How Agrarian Class Structure and Tenant-Farmer Politics Influenced Federal Relief in the South, 1933-1935"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28779"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Southworth, Caleb"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Southworth, Caleb. \"Aid to Sharecroppers: How Agrarian Class Structure and Tenant-Farmer Politics Influenced Federal Relief in the South, 1933-1935.\" Social Science History 26.1 (2001): 33-70."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-26-1-33"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party politics during the Louisiana Purchase"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "42911"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Theriault, Sean M."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Theriault, Sean M. \"Party politics during the Louisiana Purchase.\" Social Science History 30.2 (2006): 293-324."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-30-2-293"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The relationship between seats and votes in two-party systems"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30525"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Tufte, Edward R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tufte, Edward R. \"The relationship between seats and votes in two-party systems.\" American Political Science Review 67.2 (1973): 540-554."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Are There Bellwether Electoral Districts?"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30526"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0033-362X"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Tufte, Edward R."},
+              {"_$": "Sun, Richard A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tufte, Edward R., and Richard A. Sun. \"Are There Bellwether Electoral Districts?.\" Public Opinion Quarterly 39.1 (1975): 1-18."},
+            "holdings": {"_$": "http://doi.org/10.1086/268196"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Nationalization of the electorate in the United States"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30930"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Vertz, Laura L."},
+              {"_$": "Frendreis, John P."},
+              {"_$": "Gibson, James L."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Vertz, Laura L., Frendreis, John P., and James L. Gibson. \"Nationalization of the electorate in the United States.\" American Political Science Review 81.3 (1987): 961-966."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Schooling for Some: Child Labor and School Enrollment of Black and White Children in the Early Twentieth-Century South"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31222"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Walters, Pamela Barnhouse"},
+              {"_$": "James, David R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Walters, Pamela Barnhouse, and David R. James. \"Schooling for Some: Child Labor and School Enrollment of Black and White Children in the Early Twentieth-Century South.\" American Sociological Review 57.5 (1992): 635-650."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Schooling or Working? Public Education, Racial Politics, and the Organization of Production in 1910"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31224"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-0407"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Walters, Pamela Barnhouse"},
+              {"_$": "McCammon, Holly J."},
+              {"_$": "James, David R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Walters, Pamela Barnhouse, McCammon, Holly J., and David R. James. \"Schooling or Working? Public Education, Racial Politics, and the Organization of Production in 1910.\" Sociology of Education 63.1 (1990): 1-26."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Estimating the degree of mobilization and conversion in the 1890s: An inquiry into the nature of electoral change"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31238"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-0554"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Wanat, John"},
+              {"_$": "Burke, Karen"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Wanat, John, and Karen Burke. \"Estimating the degree of mobilization and conversion in the 1890s: An inquiry into the nature of electoral change.\" American Political Science Review 76.2 (1982): 360-370."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Tug-of-war: Political mobilization and access to schooling in the southern racial state"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31767"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-0407"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Werum, Regina E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Werum, Regina E. \"Tug-of-war: Political mobilization and access to schooling in the southern racial state.\" Sociology of Education 72.2 (1999): 89-110."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Politics of Populism: Dissent in Colorado"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "32629"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Wright, James Edward"}},
+            "prodStmt": {
+              "producer": {"_$": "Yale University Press"},
+              "prodPlac": {"_$": "New Haven, CT"}
+            },
+            "biblCit": {"_$": "Wright, James Edward. The Politics of Populism: Dissent in Colorado. New Haven, CT: Yale University Press, 1974."}
+          }}
+        ]}
+      },
+      "fileDscr": [
+        {"fileTxt": {"fileName": {"_$": "DS1: Election Returns for Connecticut, 1824-1860"}}},
+        {"fileTxt": {"fileName": {"_$": "DS2: Election Returns for Connecticut, 1861-1904"}}},
+        {"fileTxt": {"fileName": {"_$": "DS3: Election Returns for Connecticut, 1906-1942"}}},
+        {"fileTxt": {"fileName": {"_$": "DS4: Election Returns for Connecticut, 1944-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS5: Election Returns for Maine, 1824-1873"}}},
+        {"fileTxt": {"fileName": {"_$": "DS6: Election Returns for Maine, 1874-1902"}}},
+        {"fileTxt": {"fileName": {"_$": "DS7: Election Returns for Maine, 1906-1944"}}},
+        {"fileTxt": {"fileName": {"_$": "DS8: Election Returns for Maine, 1946-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS9: Election Returns for Massachusetts, 1824-1855"}}},
+        {"fileTxt": {"fileName": {"_$": "DS10: Election Returns for Massachusetts, 1856-1895"}}},
+        {"fileTxt": {"fileName": {"_$": "DS11: Election Returns for Massachusetts, 1896-1928"}}},
+        {"fileTxt": {"fileName": {"_$": "DS12: Election Returns for Massachusetts, 1930-1964"}}},
+        {"fileTxt": {"fileName": {"_$": "DS13: Election Returns for Massachusetts, 1964-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS14: Election Returns for New Hampshire, 1824-1871"}}},
+        {"fileTxt": {"fileName": {"_$": "DS15: Election Returns for New Hampshire, 1872-1875"}}},
+        {"fileTxt": {"fileName": {"_$": "DS16: Election Returns for New Hampshire, 1876-1918"}}},
+        {"fileTxt": {"fileName": {"_$": "DS17: Election Returns for New Hampshire, 1920-1926"}}},
+        {"fileTxt": {"fileName": {"_$": "DS18: Election Returns for New Hampshire, 1928-1964"}}},
+        {"fileTxt": {"fileName": {"_$": "DS19: Election Returns for New Hampshire, 1966-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS20: Election Returns for Rhode Island, 1824-1866"}}},
+        {"fileTxt": {"fileName": {"_$": "DS21: Election Returns for Rhode Island, 1867-1899"}}},
+        {"fileTxt": {"fileName": {"_$": "DS22: Election Returns for Rhode Island, 1900-1903"}}},
+        {"fileTxt": {"fileName": {"_$": "DS23: Election Returns for Rhode Island, 1904-1938"}}},
+        {"fileTxt": {"fileName": {"_$": "DS24: Election Returns for Rhode Island, 1940-1944"}}},
+        {"fileTxt": {"fileName": {"_$": "DS25: Election Returns for Rhode Island, 1946-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS26: Election Returns for Vermont, 1824-1866"}}},
+        {"fileTxt": {"fileName": {"_$": "DS27: Election Returns for Vermont, 1867-1910"}}},
+        {"fileTxt": {"fileName": {"_$": "DS28: Election Returns for Vermont, 1912-1914"}}},
+        {"fileTxt": {"fileName": {"_$": "DS29: Election Returns for Vermont, 1916-1950"}}},
+        {"fileTxt": {"fileName": {"_$": "DS30: Election Returns for Vermont, 1952-1958"}}},
+        {"fileTxt": {"fileName": {"_$": "DS31: Election Returns for Vermont, 1960-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS32: Election Returns for Delaware, 1823-1876"}}},
+        {"fileTxt": {"fileName": {"_$": "DS33: Election Returns for Delaware, 1878-1920"}}},
+        {"fileTxt": {"fileName": {"_$": "DS34: Election Returns for Delaware, 1922-1926"}}},
+        {"fileTxt": {"fileName": {"_$": "DS35: Election Returns for Delaware, 1928-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS36: Election Returns for New Jersey, 1824-1874"}}},
+        {"fileTxt": {"fileName": {"_$": "DS37: Election Returns for New Jersey, 1876-1882"}}},
+        {"fileTxt": {"fileName": {"_$": "DS38: Election Returns for New Jersey, 1883-1922"}}},
+        {"fileTxt": {"fileName": {"_$": "DS39: Election Returns for New Jersey, 1924-1953"}}},
+        {"fileTxt": {"fileName": {"_$": "DS40: Election Returns for New Jersey, 1954-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS41: Election Returns for New York, 1824-1854"}}},
+        {"fileTxt": {"fileName": {"_$": "DS42: Election Returns for New York, 1856-1884"}}},
+        {"fileTxt": {"fileName": {"_$": "DS43: Election Returns for New York, 1885-1906"}}},
+        {"fileTxt": {"fileName": {"_$": "DS44: Election Returns for New York, 1908-1922"}}},
+        {"fileTxt": {"fileName": {"_$": "DS45: Election Returns for New York, 1923-1933"}}},
+        {"fileTxt": {"fileName": {"_$": "DS46: Election Returns for New York, 1934-1938"}}},
+        {"fileTxt": {"fileName": {"_$": "DS47: Election Returns for New York, 1940-1952"}}},
+        {"fileTxt": {"fileName": {"_$": "DS48: Election Returns for New York, 1954-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS49: Election Returns for Pennsylvania, 1824-1876"}}},
+        {"fileTxt": {"fileName": {"_$": "DS50: Election Returns for Pennsylvania, 1878-1882"}}},
+        {"fileTxt": {"fileName": {"_$": "DS51: Election Returns for Pennsylvania, 1884-1899"}}},
+        {"fileTxt": {"fileName": {"_$": "DS52: Election Returns for Pennsylvania, 1900"}}},
+        {"fileTxt": {"fileName": {"_$": "DS53: Election Returns for Pennsylvania, 1901-1915"}}},
+        {"fileTxt": {"fileName": {"_$": "DS54: Election Returns for Pennsylvania, 1916-1928"}}},
+        {"fileTxt": {"fileName": {"_$": "DS55: Election Returns for Pennsylvania, 1930-1964"}}},
+        {"fileTxt": {"fileName": {"_$": "DS56: Election Returns for Pennsylvania, 1966-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS57: Election Returns for Illinois, 1824-1878"}}},
+        {"fileTxt": {"fileName": {"_$": "DS58: Election Returns for Illinois, 1880-1910"}}},
+        {"fileTxt": {"fileName": {"_$": "DS59: Election Returns for Illinois, 1912-1930"}}},
+        {"fileTxt": {"fileName": {"_$": "DS60: Election Returns for Illinois, 1932-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS61: Election Returns for Indiana, 1824-1872"}}},
+        {"fileTxt": {"fileName": {"_$": "DS62: Election Returns for Indiana, 1874-1926"}}},
+        {"fileTxt": {"fileName": {"_$": "DS63: Election Returns for Indiana, 1928-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS64: Election Returns for Michigan, 1835-1874"}}},
+        {"fileTxt": {"fileName": {"_$": "DS65: Election Returns for Michigan, 1876-1886"}}},
+        {"fileTxt": {"fileName": {"_$": "DS66: Election Returns for Michigan, 1888-1920"}}},
+        {"fileTxt": {"fileName": {"_$": "DS67: Election Returns for Michigan, 1922-1928"}}},
+        {"fileTxt": {"fileName": {"_$": "DS68: Election Returns for Michigan, 1930-1960"}}},
+        {"fileTxt": {"fileName": {"_$": "DS69: Election Returns for Michigan, 1962-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS70: Election Returns for Ohio, 1824-1873"}}},
+        {"fileTxt": {"fileName": {"_$": "DS71: Election Returns for Ohio, 1874-1878"}}},
+        {"fileTxt": {"fileName": {"_$": "DS72: Election Returns for Ohio, 1879-1916"}}},
+        {"fileTxt": {"fileName": {"_$": "DS73: Election Returns for Ohio, 1918-1920"}}},
+        {"fileTxt": {"fileName": {"_$": "DS74: Election Returns for Ohio, 1922-1948"}}},
+        {"fileTxt": {"fileName": {"_$": "DS75: Election Returns for Ohio, 1950"}}},
+        {"fileTxt": {"fileName": {"_$": "DS76: Election Returns for Ohio, 1952-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS77: Election Returns for Wisconsin, 1848-1884"}}},
+        {"fileTxt": {"fileName": {"_$": "DS78: Election Returns for Wisconsin, 1886-1890"}}},
+        {"fileTxt": {"fileName": {"_$": "DS79: Election Returns for Wisconsin, 1892-1926"}}},
+        {"fileTxt": {"fileName": {"_$": "DS80: Election Returns for Wisconsin, 1928-1931"}}},
+        {"fileTxt": {"fileName": {"_$": "DS81: Election Returns for Wisconsin, 1932-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS82: Election Returns for Iowa, 1846-1887"}}},
+        {"fileTxt": {"fileName": {"_$": "DS83: Election Returns for Iowa, 1888-1923"}}},
+        {"fileTxt": {"fileName": {"_$": "DS84: Election Returns for Iowa, 1924-1926"}}},
+        {"fileTxt": {"fileName": {"_$": "DS85: Election Returns for Iowa, 1928-1958"}}},
+        {"fileTxt": {"fileName": {"_$": "DS86: Election Returns for Iowa, 1960-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS87: Election Returns for Kansas, 1862-1898"}}},
+        {"fileTxt": {"fileName": {"_$": "DS88: Election Returns for Kansas, 1900-1936"}}},
+        {"fileTxt": {"fileName": {"_$": "DS89: Election Returns for Kansas, 1938-1943"}}},
+        {"fileTxt": {"fileName": {"_$": "DS90: Election Returns for Kansas, 1944-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS91: Election Returns for Minnesota, 1857-1902"}}},
+        {"fileTxt": {"fileName": {"_$": "DS92: Election Returns for Minnesota, 1904-1908"}}},
+        {"fileTxt": {"fileName": {"_$": "DS93: Election Returns for Minnesota, 1910-1946"}}},
+        {"fileTxt": {"fileName": {"_$": "DS94: Election Returns for Minnesota, 1948-1950"}}},
+        {"fileTxt": {"fileName": {"_$": "DS95: Election Returns for Minnesota, 1952-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS96: Election Returns for Missouri, 1824-1872"}}},
+        {"fileTxt": {"fileName": {"_$": "DS97: Election Returns for Missouri, 1874-1922"}}},
+        {"fileTxt": {"fileName": {"_$": "DS98: Election Returns for Missouri, 1924-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS99: Election Returns for Nebraska, 1866-1908"}}},
+        {"fileTxt": {"fileName": {"_$": "DS100: Election Returns for Nebraska, 1910-1912"}}},
+        {"fileTxt": {"fileName": {"_$": "DS101: Election Returns for Nebraska, 1914-1948"}}},
+        {"fileTxt": {"fileName": {"_$": "DS102: Election Returns for Nebraska, 1950-1952"}}},
+        {"fileTxt": {"fileName": {"_$": "DS103: Election Returns for Nebraska, 1954-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS104: Election Returns for North Dakota, 1889-1926"}}},
+        {"fileTxt": {"fileName": {"_$": "DS105: Election Returns for North Dakota, 1928-1962"}}},
+        {"fileTxt": {"fileName": {"_$": "DS106: Election Returns for North Dakota, 1964-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS107: Election Returns for South Dakota, 1889-1932"}}},
+        {"fileTxt": {"fileName": {"_$": "DS108: Election Returns for South Dakota, 1934-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS109: Election Returns for Virginia, 1824-1888"}}},
+        {"fileTxt": {"fileName": {"_$": "DS110: Election Returns for Virginia, 1893-1929"}}},
+        {"fileTxt": {"fileName": {"_$": "DS111: Election Returns for Virginia, 1930-1932"}}},
+        {"fileTxt": {"fileName": {"_$": "DS112: Election Returns for Virginia, 1933-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS113: Election Returns for Alabama, 1824-1874"}}},
+        {"fileTxt": {"fileName": {"_$": "DS114: Election Returns for Alabama, 1876-1918"}}},
+        {"fileTxt": {"fileName": {"_$": "DS115: Election Returns for Alabama, 1920-1960"}}},
+        {"fileTxt": {"fileName": {"_$": "DS116: Election Returns for Alabama, 1962-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS117: Election Returns for Arkansas, 1836-1890"}}},
+        {"fileTxt": {"fileName": {"_$": "DS118: Election Returns for Arkansas, 1892-1902"}}},
+        {"fileTxt": {"fileName": {"_$": "DS119: Election Returns for Arkansas, 1904-1940"}}},
+        {"fileTxt": {"fileName": {"_$": "DS120: Election Returns for Arkansas, 1942"}}},
+        {"fileTxt": {"fileName": {"_$": "DS121: Election Returns for Arkansas, 1944-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS122: Election Returns for Florida, 1845-1900"}}},
+        {"fileTxt": {"fileName": {"_$": "DS123: Election Returns for Florida, 1902-1914"}}},
+        {"fileTxt": {"fileName": {"_$": "DS124: Election Returns for Florida, 1916-1956"}}},
+        {"fileTxt": {"fileName": {"_$": "DS125: Election Returns for Florida, 1958-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS126: Election Returns for Georgia, 1824-1860"}}},
+        {"fileTxt": {"fileName": {"_$": "DS127: Election Returns for Georgia, 1868-1930"}}},
+        {"fileTxt": {"fileName": {"_$": "DS128: Election Returns for Georgia, 1932-1946"}}},
+        {"fileTxt": {"fileName": {"_$": "DS129: Election Returns for Georgia, 1948-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS130: Election Returns for Louisiana, 1824-1892"}}},
+        {"fileTxt": {"fileName": {"_$": "DS131: Election Returns for Louisiana, 1894-1938"}}},
+        {"fileTxt": {"fileName": {"_$": "DS132: Election Returns for Louisiana, 1940-1948"}}},
+        {"fileTxt": {"fileName": {"_$": "DS133: Election Returns for Louisiana, 1950-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS134: Election Returns for Mississippi, 1824-1896"}}},
+        {"fileTxt": {"fileName": {"_$": "DS135: Election Returns for Mississippi, 1898-1941"}}},
+        {"fileTxt": {"fileName": {"_$": "DS136: Election Returns for Mississippi, 1942-1951"}}},
+        {"fileTxt": {"fileName": {"_$": "DS137: Election Returns for Mississippi, 1952-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS138: Election Returns for North Carolina, 1824-1874"}}},
+        {"fileTxt": {"fileName": {"_$": "DS139: Election Returns for North Carolina, 1876-1928"}}},
+        {"fileTxt": {"fileName": {"_$": "DS140: Election Returns for North Carolina, 1930-1936"}}},
+        {"fileTxt": {"fileName": {"_$": "DS141: Election Returns for North Carolina, 1938-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS142: Election Returns for South Carolina, 1824-1894"}}},
+        {"fileTxt": {"fileName": {"_$": "DS143: Election Returns for South Carolina, 1896-1904"}}},
+        {"fileTxt": {"fileName": {"_$": "DS144: Election Returns for South Carolina, 1906-1940"}}},
+        {"fileTxt": {"fileName": {"_$": "DS145: Election Returns for South Carolina, 1942-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS146: Election Returns for Texas, 1846-1896"}}},
+        {"fileTxt": {"fileName": {"_$": "DS147: Election Returns for Texas, 1898-1931"}}},
+        {"fileTxt": {"fileName": {"_$": "DS148: Election Returns for Texas, 1932-1936"}}},
+        {"fileTxt": {"fileName": {"_$": "DS149: Election Returns for Texas, 1937-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS150: Election Returns for Kentucky, 1824-1875"}}},
+        {"fileTxt": {"fileName": {"_$": "DS151: Election Returns for Kentucky, 1876-1880"}}},
+        {"fileTxt": {"fileName": {"_$": "DS152: Election Returns for Kentucky, 1882-1928"}}},
+        {"fileTxt": {"fileName": {"_$": "DS153: Election Returns for Kentucky, 1929-1959"}}},
+        {"fileTxt": {"fileName": {"_$": "DS154: Election Returns for Kentucky, 1960-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS155: Election Returns for Maryland, 1824-1880"}}},
+        {"fileTxt": {"fileName": {"_$": "DS156: Election Returns for Maryland, 1882-1924"}}},
+        {"fileTxt": {"fileName": {"_$": "DS157: Election Returns for Maryland, 1926-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS158: Election Returns for Oklahoma, 1907-1938"}}},
+        {"fileTxt": {"fileName": {"_$": "DS159: Election Returns for Oklahoma, 1940-1948"}}},
+        {"fileTxt": {"fileName": {"_$": "DS160: Election Returns for Oklahoma, 1950-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS161: Election Returns for Tennessee, 1825-1882"}}},
+        {"fileTxt": {"fileName": {"_$": "DS162: Election Returns for Tennessee, 1884-1930"}}},
+        {"fileTxt": {"fileName": {"_$": "DS163: Election Returns for Tennessee, 1932-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS164: Election Returns for West Virginia, 1863-1916"}}},
+        {"fileTxt": {"fileName": {"_$": "DS165: Election Returns for West Virginia, 1918-1954"}}},
+        {"fileTxt": {"fileName": {"_$": "DS166: Election Returns for West Virginia, 1956-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS167: Election Returns for Arizona, 1911-1944"}}},
+        {"fileTxt": {"fileName": {"_$": "DS168: Election Returns for Arizona, 1946-1952"}}},
+        {"fileTxt": {"fileName": {"_$": "DS169: Election Returns for Arizona, 1954-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS170: Election Returns for Colorado, 1876-1910"}}},
+        {"fileTxt": {"fileName": {"_$": "DS171: Election Returns for Colorado, 1912-1914"}}},
+        {"fileTxt": {"fileName": {"_$": "DS172: Election Returns for Colorado, 1916-1946"}}},
+        {"fileTxt": {"fileName": {"_$": "DS173: Election Returns for Colorado, 1948-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS174: Election Returns for Idaho, 1890-1924"}}},
+        {"fileTxt": {"fileName": {"_$": "DS175: Election Returns for Idaho, 1926-1934"}}},
+        {"fileTxt": {"fileName": {"_$": "DS176: Election Returns for Idaho, 1936-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS177: Election Returns for Montana, 1889-1932"}}},
+        {"fileTxt": {"fileName": {"_$": "DS178: Election Returns for Montana, 1934-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS179: Election Returns for Nevada, 1864-1912"}}},
+        {"fileTxt": {"fileName": {"_$": "DS180: Election Returns for Nevada, 1914-1924"}}},
+        {"fileTxt": {"fileName": {"_$": "DS181: Election Returns for Nevada, 1926-1960"}}},
+        {"fileTxt": {"fileName": {"_$": "DS182: Election Returns for Nevada, 1962-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS183: Election Returns for New Mexico, 1911-1942"}}},
+        {"fileTxt": {"fileName": {"_$": "DS184: Election Returns for New Mexico, 1944-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS185: Election Returns for Utah, 1896-1936"}}},
+        {"fileTxt": {"fileName": {"_$": "DS186: Election Returns for Utah, 1938-1946"}}},
+        {"fileTxt": {"fileName": {"_$": "DS187: Election Returns for Utah, 1948-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS188: Election Returns for Wyoming, 1890-1930"}}},
+        {"fileTxt": {"fileName": {"_$": "DS189: Election Returns for Wyoming, 1932-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS190: Election Returns for California, 1849-1894"}}},
+        {"fileTxt": {"fileName": {"_$": "DS191: Election Returns for California, 1896-1900"}}},
+        {"fileTxt": {"fileName": {"_$": "DS192: Election Returns for California, 1902-1936"}}},
+        {"fileTxt": {"fileName": {"_$": "DS193: Election Returns for California, 1938-1944"}}},
+        {"fileTxt": {"fileName": {"_$": "DS194: Election Returns for California, 1946-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS195: Election Returns for Oregon, 1858-1904"}}},
+        {"fileTxt": {"fileName": {"_$": "DS196: Election Returns for Oregon, 1906-1916"}}},
+        {"fileTxt": {"fileName": {"_$": "DS197: Election Returns for Oregon, 1918-1952"}}},
+        {"fileTxt": {"fileName": {"_$": "DS198: Election Returns for Oregon, 1954-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS199: Election Returns for Washington, 1889-1924"}}},
+        {"fileTxt": {"fileName": {"_$": "DS200: Election Returns for Washington, 1926-1930"}}},
+        {"fileTxt": {"fileName": {"_$": "DS201: Election Returns for Washington, 1932-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS202: Election Returns for Alaska, 1958-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS203: Election Returns for Hawaii, 1959-1968"}}},
+        {"fileTxt": {"fileName": {"_$": "DS204: Political Party Codes"}}}
+      ]
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

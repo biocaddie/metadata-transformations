@@ -1,0 +1,146 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "5"},
+      "datestamp": {"_$": "2005-12-22T01:01:01Z"},
+      "repository": {"_$": "Inter-University Consortium for Political and Social Research"},
+      "setName": {},
+      "fetchURL": {"_$": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?verb=ListRecords&metadataPrefix=oai_ddi25_citations"},
+      "recNum": {"_$": "4"}
+    },
+    "metadata": {"codeBook": {
+      "@schemaLocation": "ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd",
+      "@version": "2.5",
+      "docDscr": {"citation": {
+        "titlStmt": {
+          "titl": {"_$": "Metadata record for Data Confrontation Seminar, 1969: United States Data"},
+          "IDNo": {
+            "@agency": "ICPSR",
+            "_$": "5"
+          }
+        },
+        "prodStmt": {
+          "producer": {
+            "@abbr": "ICPSR",
+            "_$": "Inter-university Consortium for Political and Social Research"
+          },
+          "copyright": {"_$": "ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License."}
+        },
+        "verStmt": {"version": {
+          "@date": "2016-04-13",
+          "_$": "2016-04-13"
+        }},
+        "holdings": {"@URI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?metadataPrefix=oai_ddi25&verb=GetRecord&identifier=5"}
+      }},
+      "stdyDscr": {
+        "citation": {
+          "titlStmt": {
+            "titl": {"_$": "Data Confrontation Seminar, 1969: United States Data"},
+            "IDNo": [
+              {
+                "@agency": "ICPSR",
+                "_$": "5"
+              },
+              {
+                "@agency": "dara",
+                "_$": "10.3886/ICPSR00005.v1"
+              }
+            ]
+          },
+          "rspStmt": {"AuthEnty": {"_$": "Inter-university Consortium for Political and Social Research"}},
+          "prodStmt": {"producer": {"_$": "Please see full citation."}},
+          "verStmt": {
+            "version": {
+              "@date": "2005-12-22",
+              "_$": "2005-12-22"
+            },
+            "notes": {"_$": "File CB0005.ALL.PDF was removed from any previous datasets and flagged as a study-level file, so that it will accompany all downloads."}
+          },
+          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. DATA CONFRONTATION SEMINAR, 1969: UNITED STATES DATA. ICPSR version. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [producer and distributor], 2000. http://doi.org/10.3886/ICPSR00005.v1"},
+          "holdings": {"_$": "http://doi.org/10.3886/ICPSR00005.v1"}
+        },
+        "stdyInfo": {
+          "subject": {
+            "keyword": [
+              {
+                "@vocab": "thesaurus",
+                "_$": "congressional elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "demographic characteristics"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "election returns"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "national elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "political parties"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "presidential elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "state elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "voting behavior"
+              }
+            ],
+            "topcClas": {
+              "@source": "archive",
+              "@vocab": "ICPSR subject classifications",
+              "_$": "ICPSR XIV.A.4.a. Mass Political Behavior and Attitudes, Historical and Contemporary Electoral Processes, Merged Electoral and Ecological Data, United States"
+            }
+          },
+          "abstract": {"_$": "This study contains national data prepared for the Data Confrontation Seminar on the Use of Ecological Data in Comparative Cross-National Research held under the auspices of the Inter-university Consortium for Political and Social Research on April 1-18, 1969. One of the primary concerns of this international seminar was the need for cooperation in the development of data resources in order to facilitate exchange of data between individual scholars and research groups. This data collection contains returns for all elections for 3,143 counties of 50 states of the United States to the offices of president, senator and representative, and governor, ecological data drawn from various United States censuses from 1947 to 1965, and selected data from the 1952 National Council of Churches Survey of church membership. It contains a merged set of data at the county, state, and congressional district levels for the 1950s and 1960s. The data are organized in three parts: (1) election returns and ecological data in raw form, (2) percentagized party votes and ecological data, and (3) series of derived measures and additional computations. Data on election returns include votes for the Democratic and Republican parties, as well as for other minor parties for the period 1949-1968. Data on ecology provide information on total population, urbanization, industries, housing, and sex and age distribution. Other demographic variables include education, religion, employment, and income."},
+          "sumDscr": {
+            "timePrd": {
+              "@event": "single",
+              "@date": "1969",
+              "_$": "1969"
+            },
+            "nation": {"_$": "Please see geographic coverage."},
+            "geogCover": {"_$": "United States"},
+            "universe": {"_$": "A total of 3,143 counties of the 50 states of the United States in the 1950s and 1960s."},
+            "dataKind": {"_$": "aggregate data, census/enumeration data, and administrative records data"}
+          }
+        },
+        "method": {
+          "dataColl": {},
+          "notes": {"_$": "The data map is provided as an ASCII text file, and the codebook is provided by ICPSR as a Portable Document Format (PDF) file. The PDF file format was developed by Adobe Systems Incorporated and can be accessed using PDF reader software, such as the Adobe Acrobat Reader. Information on how to obtain a copy of the Acrobat Reader is provided on the ICPSR Web site."}
+        },
+        "dataAccs": {
+          "setAvail": {
+            "@media": "online",
+            "accsPlac": {
+              "@URI": "http://doi.org/10.3886/ICPSR00005.v1",
+              "_$": "Ann Arbor, Mi.: Inter-university Consortium for Political and Social Research"
+            }
+          },
+          "useStmt": {
+            "conditions": {"p": [
+              {"_$": "Terms of use are available at http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/5/terms"},
+              {"_$": "AVAILABLE. This study is freely available to ICPSR member institutions."}
+            ]},
+            "disclaimer": {"_$": "The original collector of the data, ICPSR, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses."}
+          }
+        }
+      },
+      "fileDscr": [
+        {"fileTxt": {"fileName": {"_$": "DS1: County-Level"}}},
+        {"fileTxt": {"fileName": {"_$": "DS2: State-Level"}}}
+      ]
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

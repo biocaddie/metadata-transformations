@@ -1,0 +1,71 @@
+{
+  "id": "https://doi.org/10.13026/C29591",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.13026/C29591",
+      "identifier-source": "DataCite"
+    }],
+    "title": "MAMEM Steady State Visually Evoked Potential EEG Database",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Kostantinos",
+        "last-name": "Georgiadis"
+      },
+      {
+        "first-name": "Georgios",
+        "last-name": "Liaros"
+      },
+      {
+        "first-name": "Vangelis P.",
+        "last-name": "Oikonomou"
+      },
+      {
+        "first-name": "Elisavet",
+        "last-name": "Chatzilari"
+      },
+      {
+        "first-name": "Katerina",
+        "last-name": "Adam"
+      },
+      {
+        "first-name": "Spiros",
+        "last-name": "Nikolopoulos"
+      },
+      {
+        "first-name": "Ioannis",
+        "last-name": "Kompatsiaris"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-04-15T18:14:08Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-04-15T18:20:41Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "physionet.org",
+    "description": null
+  }
+}

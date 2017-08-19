@@ -1,0 +1,71 @@
+{
+  "id": "https://doi.org/10.18116/C6WC71",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.18116/C6WC71",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Internet Brain Segmentation Repository (IBSR) 1.5mm dataset",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "JA",
+        "last-name": "Frazier"
+      },
+      {
+        "first-name": "VS",
+        "last-name": "Caviness"
+      },
+      {
+        "first-name": "DN",
+        "last-name": "Kennedy"
+      },
+      {
+        "first-name": "AJ",
+        "last-name": "Worth"
+      },
+      {
+        "first-name": "C",
+        "last-name": "Haselgrove"
+      },
+      {
+        "first-name": "D",
+        "last-name": "Caplan"
+      },
+      {
+        "first-name": "N",
+        "last-name": "Makris"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2007",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2015-12-04T14:03:58Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-18T08:20:17Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Child and Adolescent NeuroDevelopment Initiative",
+    "description": "The Internet Brain Segmentation Repository (IBSR) provides manually-guided expert segmentation results along with magnetic resonance brain image data. Its purpose is to encourage the evaluation and development of segmentation methods. This data set includes 1.5mm data. Eighteen subjects aged 7-71 are currently available. For each subject there is: 1) T1-weighted volumetric images that have been 'positionally normalized' into the Talairach orientation (rotation only). Also note that these data have been processed by the CMA 'autoseg' biasfield correction routines; 2) Segmentation results for 'general segmentation' of 43 individually labeled principal gray and white matter structures of the brain."
+  }
+}

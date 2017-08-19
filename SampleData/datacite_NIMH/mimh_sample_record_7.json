@@ -1,0 +1,71 @@
+{
+  "id": "https://doi.org/10.15154/1240725",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.15154/1240725",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Analysis of the contribution of experimental bias, experimental noise, and inter-subject biological variability on the assessment of developmental trajectories in diffusion MRI studies of the brain.",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Amritha",
+        "last-name": "Nayak"
+      },
+      {
+        "first-name": "Lindsay",
+        "last-name": "Walker"
+      },
+      {
+        "first-name": "M",
+        "last-name": "Irfanoglu"
+      },
+      {
+        "first-name": "Paul",
+        "last-name": "Albert"
+      },
+      {
+        "first-name": "Carlo",
+        "last-name": "Pierpaoli"
+      },
+      {
+        "first-name": "Neda",
+        "last-name": "Sadeghi"
+      },
+      {
+        "first-name": null,
+        "last-name": "Brain Development Cooperative Group"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-03-08T20:18:59Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-03-08T20:18:59Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "NIMH Data Archives",
+    "description": "Metrics derived from the diffusion tensor, such as fractional anisotropy (FA) and mean diffusivity (MD) have been used in many studies of postnatal brain development. A common finding of previous studies is that these tensor-derived measures vary widely even in healthy populations. This variability can be due to inherent interindividual biological differences as well as experimental noise. Moreover, when comparing different studies, additional variability can be introduced by different acquisition protocols. In this study we examined scans of 61 individuals (aged 4\u201322 years) from the NIH MRI study of normal brain development. Two scans were collected with different protocols (low and high resolution). Our goal was to separate the contributions of biological variability and experimental noise to the overall measured variance, as well as to assess potential systematic effects related to the use of different protocols. We analyzed FA and MD in seventeen regions of interest. We found that biological variability for both FA and MD varies widely across brain regions; biological variability is highest for FA in the lateral part of the splenium and body of the corpus callosum along with the cingulum and the superior longitudinal fasciculus, and for MD in the optic radiations and the lateral part of the splenium. These regions with high inter-individual biological variability are the most likely candidates for assessing genetic and environmental effects in the developing brain. With respect to protocol-related effects, the lower resolution acquisition resulted in higher MD and lower FA values for the majority of regions compared with the higher resolution protocol. However, the majority of the regions did not show any age\u2013protocol interaction, indicating similar trajectories were obtained irrespective of the protocol used."
+  }
+}

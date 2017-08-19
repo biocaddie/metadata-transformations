@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.11577/1255978",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.11577/1255978",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Structure of the Angiotensin Receptor Revealed by Serial Femtosecond Crystallography (CXIDB ID 38)",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "H.",
+      "last-name": "Zhang"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-06-08T02:22:57Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-17T08:04:09Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Coherent X-ray Imaging Data Bank (Lawrence Berkeley National Laboratory); University of Southern California, \nCleveland \nClinic, Center for Free Electron Laser Science, Arizona State Universiy, University of California Los Angeles, SLAC \nNational \nAccelerator Laboratory, Harvard University, ShanghaiTech University",
+    "description": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "https://doi.org/10.12751/NNCN.BC2016.0227",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.12751/NNCN.BC2016.0227",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Evaluation of spike sorting results",
+    "types": [{"information": {"value": {
+      "id": "text",
+      "title": "Text",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Nicole",
+        "last-name": "Voges"
+      },
+      {
+        "first-name": "Jeyathevy",
+        "last-name": "Sukiban"
+      },
+      {
+        "first-name": "Robin",
+        "last-name": "Pauli"
+      },
+      {
+        "first-name": "Michael",
+        "last-name": "Denker"
+      },
+      {
+        "first-name": "Lars",
+        "last-name": "Timmerman"
+      },
+      {
+        "first-name": "Sonja",
+        "last-name": "Grün"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-09-16T06:57:36Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-16T06:57:36Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "G-Node",
+    "description": null
+  }
+}

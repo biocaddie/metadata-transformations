@@ -1,0 +1,67 @@
+{
+  "id": "https://doi.org/10.15154/1303416",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.15154/1303416",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Variants in adjacent oxytocin/vasopressin gene region and associations with ASD diagnosis and autism related endophenotypes",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Edwin H.",
+        "last-name": "Cook"
+      },
+      {
+        "first-name": "Sunday M.",
+        "last-name": "Francis"
+      },
+      {
+        "first-name": "Emily",
+        "last-name": "Kistner-Griffin"
+      },
+      {
+        "first-name": "Zhongyu",
+        "last-name": "Yan"
+      },
+      {
+        "first-name": "Stephen",
+        "last-name": "Guter"
+      },
+      {
+        "first-name": "Suma",
+        "last-name": "Jacob"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2015",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-09-21T20:06:10Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-21T20:06:10Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "NIMH Data Repositories",
+    "description": "Investigator is completing study. DOI is being issued as a reserved DOI."
+  }
+}

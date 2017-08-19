@@ -1,0 +1,59 @@
+{
+  "id": "https://doi.org/10.15154/1324432",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.15154/1324432",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Frequency and Complexity of De Novo Structural Mutation in Autism",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Jonathan",
+        "last-name": "Sebat"
+      },
+      {
+        "first-name": "Christina",
+        "last-name": "Corsello"
+      },
+      {
+        "first-name": "Lilia",
+        "last-name": "Iakoucheva"
+      },
+      {
+        "first-name": "Eric",
+        "last-name": "Courchesne"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-09-14T14:45:06Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-14T14:45:06Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "NIMH Data Archives",
+    "description": "Genetic studies of autism spectrum disorder (ASD) have established that de novo duplications and deletions contribute to risk. However, ascertainment of structural variants (SVs) has been restricted by the coarse resolution of current approaches. By applying a custom pipeline for SV discovery, genotyping, and de novo assembly to genome sequencing of 235 subjects (71 affected individuals, 26 healthy siblings, and their parents), we compiled an atlas of 29,719 SV loci (5,213/genome), comprising 11 different classes. We found a high diversity of de novo mutations, the majority of which were undetectable by previous methods. In addition, we observed complex mutation clusters where combinations of de novo SVs, nucleotide substitutions, and indels occurred as a single event. We estimate a high rate of structural mutation in humans (20%) and propose that genetic risk for ASD is attributable to an elevated frequency of gene-disrupting de novo SVs, but not an elevated rate of genome rearrangement."
+  }
+}

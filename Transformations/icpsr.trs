@@ -1,0 +1,163 @@
+/* Dataset Basic Information */
+transform column "$.'record'.'header'.'identifier'.'_$'" to "dataset.ID" apply {{ result = re.sub('https?:/?/?','',value) }};
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStmt'.'titl'.'_$'" to "dataset.title" apply {{ result = re.sub('Metadata record for','',value) }};
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'abstract'.'_$'" to "dataset.description";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'subject'.'keyword'[*].'_$'" to "dataset.keywords[]";
+
+/* Dataset Landing Page */
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'setAvail'.'accsPlac'.'@URI'" to "access.landingPage";
+
+/* Dataset Creator */
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'producer'.'_$'" to "dataset.creators[0]";
+
+/* Dataset Release Date Information */
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'distStmt'.'distDate'.'@date'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd");
+
+/* Dataset Qualifiers */
+/* need extract the second value from conditiions for availabiity*/
+join "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'useStmt'.'conditions'.'p'[*].'_$'"  to "dataset.availability";
+let "dataset.types[0]" = "other";
+let "dataset.aggregation" = "collection of dataset";
+let "dataset.privacy" = "not applicable";
+let "dataset.refinement" = "curated";
+
+/* Information on Dataset Distributions */
+
+/* Dataset Distribution - DOCUMENT */
+let "datasetDistributions[0].format" = "DOCUMENT";
+let "datasetDistributions[0].storedIn" = "Inter-university Consortium for Political and Social Research";
+join "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'useStmt'.'conditions'.'p'[*].'_$'" to "datasetDistributions[0].license";
+transform column "$.'record'.'header'.'identifier'.'_$'" to "datasetDistributions[0].accessURL" apply {{ result='http://www.icpsr.umich.edu/cgi-bin/dldocs2?study=' + value + '&path=ICPSR' }};
+let "datasetDistributions[0].accessType" = "download";
+let "datasetDistributions[0].authorization" = "registration";
+let "datasetDistributions[0].authentication" = "simpleLogin";
+let "datasetDistributions[0].primary" = "true"
+ 
+/* Dataset Distribution - SAS */
+let "datasetDistributions[1].format" = "SAS";
+let "datasetDistributions[1].storedIn" = "Inter-university Consortium for Political and Social Research";
+join "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'useStmt'.'conditions'.'p'[*].'_$'" to "datasetDistributions[1].license";
+transform column "$.'record'.'header'.'identifier'.'_$'" to "datasetDistributions[1].accessURL" apply {{ result='http://www.icpsr.umich.edu/cgi-bin/bob/terms2?study=' + value + '&bundle=sas&path=ICPSR'}};
+let "datasetDistributions[1].accessType" = "download";
+let "datasetDistributions[1].authorization" = "registration";
+let "datasetDistributions[1].authentication" = "simpleLogin";
+let "datasetDistributions[1].primary" = "true"
+
+/* Dataset Distribution - SPSS */
+let "datasetDistributions[2].format" = "SPSS";
+let "datasetDistributions[2].storedIn" = "Inter-university Consortium for Political and Social Research";
+join "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'useStmt'.'conditions'.'p'[*].'_$'" to "datasetDistributions[2].license";
+transform column "$.'record'.'header'.'identifier'.'_$'" to "datasetDistributions[2].accessURL" apply {{ result='http://www.icpsr.umich.edu/cgi-bin/bob/terms2?study=' + value + '&bundle=spss&path=ICPSR'}};
+let "datasetDistributions[2].accessType" = "download";
+let "datasetDistributions[2].authorization" = "registration";
+let "datasetDistributions[2].authentication" = "simpleLogin";
+let "datasetDistributions[2].primary" = "true"
+
+/* Dataset Distribution - STATA */
+let "datasetDistributions[3].format" = "STATA";
+let "datasetDistributions[3].storedIn" = "Inter-university Consortium for Political and Social Research";
+join "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'useStmt'.'conditions'.'p'[*].'_$'" to "datasetDistributions[3].license";
+transform column "$.'record'.'header'.'identifier'.'_$'" to "datasetDistributions[3].accessURL" apply {{ result='http://www.icpsr.umich.edu/cgi-bin/bob/terms2?study=' + value + '&bundle=stata&path=ICPSR'}};
+let "datasetDistributions[3].accessType" = "download";
+let "datasetDistributions[3].authorization" = "registration";
+let "datasetDistributions[3].authentication" = "simpleLogin";
+let "datasetDistributions[3].primary" = "true"
+
+/* Dataset Distribution - ASCII */
+let "datasetDistributions[4].format" = "ASCII";
+let "datasetDistributions[4].storedIn" = "Inter-university Consortium for Political and Social Research";
+join "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'useStmt'.'conditions'.'p'[*].'_$'" to "datasetDistributions[4].license";
+transform column "$.'record'.'header'.'identifier'.'_$'" to "datasetDistributions[4].accessURL" apply {{ result='http://www.icpsr.umich.edu/cgi-bin/bob/terms2?study=' + value + '&bundle=ascii&path=ICPSR'}};
+let "datasetDistributions[4].accessType" = "download";
+let "datasetDistributions[4].authorization" = "registration";
+let "datasetDistributions[4].authentication" = "simpleLogin";
+let "datasetDistributions[4].primary" = "true"
+
+/* Dataset Distribution - DELIMITED */
+let "datasetDistributions[5].format" = "DELIMITED";
+let "datasetDistributions[5].storedIn" = "Inter-university Consortium for Political and Social Research";
+join "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'useStmt'.'conditions'.'p'[*].'_$'" to "datasetDistributions[5].license";
+transform column "$.'record'.'header'.'identifier'.'_$'" to "datasetDistributions[5].accessURL" apply {{ result='http://www.icpsr.umich.edu/cgi-bin/bob/terms2?study=' + value + '&bundle=delimited&path=ICPSR'}};
+let "datasetDistributions[5].accessType" = "download";
+let "datasetDistributions[5].authorization" = "registration";
+let "datasetDistributions[5].authentication" = "simpleLogin";
+let "datasetDistributions[5].primary" = "true"
+
+/* Citation Information */
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'titlStmt'.'titl'.'_$'" to "citations[].title";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'rspStmt'.'AuthEnty'[*].'_$'" to "citations[].authors[]";
+transform columns "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'titlStmt'.'IDNo'[*].'@agency'", "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'titlStmt'.'IDNo'[*].'_$'" to "citations[].ID[]" apply {{ result = value1.lower() + ':' + value2 }};
+
+/* Grant Information */
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'prodStmt'.'grantNo'.'_$'" to "grant.identifiers[]";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'prodStmt'.'grantNo'.'@agency'" to "grant.funders[]";
+
+/* License */
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'copyright'.'_$'" to "license.copyright";
+
+/* Data Standard Information */
+transform column "$.'record'.'metadata'.'codeBook'.'@schemaLocation'" to "dataStandard.name";
+transform column "$.'record'.'metadata'.'codeBook'.'@version'" to "dataStandard.version";
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:003194";
+let "dataRepository.name" = "Inter-university Consortium for Political and Social Research";
+let "dataRepository.abbreviation" = "ICPSR";
+let "dataRepository.homePage"= "http://www.icpsr.umich.edu/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:011668";
+let "organization.name" = "University of Michigan";
+let "organization.abbreviation" = "UMich";
+let "organization.homePage" = "http://www.umich.edu/";
+
+/*Items not included
+transform column "$.'record'.'metadata'.'codeBook'.'fileDscr'[*].'fileTxt'.'fileName'.'_$'" to "datasetDistribution.contents[]";
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'verStmt'.'version'.'@date'" to "datasetDistribution.dateReleased"apply toStandardDateTime("yyyy/MM/dd");
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStmt'.'IDNo'.'@agency'" to "record.metadata.codeBook.docDscr.citation.titlStmt.IDNo.@agency";
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStmt'.'IDNo'.'_$'" to "record.metadata.codeBook.docDscr.citation.titlStmt.IDNo";
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'producer'.'@abbr'" to "record.metadata.codeBook.docDscr.citation.prodStmt.producer.@abbr";
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'verStmt'.'version'.'_$'" to "record.metadata.codeBook.docDscr.citation.verStmt.version";
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'holdings'.'@URI'" to "record.metadata.codeBook.docDscr.citation.holdings.@URI";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'rspStmt'.'AuthEnty'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.rspStmt.AuthEnty";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'prodStmt'.'producer'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.prodStmt.producer";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'prodStmt'.'fundAg'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.prodStmt.fundAg";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'distStmt'.'distrbtr'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.distStmt.distrbtr";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'distStmt'.'distDate'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.distStmt.distDate";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'serStmt'.'serName'.'@ID'" to "record.metadata.codeBook.stdyDscr.citation.serStmt.serName.@ID";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'serStmt'.'serName'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.serStmt.serName";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'verStmt'[*].'version'.'@date'" to "record.metadata.codeBook.stdyDscr.citation.verStmt[].version.@date";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'verStmt'[*].'version'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.verStmt[].version";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'verStmt'[*].'notes'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.verStmt[].notes";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'biblCit'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.biblCit";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'citation'.'holdings'.'_$'" to "record.metadata.codeBook.stdyDscr.citation.holdings";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'subject'.'topcClas'.'@source'" to "record.metadata.codeBook.stdyDscr.stdyInfo.subject.topcClas.@source";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'subject'.'topcClas'.'@vocab'" to "record.metadata.codeBook.stdyDscr.stdyInfo.subject.topcClas.@vocab";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'subject'.'topcClas'.'_$'" to "record.metadata.codeBook.stdyDscr.stdyInfo.subject.topcClas";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'timePrd'[*].'@event'" to "record.metadata.codeBook.stdyDscr.stdyInfo.sumDscr.timePrd[].@event";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'timePrd'[*].'@date'" to "record.metadata.codeBook.stdyDscr.stdyInfo.sumDscr.timePrd[].@date";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'timePrd'[*].'_$'" to "record.metadata.codeBook.stdyDscr.stdyInfo.sumDscr.timePrd[]";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'nation'.'_$'" to "record.metadata.codeBook.stdyDscr.stdyInfo.sumDscr.nation";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'geogCover'.'_$'" to "record.metadata.codeBook.stdyDscr.stdyInfo.sumDscr.geogCover";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'method'.'dataColl'.'cleanOps'.'p'.'_$'" to "record.metadata.codeBook.stdyDscr.method.dataColl.cleanOps.p";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'method'.'dataColl'.'cleanOps'.'list'.'@type'" to "record.metadata.codeBook.stdyDscr.method.dataColl.cleanOps.list.@type";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'method'.'dataColl'.'cleanOps'.'list'.'itm'[*].'_$'" to "record.metadata.codeBook.stdyDscr.method.dataColl.cleanOps.list.itm[]";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'method'.'notes'[*].'_$'" to "record.metadata.codeBook.stdyDscr.method.notes[]";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'setAvail'.'@media'" to "record.metadata.codeBook.stdyDscr.dataAccs.setAvail.@media";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'setAvail'.'accsPlac'.'_$'" to "record.metadata.codeBook.stdyDscr.dataAccs.setAvail.accsPlac";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'useStmt'.'disclaimer'.'_$'" to "record.metadata.codeBook.stdyDscr.dataAccs.useStmt.disclaimer";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'rspStmt'.'AuthEnty'.'_$'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.rspStmt.AuthEnty";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'prodStmt'.'producer'.'_$'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.prodStmt.producer";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'prodStmt'.'prodPlac'.'_$'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.prodStmt.prodPlac";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'rspStmt'.'AuthEnty'[*].'_$'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.rspStmt.AuthEnty[]";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'prodStmt'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.prodStmt";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'holdings'.'_$'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.holdings";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'prodStmt'.'prodDate'.'@date'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.prodStmt.prodDate.@date";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'prodStmt'.'prodDate'.'_$'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.prodStmt.prodDate";
+
+transform column "$.'record'.'header'.'datestamp'.'_$'" to "record.header.datestamp";
+transform column "$.'record'.'header'.'repository'.'_$'" to "record.header.repository";
+transform column "$.'record'.'header'.'setName'" to "record.header.setName";
+transform column "$.'record'.'header'.'fetchURL'.'_$'" to "record.header.fetchURL";
+transform column "$.'record'.'header'.'recNum'.'_$'" to "record.header.recNum";
+*/

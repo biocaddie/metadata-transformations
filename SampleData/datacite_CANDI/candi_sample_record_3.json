@@ -1,0 +1,91 @@
+{
+  "id": "https://doi.org/10.18116/C6159Z",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.18116/C6159Z",
+      "identifier-source": "DataCite"
+    }],
+    "title": "CANDI Share Schizophrenia Bulletin 2008 data",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "JA",
+        "last-name": "Frazier"
+      },
+      {
+        "first-name": "SM",
+        "last-name": "Hodge"
+      },
+      {
+        "first-name": "JL",
+        "last-name": "Breeze"
+      },
+      {
+        "first-name": "AJ",
+        "last-name": "Giuliano"
+      },
+      {
+        "first-name": "JE",
+        "last-name": "Terry"
+      },
+      {
+        "first-name": "CM",
+        "last-name": "Moore"
+      },
+      {
+        "first-name": "DN",
+        "last-name": "Kennedy"
+      },
+      {
+        "first-name": "MP",
+        "last-name": "Lopez-Larson"
+      },
+      {
+        "first-name": "VS",
+        "last-name": "Caviness"
+      },
+      {
+        "first-name": "LJ",
+        "last-name": "Seidman"
+      },
+      {
+        "first-name": "B",
+        "last-name": "Zablotsky"
+      },
+      {
+        "first-name": "N",
+        "last-name": "Makris"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2008",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2015-12-04T14:03:56Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-18T08:20:53Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Child and Adolescent NeuroDevelopment Initiative",
+    "description": "Data for CANDI Share Schizophrenia Bulletin 2008 (reference below) as part of the CANDI Neuroimaging Access Point. This set includes preprocessed MRI images and segmentation results of all 4 diagnostic groups (Healthy Controls, N=29; Schizophrenia Spectrum, N=20; Bipolar Disorder with Psychosis, N=19; and Bipolar Disorder without Psychosis, N=35). Frazier JA, Hodge SM, Breeze JL, Giuliano AJ, Terry JE, Moore CM, Kennedy DN, Lopez-Larson MP, Caviness VS, Seidman LJ, Zablotsky B, Makris N. Diagnostic and sex effects on limbic volumes in early-onset bipolar disorder and schizophrenia. Schizophr Bull. 2008 Jan;34(1):37-46."
+  }
+}

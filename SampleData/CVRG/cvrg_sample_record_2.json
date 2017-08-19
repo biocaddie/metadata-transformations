@@ -1,0 +1,30 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "oai:eddi.cvrgrid.org:11614/647"},
+      "datestamp": {"_$": "2015-07-17T20:51:52Z"},
+      "setSpec": [
+        {"_$": "com_11614_1"},
+        {"_$": "col_11614_2"}
+      ],
+      "repository": {"_$": "Electrophysiology Data Discovery Index"},
+      "setName": {"_$": "ECG Datasets"},
+      "fetchURL": {"_$": "https://eddi.cvrgrid.org/oai/request?verb=ListRecords&metadataPrefix=oai_dc_eddi&set=col_11614_2"},
+      "recNum": {"_$": "1"}
+    },
+    "metadata": {"oai_dc_eddi:dc": {
+      "@schemaLocation": "http://www.cvrgrid.org/files/oai_dc_eddi/ http://www.cvrgrid.org/files/oai_dc_eddi/oai_dc_eddi_v0.2.xsd",
+      "dc:title": {"_$": "Physionet ANSI/AAMI EC13 Test Waveforms"},
+      "dc:date_published": {"_$": "2002"},
+      "dc:date_eddi-indexed": {"_$": "2015-01-15T16:07:53Z"},
+      "dc:identifier": {"_$": "http://hdl.handle.net/11614/647"},
+      "dc:eddi_description": {"_$": "The files in this set can be used for testing a variety of devices that monitor the electrocardiogram. The recordings include both synthetic and real waveforms.\r\n\r\nEach recording contains one ECG signal sampled at 720 Hz with 12-bit resolution. The recordings can be viewed or converted to text form using the PhysioBank ATM, or read directly using the WFDB Software Package. The record names refer to the illustrations in the reference below (figures 3 and 4 on pages 25 and 26 of that document). Note that EC13 specifies that the tachycardia waveforms in figure 4 should be presented following an abrupt transition from synthetic waveforms specified in figure 6 of EC13; thus the aami4* records each begin with 30 seconds of triangle waveforms, followed by the figure 4 waveforms. The records named aami4a_d and aami4a_h, etc., contain the half-size and double-size versions of the figure 4 data that are mentioned in the standard. (The names are misleading, since the _d records contain the half-size versions, and the _h records contain the double-size versions, the opposite of what the record names imply. The names are those given by AAMI, the source of these files, and they have not been changed, in hopes of avoiding further confusion. Thanks to Humberto Valdes for pointing out this issue."},
+      "dc:eddi_accessurl": {"_$": "http://physionet.org/physiobank/database/aami-ec13/"},
+      "dc:eddi_accessrestrictions": {"_$": "No Access Restrictions"},
+      "dc:eddi_dataformat": {"_$": ".dat, .hea"},
+      "dc:eddi_citationpub": {"_$": "http://dx.doi.org/10.1161/01.CIR.101.23.e215"}
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

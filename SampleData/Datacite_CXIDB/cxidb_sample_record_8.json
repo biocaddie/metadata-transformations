@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.11577/1252489",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.11577/1252489",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Towards understanding the molecular mechanism of cardiolipin transport in Salmonella typhimurium: interactions between an essential inner membrane protein YejM and its newly found ligand, YejL (CXIDB ID 42)",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "U.",
+      "last-name": "Gabale"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-05-12T03:27:26Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-17T08:03:19Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Coherent X-ray Imaging Data Bank (Lawrence Berkeley National Laboratory); Indiana University Bloomington",
+    "description": "The collected diffraction images."
+  }
+}

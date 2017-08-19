@@ -1,0 +1,91 @@
+{
+  "id": "https://doi.org/10.15154/1240722",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.15154/1240722",
+      "identifier-source": "DataCite"
+    }],
+    "title": "The diffusion tensor imaging (DTI) component of the NIH MRI study of normal brain development (PedsDTI)",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Lindsay",
+        "last-name": "Walker"
+      },
+      {
+        "first-name": "Lin-Ching",
+        "last-name": "Chang"
+      },
+      {
+        "first-name": "Amritha",
+        "last-name": "Nayak"
+      },
+      {
+        "first-name": "Okan",
+        "last-name": "Irfanoglu"
+      },
+      {
+        "first-name": "Kelly",
+        "last-name": "Botteron"
+      },
+      {
+        "first-name": "James",
+        "last-name": "McCracken"
+      },
+      {
+        "first-name": "Robert",
+        "last-name": "McKinstry"
+      },
+      {
+        "first-name": "Michael",
+        "last-name": "Rivkin"
+      },
+      {
+        "first-name": "Dah-Jyuu",
+        "last-name": "Wang"
+      },
+      {
+        "first-name": "Judith",
+        "last-name": "Rumsey"
+      },
+      {
+        "first-name": "Carlo",
+        "last-name": "Pierpaoli"
+      },
+      {
+        "first-name": null,
+        "last-name": "The Brain Development Cooperative Group"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-03-08T20:13:13Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-03-08T20:13:13Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "NIMH Data Archives",
+    "description": "The NIH MRI Study of normal brain development sought to characterize typical brain development in a population of infants, toddlers, children and adolescents/young adults, covering the socio-economic and ethnic diversity of the population of the United States. The study began in 1999 with data collection commencing in 2001 and concluding in 2007. The study was designed with the final goal of providing a controlled-access database; open to qualified researchers and clinicians,which could serve as a powerful tool for elucidating typical brain development and identifying deviations associated with brain-based disorders and diseases, and as a resource for developing computational methods and image processing tools. This paper focuses on the DTI component of the NIH MRI study of normal brain development. In this work, we describe the DTI data acquisition protocols, data processing steps, quality assessment procedures, and data included in the database, along with database access requirements. For more details, visit http://www. pediatricmri.nih.gov. This longitudinal DTI dataset includes raw and processed diffusion data from 498 low resolution (3 mm) DTI datasets from274 unique subjects, and 193 high resolution (2.5mm) DTI datasets from152 unique subjects. Subjects range in age from10 days (from date of birth) through 22 years. Additionally, a set of age-specific DTI templates are included. This forms one component of the larger NIHMRI study of normal brain development which also includes T1-, T2-, proton density-weighted, and proton magnetic resonance spectroscopy (MRS) imaging data, and demographic, clinical and behavioral data."
+  }
+}

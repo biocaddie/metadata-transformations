@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.15154/1238063",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.15154/1238063",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Rare and Recurrent CNVs in AGRE",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "D",
+      "last-name": "Chatzopoulou"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-09-06T19:07:02Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-06T19:07:02Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "NIMH Data Archives",
+    "description": "Rare mutations, including copy-number variants (CNVs), contribute significantly to autism spectrum disorder (ASD) risk. Although their importance has been established in families with only one affected child (simplex families), the contribution of both de novo and inherited CNVs to ASD in families with multiple affected individuals (multiplex families) is less well understood. We analyzed 1,532 families from the Autism Genetic Resource Exchange (AGRE) to assess the impact of de novo and rare CNVs on ASD risk in multiplex families. We observed a higher burden of large, rare CNVs, including inherited events, in individuals with ASD than in their unaffected siblings (odds ratio [OR] = 1.7), but the rate of de novo events was significantly lower than in simplex families. In previously characterized ASD risk loci, we identified 49 CNVs, comprising 24 inherited events, 19 de novo events, and 6 events of unknown inheritance, a significant enrichment in affected versus control individuals (OR = 3.3). In 21 of the 30 families (71%) in whom at least one affected sibling harbored an established ASD major risk CNV, including five families harboring inherited CNVs, the CNV was not shared by all affected siblings, indicating that other risk factors are contributing. We also identified a rare risk locus for ASD and language delay at chromosomal region 2q24 (implicating NR4A2) and another lower-penetrance locus involving inherited deletions and duplications of WWOX. The genetic architecture in multiplex families differs from that in simplex families and is complex, warranting more complete genetic characterization of larger multiplex ASD cohorts."
+  }
+}

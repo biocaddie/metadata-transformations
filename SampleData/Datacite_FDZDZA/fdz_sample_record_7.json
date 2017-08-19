@@ -1,0 +1,71 @@
+{
+  "id": "https://doi.org/10.5156/FWS.2014.M.001",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.5156/FWS.2014.M.001",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Scientific Use File German Survey on Volunteering (SUF FWS) 2014, Version 1.0",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Nicole",
+        "last-name": "Hameister"
+      },
+      {
+        "first-name": "Doreen",
+        "last-name": "Müller"
+      },
+      {
+        "first-name": "Julia",
+        "last-name": "Simonson"
+      },
+      {
+        "first-name": "Claudia",
+        "last-name": "Vogel"
+      },
+      {
+        "first-name": "Jochen P.",
+        "last-name": "Ziegelmann"
+      },
+      {
+        "first-name": "Clemens",
+        "last-name": "Tesch-Römer"
+      },
+      {
+        "first-name": null,
+        "last-name": null
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-04-12T17:08:41Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-23T23:30:19Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "DZA  The German Centre of Gerontology",
+    "description": "<p>Der Deutsche Freiwilligensurvey (FWS) ist eine repräsentative Befragung zum freiwilligen Engagement in Deutschland, die sich an Personen ab 14 Jahren richtet. Freiwillige Tätigkeiten und die Bereitschaft zum Engagement werden in telefonischen Interviews erhoben und können nach Bevölkerungsgruppen und Landesteilen dargestellt werden. Außerdem können die Engagierten und Personen, die sich nicht bzw. nicht mehr engagieren, beschrieben werden. Der Freiwilligensurvey ist damit die wesentliche Grundlage der Sozialberichterstattung zum freiwilligen Engagement und wird aus Mitteln des Bundesministeriums für Familie, Senioren, Frauen und Jugend (BMFSFJ) gefördert. Erhebungen des FWS wurden bislang in den Jahren 1999, 2004, 2009 und 2014 durchgeführt. Seit Dezember 2011 liegt die wissenschaftliche Leitung beim Deutschen Zentrum für Altersfragen (DZA). Die Interviews der vierten Welle wurden 2014 durch infas - Institut für angewandte Sozialwissenschaft durchgeführt.<\/p>"
+  }
+}

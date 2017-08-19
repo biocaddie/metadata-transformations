@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.11577/1255979",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.11577/1255979",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Lipidic cubic phase injector facilitates membrane protein serial femtosecond crystallography (CXIDB ID 39)",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Uwe",
+      "last-name": "Weierstall"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-06-08T02:22:59Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-09-17T08:04:11Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Coherent X-ray Imaging Data Bank (Lawrence Berkeley National Laboratory); Arizona State University, The Scripps \nResearch Institute, CFEL, SLAC, Uppsala University, Universidad Autónoma de Madrid, Max-Planck-Institut für \nmedizinische Forschung, University of Hamburg, Trinity College Dublin",
+    "description": ""
+  }
+}

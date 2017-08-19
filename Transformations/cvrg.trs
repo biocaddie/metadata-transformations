@@ -1,0 +1,70 @@
+/* Dataset Basic Information */
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:identifier'.'_$'" to "dataset.ID" apply {{ result = re.sub('https?:/?/?','',value) }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataset.title";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_description'.'_$'" to "dataset.description";
+
+/* Dataset Landing Page*/
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" to "access.landingPage";
+
+/* Dataset Creator */
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piname'.'_$'" to "dataset.creators[]";
+
+/* Dataset Release Date Information */
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:date_published'.'_$'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+
+/* Dataset Qualifiers */
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessrestrictions'.'_$'" to "dataset.availability";
+let "dataset.types[0]" = "image";
+let "dataset.aggregation" = "instance of dataset";
+let "dataset.privacy" = "information not available";
+let "dataset.refinement" = "raw";
+
+/* Information on Dataset Distributions */
+/* Dataset Distribution - CVRG */
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" not like "%physionet%" then transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_dataformat'.'_$'" to "datasetDistributions[0].format";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" not like "%physionet%" then let "datasetDistributions[0].storedIn" = "CardioVascular Research Grid";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" not like "%physionet%" then let "datasetDistributions[0].accesstypes"  = "Landing Page";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" not like "%physionet%" then transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" to "datasetDistributions[0].accessURL";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" not like "%physionet%" then let "datasetDistributions[0].authorization"  = "none";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" not like "%physionet%" then let "datasetDistributions[0].authentication" = "none";
+
+/* Dataset Distribution - PhysioNet */
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" like "%physionet%" then transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_dataformat'.'_$'" to "datasetDistributions[1].format";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" like "%physionet%" then let "datasetDistributions[1].storedIn" = "PhysioNet";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" like "%physionet%" then let "datasetDistributions[1].accesstypes"  = "Landing Page";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" like "%physionet%" then transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" to "datasetDistributions[1].accessURL";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" like "%physionet%" then let "datasetDistributions[1].authorization"  = "none";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" like "%physionet%" then let "datasetDistributions[1].authentication" = "none";
+if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" like "%physionet%" then let "datasetDistributions[1].primary" = "True"
+
+/* Publication Information */
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_citationpub'.'_$'" to "primaryPublication[0].ID" apply {{ result = 'doi:' + value.replace('http://dx.doi.org/','') }};
+
+/* Person */
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piname'.'_$'" to "person.fullName";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piemail'.'_$'" to "person.email";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piaffiliation'.'_$'" to "person.affiliations[]";
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:004472";
+let "dataRepository.name" = "CardioVascular Research Grid";
+let "dataRepository.abbreviation" = "CVRG";
+let "dataRepository.homePage"  = "http://www.cvrgrid.org/";
+
+/* Organization Information */
+let "organization.ID" = "SCR:010247";
+let "organization.name" = "Johns Hopkins University";
+let "organization.abbreviation" = "JHU";
+let "organization.homePage" = "http://www.jhu.edu/";
+
+
+/* Items not included */
+/*
+transform column "$.'record'.'header'.'identifier'.'_$'" to "record.header.identifier";
+transform column "$.'record'.'header'.'recNum'.'_$'" to "record.header.recNum";
+transform column "$.'record'.'header'.'setName'.'_$'" to "record.header.setName";
+transform column "$.'record'.'header'.'setSpec'[*].'_$'" to "record.header.setSpec[]";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:date_eddi-indexed'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:date_eddi-indexed";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'@schemaLocation'" to "record.metadata.oai_dc_eddi:dc.@schemaLocation";
+transform column "$.'record'.'header'.'datestamp'.'_$'" to "record.header.datestamp";
+*/

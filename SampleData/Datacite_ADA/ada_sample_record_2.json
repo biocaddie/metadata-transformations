@@ -1,0 +1,63 @@
+{
+  "id": "https://doi.org/10.4225/87/58001113BAF67",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.4225/87/58001113BAF67",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Our Lives, Social Futures and Life Pathways of Young People in Queensland: A Longitudinal Project, 2006-2013",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "Zlatko",
+        "last-name": "Skrbis"
+      },
+      {
+        "first-name": "Mark",
+        "last-name": "Western"
+      },
+      {
+        "first-name": "Bruce",
+        "last-name": "Tranter"
+      },
+      {
+        "first-name": "David",
+        "last-name": "Hogan"
+      },
+      {
+        "first-name": "Jonathan",
+        "last-name": "Smith"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-10-13T22:56:23Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-10-13T22:56:23Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Australian Data Archive",
+    "description": "The Our Lives Project is a longitudinal study managed by the University of Queensland and Monash University. The project seeks to follow up respondents every two years and explores the attitudes and aspirations of young people in Queensland. The project was managed by the University of Queensland in Waves 1-3 (from 2006 to 2011) and Monash University in Wave 4 in 2013. The overall objectives of the project is to produce a clear picture of change in the values and behaviours of young people in relation to subjects such as educational and occupational aspirations, relationships with peers and family, and lifestyle choices, as respondents grow older. The first phase of Our Lives was launched in 2006, with 7,031 students from 202 schools in Queensland taking part in the survey, with data collection managed by the University of Queensland. Wave Two of the survey was conducted between 2008 and 2009, and resulted in a response from 3,653 original sample members. Wave Three was conducted in 2010 with 3,209 completed interviews and Wave Four was conducted in 2013 with 2,206 completed interviews. Data collection for Waves 2 to 4 was conducted by the Social Research Centre."
+  }
+}

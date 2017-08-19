@@ -1,0 +1,286 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "2"},
+      "datestamp": {"_$": "1995-06-05T01:01:01Z"},
+      "repository": {"_$": "Inter-University Consortium for Political and Social Research"},
+      "setName": {},
+      "fetchURL": {"_$": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?verb=ListRecords&metadataPrefix=oai_ddi25_citations"},
+      "recNum": {"_$": "1"}
+    },
+    "metadata": {"codeBook": {
+      "@schemaLocation": "ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd",
+      "@version": "2.5",
+      "docDscr": {"citation": {
+        "titlStmt": {
+          "titl": {"_$": "Metadata record for Candidate Name and Constituency Totals, 1788-1990"},
+          "IDNo": {
+            "@agency": "ICPSR",
+            "_$": "2"
+          }
+        },
+        "prodStmt": {
+          "producer": {
+            "@abbr": "ICPSR",
+            "_$": "Inter-university Consortium for Political and Social Research"
+          },
+          "copyright": {"_$": "ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License."}
+        },
+        "verStmt": {"version": {
+          "@date": "2016-04-13",
+          "_$": "2016-04-13"
+        }},
+        "holdings": {"@URI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?metadataPrefix=oai_ddi25&verb=GetRecord&identifier=2"}
+      }},
+      "stdyDscr": {
+        "citation": {
+          "titlStmt": {
+            "titl": {"_$": "Candidate Name and Constituency Totals, 1788-1990"},
+            "IDNo": [
+              {
+                "@agency": "ICPSR",
+                "_$": "2"
+              },
+              {
+                "@agency": "dara",
+                "_$": "10.3886/ICPSR00002.v5"
+              }
+            ]
+          },
+          "rspStmt": {"AuthEnty": {"_$": "Inter-university Consortium for Political and Social Research"}},
+          "prodStmt": {
+            "producer": {"_$": "Please see full citation."},
+            "fundAg": [
+              {"_$": "National Science Foundation"},
+              {"_$": "National Endowment for the Humanities"}
+            ],
+            "grantNo": {
+              "@agency": "National Science Foundation",
+              "_$": "RO-5637-72-464"
+            }
+          },
+          "distStmt": {
+            "distrbtr": {"_$": "Ann Arbor, MI: Inter-university Consortium for Political and Social Research"},
+            "distDate": {
+              "@date": "1984-06-19",
+              "_$": "1984-06-19"
+            }
+          },
+          "serStmt": {"serName": {
+            "@ID": "Series59",
+            "_$": "United States Historical Election Returns Series"
+          }},
+          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. Candidate Name and Constituency Totals, 1788-1990. ICPSR00002-v5. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1995. http://doi.org/10.3886/ICPSR00002.v5"},
+          "holdings": {"_$": "http://doi.org/10.3886/ICPSR00002.v5"}
+        },
+        "stdyInfo": {
+          "subject": {
+            "keyword": [
+              {
+                "@vocab": "thesaurus",
+                "_$": "candidates"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "constituencies"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "elections"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "political attitudes"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "political behavior"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "political parties"
+              }
+            ],
+            "topcClas": [
+              {
+                "@source": "archive",
+                "@vocab": "ICPSR subject classifications",
+                "_$": "ICPSR XIV.A.3.a. Mass Political Behavior and Attitudes, Historical and Contemporary Electoral Processes, Election Returns, United States"
+              },
+              {
+                "@source": "archive",
+                "@vocab": "RCMD subject classifications",
+                "_$": "RCMD X. Political Participation"
+              }
+            ]
+          },
+          "abstract": {"_$": "This data collection provides the names of candidates, political party name and ICPSR party ID code, and the number of votes received by each candidate in the constituency for elections between 1788 and 1990. The data include county-level returns for over 90 percent of all elections to the offices of president, governor, United States representative (1824-1990), and United States senator (1912-1990). The dataset also includes returns for approximately two-thirds of all elections to the offices of president, governor, and United States representative for the period 1788-1823. Returns for one additional statewide office are included beginning with the 1968 elections. Also presented are 1990 data from the District of Columbia election for United States senator and United States representative. The offices of two senators and one representative were created by the \"District of Columbia Statehood Constitutional Convention Initiative,\" which was approved by District voters in 1980. Elections for these offices were postponed until the 1990 general election. The three offices are currently local District positions, which will turn into federal offices if the District becomes a state."},
+          "sumDscr": {
+            "timePrd": [
+              {
+                "@cycle": "P1",
+                "@event": "start",
+                "@date": "1788",
+                "_$": "1788"
+              },
+              {
+                "@cycle": "P1",
+                "@event": "end",
+                "@date": "1990",
+                "_$": "1990"
+              }
+            ],
+            "nation": {"_$": "Please see geographic coverage."},
+            "geogCover": {"_$": "United States"},
+            "universe": {"_$": "Candidates who ran for the offices of president, governor, and United States representative (1824-1990), United States senator (1912-1990), and one additional statewide office, usually attorney general or secretary of state (1968-1990)."},
+            "dataKind": [
+              {"_$": "aggregate"},
+              {"_$": "survey"}
+            ]
+          }
+        },
+        "method": {"dataColl": {
+          "sources": {"dataSrc": {"_$": "official election returns provided by state governments"}},
+          "cleanOps": {
+            "p": {"_$": "ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:"},
+            "list": {
+              "@type": "bulleted",
+              "itm": [
+                {"_$": "Performed consistency checks."},
+                {"_$": "Standardized missing values."},
+                {"_$": "Checked for undocumented or out-of-range codes."}
+              ]
+            }
+          }
+        }},
+        "dataAccs": {
+          "setAvail": {
+            "@media": "online",
+            "accsPlac": {
+              "@URI": "http://doi.org/10.3886/ICPSR00002.v5",
+              "_$": "Ann Arbor, Mi.: Inter-university Consortium for Political and Social Research"
+            }
+          },
+          "useStmt": {
+            "conditions": {"p": [
+              {"_$": "Terms of use are available at http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/2/terms"},
+              {"_$": "AVAILABLE. This study is freely available to ICPSR member institutions."}
+            ]},
+            "disclaimer": {"_$": "The original collector of the data, ICPSR, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses."}
+          }
+        },
+        "othrStdyMat": {"relPubl": [
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The electoral connection in the early Congress: The case of the Compensation Act of 1816"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "3585"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Bianco, William T."},
+              {"_$": "Spence, David B."},
+              {"_$": "Wilkerson, John D."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Bianco, William T., Spence, David B., and John D. Wilkerson. \"The electoral connection in the early Congress: The case of the Compensation Act of 1816.\" American Journal of Political Science 40.1 (1996): 145-171."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "House incumbents and inter-election vote change"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4303"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3816"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Born, Richard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Born, Richard. \"House incumbents and inter-election vote change.\" Journal of Politics 39.4 (1977): 1008-1034."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "From local to national political cultures: Social capital and civic organization in the Great Plains"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "35884"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Gutmann, Myron P."},
+              {"_$": "Pullum, Sara M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gutmann, Myron P., and Sara M. Pullum. \"From local to national political cultures: Social capital and civic organization in the Great Plains.\" Journal of Interdisciplinary History 24.4 (1999): 725-762.Gutmann, Myron P., and Sara M. Pullum. \"From local to national political cultures: Social capital and civic organization in the Great Plains.\" Journal of Interdisciplinary History 24.4 (1999): 725-762."},
+            "holdings": {"_$": "http://doi.org/10.1162/002219599551877"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Congress and America's Political Development: The Transformation of the Post Office from Patronage to Service"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "16819"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0092-5853"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Kernell, Samuel"},
+              {"_$": "McDonald, Michael"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kernell, Samuel, and Michael McDonald. \"Congress and America's Political Development: The Transformation of the Post Office from Patronage to Service.\" American Journal of Political Science 43.3 (1999): 792-811."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The End of Midterm Decline? Congressional Elections in Historical Perspective"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "33663"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Renda, Lex"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Renda, Lex. \"The End of Midterm Decline? Congressional Elections in Historical Perspective.\" Social Science History 27.2 (2003): 139-164."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-27-2-139"}
+          }}
+        ]}
+      },
+      "fileDscr": [
+        {"fileTxt": {"fileName": {"_$": "DS1: Data File"}}},
+        {"fileTxt": {"fileName": {"_$": "DS2: SAS Data Definition Statements"}}},
+        {"fileTxt": {"fileName": {"_$": "DS10: ICPSR State and County Codes Based on 1960 FIPS Codes (Text File)"}}}
+      ]
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

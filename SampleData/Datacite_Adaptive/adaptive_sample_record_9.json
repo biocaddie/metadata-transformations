@@ -1,0 +1,45 @@
+{
+  "id": "https://doi.org/10.21417/B7RG6H",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.21417/B7RG6H",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Impaired T cell function and skewed T cell receptor repertoire in untreated major depressive disorder",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [{
+      "first-name": "Cüneyt Demiralay",
+      "last-name": "Kostas Patas"
+    }],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-08-19T21:51:32Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-08-19T21:51:32Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "Adaptive Biotechnologies",
+    "description": null
+  }
+}

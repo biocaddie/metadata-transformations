@@ -1,0 +1,32 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "oai:eddi.cvrgrid.org:11614/649"},
+      "datestamp": {"_$": "2015-07-17T20:49:33Z"},
+      "setSpec": [
+        {"_$": "com_11614_1"},
+        {"_$": "col_11614_2"}
+      ],
+      "repository": {"_$": "Electrophysiology Data Discovery Index"},
+      "setName": {"_$": "ECG Datasets"},
+      "fetchURL": {"_$": "https://eddi.cvrgrid.org/oai/request?verb=ListRecords&metadataPrefix=oai_dc_eddi&set=col_11614_2"},
+      "recNum": {"_$": "2"}
+    },
+    "metadata": {"oai_dc_eddi:dc": {
+      "@schemaLocation": "http://www.cvrgrid.org/files/oai_dc_eddi/ http://www.cvrgrid.org/files/oai_dc_eddi/oai_dc_eddi_v0.2.xsd",
+      "dc:title": {"_$": "Physionet European ST-T Database"},
+      "dc:date_published": {"_$": "2000"},
+      "dc:date_eddi-indexed": {"_$": "2015-01-15T19:53:11Z"},
+      "dc:identifier": {"_$": "http://hdl.handle.net/11614/649"},
+      "dc:eddi_description": {"_$": "The European ST-T Database is intended to be used for evaluation of algorithms for analysis of ST and T-wave changes. This database consists of 90 annotated excerpts of ambulatory ECG recordings from 79 subjects. The subjects were 70 men aged 30 to 84, and 8 women aged 55 to 71. (Information is missing for one subject. Records e0118-e0122 come from the same subject; also records e0123-e0126, records e0129 and e0133, records e0136 and e0139, records e0147 and e0148, records e0154 and e0155, and records e0162 and e0163.) Myocardial ischemia was diagnosed or suspected for each subject (see reference 1); additional selection criteria were established in order to obtain a representative selection of ECG abnormalities in the database, including baseline ST segment displacement resulting from conditions such as hypertension, ventricular dyskinesia, and effects of medication. The database includes 367 episodes of ST segment change, and 401 episodes of T-wave change, with durations ranging from 30 seconds to several minutes, and peak displacements ranging from 100 microvolts to more than one millivolt. In addition, 11 episodes of axis shift resulting in apparent ST change, and 10 episodes of axis shift resulting in apparent T-wave change, have been marked. Compact clinical reports document each record. These reports, contained within the header (.hea) files associated with each record, summarize pathology, medications, electrolyte imbalance, and technical information about each recording."},
+      "dc:eddi_accessurl": {"_$": "http://physionet.org/physiobank/database/edb/"},
+      "dc:eddi_accessrestrictions": {"_$": "No Access Restrictions"},
+      "dc:eddi_dataformat": {"_$": ".dat, .hea, .atr"},
+      "dc:eddi_piname": {"_$": "Alessandro Taddei"},
+      "dc:eddi_piemail": {"_$": "taddei@ifc.cnr.it"},
+      "dc:eddi_citationpub": {"_$": "http://dx.doi.org/10.1161/01.CIR.101.23.e215"}
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

@@ -1,0 +1,34 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "oai:eddi.cvrgrid.org:11614/690"},
+      "datestamp": {"_$": "2015-07-17T20:50:24Z"},
+      "setSpec": [
+        {"_$": "com_11614_1"},
+        {"_$": "col_11614_2"}
+      ],
+      "repository": {"_$": "Electrophysiology Data Discovery Index"},
+      "setName": {"_$": "ECG Datasets"},
+      "fetchURL": {"_$": "https://eddi.cvrgrid.org/oai/request?verb=ListRecords&metadataPrefix=oai_dc_eddi&set=col_11614_2"},
+      "recNum": {"_$": "3"}
+    },
+    "metadata": {"oai_dc_eddi:dc": {
+      "@schemaLocation": "http://www.cvrgrid.org/files/oai_dc_eddi/ http://www.cvrgrid.org/files/oai_dc_eddi/oai_dc_eddi_v0.2.xsd",
+      "dc:title": {"_$": "Physionet Long-Term ST Database"},
+      "dc:creator": {"_$": "Moody, G B"},
+      "dc:date_published": {"_$": "2003"},
+      "dc:date_eddi-indexed": {"_$": "2015-01-15T20:26:46Z"},
+      "dc:identifier": {"_$": "http://hdl.handle.net/11614/690"},
+      "dc:eddi_description": {"_$": "The Long-Term ST Database contains 86 lengthy ECG recordings of 80 human subjects, chosen to exhibit a variety of events of ST segment changes, including ischemic ST episodes, axis-related non-ischemic ST episodes, episodes of slow ST level drift, and episodes containing mixtures of these phenomena. The database was created to support development and evaluation of algorithms capable of accurate differentiation of ischemic and non-ischemic ST events, as well as basic research into mechanisms and dynamics of myocardial ischemia.\r\n\r\nHalf (43) of these 86 recordings, representing 42 of the 80 subjects, were contributed to PhysioNet by the creators of the database in February 2003, and the remaining half of the database was contributed in May 2007. (A corrected version of s30801.dat was also posted together with the second half of the database.) Detailed clinical notes and ST deviation trend plots are provided for all 86 records. The entire Long-Term ST Database is also available from its original home page at the Laboratory for Biomedical Computer Systems and Imaging at the University of Ljubljana, Slovenia"},
+      "dc:eddi_accessurl": {"_$": "http://physionet.org/physiobank/database/ltstdb/"},
+      "dc:eddi_accessrestrictions": {"_$": "No Access Restrictions"},
+      "dc:eddi_dataformat": {"_$": ".hea, .dat files. Full list of file formats available on data access page."},
+      "dc:eddi_piname": {"_$": "Franc Jager"},
+      "dc:eddi_piemail": {"_$": "franc.jager@fri.uni-lj.si"},
+      "dc:eddi_piaffiliation": {"_$": "Laboratory of Biomedical Computer Systems and Imaging, University of Ljubljana"},
+      "dc:eddi_citationpub": {"_$": "http://dx.doi.org/10.1161/01.CIR.101.23.e215"}
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

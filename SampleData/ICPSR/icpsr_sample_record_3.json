@@ -1,0 +1,3263 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "3"},
+      "datestamp": {"_$": "2005-12-22T01:01:01Z"},
+      "repository": {"_$": "Inter-University Consortium for Political and Social Research"},
+      "setName": {},
+      "fetchURL": {"_$": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?verb=ListRecords&metadataPrefix=oai_ddi25_citations"},
+      "recNum": {"_$": "2"}
+    },
+    "metadata": {"codeBook": {
+      "@schemaLocation": "ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd",
+      "@version": "2.5",
+      "docDscr": {"citation": {
+        "titlStmt": {
+          "titl": {"_$": "Metadata record for Historical, Demographic, Economic, and Social Data: The United States, 1790-1970"},
+          "IDNo": {
+            "@agency": "ICPSR",
+            "_$": "3"
+          }
+        },
+        "prodStmt": {
+          "producer": {
+            "@abbr": "ICPSR",
+            "_$": "Inter-university Consortium for Political and Social Research"
+          },
+          "copyright": {"_$": "ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License."}
+        },
+        "verStmt": {"version": {
+          "@date": "2016-04-13",
+          "_$": "2016-04-13"
+        }},
+        "holdings": {"@URI": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/oai/studies?metadataPrefix=oai_ddi25&verb=GetRecord&identifier=3"}
+      }},
+      "stdyDscr": {
+        "citation": {
+          "titlStmt": {
+            "titl": {"_$": "Historical, Demographic, Economic, and Social Data: The United States, 1790-1970"},
+            "IDNo": [
+              {
+                "@agency": "ICPSR",
+                "_$": "3"
+              },
+              {
+                "@agency": "dara",
+                "_$": "10.3886/ICPSR00003.v1"
+              }
+            ]
+          },
+          "rspStmt": {"AuthEnty": {"_$": "Inter-university Consortium for Political and Social Research"}},
+          "prodStmt": {
+            "producer": {"_$": "Please see full citation."},
+            "fundAg": {"_$": "National Science Foundation. Research Applied to National Needs"},
+            "grantNo": {
+              "@agency": "National Science Foundation. Research Applied to National Needs",
+              "_$": "GS-1435, GS-1435A1, GS-1231, GS-2473, and APR75-01320"
+            }
+          },
+          "distStmt": {
+            "distrbtr": {"_$": "Ann Arbor, MI: Inter-university Consortium for Political and Social Research"},
+            "distDate": {
+              "@date": "1984-07-06",
+              "_$": "1984-07-06"
+            }
+          },
+          "serStmt": {"serName": {
+            "@ID": "Series180",
+            "_$": "Census of Population and Housing, 1790-1950 [United States] Series"
+          }},
+          "verStmt": {
+            "version": {
+              "@date": "2005-12-22",
+              "_$": "2005-12-22"
+            },
+            "notes": {"_$": "All files were removed from dataset 35 and flagged as study-level files, so that they will accompany all downloads."}
+          },
+          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. Historical, Demographic, Economic, and Social Data: The United States, 1790-1970. ICPSR00003-v1. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 197?. http://doi.org/10.3886/ICPSR00003.v1"},
+          "holdings": {"_$": "http://doi.org/10.3886/ICPSR00003.v1"}
+        },
+        "stdyInfo": {
+          "subject": {
+            "keyword": [
+              {
+                "@vocab": "thesaurus",
+                "_$": "census data"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "counties"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "demographic characteristics"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "economic conditions"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "eighteenth century"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "families"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "historical data"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "marriage"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "national identity"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "nineteenth century"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "occupations"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "political change"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "population"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "population size"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "religion"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "states (USA)"
+              },
+              {
+                "@vocab": "thesaurus",
+                "_$": "twentieth century"
+              }
+            ],
+            "topcClas": [
+              {
+                "@source": "archive",
+                "@vocab": "DSDR subject classifications",
+                "_$": "DSDR VI. Population Characteristics"
+              },
+              {
+                "@source": "archive",
+                "@vocab": "RCMD subject classifications",
+                "_$": "RCMD V. Health and Well-Being"
+              },
+              {
+                "@source": "archive",
+                "@vocab": "ICPSR subject classifications",
+                "_$": "ICPSR I.A.1.a. Census Enumerations: Historical and Contemporary Population Characteristics, United States, Decennial Censuses, 1790-1960 Censuses"
+              }
+            ]
+          },
+          "abstract": {"_$": "Detailed county and state-level ecological or descriptive data for the United States for the years 1790 to 1970 are contained in this collection. These data files contain extensive information about the social and political character of the United States, including a breakdown of population by state, race, nationality, number of families, size of the family, births, deaths, marriages, occupation, religion, and general economic conditions. Though not complete over the full time span of this study, statistics are available on such diverse subjects as total numbers of newspapers and periodicals, total capital invested in manufacturing, total numbers of educational institutions, total number of churches, taxation by state, and land surface area in square miles."},
+          "sumDscr": {
+            "timePrd": [
+              {
+                "@cycle": "P1",
+                "@event": "start",
+                "@date": "1790",
+                "_$": "1790"
+              },
+              {
+                "@cycle": "P1",
+                "@event": "end",
+                "@date": "1970",
+                "_$": "1970"
+              }
+            ],
+            "nation": {"_$": "Please see geographic coverage."},
+            "geogCover": {"_$": "United States"},
+            "universe": {"_$": "The Population of the United States from 1790-1970"},
+            "dataKind": {"_$": "aggregate data"}
+          }
+        },
+        "method": {
+          "dataColl": {"sources": {"dataSrc": {"_$": "(1) United States Bureau of the Census decennial census reports, and (2) SURVEY OF CHURCHES AND CHURCH MEMBERSHIP, 1952"}}},
+          "notes": {"_$": "(1) This study has been updated and revised as HISTORICAL, DEMOGRAPHIC, ECONOMIC, AND SOCIAL DATA: THE UNITED STATES, 1790-2000 (ICPSR 2896). ICPSR staff recommends that, for most purposes, researchers use the updated version istead of ICPSR 0003"}
+        },
+        "dataAccs": {
+          "setAvail": {
+            "@media": "online",
+            "accsPlac": {
+              "@URI": "http://doi.org/10.3886/ICPSR00003.v1",
+              "_$": "Ann Arbor, Mi.: Inter-university Consortium for Political and Social Research"
+            }
+          },
+          "useStmt": {
+            "conditions": {"p": [
+              {"_$": "Terms of use are available at http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/3/terms"},
+              {"_$": "AVAILABLE. This study is freely available to ICPSR member institutions."}
+            ]},
+            "disclaimer": {"_$": "The original collector of the data, ICPSR, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses."}
+          }
+        },
+        "othrStdyMat": {"relPubl": [
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A Methodology for Revising Estimates: Female Market Participation in the United States Before 1940"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "990"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-5440"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Abel, Marjorie"},
+              {"_$": "Folbre, Nancy"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Abel, Marjorie, and Nancy Folbre. \"A Methodology for Revising Estimates: Female Market Participation in the United States Before 1940.\" Historical Methods 23.4 (1990): 167-176."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Cultural Diversity and Economic Growth: Evidence from the US During the Ages of Mass Migration"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92981"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Ager, Philipp, BrÃ¼ckner, Markus"}},
+            "prodStmt": {
+              "producer": {"_$": "University of Adelaide"},
+              "prodDate": {
+                "@date": "2011",
+                "_$": "Jan 2011"
+              },
+              "prodPlac": {"_$": "Adelaide, Australia"}
+            },
+            "biblCit": {"_$": "Ager, Philipp, BrÃ¼ckner, Markus. Cultural Diversity and Economic Growth: Evidence from the US During the Ages of Mass Migration. Adelaide, Australia: University of Adelaide, 2011."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The human ecology of tornadoes"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1318"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0070-3370"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Aguirre, B.E."},
+              {"_$": "Saenz, Rogelino"},
+              {"_$": "Edmiston, John"},
+              {"_$": "Yang, Nan"},
+              {"_$": "Agramonte, Elsa"},
+              {"_$": "Stuart, Dietra L."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Aguirre, B.E., Saenz, Rogelino, Edmiston, John, Yang, Nan, Agramonte, Elsa, and Dietra L. Stuart. \"The human ecology of tornadoes.\" Demography 30.4 (1993): 623-633."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Military Conversion Policies in the USA: 1940s and 1990s"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1465"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3433"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Alexander, J. Davidson"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Alexander, J. Davidson. \"Military Conversion Policies in the USA: 1940s and 1990s.\" Journal of Peace Research 31.1 (1994): 19-33."},
+            "holdings": {"_$": "http://doi.org/10.1177/0022343394031001003"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "From the Populist era to the New Deal: A study of partisan realignment in Washington State, 1889-1950"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "1508"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Allen, Howard W."},
+              {"_$": "Austin, Erik W."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Allen, Howard W., and Erik W. Austin. \"From the Populist era to the New Deal: A study of partisan realignment in Washington State, 1889-1950.\" Social Science History 3.2 (1979): 115-143.Allen, Howard W., and Erik W. Austin. \"From the Populist era to the New Deal: A study of partisan realignment in Washington State, 1889-1950.\" Social Science History 3.2 (1979): 115-143."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Race, Class, and the Death Penalty: Capital Punishment in American History"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "68045"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Allen, Howard W."},
+              {"_$": "Clubb, Jerome M."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "State University of New York Press"},
+              "prodPlac": {"_$": "Albany"}
+            },
+            "biblCit": {"_$": "Allen, Howard W., and Jerome M. Clubb. Race, Class, and the Death Penalty: Capital Punishment in American History. Albany: State University of New York Press, 2008."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Time on the ladder: Career mobility in agriculture, 1890-1938"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92400"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0507"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Alston, Lee J."},
+              {"_$": "Ferrie, Joseph P."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Alston, Lee J., and Joseph P. Ferrie. \"Time on the ladder: Career mobility in agriculture, 1890-1938.\" Journal of Economic History 65.4 (2005): 1058-1081."},
+            "holdings": {"_$": "http://doi.org/10.1017/S0022050705000409"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Electoral behavior of US counties: A panel data approach"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92733"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1545-2921"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Anatolyev, Stanislav"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Anatolyev, Stanislav. \"Electoral behavior of US counties: A panel data approach.\" Economics Bulletin 3.9 (2002): 1-10."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Did railroads induce or follow economic growth? Urbanization and population growth in the American Midwest, 1850-1860"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "86433"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Atack, Jeremy"},
+              {"_$": "Bateman, Fred"},
+              {"_$": "Haines, Michael"},
+              {"_$": "Margo, Robert A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Atack, Jeremy, Bateman, Fred, Haines, Michael, and Robert A. Margo. \"Did railroads induce or follow economic growth? Urbanization and population growth in the American Midwest, 1850-1860.\" Social Science History 34.2 (2010): 171-198."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-2009-024"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Deskilling Controversy"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "2436"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0730-8884"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Attewell, Paul"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Attewell, Paul. \"The Deskilling Controversy.\" Work and Occupations 14.3 (1987): 323-346."},
+            "holdings": {"_$": "http://doi.org/10.1177/0730888487014003001"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Schooling all the masses: Reconsidering the origins of American schooling in the postbellum era"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "2706"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-0407"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Baker, David P."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Baker, David P. \"Schooling all the masses: Reconsidering the origins of American schooling in the postbellum era.\" Sociology of Education 72.4 (1999): 197-215."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Culture of Honor and Southern Homicide"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "40038"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Baller, Robert"},
+              {"_$": "Zevenbergen, Matthew P."},
+              {"_$": "Messner, Steven F."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Midwest Sociological Society"},
+              "prodDate": {
+                "@date": "2005",
+                "_$": "2005"
+              },
+              "prodPlac": {"_$": "Minneapolis, MN"}
+            },
+            "biblCit": {"_$": "Baller, Robert, Zevenbergen, Matthew P., and Steven F. Messner. The Culture of Honor and Southern Homicide. Minneapolis, MN: Midwest Sociological Society, 2005."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A critical inquiry of enslaved African females and the antebellum hospital experience"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "2800"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-9347"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Bankole, Katherine Olukemi"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Bankole, Katherine Olukemi. \"A critical inquiry of enslaved African females and the antebellum hospital experience.\" Journal of Black Studies 31.5 (2001): 517-538."},
+            "holdings": {"_$": "http://doi.org/10.1177/002193470103100501"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Trends in American Major War and Peace"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "3212"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0027"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Beer, Francis A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Beer, Francis A. \"Trends in American Major War and Peace.\" Journal of Conflict Resolution 27.4 (1983): 661-686."},
+            "holdings": {"_$": "http://doi.org/10.1177/0022002783027004006"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Population growth in U.S. counties, 1840-1990"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92396"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0166-0462"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Beeson, Patricia E."},
+              {"_$": "DeJong, David N."},
+              {"_$": "Troesken, Werner"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Beeson, Patricia E., DeJong, David N., and Werner Troesken. \"Population growth in U.S. counties, 1840-1990.\" Regional Science and Urban Economics 31.6 (2001): 669-699."},
+            "holdings": {"_$": "http://doi.org/10.1016/S0166-0462(01)00065-5"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Historical land-cover conversion (1665-1820) in the Choptank Watershed, eastern United States"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92451"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1432-9840"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Benitez, Jorge A."},
+              {"_$": "Fisher, Thomas R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Benitez, Jorge A., and Thomas R. Fisher. \"Historical land-cover conversion (1665-1820) in the Choptank Watershed, eastern United States.\" Ecosystems 7.3 (2004): 219-232."},
+            "holdings": {"_$": "http://doi.org/10.1007/s10021-003-0228-0"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Essays on State Dependence in the Government Spending Multiplier"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "120303"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Biolsi, Christopher"}},
+            "prodStmt": {"producer": {"_$": "University of Houston"}},
+            "biblCit": {"_$": "Biolsi, Christopher. Essays on State Dependence in the Government Spending Multiplier. Diss. University of Houston, 2015."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Group Enmity and Accord: The Commercial Press in Three American Cities"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "3881"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Blau, Judith R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Blau, Judith R. \"Group Enmity and Accord: The Commercial Press in Three American Cities.\" Social Science History 24.2 (2000): 395-413."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-24-2-395"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The expansion of religious affiliation: An explanation of the growth of church participation in the United States 1850-1930"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "93031"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0049-089X"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Blau, Judith R."},
+              {"_$": "Land, Kenneth C."},
+              {"_$": "Redding, Kent"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Blau, Judith R., Land, Kenneth C., and Kent Redding. \"The expansion of religious affiliation: An explanation of the growth of church participation in the United States 1850-1930.\" Social Science Research 21.4 (1992): 329-352."},
+            "holdings": {"_$": "http://doi.org/10.1016/0049-089X(92)90001-W"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Spatial processes and the duality of church and faith: a Simmelian perspective on U.S. denominational growth, 1900-1930"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "3884"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0731-1214"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Blau, Judith R."},
+              {"_$": "Redding, Kent"},
+              {"_$": "Davis, Walter R."},
+              {"_$": "Land, Kenneth C."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Blau, Judith R., Redding, Kent, Davis, Walter R., and Kenneth C. Land. \"Spatial processes and the duality of church and faith: a Simmelian perspective on U.S. denominational growth, 1900-1930.\" Sociological Perspectives 40.4 (1997): 557 -."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Ethnocultural cleavages and the growth of church membership in the United States, 1860-1930"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "3885"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0884-8971"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Blau, Judith R."},
+              {"_$": "Redding, Kent"},
+              {"_$": "Land, Kenneth C."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Blau, Judith R., Redding, Kent, and Kenneth C. Land. \"Ethnocultural cleavages and the growth of church membership in the United States, 1860-1930.\" Sociological Forum 8.4 (1993): 609-637."},
+            "holdings": {"_$": "http://doi.org/10.1007/BF01115214"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Malaria eradication in the Americas: A retrospective analysis of childhood exposure"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "112530"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1945-7790"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Bleakley, Hoyt"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Bleakley, Hoyt. \"Malaria eradication in the Americas: A retrospective analysis of childhood exposure.\" American Economic Journal: Applied Economics 2.2 (2010): 1-45."},
+            "holdings": {"_$": "http://doi.org/10.1257/app.2.2.1"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Chronic disease burden and the interaction of education, fertility, and growth"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "87451"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0034-6535"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Bleakley, Hoyt"},
+              {"_$": "Lange, Fabian"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Bleakley, Hoyt, and Fabian Lange. \"Chronic disease burden and the interaction of education, fertility, and growth.\" Review of Economics and Statistics 91.1 (2009): 52-65."},
+            "holdings": {"_$": "http://doi.org/10.1162/rest.91.1.52"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Economics of Immigration"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "4276"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0515"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Borjas, George J."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Borjas, George J. \"The Economics of Immigration.\" Journal of Economic Literature 32(4)1667-1717.4 (1994): 1667-1717."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The drug war is the new Jim Crow"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "40582"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1071-4839"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Boyd, Graham"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Boyd, Graham. \"The drug war is the new Jim Crow.\" NACLA Report on the Americas 35.1 (2001): 18-22."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "To Be 'Read By the Whole People': Press, Party, and Public Sphere in the United States, 1790-1840"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "33600"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Brooke, John L."}},
+            "prodStmt": {
+              "producer": {"_$": "American Antiquarian Society"},
+              "prodPlac": {"_$": "Worcester, MA"}
+            },
+            "biblCit": {"_$": "Brooke, John L. \"To Be 'Read By the Whole People': Press, Party, and Public Sphere in the United States, 1790-1840.\" Proceedings of the American Antiquarian Society, April 2000. Ed. American Antiquarian Society. Worcester, MA: American Antiquarian Society, 2002. 41-118."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Fundamentals, panics, and bank distress during the Depression"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92403"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0002-8282"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Calomiris, Charles W."},
+              {"_$": "Mason, Joseph R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Calomiris, Charles W., and Joseph R. Mason. \"Fundamentals, panics, and bank distress during the Depression.\" American Economic Review 93.5 (2003): 1615-1647."},
+            "holdings": {"_$": "http://doi.org/10.1257/000282803322655473"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Determinants of Household Headship"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "5760"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-2445"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Carliner, Geoffrey"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Carliner, Geoffrey. \"Determinants of Household Headship.\" Journal of Marriage and Family 37.1 (1975): 28-38."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Fixing the Facts: Editing of the 1880 U.S. Census of Occupations with Implications for Long-Term Labor-Force Trends and the Sociology of Official Statistics"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "5896"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-5440"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Carter, Susan B."},
+              {"_$": "Sutch, Richard"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Carter, Susan B., and Richard Sutch. \"Fixing the Facts: Editing of the 1880 U.S. Census of Occupations with Implications for Long-Term Labor-Force Trends and the Sociology of Official Statistics.\" Historical Methods 29.1 (1996): 5-24."},
+            "holdings": {"_$": "http://doi.org/10.1080/01615440.1996.10112726"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Did suburbanization cause residential segregation? Evidence from U.S. metropolitan areas"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "112613"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Chatterjee, Boishampayan"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Chatterjee, Boishampayan. Did suburbanization cause residential segregation? Evidence from U.S. metropolitan areas. ."},
+            "holdings": {"_$": "http://doi.org/10.2139/ssrn.2250579"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Demographic and compositional change"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "6663"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Clubb, Jerome M."},
+              {"_$": "Austin, Erik W."},
+              {"_$": "Traugott, Michael W."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Sage"},
+              "prodPlac": {"_$": "Beverly Hills, CA"}
+            },
+            "biblCit": {"_$": "Clubb, Jerome M., Austin, Erik W., and Michael W. Traugott. \"Demographic and compositional change.\" Analyzing Electoral History: A Guide to the Study of American Voting Behavior. Ed. Clubb, Jerome M.; Flanigan, William H.; Zingale, Nancy H.. Beverly Hills, CA: Sage, 1981. 105-135."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Formal Organization and the Fate of Social Movements: Craft Association and Class Alliance in the Knights of Labor"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "6928"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Conell, Carol"},
+              {"_$": "Voss, Kim"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Conell, Carol, and Kim Voss. \"Formal Organization and the Fate of Social Movements: Craft Association and Class Alliance in the Knights of Labor.\" American Sociological Review 55.2 (1990): 255-269."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A Causal Analysis of the Defense Expenditures of the USA and the USSR"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "7212"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3433"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Correa, Hector"},
+              {"_$": "Kim, Ji-Won"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Correa, Hector, and Ji-Won Kim. \"A Causal Analysis of the Defense Expenditures of the USA and the USSR.\" Journal of Peace Research 29.2 (1992): 161-174."},
+            "holdings": {"_$": "http://doi.org/10.1177/0022343392029002004"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Unequal at Birth: A Long-Term Comparison of Income and Birth Weight"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "7231"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Costa, Dora L."}},
+            "prodStmt": {
+              "producer": {"_$": "National Bureau of Economic Research"},
+              "prodDate": {
+                "@date": "1997",
+                "_$": "Dec 1997"
+              },
+              "prodPlac": {"_$": "Cambridge, MA"}
+            },
+            "biblCit": {"_$": "Costa, Dora L. Unequal at Birth: A Long-Term Comparison of Income and Birth Weight. Cambridge, MA: National Bureau of Economic Research, 1997."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "War and American Democracy: Electoral Costs of the Last Five Wars"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "7271"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0027"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Cotton, Timothy Y.C."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Cotton, Timothy Y.C. \"War and American Democracy: Electoral Costs of the Last Five Wars.\" Journal of Conflict Resolution 30.4 (1986): 616-635."},
+            "holdings": {"_$": "http://doi.org/10.1177/0022002786030004002"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Transportation improvements and land values in the antebellum United States: A hedonic approach"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "7383"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0895-5638"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Craig, Lee A."},
+              {"_$": "Palmquist, Raymond B."},
+              {"_$": "Weiss, Thomas"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Craig, Lee A., Palmquist, Raymond B., and Thomas Weiss. \"Transportation improvements and land values in the antebellum United States: A hedonic approach.\" Journal of Real Estate Finance and Economics 16.2 (1998): 173-189."},
+            "holdings": {"_$": "http://doi.org/10.1023/A:1007755717900"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Did Big Government's Largesse Help the Locals? The Implications of WWII Spending for Local Economic Activity, 1939-1958"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92735"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Cullen, Joseph"},
+              {"_$": "Fishback, Price V."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "National Bureau of Economic Research"},
+              "prodDate": {
+                "@date": "2006",
+                "_$": "Dec 2006"
+              },
+              "prodPlac": {"_$": "Cambridge, MA"}
+            },
+            "biblCit": {"_$": "Cullen, Joseph, and Price V. Fishback. Did Big Government's Largesse Help the Locals? The Implications of WWII Spending for Local Economic Activity, 1939-1958. Cambridge, MA: National Bureau of Economic Research, 2006."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Frontier America, 1800-1840: A Comparative Demographic Analysis of the Frontier Process"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "8001"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Davis, James E."}},
+            "prodStmt": {
+              "producer": {"_$": "Arthur H. Clark Co."},
+              "prodPlac": {"_$": "Glendale, CA"}
+            },
+            "biblCit": {"_$": "Davis, James E. Frontier America, 1800-1840: A Comparative Demographic Analysis of the Frontier Process. Glendale, CA: Arthur H. Clark Co., 1977."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Childless and Single-Childed Women in Early Twentieth-Century America"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "8027"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0192-513X"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Davis, Nancy J."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Davis, Nancy J. \"Childless and Single-Childed Women in Early Twentieth-Century America.\" Journal of Family Issues 3.4 (1982): 431-458."},
+            "holdings": {"_$": "http://doi.org/10.1177/019251382003004002"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Mass Communication and Social Change"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "8182"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "DeFleur, Melvin L."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "DeFleur, Melvin L. \"Mass Communication and Social Change.\" Social Forces 44.3 (1966): 314-326."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Party Formation in the United States"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "119578"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "DeWitt, Darin Dion"}},
+            "prodStmt": {"producer": {"_$": "University of California, Los Angeles"}},
+            "biblCit": {"_$": "DeWitt, Darin Dion. Party Formation in the United States. Diss. University of California, Los Angeles, 2013.DeWitt, Darin Dion. Party Formation in the United States. Diss. University of California, Los Angeles, 2013."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Why Does Financial Development Matter? The United States from 1900 to 1940"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92974"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Dehejia, Rajeev"},
+              {"_$": "Lleras-Muney, Adriana"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "National Bureau of Economic Research"},
+              "prodDate": {
+                "@date": "2003",
+                "_$": "Mar 2003"
+              },
+              "prodPlac": {"_$": "Cambridge, MA"}
+            },
+            "biblCit": {"_$": "Dehejia, Rajeev, and Adriana Lleras-Muney. Why Does Financial Development Matter? The United States from 1900 to 1940. Cambridge, MA: National Bureau of Economic Research, 2003."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Transplanted to the Rose City: The Creation of East European Jewish Community in Portland, Oregon"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "9290"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0278-5927"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Eisenberg, Ellen"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Eisenberg, Ellen. \"Transplanted to the Rose City: The Creation of East European Jewish Community in Portland, Oregon.\" Journal of American Ethnic History 19.3 (2000): 82-97."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Narrowing the Black-White gap in child literacy in 1910: The roles of school inputs and family inputs"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10371"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0034-6535"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Baskin, John H."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fishback, Price V., and John H. Baskin. \"Narrowing the Black-White gap in child literacy in 1910: The roles of school inputs and family inputs.\" Review of Economics and Statistics 73.4 (1991): 725-728."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Welfare of Children During the Great Depression"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92454"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Haines, Michael R."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "National Bureau of Economic Research"},
+              "prodDate": {
+                "@date": "2002",
+                "_$": "Apr 2002"
+              },
+              "prodPlac": {"_$": "Cambridge, MA"}
+            },
+            "biblCit": {"_$": "Fishback, Price V., Haines, Michael R., and Shawn Kantor. The Welfare of Children During the Great Depression. Cambridge, MA: National Bureau of Economic Research, 2002."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The impact of the New Deal on black and white infant mortality in the South"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92395"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0014-4983"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Haines, Michael R."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fishback, Price V., Haines, Michael R., and Shawn Kantor. \"The impact of the New Deal on black and white infant mortality in the South.\" Explorations in Economic History 38.1 (2001): 93-122.Fishback, Price V., Haines, Michael R., and Shawn Kantor. \"The impact of the New Deal on black and white infant mortality in the South.\" Explorations in Economic History 38.1 (2001): 93-122."},
+            "holdings": {"_$": "http://doi.org/10.1006/exeh.2000.0759"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Did New Deal grant programs stimulate local economies? A study of federal grants and retail sales during the Great Depression"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92452"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0507"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Horrace, William C."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fishback, Price V., Horrace, William C., and Shawn Kantor. \"Did New Deal grant programs stimulate local economies? A study of federal grants and retail sales during the Great Depression.\" Journal of Economic History 65.1 (2005): 36-71."},
+            "holdings": {"_$": "http://doi.org/10.1017.S0022050705050023"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Do Federal Programs Affect Internal Migration? The Impact of New Deal Expenditures on Mobility During the Great Depression"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "93578"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Horrace, William C."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "University of Arizona"},
+              "prodDate": {
+                "@date": "2005",
+                "_$": "Jan 2005"
+              },
+              "prodPlac": {"_$": "Tucson, AZ"}
+            },
+            "biblCit": {"_$": "Fishback, Price V., Horrace, William C., and Shawn Kantor. Do Federal Programs Affect Internal Migration? The Impact of New Deal Expenditures on Mobility During the Great Depression. Tucson, AZ: University of Arizona, 2005.Fishback, Price V., Horrace, William C., and Shawn Kantor. Do Federal Programs Affect Internal Migration? The Impact of New Deal Expenditures on Mobility During the Great Depression. Tucson, AZ: University of Arizona, 2005."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Impact of New Deal Expenditures on Local Economic Activity: An Examination of Retail Sales, 1929-1939"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92975"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Horrace, William C."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "National Bureau of Economic Research"},
+              "prodDate": {
+                "@date": "2001",
+                "_$": "Feb 2001"
+              },
+              "prodPlac": {"_$": "Cambridge, MA"}
+            },
+            "biblCit": {"_$": "Fishback, Price V., Horrace, William C., and Shawn Kantor. The Impact of New Deal Expenditures on Local Economic Activity: An Examination of Retail Sales, 1929-1939. Cambridge, MA: National Bureau of Economic Research, 2001.Fishback, Price V., Horrace, William C., and Shawn Kantor. The Impact of New Deal Expenditures on Local Economic Activity: An Examination of Retail Sales, 1929-1939. Cambridge, MA: National Bureau of Economic Research, 2001."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Origins of Modern Housing Finance: The Impact of Federal Housing Programs During the Great Depression"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92731"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Horrace, William C."},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Yale University"},
+              "prodDate": {
+                "@date": "2001",
+                "_$": "Sep 2001"
+              },
+              "prodPlac": {"_$": "New Haven, CT"}
+            },
+            "biblCit": {"_$": "Fishback, Price V., Horrace, William C., and Shawn Kantor. The Origins of Modern Housing Finance: The Impact of Federal Housing Programs During the Great Depression. Yale University, 2001.Fishback, Price V., Horrace, William C., and Shawn Kantor. The Origins of Modern Housing Finance: The Impact of Federal Housing Programs During the Great Depression. Yale University, 2001."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Did Workers by for the Passage of Workers' Compensation Laws"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10372"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0033-5533"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Kantor, Shawn Everett"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fishback, Price V., and Shawn Everett Kantor. \"Did Workers by for the Passage of Workers' Compensation Laws.\" Quarterly Journal of Economics 110.3 (1995): 713-742."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The durable experiment: State insurance of workers' compensation risk in the early twentieth century"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10373"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0507"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Kantor, Shawn Everett"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fishback, Price V., and Shawn Everett Kantor. \"The durable experiment: State insurance of workers' compensation risk in the early twentieth century.\" Journal of Economic History 56.4 (1996): 809-836."},
+            "holdings": {"_$": "http://doi.org/10.1017/S0022050700017484"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Can the New Deal's three Rs be rehabilitated? A program-by-program, county-by-county analysis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92399"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0014-4983"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Fishback, Price V."},
+              {"_$": "Kantor, Shawn"},
+              {"_$": "Wallis, John Joseph"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fishback, Price V., Kantor, Shawn, and John Joseph Wallis. \"Can the New Deal's three Rs be rehabilitated? A program-by-program, county-by-county analysis.\" Explorations in Economic History 40.3 (2003): 278-307.Fishback, Price V., Kantor, Shawn, and John Joseph Wallis. \"Can the New Deal's three Rs be rehabilitated? A program-by-program, county-by-county analysis.\" Explorations in Economic History 40.3 (2003): 278-307."},
+            "holdings": {"_$": "http://doi.org/10.1016/S0014-4983(03)00029-9"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Electoral incentives, public policy, and the New Deal realignment"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10507"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4038"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Fleck, Robert K."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fleck, Robert K. \"Electoral incentives, public policy, and the New Deal realignment.\" Southern Economic Journal 65.3 (1999): 377-404."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Population, land, economic conditions, and the allocation of New Deal spending"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92394"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0014-4983"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Fleck, Robert K."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fleck, Robert K. \"Population, land, economic conditions, and the allocation of New Deal spending.\" Explorations in Economic History 38.2 (2001): 296-304."},
+            "holdings": {"_$": "http://doi.org/10.1006/exeh.2000.0752"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The value of the vote: A model and test of the effects of turnout on distributive policy"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10508"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0095-2583"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Fleck, Robert K."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fleck, Robert K. \"The value of the vote: A model and test of the effects of turnout on distributive policy.\" Economic Inquiry 37.4 (1999): 609-623."},
+            "holdings": {"_$": "http://doi.org/10.1111/j.1465-7295.1999.tb01451.x"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Voter influence and big policy change: The positive political economy of the New Deal"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92976"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3808"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Fleck, Robert K."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Fleck, Robert K. \"Voter influence and big policy change: The positive political economy of the New Deal.\" Journal of Political Economy 116.1 (2008): 1-37."},
+            "holdings": {"_$": "http://doi.org/10.1086/528999"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Risk and Recreancy: Weber, the Division of Labor, and the Rationality of Risk Perceptions"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "10955"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Freudenburg, William R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Freudenburg, William R. \"Risk and Recreancy: Weber, the Division of Labor, and the Rationality of Risk Perceptions.\" Social Forces 71.4 (1993): 909-932."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Metropolitan Classification for Census Years before World War II"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11227"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-5440"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Gardner, Todd"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gardner, Todd. \"Metropolitan Classification for Census Years before World War II.\" Historical Methods 32.3 (1999): 139-150."},
+            "holdings": {"_$": "http://doi.org/10.1080/01615449909598935"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Populism, Race, and Political Interest in Virginia"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "11485"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Gerteis, Joseph"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gerteis, Joseph. \"Populism, Race, and Political Interest in Virginia.\" Social Science History 27.2 (2003): 197-228."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-27-2-197"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The uneven rise of American public schools to 1850"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "86772"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0507"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Go, Sun"},
+              {"_$": "Lindert, Peter"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Go, Sun, and Peter Lindert. \"The uneven rise of American public schools to 1850.\" Journal of Economic History 70.1 (2010): 1-26."},
+            "holdings": {"_$": "http://doi.org/10.1017/S0022050710000033"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Kondratieff Wave as War Cycles"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "12030"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0020-8833"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Goldstein, Joshua S."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Goldstein, Joshua S. \"Kondratieff Wave as War Cycles.\" International Studies Quarterly 29.4 (1985): 411-444."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Changing Structure of Property Crime in an Affluent Society"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "12214"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Gould, Leroy C."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gould, Leroy C. \"The Changing Structure of Property Crime in an Affluent Society.\" Social Forces 48.1 (1969): 50-59."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "From local to national political cultures: Social capital and civic organization in the Great Plains"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "35884"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Gutmann, Myron P."},
+              {"_$": "Pullum, Sara M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Gutmann, Myron P., and Sara M. Pullum. \"From local to national political cultures: Social capital and civic organization in the Great Plains.\" Journal of Interdisciplinary History 24.4 (1999): 725-762.Gutmann, Myron P., and Sara M. Pullum. \"From local to national political cultures: Social capital and civic organization in the Great Plains.\" Journal of Interdisciplinary History 24.4 (1999): 725-762.Gutmann, Myron P., and Sara M. Pullum. \"From local to national political cultures: Social capital and civic organization in the Great Plains.\" Journal of Interdisciplinary History 24.4 (1999): 725-762."},
+            "holdings": {"_$": "http://doi.org/10.1162/002219599551877"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Fertility and Occupation: Population Patterns in Industrialization"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "12994"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Haines, Michael"}},
+            "prodStmt": {
+              "producer": {"_$": "Academic Press"},
+              "prodPlac": {"_$": "New York"}
+            },
+            "biblCit": {"_$": "Haines, Michael. Fertility and Occupation: Population Patterns in Industrialization. New York: Academic Press, 1979."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Spatial aspects of the American fertility transition in the Nineteenth Century"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "93556"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Haines, Michael R."},
+              {"_$": "Hacker, J. David"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Springer"},
+              "prodPlac": {"_$": "New York, NY"}
+            },
+            "biblCit": {"_$": "Haines, Michael R., and J. David Hacker. \"Spatial aspects of the American fertility transition in the Nineteenth Century.\" Navigating Time and Space in Population Studies. Ed. Gutmann, Myron P.; Deane, Glenn D.; Merchant, Emily R.; Sylvester, Kenneth M.. New York, NY: Springer, 2011. 37-63."},
+            "holdings": {"_$": "http://doi.org/10.1007/978-94-007-0068-0"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Puzzle of the Antebellum Fertility Decline in the United States: New Evidence and Reconsideration"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92453"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Haines, Michael R."},
+              {"_$": "Hacker, J. David"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "National Bureau of Economic Research"},
+              "prodDate": {
+                "@date": "2006",
+                "_$": "Oct 2006"
+              },
+              "prodPlac": {"_$": "Cambridge, MA"}
+            },
+            "biblCit": {"_$": "Haines, Michael R., and J. David Hacker. The Puzzle of the Antebellum Fertility Decline in the United States: New Evidence and Reconsideration. Cambridge, MA: National Bureau of Economic Research, 2006."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Revival Religion and Antislavery Politics"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13190"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hammond, John L."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hammond, John L. \"Revival Religion and Antislavery Politics.\" American Sociological Review 39.2 (1974): 175-186.Hammond, John L. \"Revival Religion and Antislavery Politics.\" American Sociological Review 39.2 (1974): 175-186."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Beyond the marginality thesis: the acquisition and loss of land by African Americans in Georgia, 1880-1930"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13331"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0002-1482"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hargis, Peggy G."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hargis, Peggy G. \"Beyond the marginality thesis: the acquisition and loss of land by African Americans in Georgia, 1880-1930.\" Agricultural History 72.2 (1998): 241 -."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The 'low-country advantage' for African-Americans in Georgia, 1880-1930"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13332"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-1953"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Hargis, Peggy G."},
+              {"_$": "Horan, Patrick M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hargis, Peggy G., and Patrick M. Horan. \"The 'low-country advantage' for African-Americans in Georgia, 1880-1930.\" Journal of Interdisciplinary History 28.1 (1997): 27 -."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Openings in the Wall: Transnational Migrants, Labor Unions, and U.S. Immigration Policy"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "13564"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0020-8183"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Haus, Leah"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Haus, Leah. \"Openings in the Wall: Transnational Migrants, Labor Unions, and U.S. Immigration Policy.\" International Organization 49.2 (1995): 285-313."},
+            "holdings": {"_$": "http://doi.org/10.1017/S002081830002840X"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Census, Estimation Biases, and Female Labor-Force Participation Rates in 1880 Colorado"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "14016"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-5440"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Herr, Elizabeth"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Herr, Elizabeth. \"The Census, Estimation Biases, and Female Labor-Force Participation Rates in 1880 Colorado.\" Historical Methods 28.4 (1995): 167-181."},
+            "holdings": {"_$": "http://doi.org/10.1080/01615440.1995.9956365"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Third parties, elections, and roll-call votes: The populist party and the late nineteenth-century U.S. congress"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92734"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0362-9805"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hirano, Shigeo"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hirano, Shigeo. \"Third parties, elections, and roll-call votes: The populist party and the late nineteenth-century U.S. congress.\" Legislative Studies Quarterly 33.1 (2008): 131-160.Hirano, Shigeo. \"Third parties, elections, and roll-call votes: The populist party and the late nineteenth-century U.S. congress.\" Legislative Studies Quarterly 33.1 (2008): 131-160."},
+            "holdings": {"_$": "http://doi.org/10.3162/036298008783743282"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Resisting redemption: The Republican vote in Georgia in 1876"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "96012"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hogan, Richard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hogan, Richard. \"Resisting redemption: The Republican vote in Georgia in 1876.\" Social Science History 35.2 (2011): 133-166.Hogan, Richard. \"Resisting redemption: The Republican vote in Georgia in 1876.\" Social Science History 35.2 (2011): 133-166."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-2010-019"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Provider Role: Its Meaning and Measurement"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "14702"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-2445"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Hood, Jane C."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Hood, Jane C. \"The Provider Role: Its Meaning and Measurement.\" Journal of Marriage and Family 48.2 (1986): 349-359."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Gender Inequality and Higher Education"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "15551"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0360-0572"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Jacobs, Jerry A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Jacobs, Jerry A. \"Gender Inequality and Higher Education.\" Annual Review of Sociology 22 (1996): 153-185."},
+            "holdings": {"_$": "http://doi.org/10.1146/annurev.soc.22.1.153"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Prelude to progressivism: Party decay, populism, and the doctrine of 'free and unrestricted competition' in American antitrust policy, 1890-1897"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "15649"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0898-588X"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "James, Scott C."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "James, Scott C. \"Prelude to progressivism: Party decay, populism, and the doctrine of 'free and unrestricted competition' in American antitrust policy, 1890-1897.\" Studies in American Political Development 13.2 (1999): 288-336."},
+            "holdings": {"_$": "http://doi.org/10.1017/S0898588X99002369"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Striking the Roots of Crime: The Impact of the New Deal on Criminal Activity"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92971"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Johnson, Ryan S."},
+              {"_$": "Kantor, Shawn"},
+              {"_$": "Fishback, Price V."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "University of California-Riverside"},
+              "prodDate": {
+                "@date": "2004",
+                "_$": "Oct 2004"
+              },
+              "prodPlac": {"_$": "Riverside, CA"}
+            },
+            "biblCit": {"_$": "Johnson, Ryan S., Kantor, Shawn, and Price V. Fishback. Striking the Roots of Crime: The Impact of the New Deal on Criminal Activity. University of California-Riverside, 2004."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Education and Social Change in Nineteenth-Century Massachusetts"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "16242"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Kaestle, Carl F."},
+              {"_$": "Vinovskis, Maris A."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Cambridge University Press"},
+              "prodPlac": {"_$": "New York, NY"}
+            },
+            "biblCit": {"_$": "Kaestle, Carl F., and Maris A. Vinovskis. Education and Social Change in Nineteenth-Century Massachusetts. New York, NY: Cambridge University Press, 1980."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Theory of Ecological Expansion: An Empirical Test"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "16485"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Kasarda, John D."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kasarda, John D. \"The Theory of Ecological Expansion: An Empirical Test.\" Social Forces 51.2 (1982): 165-175."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Family Wage System in Pennsylvania's Anthracite Region: 1850-1900"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "16653"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Keil, Thomas J."},
+              {"_$": "Usui, Wayne M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Keil, Thomas J., and Wayne M. Usui. \"The Family Wage System in Pennsylvania's Anthracite Region: 1850-1900.\" Social Forces 67.1 (1988): 185-207."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Unemployment and Protest in the United States, 1890-1940: A Methodological Critique and Research Note"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "16795"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Kerbo, Harold R."},
+              {"_$": "Shaffer, Richard A."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kerbo, Harold R., and Richard A. Shaffer. \"Unemployment and Protest in the United States, 1890-1940: A Methodological Critique and Research Note.\" Social Forces 64.4 (1986): 1046-1056."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Marital Complaints, Demographic Characteristics, and Symptoms of Mental Distress in Divorce"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "17170"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-2445"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Kitson, Gay C."},
+              {"_$": "Sussman, Marvin B."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kitson, Gay C., and Marvin B. Sussman. \"Marital Complaints, Demographic Characteristics, and Symptoms of Mental Distress in Divorce.\" Journal of Marriage and Family 44.1 (1982): 87-101."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Third Electoral System, 1853-1892: Parties, Voters, and Political Cultures"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "17264"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Kleppner, Paul"}},
+            "prodStmt": {
+              "producer": {"_$": "University of North Carolina Press"},
+              "prodPlac": {"_$": "Chapel Hill, NC"}
+            },
+            "biblCit": {"_$": "Kleppner, Paul. The Third Electoral System, 1853-1892: Parties, Voters, and Political Cultures. Chapel Hill, NC: University of North Carolina Press, 1979.Kleppner, Paul. The Third Electoral System, 1853-1892: Parties, Voters, and Political Cultures. Chapel Hill, NC: University of North Carolina Press, 1979."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The elderly who live alone in the United States: Historical perspectives on household change"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "17712"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0070-3370"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Kramarow, Ellen A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Kramarow, Ellen A. \"The elderly who live alone in the United States: Historical perspectives on household change.\" Demography 32.3 (1995): 335-352."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "On the large-sample estimation of regression models with spatial- or network-effects terms: A two-stage least squares approach"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18097"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0081-1750"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Land, Kenneth C."},
+              {"_$": "Deane, Glenn"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Land, Kenneth C., and Glenn Deane. \"On the large-sample estimation of regression models with spatial- or network-effects terms: A two-stage least squares approach.\" Sociological Methodology 22 (1992): 221-248."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Religious Pluralism and Church Membership: A Spatial Diffusion Model"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18098"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Land, Kenneth C."},
+              {"_$": "Deane, Glenn"},
+              {"_$": "Blau, Judith R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Land, Kenneth C., Deane, Glenn, and Judith R. Blau. \"Religious Pluralism and Church Membership: A Spatial Diffusion Model.\" American Sociological Review 56.2 (1991): 237-249."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Generation, ethnicity, and marriage: Historical patterns in the northern United States"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18111"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0070-3370"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Landale, Nancy S."},
+              {"_$": "Tolnay, Stewart E."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Landale, Nancy S., and Stewart E. Tolnay. \"Generation, ethnicity, and marriage: Historical patterns in the northern United States.\" Demography 30.1 (1993): 103-126."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Farm value and retirement of farm owners in early-twentieth-century America"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18459"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0014-4983"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Lee, Chulhee"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lee, Chulhee. \"Farm value and retirement of farm owners in early-twentieth-century America.\" Explorations in Economic History 36.4 (1999): 387-408."},
+            "holdings": {"_$": "http://doi.org/10.1006/exeh.1999.0723"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Draft Evasion in the North during the Civil War, 1863-1865"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "18817"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0021-8723"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Levine, Peter"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Levine, Peter. \"Draft Evasion in the North during the Civil War, 1863-1865.\" Journal of American History 67.4 (1981): 816-834.Levine, Peter. \"Draft Evasion in the North during the Civil War, 1863-1865.\" Journal of American History 67.4 (1981): 816-834."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Fertility and Scarcity in America"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "19111"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Lindert, Peter"}},
+            "prodStmt": {
+              "producer": {"_$": "Princeton University Press"},
+              "prodPlac": {"_$": "Princeton, NJ"}
+            },
+            "biblCit": {"_$": "Lindert, Peter. Fertility and Scarcity in America. Princeton, NJ: Princeton University Press, 1978."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Dividend Government and U.S. Trade Policy: Theory and Evidence"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "19350"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0020-8183"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Lohmann, Susanne"},
+              {"_$": "O'Halloran, Sharyn"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lohmann, Susanne, and Sharyn O'Halloran. \"Dividend Government and U.S. Trade Policy: Theory and Evidence.\" International Organization 48.4 (1994): 595-632."},
+            "holdings": {"_$": "http://doi.org/10.1017/S0020818300028320"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Empire by Invitation? The United States and Western Europe, 1945-1952"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "19560"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-3433"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Lundestad, Geir"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Lundestad, Geir. \"Empire by Invitation? The United States and Western Europe, 1945-1952.\" Journal of Peace Research 23.3 (1986): 263-277."},
+            "holdings": {"_$": "http://doi.org/10.1177/002234338602300305"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Immigrant Support for the American Socialist Party, 1912 and 1920"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20175"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Marks, Gary"},
+              {"_$": "Burbank, Matthew"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Marks, Gary, and Matthew Burbank. \"Immigrant Support for the American Socialist Party, 1912 and 1920.\" Social Science History 14.2 (1990): 175-202.Marks, Gary, and Matthew Burbank. \"Immigrant Support for the American Socialist Party, 1912 and 1920.\" Social Science History 14.2 (1990): 175-202."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Changing Geographic Structure of Black and White Segregation in the United States"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20443"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4941"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Massey, Douglas S."},
+              {"_$": "Hajnal, Zoltan L."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Massey, Douglas S., and Zoltan L. Hajnal. \"The Changing Geographic Structure of Black and White Segregation in the United States.\" Social Science Quarterly 76.3 (1995): 527-542."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Demographic and Economic Determinants of United States Income Inequality"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20593"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-4941"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Maxwell, Nan L."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Maxwell, Nan L. \"Demographic and Economic Determinants of United States Income Inequality.\" Social Science Quarterly 70.2 (1989): 245-264."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "'Government by Injunction': The U. S. Judiciary and Strike Action in the Late 19th and Early 20th Centuries"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20706"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0730-8884"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "McCammon, Holly J."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "McCammon, Holly J. \"'Government by Injunction': The U. S. Judiciary and Strike Action in the Late 19th and Early 20th Centuries.\" Work and Occupations 20.2 (1993): 174-204."},
+            "holdings": {"_$": "http://doi.org/10.1177/0730888493020002003"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Fiscal Politics and the Police: Detroit, 1928-76"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20860"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "McDowall, David"},
+              {"_$": "Loftin, Colin"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "McDowall, David, and Colin Loftin. \"Fiscal Politics and the Police: Detroit, 1928-76.\" Social Forces 65.1 (1986): 162-176."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "A Liberal Trade Order? The Long-Run Pattern of Imports to the Advanced Capitalist States"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "20991"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0020-8833"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "McKeown, Timothy J."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "McKeown, Timothy J. \"A Liberal Trade Order? The Long-Run Pattern of Imports to the Advanced Capitalist States.\" International Studies Quarterly 35.2 (1991): 151-172."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Legacy of Lynching and Southern Homicide: A Spatial Analysis"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "40039"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Messner, Steven F."},
+              {"_$": "Baller, Robert D."},
+              {"_$": "Zevenbergen, Matthew P."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Southern Sociological Society"},
+              "prodDate": {
+                "@date": "2004",
+                "_$": "2004"
+              },
+              "prodPlac": {"_$": "Atlanta, GA"}
+            },
+            "biblCit": {"_$": "Messner, Steven F., Baller, Robert D., and Matthew P. Zevenbergen. The Legacy of Lynching and Southern Homicide: A Spatial Analysis. Atlanta, GA: Southern Sociological Society, 2004."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The legacy of lynching and southern homicide"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "40041"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Messner, Steven F."},
+              {"_$": "Baller, Robert D."},
+              {"_$": "Zevenbergen, Matthew P."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Messner, Steven F., Baller, Robert D., and Matthew P. Zevenbergen. \"The legacy of lynching and southern homicide.\" American Sociological Review 70.4 (2005): 633-655."},
+            "holdings": {"_$": "http://doi.org/10.1177/000312240507000405"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Estimating Interregional Migration in the United Staes form Sample Data: A Procedural Note"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "21524"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-5440"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Miller, Ann R."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Miller, Ann R. \"Estimating Interregional Migration in the United Staes form Sample Data: A Procedural Note.\" Historical Methods 27.1 (1994): 5-23."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Urbanization and the Malleable Household: An Examination of Boarding and Lodging in American Families"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "21840"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-2445"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Modell, John"},
+              {"_$": "Hareven, Tamara K."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Modell, John, and Tamara K. Hareven. \"Urbanization and the Malleable Household: An Examination of Boarding and Lodging in American Families.\" Journal of Marriage and Family 35.3 (1973): 467-479."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "'We do not want our girls to marry foreigners': Gender, race, and American citizenship"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "22989"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1040-0656"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Nicolosi, Ann Marie"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Nicolosi, Ann Marie. \"'We do not want our girls to marry foreigners': Gender, race, and American citizenship.\" NWSA Journal 13.3 (2001): 1-21."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "We Do Not Want Our Girls to Marry Foreigners: Gender, Race, and American Citizenship"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "40356"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1040-0656"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Nicolosi, Ann Marie"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Nicolosi, Ann Marie. \"We Do Not Want Our Girls to Marry Foreigners: Gender, Race, and American Citizenship.\" NWSA Journal 13.3 (2001): 1-21."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Causes in the Shifts in Occupational Segregation of the Foreign-Born: Evidence from American Cities, 1870-1880"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "23474"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Olzak, Susan D."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Olzak, Susan D. \"Causes in the Shifts in Occupational Segregation of the Foreign-Born: Evidence from American Cities, 1870-1880.\" Social Forces 68.2 (1989): 593-620."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Measures of war: A quantitative examination of the Civil War's destructiveness in the Confederacy"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92973"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0009-8078"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Paskoff, Paul F."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Paskoff, Paul F. \"Measures of war: A quantitative examination of the Civil War's destructiveness in the Confederacy.\" Civil War History 54.1 (2008): 35-62."},
+            "holdings": {"_$": "http://doi.org/10.1353/cwh.2008.0007"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Childhood conditions that predict survival to advanced ages among African-Americans"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24940"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0277-9536"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Preston, Samuel H."},
+              {"_$": "Hill, Mark E."},
+              {"_$": "Drevenstedt, Greg L."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Preston, Samuel H., Hill, Mark E., and Greg L. Drevenstedt. \"Childhood conditions that predict survival to advanced ages among African-Americans.\" Social Science and Medicine 47.9 (1998): 1231-1246."},
+            "holdings": {"_$": "http://doi.org/10.1016/S0277-9536(98)00180-4"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Between Depression and Prosperity? Changes in the Community Context of Historical African American Migration"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "24953"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Price-Spratlen, Townsand"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Price-Spratlen, Townsand. \"Between Depression and Prosperity? Changes in the Community Context of Historical African American Migration.\" Social Forces 77.2 (1998): 515-539."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Urban destination selection among African Americans during the 1950s Great Migration"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "68051"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Price-Spratlen, Townsand"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Price-Spratlen, Townsand. \"Urban destination selection among African Americans during the 1950s Great Migration.\" Social Science History 32.3 (2008): 437-470."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-2008-005"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Moving to nice weather"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "50112"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0166-0462"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Rappaport, Jordan"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Rappaport, Jordan. \"Moving to nice weather.\" Regional Science and Urban Economics 37 (2007): 375-398."},
+            "holdings": {"_$": "http://doi.org/10.1016/j.regsciurbeco.2006.11.004"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "U.S. Urban Decline and Growth, 1950 to 2000"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "36346"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-2387"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Rappaport, Jordan"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Rappaport, Jordan. \"U.S. Urban Decline and Growth, 1950 to 2000.\" Economic Review - Federal Reserve Bank of Kansas City 88.3 (2003): 15-43."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Failed Populism: Movement-Party Disjuncture in North Carolina, 1890 to 1900"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "25348"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Redding, Kent"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Redding, Kent. \"Failed Populism: Movement-Party Disjuncture in North Carolina, 1890 to 1900.\" American Sociological Review 57.3 (1992): 340-352."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Estimating levels and modeling determinants of black and white voter turnout in the South, 1880 to 1912"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "25349"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-5440"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Redding, Kent"},
+              {"_$": "James, David R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Redding, Kent, and David R. James. \"Estimating levels and modeling determinants of black and white voter turnout in the South, 1880 to 1912.\" Historical Methods 34.4 (2001): 141-158.Redding, Kent, and David R. James. \"Estimating levels and modeling determinants of black and white voter turnout in the South, 1880 to 1912.\" Historical Methods 34.4 (2001): 141-158."},
+            "holdings": {"_$": "http://doi.org/10.1080/01615440109598978"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "'Provided Only That Their Voice Was Strong': Insurgency and Organization of American Labor from NRA to Taft-Hartley"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "26432"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0730-8884"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Rubin, Beth A."},
+              {"_$": "Griffin, Larry J."},
+              {"_$": "Wallace, Michael"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Rubin, Beth A., Griffin, Larry J., and Michael Wallace. \"'Provided Only That Their Voice Was Strong': Insurgency and Organization of American Labor from NRA to Taft-Hartley.\" Work and Occupations 10.3 (1983): 325-347."},
+            "holdings": {"_$": "http://doi.org/10.1177/0730888483010003005"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The origins of African-American family structure"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "26466"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Ruggles, Steven"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Ruggles, Steven. \"The origins of African-American family structure.\" American Sociological Review 59.1 (1994): 136-151."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Racial and Ethnic Groups"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "26926"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Schaefer, Richard T."}},
+            "prodStmt": {
+              "producer": {"_$": "Little, Brown"},
+              "prodPlac": {"_$": "Boston, MA"}
+            },
+            "biblCit": {"_$": "Schaefer, Richard T. Racial and Ethnic Groups. Boston, MA: Little, Brown, 1979."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Educational documentation to accompany the great American history machine"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "27007"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Schlatterer, Helen Marie Fell"}},
+            "prodStmt": {
+              "producer": {"_$": "Carnegie-Mellon University"},
+              "prodDate": {
+                "@date": "1989",
+                "_$": "1989"
+              }
+            },
+            "biblCit": {"_$": "Schlatterer, Helen Marie Fell. Educational documentation to accompany the great American history machine. Diss. Carnegie-Mellon University, 1989.Schlatterer, Helen Marie Fell. Educational documentation to accompany the great American history machine. Diss. Carnegie-Mellon University, 1989."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The literate South: Reading before Emancipation"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "111679"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "2154-4727"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Schweiger, Beth Barton"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Schweiger, Beth Barton. \"The literate South: Reading before Emancipation.\" Journal of the Civil War Era 3.3 (2013): 331-359."},
+            "holdings": {"_$": "http://doi.org/10.1353/cwe.2013.0049"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "'New political history': Some statistical questions raised"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27502"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Shade, William G."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Shade, William G. \"'New political history': Some statistical questions raised.\" Social Science History 5.2 (1981): 171-196.Shade, William G. \"'New political history': Some statistical questions raised.\" Social Science History 5.2 (1981): 171-196."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "An assessment of the frontier's influence on voter turnout"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "27884"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0002-1482"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Shortridge, Ray Myles"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Shortridge, Ray Myles. \"An assessment of the frontier's influence on voter turnout.\" Agricultural History 50.3 (1976): 445-459."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The New Deal and the Diffusion of Tractors in the 1930s"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "93580"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Sorensen, Todd"},
+              {"_$": "Fishback, Price"},
+              {"_$": "Kantor, Shawn"}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "Queens University"},
+              "prodDate": {"_$": "[n.d.]"},
+              "prodPlac": {"_$": "Ontario, Canada"}
+            },
+            "biblCit": {"_$": "Sorensen, Todd, Fishback, Price, and Shawn Kantor. The New Deal and the Diffusion of Tractors in the 1930s. Ontario, Canada: Queens University, ."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Populism and black lynching in Georgia, 1890-1900"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28727"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Soule, Sarah A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Soule, Sarah A. \"Populism and black lynching in Georgia, 1890-1900.\" Social Forces 71.2 (1992): 431-449."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Aid to Sharecroppers: How Agrarian Class Structure and Tenant-Farmer Politics Influenced Federal Relief in the South, 1933-1935"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28779"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0145-5532"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Southworth, Caleb"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Southworth, Caleb. \"Aid to Sharecroppers: How Agrarian Class Structure and Tenant-Farmer Politics Influenced Federal Relief in the South, 1933-1935.\" Social Science History 26.1 (2001): 33-70.Southworth, Caleb. \"Aid to Sharecroppers: How Agrarian Class Structure and Tenant-Farmer Politics Influenced Federal Relief in the South, 1933-1935.\" Social Science History 26.1 (2001): 33-70."},
+            "holdings": {"_$": "http://doi.org/10.1215/01455532-26-1-33"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Divorce and Suicide: A Time Series Analysis, 1933-1970"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28950"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0192-513X"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Stack, Steven"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Stack, Steven. \"Divorce and Suicide: A Time Series Analysis, 1933-1970.\" Journal of Family Issues 2.1 (1981): 77-90."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Effect of Domestic/Religious Individualism on Suicide, 1954-1978"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "28948"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-2445"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Stack, Steven"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Stack, Steven. \"The Effect of Domestic/Religious Individualism on Suicide, 1954-1978.\" Journal of Marriage and Family 47.2 (1985): 431-447."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Census Manuscript Schedules Matched with Property Tax Lists: A Source of Information on Long-Term rends in Wealth Inequality"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "29057"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0161-5440"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Steckel, Richard H."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Steckel, Richard H. \"Census Manuscript Schedules Matched with Property Tax Lists: A Source of Information on Long-Term rends in Wealth Inequality.\" Historical Methods 27.2 (1994): 71-85."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Urban Underrepresentation in the U.S. Senate"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "29148"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "1078-0874"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Stephens, G. Ross"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Stephens, G. Ross. \"Urban Underrepresentation in the U.S. Senate.\" Urban Affairs Review 31.3 (1996): 404-418."},
+            "holdings": {"_$": "http://doi.org/10.1177/107808749603100305"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The geography of wage discrimination in the pre-civil rights South"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92455"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0507"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sundstrom, William A."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sundstrom, William A. \"The geography of wage discrimination in the pre-civil rights South.\" Journal of Economic History 67.2 (2007): 410-444."},
+            "holdings": {"_$": "http://doi.org/10.1017/S0022050707000150"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Important or impotent? Taking another look at the 1920 California Alien Land Law"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92458"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0507"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Suzuki, Masao"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Suzuki, Masao. \"Important or impotent? Taking another look at the 1920 California Alien Land Law.\" Journal of Economic History 64.1 (2004): 125-143."},
+            "holdings": {"_$": "http://doi.org/10.1017.S0022050704002621"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Broken Homes: Stable Risk, Changing Reasons, Changing Forms"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "29700"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-2445"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Sweetser, Dorrian Apple"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Sweetser, Dorrian Apple. \"Broken Homes: Stable Risk, Changing Reasons, Changing Forms.\" Journal of Marriage and Family 47.3 (1985): 709-715."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "From Home to Hospital: The Evolution of Childbirth in the United States, 1927-1940"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92457"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Thomasson, Melissa A."}},
+            "prodStmt": {
+              "producer": {"_$": "National Bureau of Economic Research"},
+              "prodDate": {
+                "@date": "2004",
+                "_$": "Oct 2004"
+              },
+              "prodPlac": {"_$": "Cambridge, MA"}
+            },
+            "biblCit": {"_$": "Thomasson, Melissa A. From Home to Hospital: The Evolution of Childbirth in the United States, 1927-1940. Cambridge, MA: National Bureau of Economic Research, 2004."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "War, Inflation, and the Kondratieff Long Wave"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30093"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-0027"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Thompson, William R."},
+              {"_$": "Zuk, L. Gary"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Thompson, William R., and L. Gary Zuk. \"War, Inflation, and the Kondratieff Long Wave.\" Journal of Conflict Resolution 26.4 (1982): 621-644."},
+            "holdings": {"_$": "http://doi.org/10.1177/0022002782026004003"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "African Americans and immigrants in northern cities: The effects of relative group size on occupational standing in 1920"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30290"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Tolnay, Stewart E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tolnay, Stewart E. \"African Americans and immigrants in northern cities: The effects of relative group size on occupational standing in 1920.\" Social Forces 80.2 (2001): 573-604."},
+            "holdings": {"_$": "http://doi.org/10.1353/sof.2001.0112"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Educational Selection in the Migration of Southern Blacks, 1880-1990"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30288"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Tolnay, Stewart E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tolnay, Stewart E. \"Educational Selection in the Migration of Southern Blacks, 1880-1990.\" Social Forces 77.2 (1998): 487-514."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The spatial diffusion of fertility: A cross-sectional analysis of counties in the American South, 1940"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30285"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Tolnay, Stewart E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tolnay, Stewart E. \"The spatial diffusion of fertility: A cross-sectional analysis of counties in the American South, 1940.\" American Sociological Review 60.2 (1995): 299 -."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Racial Violence and Black Migration in the American South, 1910 to 1930"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30291"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Tolnay, Stewart E."},
+              {"_$": "Beck, E.M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tolnay, Stewart E., and E.M. Beck. \"Racial Violence and Black Migration in the American South, 1910 to 1930.\" American Sociological Review 57.1 (1992): 103-116."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Black lynchings: The power threat hypothesis revisited"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30292"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Tolnay, Stewart E."},
+              {"_$": "Beck, E.M."},
+              {"_$": "Massey, James L."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tolnay, Stewart E., Beck, E.M., and James L. Massey. \"Black lynchings: The power threat hypothesis revisited.\" Social Forces 67.3 (1989): 605-623."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "'Narrow and Filthy Alleys of the City'?: The Residential Settlement Patterns of Black Southern Migrants to the North"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30295"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Tolnay, Stewart E."},
+              {"_$": "Crowder, Kyle D."},
+              {"_$": "Adelman, Robert M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tolnay, Stewart E., Crowder, Kyle D., and Robert M. Adelman. \"'Narrow and Filthy Alleys of the City'?: The Residential Settlement Patterns of Black Southern Migrants to the North.\" Social Forces 78.3 (2000): 989-1015."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Vicarious Violence: Spatial Effects on Southern Lynchings, 1980-1919"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30296"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0002-9602"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Tolnay, Stewart E."},
+              {"_$": "Deane, Glenn"},
+              {"_$": "Beck, E.M."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tolnay, Stewart E., Deane, Glenn, and E.M. Beck. \"Vicarious Violence: Spatial Effects on Southern Lynchings, 1980-1919.\" American Journal of Sociology 102.3 (1996): 788-815."},
+            "holdings": {"_$": "http://doi.org/10.1086/230997"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Persistence of high fertility in the American South on the eve of the baby boom"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30297"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0070-3370"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Tolnay, Stewart E."},
+              {"_$": "Glynn, Patricia J."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Tolnay, Stewart E., and Patricia J. Glynn. \"The Persistence of high fertility in the American South on the eve of the baby boom.\" Demography 31.4 (1994): 615-631."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Increasing Scale and Spatial Differentiation: New Tests of Two Theories from Shevky and Bell"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30620"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0037-7732"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Udry, J. Richard"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Udry, J. Richard. \"Increasing Scale and Spatial Differentiation: New Tests of Two Theories from Shevky and Bell.\" Social Forces 42.4 (1964): 403-413."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Democratic Convergence and Free Trade"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "30914"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0020-8833"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Verdier, Daniel"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Verdier, Daniel. \"Democratic Convergence and Free Trade.\" International Studies Quarterly 42.1 (1998): 1-24."},
+            "holdings": {"_$": "http://doi.org/10.1111/0020-8833.00067"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Schooling or Working? Public Education, Racial Politics, and the Organization of Production in 1910"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31224"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-0407"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Walters, Pamela Barnhouse"},
+              {"_$": "McCammon, Holly J."},
+              {"_$": "James, David R."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Walters, Pamela Barnhouse, McCammon, Holly J., and David R. James. \"Schooling or Working? Public Education, Racial Politics, and the Organization of Production in 1910.\" Sociology of Education 63.1 (1990): 1-26.Walters, Pamela Barnhouse, McCammon, Holly J., and David R. James. \"Schooling or Working? Public Education, Racial Politics, and the Organization of Production in 1910.\" Sociology of Education 63.1 (1990): 1-26."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Family Economy, Work, and Educational Participation in the United States, 1890-1940"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31225"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0002-9602"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Walters, Pamela Barnhouse"},
+              {"_$": "O'Connell, Philip J."}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Walters, Pamela Barnhouse, and Philip J. O'Connell. \"The Family Economy, Work, and Educational Participation in the United States, 1890-1940.\" American Journal of Sociology 93.5 (1988): 1116-1152."},
+            "holdings": {"_$": "http://doi.org/10.1086/228866"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Educational expansion and economic output in the United States, 1890-1969: A production function analysis"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31226"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0003-1224"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "Walters, Pamela Barnhouse"},
+              {"_$": "Robinson, Richard"}
+            ]},
+            "prodStmt": {},
+            "biblCit": {"_$": "Walters, Pamela Barnhouse, and Richard Robinson. \"Educational expansion and economic output in the United States, 1890-1969: A production function analysis.\" American Sociological Review 48.4 (1983): 480-493."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Tug-of-war: Political mobilization and access to schooling in the southern racial state"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "31767"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0038-0407"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Werum, Regina E."}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Werum, Regina E. \"Tug-of-war: Political mobilization and access to schooling in the southern racial state.\" Sociology of Education 72.2 (1999): 89-110.Werum, Regina E. \"Tug-of-war: Political mobilization and access to schooling in the southern racial state.\" Sociology of Education 72.2 (1999): 89-110."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Sending or receiving stations? The dual influence of railroads in early 20th-century Great Plains settlement"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92732"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0167-5923"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "White, Katherine J. Curtis"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "White, Katherine J. Curtis. \"Sending or receiving stations? The dual influence of railroads in early 20th-century Great Plains settlement.\" Population Research and Policy Review 27.1 (2008): 89-115."},
+            "holdings": {"_$": "http://doi.org/10.1007/s11113-007-9056-3"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Temporal and Spatial Variation in 20th Century U.S. Great Plains Population Change"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92978"
+              }
+            },
+            "rspStmt": {"AuthEnty": {"_$": "White, Katherine J. Curtis"}},
+            "prodStmt": {
+              "producer": {"_$": "University of Wisconsin-Madison, Center for Demography and Ecology"},
+              "prodDate": {
+                "@date": "2004",
+                "_$": "Jul 2004"
+              },
+              "prodPlac": {"_$": "Madison, WI"}
+            },
+            "biblCit": {"_$": "White, Katherine J. Curtis. Temporal and Spatial Variation in 20th Century U.S. Great Plains Population Change. Madison, WI: University of Wisconsin-Madison, Center for Demography and Ecology, 2004."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Growth Curve Modeling: An Alternative Approach to Estimating Patterns of Population Change"},
+              "IDNo": {
+                "@agency": "ICPSR",
+                "_$": "92977"
+              }
+            },
+            "rspStmt": {"AuthEnty": [
+              {"_$": "White, Katherine J. Curtis"},
+              {"_$": "Herting, Jerald R."}
+            ]},
+            "prodStmt": {
+              "producer": {"_$": "University of Wisconsin-Madison, Center for Demography and Ecology"},
+              "prodDate": {
+                "@date": "2004",
+                "_$": "Jul 2004"
+              },
+              "prodPlac": {"_$": "Madison, WI"}
+            },
+            "biblCit": {"_$": "White, Katherine J. Curtis, and Jerald R. Herting. Growth Curve Modeling: An Alternative Approach to Estimating Patterns of Population Change. Madison, WI: University of Wisconsin-Madison, Center for Demography and Ecology, 2004."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The Decline in Men's Labor Force Participation and Income and the Changing Structure of Family Economic Support"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "32058"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0022-2445"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Wilkie, Jane Riblett"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Wilkie, Jane Riblett. \"The Decline in Men's Labor Force Participation and Income and the Changing Structure of Family Economic Support.\" Journal of Marriage and Family 53.1 (1991): 111-122."}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "The 1835 anti-Abolition meetings in the South: A new look at the controversy over the Abolition Postal Campaign"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "40398"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0009-8078"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Wyly-Jones, Susan"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Wyly-Jones, Susan. \"The 1835 anti-Abolition meetings in the South: A new look at the controversy over the Abolition Postal Campaign.\" Civil War History 47.4 (2001): 289-309."},
+            "holdings": {"_$": "http://doi.org/10.1353/cwh.2001.0062"}
+          }},
+          {"citation": {
+            "titlStmt": {
+              "titl": {"_$": "Black enterprise and the legacy of slavery"},
+              "IDNo": [
+                {
+                  "@agency": "ICPSR",
+                  "_$": "92459"
+                },
+                {
+                  "@agency": "ISSN",
+                  "_$": "0034-6446"
+                }
+              ]
+            },
+            "rspStmt": {"AuthEnty": {"_$": "Zajonc, Tristan"}},
+            "prodStmt": {},
+            "biblCit": {"_$": "Zajonc, Tristan. \"Black enterprise and the legacy of slavery.\" Review of Black Political Economy 30.3 (2003): 23-38."},
+            "holdings": {"_$": "http://doi.org/10.1007/BF02717320"}
+          }}
+        ]}
+      },
+      "fileDscr": [
+        {"fileTxt": {"fileName": {"_$": "DS1: 1790 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS2: 1800 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS3: 1810 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS4: 1820 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS5: 1830 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS6: 1840 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS7: 1850 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS8: 1860 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS9: 1870 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS10: 1880 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS11: 1890 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS12: 1890 Census Religious Data (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS13: 1900 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS14: 1910 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS15: 1920 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS16: 1930 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS17: 1940 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS18: 1950 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS19: 1960 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS20: 1970 Census (County and State)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS21: 1850 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS22: 1860 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS23: 1870 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS24: 1870 Census Dataset S02 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS25: 1870 Census Dataset S03 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS26: 1880 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS27: 1880 Census Dataset S02 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS28: 1890 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS29: 1900 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS30: 1910 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS31: 1920 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS32: 1930 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS33: 1940 Census Dataset S01 (State Only)"}}},
+        {"fileTxt": {"fileName": {"_$": "DS34: 1950 Census Dataset S01 (State Only)"}}}
+      ]
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

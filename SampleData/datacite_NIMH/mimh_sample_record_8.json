@@ -1,0 +1,71 @@
+{
+  "id": "https://doi.org/10.15154/1240724",
+  "type": "dats",
+  "attributes": {
+    "identifiers": [{
+      "identifier": "doi:10.15154/1240724",
+      "identifier-source": "DataCite"
+    }],
+    "title": "Trajectories of cortical thickness maturation in normal brain development",
+    "types": [{"information": {"value": {
+      "id": "dataset",
+      "title": "Dataset",
+      "updated_at": "2016-09-21T00:00:00Z"
+    }}}],
+    "creators": [
+      {
+        "first-name": "M",
+        "last-name": "Albaugh"
+      },
+      {
+        "first-name": "T",
+        "last-name": "Nguyen"
+      },
+      {
+        "first-name": "J",
+        "last-name": "Hudziak"
+      },
+      {
+        "first-name": "J",
+        "last-name": "Mateos-Pérez"
+      },
+      {
+        "first-name": "A",
+        "last-name": "Labbe"
+      },
+      {
+        "first-name": "A",
+        "last-name": "Evans"
+      },
+      {
+        "first-name": "S",
+        "last-name": "Karama"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "publicationYear"
+        }
+      },
+      {
+        "date": "2016-03-08T20:18:44Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Issued"
+        }
+      },
+      {
+        "date": "2016-03-08T20:18:44Z",
+        "type": {
+          "ontology-term-iri": "http://schema.datacite.org/meta/kernel-3.1/metadata.xsd",
+          "value": "Updated"
+        }
+      }
+    ],
+    "container-title": "NIMH Data Archives",
+    "description": "Several reports have described cortical thickness (CTh) developmental trajectories, with conflicting results. Some studies have reported inverted-U shape curves with peaks of CTh in late childhood to adolescence, while others suggested predominant monotonic decline after age 6. In this study, we reviewed CTh developmental trajectories in the NIH MRI Study of Normal Brain Development, and in a second step, evaluated the impact of post-processing quality control (QC) procedures on identified trajectories. The quality-controlled sample included 384 individual subjects with repeated scanning (1-3 per subject, total scans n=753) from 4.9 to 22.3years of age. The best-fit model (cubic, quadratic, or first-order linear) was identified at each vertex using mixed-effects models. The majority of brain regions showed linear monotonic decline of CTh. There were few areas of cubic trajectories, mostly in bilateral temporo-parietal areas and the right prefrontal cortex, in which CTh peaks were at, or prior to, age 8. When controlling for total brain volume, CTh trajectories were even more uniformly linear. The only sex difference was faster thinning of occipital areas in boys compared to girls. The best-fit model for whole brain mean thickness was a monotonic decline of 0.027mm per year. QC procedures had a significant impact on identified trajectories, with a clear shift toward more complex trajectories (i.e., quadratic or cubic) when including all scans without QC (n=954). Trajectories were almost exclusively linear when using only scans that passed the most stringent QC (n=598). The impact of QC probably relates to decreasing the inclusion of scans with CTh underestimation secondary to movement artifacts, which are more common in younger subjects. In summary, our results suggest that CTh follows a simple linear decline in most cortical areas by age 5, and all areas by age 8. This study further supports the crucial importance of implementing post-processing QC in CTh studies of development, aging, and neuropsychiatric disorders."
+  }
+}

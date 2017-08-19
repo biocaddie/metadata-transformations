@@ -1,0 +1,30 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "oai:eddi.cvrgrid.org:11614/712"},
+      "datestamp": {"_$": "2015-07-17T20:47:32Z"},
+      "setSpec": [
+        {"_$": "com_11614_1"},
+        {"_$": "col_11614_2"}
+      ],
+      "repository": {"_$": "Electrophysiology Data Discovery Index"},
+      "setName": {"_$": "ECG Datasets"},
+      "fetchURL": {"_$": "https://eddi.cvrgrid.org/oai/request?verb=ListRecords&metadataPrefix=oai_dc_eddi&set=col_11614_2"},
+      "recNum": {"_$": "4"}
+    },
+    "metadata": {"oai_dc_eddi:dc": {
+      "@schemaLocation": "http://www.cvrgrid.org/files/oai_dc_eddi/ http://www.cvrgrid.org/files/oai_dc_eddi/oai_dc_eddi_v0.2.xsd",
+      "dc:title": {"_$": "Telemetric and Holter ECG Warehouse (THEW): Coronary Artery Patients"},
+      "dc:date_published": {"_$": "2015"},
+      "dc:date_eddi-indexed": {"_$": "2015-01-20T16:54:05Z"},
+      "dc:identifier": {"_$": "http://hdl.handle.net/11614/712"},
+      "dc:eddi_description": {"_$": "Study Population:This group of cardiac patients is from the Intercity Digital Electrocardiogram Alliance (IDEAL) database. These coronary artery disease patients (271 patients) had positive angiogram (at least one vessel narrowing >75%) and either exercise induced ischemia or evidence of previous myocardial infarction. These patients were in stable phase of ischemic heart disease since they were enrolled at least 2 month after their event. The Electrocardiograms were acquired using three pseudo-orthogonal lead configuration (X, Y and Z). There is a initial resting supine period for a 20 minutes duration before starting the ambulatory recording.\r\n\r\nAll patients are suppose to be in sinus rhythm. Only cardiac patients without evidence of congestive heart failure were included."},
+      "dc:eddi_accessurl": {"_$": "http://thew-project.org/register_main.htm"},
+      "dc:eddi_accessrestrictions": {"_$": "THEW Data Use Agreements (see Thew website for details)"},
+      "dc:eddi_dataformat": {"_$": ".ecg, .ann"},
+      "dc:eddi_citationpub": {"_$": "http://dx.doi.org/10.1016/j.jelectrocard.2010.07.015"}
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}
