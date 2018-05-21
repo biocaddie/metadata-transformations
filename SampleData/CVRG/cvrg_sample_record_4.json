@@ -26,7 +26,7 @@
       "dc:eddi_piname": {"_$": "Franc Jager"},
       "dc:eddi_piemail": {"_$": "franc.jager@fri.uni-lj.si"},
       "dc:eddi_piaffiliation": {"_$": "Laboratory of Biomedical Computer Systems and Imaging, University of Ljubljana"},
-      "dc:eddi_citationpub": {"_$": "http://dx.doi.org/10.1161/01.CIR.101.23.e215"}
+      "dc:eddi_citationpub": {"_$": "https://doi.org/10.1161/01.CIR.101.23.e215"}
     }}
   },
   "_@default": "http://www.openarchives.org/OAI/2.0/",

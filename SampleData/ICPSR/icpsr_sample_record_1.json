@@ -83,8 +83,8 @@
               "notes": {"_$": "SAS and SPSS data definition statements have been generated for all parts, and reformatted logical record length data files are now available for Parts 12, 33, 34, 35, 84, 96, 101, 104, 130, 156, and 194."}
             }
           ],
-          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. United States Historical Election Returns, 1824-1968 [Computer File]. ICPSR00001-v3. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1999-04-26. http://doi.org/10.3886/ICPSR00001.v3"},
-          "holdings": {"_$": "http://doi.org/10.3886/ICPSR00001.v3"}
+          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. United States Historical Election Returns, 1824-1968 [Computer File]. ICPSR00001-v3. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1999-04-26. https://doi.org/10.3886/ICPSR00001.v3"},
+          "holdings": {"_$": "https://doi.org/10.3886/ICPSR00001.v3"}
         },
         "stdyInfo": {
           "subject": {
@@ -201,7 +201,7 @@
           "setAvail": {
             "@media": "online",
             "accsPlac": {
-              "@URI": "http://doi.org/10.3886/ICPSR00001.v3",
+              "@URI": "https://doi.org/10.3886/ICPSR00001.v3",
               "_$": "Ann Arbor, Mi.: Inter-university Consortium for Political and Social Research"
             }
           },
@@ -402,7 +402,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Carpenter, Daniel, and Benjamin Schneer. \"Party formation through petitions: The Whigs and the Bank War of 1832-1834.\" Studies in American Political Development 29.2 (2015): 213-234."},
-            "holdings": {"_$": "http://doi.org/10.1017/S0898588X15000073"}
+            "holdings": {"_$": "https://doi.org/10.1017/S0898588X15000073"}
           }},
           {"citation": {
             "titlStmt": {
@@ -445,7 +445,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Chicu, Mark, and Matthew A. Masten. \"A specification test for discrete choice models.\" Economics Letters 121.2 (2013): 336-339."},
-            "holdings": {"_$": "http://doi.org/10.1016/j.econlet.2013.08.024"}
+            "holdings": {"_$": "https://doi.org/10.1016/j.econlet.2013.08.024"}
           }},
           {"citation": {
             "titlStmt": {
@@ -639,7 +639,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Fishback, Price V., Haines, Michael R., and Shawn Kantor. \"Births, deaths, and New Deal relief during the Great Depression.\" Review of Economics and Statistics 89.1 (2007): 1-14."},
-            "holdings": {"_$": "http://doi.org/10.1162/rest.89.1.1"}
+            "holdings": {"_$": "https://doi.org/10.1162/rest.89.1.1"}
           }},
           {"citation": {
             "titlStmt": {
@@ -662,7 +662,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Fishback, Price V., Haines, Michael R., and Shawn Kantor. \"The impact of the New Deal on black and white infant mortality in the South.\" Explorations in Economic History 38.1 (2001): 93-122."},
-            "holdings": {"_$": "http://doi.org/10.1006/exeh.2000.0759"}
+            "holdings": {"_$": "https://doi.org/10.1006/exeh.2000.0759"}
           }},
           {"citation": {
             "titlStmt": {
@@ -754,7 +754,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Fishback, Price V., Kantor, Shawn, and John Joseph Wallis. \"Can the New Deal's three Rs be rehabilitated? A program-by-program, county-by-county analysis.\" Explorations in Economic History 40.3 (2003): 278-307."},
-            "holdings": {"_$": "http://doi.org/10.1016/S0014-4983(03)00029-9"}
+            "holdings": {"_$": "https://doi.org/10.1016/S0014-4983(03)00029-9"}
           }},
           {"citation": {
             "titlStmt": {
@@ -848,7 +848,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Gross, Donald A."}},
             "prodStmt": {},
             "biblCit": {"_$": "Gross, Donald A. \"Units of analysis and Rae's fractionalization index.\" Comparative Political Studies 15.1 (1982): 85-98."},
-            "holdings": {"_$": "http://doi.org/10.1177/0010414082015001004"}
+            "holdings": {"_$": "https://doi.org/10.1177/0010414082015001004"}
           }},
           {"citation": {
             "titlStmt": {
@@ -891,7 +891,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Gutmann, Myron P., and Sara M. Pullum. \"From local to national political cultures: Social capital and civic organization in the Great Plains.\" Journal of Interdisciplinary History 24.4 (1999): 725-762."},
-            "holdings": {"_$": "http://doi.org/10.1162/002219599551877"}
+            "holdings": {"_$": "https://doi.org/10.1162/002219599551877"}
           }},
           {"citation": {
             "titlStmt": {
@@ -910,7 +910,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Hammond, John L."}},
             "prodStmt": {},
             "biblCit": {"_$": "Hammond, John L. \"Minor parties and electoral realignments.\" American Politics Quarterly 4.1 (1976): 63-87."},
-            "holdings": {"_$": "http://doi.org/10.1177/1532673X7600400103"}
+            "holdings": {"_$": "https://doi.org/10.1177/1532673X7600400103"}
           }},
           {"citation": {
             "titlStmt": {
@@ -947,7 +947,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Hirano, Shigeo"}},
             "prodStmt": {},
             "biblCit": {"_$": "Hirano, Shigeo. \"Third parties, elections, and roll-call votes: The populist party and the late nineteenth-century U.S. congress.\" Legislative Studies Quarterly 33.1 (2008): 131-160."},
-            "holdings": {"_$": "http://doi.org/10.3162/036298008783743282"}
+            "holdings": {"_$": "https://doi.org/10.3162/036298008783743282"}
           }},
           {"citation": {
             "titlStmt": {
@@ -966,7 +966,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Hogan, Richard"}},
             "prodStmt": {},
             "biblCit": {"_$": "Hogan, Richard. \"Resisting redemption: The Republican vote in Georgia in 1876.\" Social Science History 35.2 (2011): 133-166."},
-            "holdings": {"_$": "http://doi.org/10.1215/01455532-2010-019"}
+            "holdings": {"_$": "https://doi.org/10.1215/01455532-2010-019"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1351,7 +1351,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Pathman, D.E., Fowler-Brown, A., and G. Corbie-Smith. \"Differences in access to outpatient medical care for Black and White adults in the rural Southeast.\" Medical Care 44 (2006): 429-438."},
-            "holdings": {"_$": "http://doi.org/10.1097/01.mlr.0000207487.85689.a8"}
+            "holdings": {"_$": "https://doi.org/10.1097/01.mlr.0000207487.85689.a8"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1373,7 +1373,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Redding, Kent, and David R. James. \"Estimating levels and modeling determinants of black and white voter turnout in the South, 1880 to 1912.\" Historical Methods 34.4 (2001): 141-158."},
-            "holdings": {"_$": "http://doi.org/10.1080/01615440109598978"}
+            "holdings": {"_$": "https://doi.org/10.1080/01615440109598978"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1410,7 +1410,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Sellers, Charles"}},
             "prodStmt": {},
             "biblCit": {"_$": "Sellers, Charles. \"The equilibrium cycle in two-party politics.\" Public Opinion Quarterly 29.1 (1965): 16-38."},
-            "holdings": {"_$": "http://doi.org/10.1086/267295"}
+            "holdings": {"_$": "https://doi.org/10.1086/267295"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1522,7 +1522,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Southworth, Caleb"}},
             "prodStmt": {},
             "biblCit": {"_$": "Southworth, Caleb. \"Aid to Sharecroppers: How Agrarian Class Structure and Tenant-Farmer Politics Influenced Federal Relief in the South, 1933-1935.\" Social Science History 26.1 (2001): 33-70."},
-            "holdings": {"_$": "http://doi.org/10.1215/01455532-26-1-33"}
+            "holdings": {"_$": "https://doi.org/10.1215/01455532-26-1-33"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1541,7 +1541,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Theriault, Sean M."}},
             "prodStmt": {},
             "biblCit": {"_$": "Theriault, Sean M. \"Party politics during the Louisiana Purchase.\" Social Science History 30.2 (2006): 293-324."},
-            "holdings": {"_$": "http://doi.org/10.1215/01455532-30-2-293"}
+            "holdings": {"_$": "https://doi.org/10.1215/01455532-30-2-293"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1581,7 +1581,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Tufte, Edward R., and Richard A. Sun. \"Are There Bellwether Electoral Districts?.\" Public Opinion Quarterly 39.1 (1975): 1-18."},
-            "holdings": {"_$": "http://doi.org/10.1086/268196"}
+            "holdings": {"_$": "https://doi.org/10.1086/268196"}
           }},
           {"citation": {
             "titlStmt": {

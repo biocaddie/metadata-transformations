@@ -24,7 +24,7 @@
       "dc:eddi_dataformat": {"_$": ".dat, .hea, .atr"},
       "dc:eddi_piname": {"_$": "Alessandro Taddei"},
       "dc:eddi_piemail": {"_$": "taddei@ifc.cnr.it"},
-      "dc:eddi_citationpub": {"_$": "http://dx.doi.org/10.1161/01.CIR.101.23.e215"}
+      "dc:eddi_citationpub": {"_$": "https://doi.org/10.1161/01.CIR.101.23.e215"}
     }}
   },
   "_@default": "http://www.openarchives.org/OAI/2.0/",

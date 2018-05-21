@@ -38,7 +38,7 @@ if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" like "%phys
 if "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" like "%physionet%" then let "datasetDistributions[1].primary" = "True"
 
 /* Publication Information */
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_citationpub'.'_$'" to "primaryPublication[0].ID" apply {{ result = 'doi:' + value.replace('http://dx.doi.org/','') }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_citationpub'.'_$'" to "primaryPublication[0].ID" apply {{ result = 'doi:' + value.replace('https://doi.org/','') }};
 
 /* Person */
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piname'.'_$'" to "person.fullName";

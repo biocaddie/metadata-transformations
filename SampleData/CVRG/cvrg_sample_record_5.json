@@ -22,7 +22,7 @@
       "dc:eddi_accessurl": {"_$": "http://thew-project.org/register_main.htm"},
       "dc:eddi_accessrestrictions": {"_$": "THEW Data Use Agreements (see Thew website for details)"},
       "dc:eddi_dataformat": {"_$": ".ecg, .ann"},
-      "dc:eddi_citationpub": {"_$": "http://dx.doi.org/10.1016/j.jelectrocard.2010.07.015"}
+      "dc:eddi_citationpub": {"_$": "https://doi.org/10.1016/j.jelectrocard.2010.07.015"}
     }}
   },
   "_@default": "http://www.openarchives.org/OAI/2.0/",

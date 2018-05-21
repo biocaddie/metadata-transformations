@@ -56,8 +56,8 @@
             },
             "notes": {"_$": "File CB0005.ALL.PDF was removed from any previous datasets and flagged as a study-level file, so that it will accompany all downloads."}
           },
-          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. DATA CONFRONTATION SEMINAR, 1969: UNITED STATES DATA. ICPSR version. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [producer and distributor], 2000. http://doi.org/10.3886/ICPSR00005.v1"},
-          "holdings": {"_$": "http://doi.org/10.3886/ICPSR00005.v1"}
+          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. DATA CONFRONTATION SEMINAR, 1969: UNITED STATES DATA. ICPSR version. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [producer and distributor], 2000. https://doi.org/10.3886/ICPSR00005.v1"},
+          "holdings": {"_$": "https://doi.org/10.3886/ICPSR00005.v1"}
         },
         "stdyInfo": {
           "subject": {
@@ -122,7 +122,7 @@
           "setAvail": {
             "@media": "online",
             "accsPlac": {
-              "@URI": "http://doi.org/10.3886/ICPSR00005.v1",
+              "@URI": "https://doi.org/10.3886/ICPSR00005.v1",
               "_$": "Ann Arbor, Mi.: Inter-university Consortium for Political and Social Research"
             }
           },

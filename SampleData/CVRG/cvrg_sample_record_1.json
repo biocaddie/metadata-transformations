@@ -25,7 +25,7 @@
       "dc:eddi_piname": {"_$": "George B. Moody"},
       "dc:eddi_piemail": {"_$": "george@mit.edu"},
       "dc:eddi_piaffiliation": {"_$": "Harvard-MIT Division of Health Sciences and Technology Biomedical Engineering Center"},
-      "dc:eddi_citationpub": {"_$": "http://dx.doi.org/10.1161/01.CIR.101.23.e215"}
+      "dc:eddi_citationpub": {"_$": "https://doi.org/10.1161/01.CIR.101.23.e215"}
     }}
   },
   "_@default": "http://www.openarchives.org/OAI/2.0/",
