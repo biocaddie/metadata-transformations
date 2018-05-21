@@ -70,8 +70,8 @@
             "@ID": "Series59",
             "_$": "United States Historical Election Returns Series"
           }},
-          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. Candidate Name and Constituency Totals, 1788-1990. ICPSR00002-v5. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1995. http://doi.org/10.3886/ICPSR00002.v5"},
-          "holdings": {"_$": "http://doi.org/10.3886/ICPSR00002.v5"}
+          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research. Candidate Name and Constituency Totals, 1788-1990. ICPSR00002-v5. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1995. https://doi.org/10.3886/ICPSR00002.v5"},
+          "holdings": {"_$": "https://doi.org/10.3886/ICPSR00002.v5"}
         },
         "stdyInfo": {
           "subject": {
@@ -157,7 +157,7 @@
           "setAvail": {
             "@media": "online",
             "accsPlac": {
-              "@URI": "http://doi.org/10.3886/ICPSR00002.v5",
+              "@URI": "https://doi.org/10.3886/ICPSR00002.v5",
               "_$": "Ann Arbor, Mi.: Inter-university Consortium for Political and Social Research"
             }
           },
@@ -230,7 +230,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Gutmann, Myron P., and Sara M. Pullum. \"From local to national political cultures: Social capital and civic organization in the Great Plains.\" Journal of Interdisciplinary History 24.4 (1999): 725-762.Gutmann, Myron P., and Sara M. Pullum. \"From local to national political cultures: Social capital and civic organization in the Great Plains.\" Journal of Interdisciplinary History 24.4 (1999): 725-762."},
-            "holdings": {"_$": "http://doi.org/10.1162/002219599551877"}
+            "holdings": {"_$": "https://doi.org/10.1162/002219599551877"}
           }},
           {"citation": {
             "titlStmt": {
@@ -270,7 +270,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Renda, Lex"}},
             "prodStmt": {},
             "biblCit": {"_$": "Renda, Lex. \"The End of Midterm Decline? Congressional Elections in Historical Perspective.\" Social Science History 27.2 (2003): 139-164."},
-            "holdings": {"_$": "http://doi.org/10.1215/01455532-27-2-139"}
+            "holdings": {"_$": "https://doi.org/10.1215/01455532-27-2-139"}
           }}
         ]}
       },

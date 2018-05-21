@@ -100,8 +100,8 @@
               "notes": {"_$": "Data for the 102nd and 103rd Congresses, House, and Senate (Parts 203-206) have been added to this collection, along with corresponding machine-readable documentation and SAS and SPSS data definition statements."}
             }
           ],
-          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research, and Congressional Quarterly, Inc. United States Congressional Roll Call Voting Records, 1789-1998. ICPSR00004-v3. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2010-05-06. http://doi.org/10.3886/ICPSR00004.v3"},
-          "holdings": {"_$": "http://doi.org/10.3886/ICPSR00004.v3"}
+          "biblCit": {"_$": "Inter-university Consortium for Political and Social Research, and Congressional Quarterly, Inc. United States Congressional Roll Call Voting Records, 1789-1998. ICPSR00004-v3. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2010-05-06. https://doi.org/10.3886/ICPSR00004.v3"},
+          "holdings": {"_$": "https://doi.org/10.3886/ICPSR00004.v3"}
         },
         "stdyInfo": {
           "subject": {
@@ -206,7 +206,7 @@
           "setAvail": {
             "@media": "online",
             "accsPlac": {
-              "@URI": "http://doi.org/10.3886/ICPSR00004.v3",
+              "@URI": "https://doi.org/10.3886/ICPSR00004.v3",
               "_$": "Ann Arbor, Mi.: Inter-university Consortium for Political and Social Research"
             }
           },
@@ -278,7 +278,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Aghion, Philippe, Dewatripont, Mathias, Hoxby, Caroline, Mas-Colell, Andreu, and Andre Sapir. \"The governance and performance of universities: Evidence from Europe and the U.S..\" Economic Policy 25.61 (2010): 7-59."},
-            "holdings": {"_$": "http://doi.org/10.1111/j.1468-0327.2009.00238.x"}
+            "holdings": {"_$": "https://doi.org/10.1111/j.1468-0327.2009.00238.x"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1052,7 +1052,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Cohen, Jeffrey E., and Gregory G. Brunk. \"A dynamic test of the marginality hypothesis.\" Political Behavior 5.3 (1983): 293-307."},
-            "holdings": {"_$": "http://doi.org/10.1007/BF00988579"}
+            "holdings": {"_$": "https://doi.org/10.1007/BF00988579"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1074,7 +1074,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Cohen, Linda R., and Roger G. Noll. \"How to vote, whether to vote: Strategies for voting and abstaining on congressional roll calls.\" Political Behavior 13.2 (1991): 97-127."},
-            "holdings": {"_$": "http://doi.org/10.1007/BF00992292"}
+            "holdings": {"_$": "https://doi.org/10.1007/BF00992292"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1475,7 +1475,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Figlio, David N."}},
             "prodStmt": {},
             "biblCit": {"_$": "Figlio, David N. \"The effect of retirement on political shirking: Evidence from congressoinal voting.\" Public Finance Quarterly 23.2 (1995): 226 -."},
-            "holdings": {"_$": "http://doi.org/10.1177/109114219502300206"}
+            "holdings": {"_$": "https://doi.org/10.1177/109114219502300206"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1518,7 +1518,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Finocchiaro, Charles J., and Jeffery A. Jenkins. \"In search of killer amendments in the modern U.S. House.\" Legislative Studies Quarterly 33.2 (2008): 263-294."},
-            "holdings": {"_$": "http://doi.org/10.3162/036298008784310984"}
+            "holdings": {"_$": "https://doi.org/10.3162/036298008784310984"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1537,7 +1537,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Fleisher, Richard"}},
             "prodStmt": {},
             "biblCit": {"_$": "Fleisher, Richard. \"Economic Benefit, Ideology, and Senate Voting on the B-1 Bomber.\" American Politics Quarterly 13.2 (1985): 200-211."},
-            "holdings": {"_$": "http://doi.org/10.1177/1532673X8501300204"}
+            "holdings": {"_$": "https://doi.org/10.1177/1532673X8501300204"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1652,7 +1652,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Frankovic, Kathleen A."}},
             "prodStmt": {},
             "biblCit": {"_$": "Frankovic, Kathleen A. \"Sex and voting in the U.S. House of Representatives, 1961-1975.\" American Politics Quarterly 5.3 (1977): 315-330."},
-            "holdings": {"_$": "http://doi.org/10.1177/1532673X7700500305"}
+            "holdings": {"_$": "https://doi.org/10.1177/1532673X7700500305"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1689,7 +1689,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Gerring, John"}},
             "prodStmt": {},
             "biblCit": {"_$": "Gerring, John. \"Does party ideology matter? A roll-call analysis of key congressional votes, 1833-1992.\" Journal of Policy History 11.4 (1999): 399-432."},
-            "holdings": {"_$": "http://doi.org/10.1017/S0898030600003390"}
+            "holdings": {"_$": "https://doi.org/10.1017/S0898030600003390"}
           }},
           {"citation": {
             "titlStmt": {
@@ -1711,7 +1711,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Gile, Roxanne L., and Charles E. Jones. \"Congressional racial solidarity: Exploring Congressional Black Caucus voting cohesion 1971-1990.\" Journal of Black Studies 25.5 (1995): 622-641."},
-            "holdings": {"_$": "http://doi.org/10.1177/002193479502500507"}
+            "holdings": {"_$": "https://doi.org/10.1177/002193479502500507"}
           }},
           {"citation": {
             "titlStmt": {
@@ -2101,7 +2101,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Hooks, Gregory, and Brian McQueen. \"American exceptionalism revisited: The military-industrial complex, racial tension, and the underdeveloped welfare state.\" American Sociological Review 75.2 (2010): 185-204."},
-            "holdings": {"_$": "http://doi.org/10.1177/0003122410363566"}
+            "holdings": {"_$": "https://doi.org/10.1177/0003122410363566"}
           }},
           {"citation": {
             "titlStmt": {
@@ -2471,7 +2471,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Lenchner, Paul"}},
             "prodStmt": {},
             "biblCit": {"_$": "Lenchner, Paul. \"Partisan realignments and congressional behavior: Some preliminary snapshots.\" American Politics Quarterly 4.2 (1976): 223-236."},
-            "holdings": {"_$": "http://doi.org/10.1177/1532673X7600400205"}
+            "holdings": {"_$": "https://doi.org/10.1177/1532673X7600400205"}
           }},
           {"citation": {
             "titlStmt": {
@@ -2493,7 +2493,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Levy, Arthur B., and Susan Stoudinger. \"Sources of voting cues for the Congressional Black Caucus.\" Journal of Black Studies 7.1 (1976): 29-46."},
-            "holdings": {"_$": "http://doi.org/10.1177/002193477600700103"}
+            "holdings": {"_$": "https://doi.org/10.1177/002193477600700103"}
           }},
           {"citation": {
             "titlStmt": {
@@ -2588,7 +2588,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Martin, Andrew D."}},
             "prodStmt": {},
             "biblCit": {"_$": "Martin, Andrew D. \"Congressional decision making and the separation of powers.\" American Political Science Review 95.2 (2001): 361-378."},
-            "holdings": {"_$": "http://doi.org/10.1017/S0003055401002180"}
+            "holdings": {"_$": "https://doi.org/10.1017/S0003055401002180"}
           }},
           {"citation": {
             "titlStmt": {
@@ -2912,7 +2912,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Page, Benjamin I., Shapiro, Robert Y., Gronke, Paul W., and Robert M. Rosenberg. \"Constituency, Party, and Representation in Congress.\" Public Opinion Quarterly 48.4 (1984): 741-756."},
-            "holdings": {"_$": "http://doi.org/10.1086/268880"}
+            "holdings": {"_$": "https://doi.org/10.1086/268880"}
           }},
           {"citation": {
             "titlStmt": {
@@ -2931,7 +2931,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Panning, William H."}},
             "prodStmt": {},
             "biblCit": {"_$": "Panning, William H. \"Information flow and party influence: Theory, measurement, and policy consequences.\" Political Behavior 5.2 (1983): 161-189."},
-            "holdings": {"_$": "http://doi.org/10.1007/BF00987441"}
+            "holdings": {"_$": "https://doi.org/10.1007/BF00987441"}
           }},
           {"citation": {
             "titlStmt": {
@@ -2992,7 +2992,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Patterson, Samuel C., and Gregory A. Caldeira. \"Party Voting in the United States Congress.\" British Journal of Political Science 18.1 (1988): 111-131."},
-            "holdings": {"_$": "http://doi.org/10.1017/S000712340000497X"}
+            "holdings": {"_$": "https://doi.org/10.1017/S000712340000497X"}
           }},
           {"citation": {
             "titlStmt": {
@@ -3398,7 +3398,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Sinclair, Barbara"}},
             "prodStmt": {},
             "biblCit": {"_$": "Sinclair, Barbara. \"From party voting to regional fragmentation: The House of Representatives, 1933-1956.\" American Politics Quarterly 6.2 (1978): 125-146."},
-            "holdings": {"_$": "http://doi.org/10.1177/1532673X7800600202"}
+            "holdings": {"_$": "https://doi.org/10.1177/1532673X7800600202"}
           }},
           {"citation": {
             "titlStmt": {
@@ -3507,7 +3507,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Smith, Troy E."}},
             "prodStmt": {},
             "biblCit": {"_$": "Smith, Troy E. \"Presidential power vs. congressional time: Legislative history in the first Congress of the Civil War.\" Congress and the Presidency 27.2 (2000): 149-162."},
-            "holdings": {"_$": "http://doi.org/10.1080/07343460009507767"}
+            "holdings": {"_$": "https://doi.org/10.1080/07343460009507767"}
           }},
           {"citation": {
             "titlStmt": {
@@ -3668,7 +3668,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Thomas, Martin"}},
             "prodStmt": {},
             "biblCit": {"_$": "Thomas, Martin. \"Issue avoidance: Evidence from the U.S. Senate.\" Political Behavior 13.1 (1991): 1-20."},
-            "holdings": {"_$": "http://doi.org/10.1007/BF00996996"}
+            "holdings": {"_$": "https://doi.org/10.1007/BF00996996"}
           }},
           {"citation": {
             "titlStmt": {
@@ -3726,7 +3726,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Uslaner, Eric M."}},
             "prodStmt": {},
             "biblCit": {"_$": "Uslaner, Eric M. \"A contextual model of coalition formation in Congress: The dimensions of party and 'political time'.\" American Behavioral Scientist 18.4 (1975): 513-529."},
-            "holdings": {"_$": "http://doi.org/10.1177/000276427501800405"}
+            "holdings": {"_$": "https://doi.org/10.1177/000276427501800405"}
           }},
           {"citation": {
             "titlStmt": {
@@ -3835,7 +3835,7 @@
             "rspStmt": {"AuthEnty": {"_$": "Wayman, Frank Whelon"}},
             "prodStmt": {},
             "biblCit": {"_$": "Wayman, Frank Whelon. \"Arms Control and Strategic Arms Voting in the U.S. Senate: Patterns of Change, 1967-1983.\" Journal of Conflict Resolution 29.2 (1985): 225-251."},
-            "holdings": {"_$": "http://doi.org/10.1177/0022002785029002004"}
+            "holdings": {"_$": "https://doi.org/10.1177/0022002785029002004"}
           }},
           {"citation": {
             "titlStmt": {
@@ -3879,7 +3879,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Weingast, Barry R., Goldstein, Judith, and Michael A. Bailey. \"The institutional roots of American trade policy: Politics, coalitions, and international trade.\" World Politics 49.3 (1997): 309-338."},
-            "holdings": {"_$": "http://doi.org/10.1353/wp.1997.0007"}
+            "holdings": {"_$": "https://doi.org/10.1353/wp.1997.0007"}
           }},
           {"citation": {
             "titlStmt": {
@@ -3997,7 +3997,7 @@
             ]},
             "prodStmt": {},
             "biblCit": {"_$": "Wittkopf, Eugene R., and James M. McCormick. \"Congress, the president, and the end of the cold war.\" Journal of Conflict Resolution 42.4 (1998): 440-466."},
-            "holdings": {"_$": "http://doi.org/10.1177/0022002798042004003"}
+            "holdings": {"_$": "https://doi.org/10.1177/0022002798042004003"}
           }},
           {"citation": {
             "titlStmt": {
